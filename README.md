@@ -1,5 +1,9 @@
 # SMP 2 — Alpha 2
 
+> ## ⬇️ [Clique aqui para baixar o SMP2.zip](https://github.com/JhonJRS/SMP2/raw/main/SMP2.zip)
+> Importe **esse** arquivo no CurseForge. **Não** use o botão verde *Code → Download ZIP*: ele baixa o
+> `SMP2-main.zip`, que é o repositório inteiro, e o CurseForge não consegue importar (dá "Failed to extract file").
+
 Modpack de RP medieval para **Minecraft 1.21.1** com **NeoForge 21.1.253**: colônias (MineColonies), profissões com
 árvores de pesquisa (Engenheiro, Arcanista, Ferreiro, Naturalista), magia (Iron's Spells e addons, Malum, Botania),
 tecnologia (Create, Immersive Engineering, Embers) e muito mais. São 277 arquivos do CurseForge, com a lista completa em
@@ -8,7 +12,8 @@ tecnologia (Create, Immersive Engineering, Embers) e muito mais. São 277 arquiv
 ## Como instalar (CurseForge, recomendado)
 
 1. Instale o [CurseForge App](https://www.curseforge.com/download/app), se ainda não tiver.
-2. Baixe o arquivo **[SMP2.zip](https://github.com/JhonJRS/SMP2/raw/main/SMP2.zip)**. Não descompacte.
+2. Baixe o arquivo **[SMP2.zip](https://github.com/JhonJRS/SMP2/raw/main/SMP2.zip)** (18 MB). Não descompacte e não
+   use o *Download ZIP* do GitHub.
 3. No CurseForge, abra **Minecraft**, clique em **Create Custom Profile** (canto superior direito) e escolha **Import**.
 4. Selecione o `SMP2.zip` baixado e confirme.
    - O CurseForge baixa sozinho o NeoForge e todos os mods, nas mesmas versões do pack.
