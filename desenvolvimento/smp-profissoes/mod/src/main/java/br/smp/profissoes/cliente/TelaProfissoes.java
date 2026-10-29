@@ -184,15 +184,52 @@ public final class TelaProfissoes extends Screen {
         ps.popPose();
     }
 
+    /** Texto numa linha que encolhe (até 60%) para caber em maxW; sobrando, corta com reticências. */
+    private void textoCabe(GuiGraphics g, String s, float x, float y, float escMax, int maxW, int cor, float alfa, boolean centro) {
+        float esc = Math.min(escMax, Math.max(0.6f, maxW / (float) Math.max(1, font.width(s))));
+        while (font.width(s) * esc > maxW && s.length() > 4) s = s.substring(0, s.length() - 2) + "…";
+        textoEscala(g, s, x, y, esc, cor, alfa, centro);
+    }
+
+    /** Parágrafo com quebra de linha que diminui a letra (até 60%) para caber inteiro em maxLinhas linhas de tamanho
+     *  normal; se nem assim couber, a última linha visível termina em reticências. Devolve a altura usada. */
     private int paragrafo(GuiGraphics g, String s, int cx, int y, int largura, int cor, float alfa, boolean centro, int maxLinhas) {
+        int lh = font.lineHeight + 1, alturaMax = maxLinhas * lh;
+        float esc = 1;
         List<FormattedCharSequence> ls = font.split(Component.literal(s), largura);
-        int n = 0;
-        for (FormattedCharSequence l : ls) {
-            if (n >= maxLinhas) break;
-            if (alfa >= 0.03f) g.drawString(font, l, centro ? cx - font.width(l) / 2 : cx, y + n * (font.lineHeight + 1), Fundo.a(cor, alfa), false);
-            n++;
+        while (ls.size() * lh * esc > alturaMax && esc > 0.6f) {
+            esc -= 0.05f;
+            ls = font.split(Component.literal(s), (int) (largura / esc));
         }
-        return n * (font.lineHeight + 1);
+        int cabem = Math.max(1, (int) (alturaMax / (lh * esc)));
+        if (ls.size() > cabem) {  // corta e termina em "…"
+            String vis = "";
+            for (int k = 0; k < cabem; k++) vis += texto(ls.get(k)) + " ";
+            String fim = vis.trim();
+            while (fim.length() > 4 && font.split(Component.literal(fim + "…"), (int) (largura / esc)).size() > cabem) fim = fim.substring(0, fim.length() - 1);
+            ls = font.split(Component.literal(fim + "…"), (int) (largura / esc));
+        }
+        if (alfa >= 0.03f) {
+            PoseStack ps = g.pose();
+            ps.pushPose();
+            ps.translate(cx, y, 0);
+            ps.scale(esc, esc, 1);
+            for (int n = 0; n < ls.size(); n++) {
+                FormattedCharSequence l = ls.get(n);
+                g.drawString(font, l, centro ? -font.width(l) / 2 : 0, n * lh, Fundo.a(cor, alfa), false);
+            }
+            ps.popPose();
+        }
+        return Math.round(ls.size() * lh * esc);
+    }
+
+    private static String texto(FormattedCharSequence seq) {
+        StringBuilder sb = new StringBuilder();
+        seq.accept((i, estilo, cp) -> {
+            sb.appendCodePoint(cp);
+            return true;
+        });
+        return sb.toString();
     }
 
     private void botao(GuiGraphics g, int x, int y, int w, int h, String rotulo, int cor, int mx, int my, float t, float alfa, Runnable acao) {
@@ -274,10 +311,11 @@ public final class TelaProfissoes extends Screen {
 
             float pulso = 3 + r * (0.35f + 0.15f * (float) Math.sin(t * 5));
             textoEscala(g, p.icone, cx + cw / 2f, cy + 14 - pulso * 2, pulso, Fundo.claro(tm.destaque(), 0.15f + 0.3f * r), alfa, true);
-            textoEscala(g, p.nome, cx + cw / 2f, cy + 50, cw > 100 ? 1.5f : 1.2f, 0xFFFFFFFF, alfa, true);
-            paragrafo(g, LEMAS.getOrDefault(p.id, ""), cx + cw / 2, cy + 66, cw - 12, 0xFFE0D8C8, alfa, true, 3);
-
+            textoCabe(g, p.nome, cx + cw / 2f, cy + 50, cw > 100 ? 1.5f : 1.2f, cw - 10, 0xFFFFFFFF, alfa, true);
             int ly = cy + ch - 8 - 11 * p.inicios.size();
+            paragrafo(g, LEMAS.getOrDefault(p.id, ""), cx + cw / 2, cy + 66, cw - 12, 0xFFE0D8C8, alfa, true,
+                    Math.max(2, Math.min(4, (ly - 10 - (cy + 66)) / (font.lineHeight + 1))));
+
             g.fill(cx + 8, ly - 6, cx + cw - 8, ly - 5, Fundo.a(tm.destaque(), alfa * 0.5f));
             for (int k = 0; k < p.inicios.size(); k++) {
                 String rot = p.inicios.get(k).rotulo;
@@ -334,10 +372,11 @@ public final class TelaProfissoes extends Screen {
 
             float esc = 2 + 0.25f * r * (float) Math.sin(t * 5);
             textoEscala(g, tm.icone(), cx + 16, cy + 8 - (esc - 2) * 4, esc, Fundo.claro(tm.destaque(), 0.2f + 0.3f * r), ent, true);
-            textoEscala(g, ini.rotulo, cx + 30, cy + 9, ini.rotulo.length() > 22 ? 1f : 1.25f, 0xFFFFFFFF, ent, false);
-            paragrafo(g, ini.descricao, cx + 8, cy + 28, cw - 16, 0xFFE8E0D0, ent, false, 3);
-
+            textoCabe(g, ini.rotulo, cx + 30, cy + 9, 1.25f, cw - 36, 0xFFFFFFFF, ent, false);
             int max = Math.max(1, (cw - 16) / 18), ky = cy + ch - 24;
+            paragrafo(g, ini.descricao, cx + 8, cy + 28, cw - 16, 0xFFE8E0D0, ent, false,
+                    Math.max(2, (ky - 6 - (cy + 28)) / (font.lineHeight + 1)));
+
             g.fill(cx + 6, ky - 4, cx + cw - 6, ky - 3, Fundo.a(tm.destaque(), ent * 0.4f));
             for (int k = 0; k < Math.min(max, ini.kit.size()); k++) {
                 int ix = cx + 8 + k * 18;
@@ -412,7 +451,7 @@ public final class TelaProfissoes extends Screen {
                 textoEscala(g, tm.icone(), meio, iy - 8 + bob, 2, Fundo.claro(tm.destaque(), 0.3f), ent, true);
             }
             String nome = es.nome.getString();
-            textoEscala(g, nome, meio, cy + ch - 12, 1, r > 0.5f ? 0xFFFFFFFF : Fundo.claro(tm.destaque(), 0.55f), ent, true);
+            textoCabe(g, nome, meio, cy + ch - 12, 1, cw - 6, r > 0.5f ? 0xFFFFFFFF : Fundo.claro(tm.destaque(), 0.55f), ent, true);
             alvos.add(new Alvo(cx, cy, cw, ch, () -> {
                 escola = es;
                 clique();
@@ -442,11 +481,11 @@ public final class TelaProfissoes extends Screen {
         Fundo.moldura(g, px, py, pw, ph, tm.destaque(), t, e, 0.6f + 0.4f * (float) Math.sin(t * 3));
 
         textoEscala(g, "Confirmar escolha", width / 2f, py + 10, 1.5f, 0xFFFFFFFF, e, true);
-        textoEscala(g, prof.icone + " " + prof.nome + "  ·  " + escolhido.rotulo, width / 2f, py + 30, 1, Fundo.claro(tm.destaque(), 0.3f), e, true);
+        textoCabe(g, prof.icone + " " + prof.nome + "  ·  " + escolhido.rotulo, width / 2f, py + 30, 1, pw - 16, Fundo.claro(tm.destaque(), 0.3f), e, true);
         String aviso = guildCharter ? "A Guild Charter já foi gasta: esta será sua segunda guilda, para sempre."
                 : "Essa escolha não pode ser desfeita (só com o Draught of Oblivion).";
-        if (escola != null) textoEscala(g, tm.icone() + " Escola de " + escola.nome.getString() + " (com o manuscrito dela)",
-                width / 2f, py + 42, 1, Fundo.claro(tm.destaque(), 0.4f), e, true);
+        if (escola != null) textoCabe(g, tm.icone() + " Escola de " + escola.nome.getString() + " (com o manuscrito dela)",
+                width / 2f, py + 42, 1, pw - 16, Fundo.claro(tm.destaque(), 0.4f), e, true);
         int dy = paragrafo(g, aviso, width / 2, py + 46 + extra, pw - 24, 0xFFFF9A8A, e, true, 2);
         if (!escolhido.kit.isEmpty()) {
             int ky = py + 50 + extra + dy;
