@@ -1,0 +1,8 @@
+#Client display settings
+[display]
+	#Show a toast notification when picking up a lore book
+	showPickupToast = true
+	#Show the internal lore_id in the book tooltip (useful for pack authors)
+	showLoreIdInTooltip = false
+	#Enchantment glint color override. Use 'default' for vanilla purple, or a hex color like 'FF8800'. (Reserved for future use)
+	glintColor = "default"

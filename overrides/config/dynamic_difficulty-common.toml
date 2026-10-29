@@ -1,0 +1,139 @@
+[built_in_datapack]
+	#Whether to load the built-in default leveling settings datapack
+	#This includes dimension, entity, biome, and structure level bonuses for vanilla and various mods
+	#Disable this if you want to start with a clean slate and define all settings yourself
+	#Requires a game restart to take effect
+	use_default_leveling_settings = true
+
+[base_leveling]
+	#Base level for all entities
+	starting_level = 1
+	#Maximum level cap (0 for unlimited)
+	maximum_level = 0
+	#Random bonus levels added to entities (0-value)
+	random_level_bonus = 0
+	#Additional experience multiplier per level
+	experience_bonus_per_level = 0.1
+
+[environmental_leveling]
+	#How many levels to add per block from world spawn
+	levels_per_block_from_spawn = 0.01
+	#How many levels to add per block below sea level (default sea level is Y=64, can be overridden per dimension)
+	levels_per_depth = 0.0
+	#How many levels to add per block above sea level (default sea level is Y=64, can be overridden per dimension)
+	levels_per_height = 0.0
+	#How many levels to add per in-game day passed
+	levels_per_day = 0.0
+	#How many levels to add per point of local difficulty at mob spawn location
+	#Local difficulty considers regional difficulty, chunk inhabited time, moon phase, and world difficulty
+	levels_per_local_difficulty = 0.0
+	#Exponential level scaling with distance from spawn
+	distance_power_scaling = 0.0
+	#Exponential level scaling with depth
+	depth_power_scaling = 0.0
+
+[player_based_bonus_scaling]
+	#Radius to search for players when calculating level bonuses
+	player_search_radius = 128.0
+	#Multiplier for player level bonuses applied to mobs
+	#This scales the bonus that nearby players add to mob levels
+	#1.0 = normal scaling, 0.5 = half effect, 2.0 = double effect
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	player_level_multiplier = 1.0
+	#Whether to factor in player levels when calculating mob levels
+	enable_player_based_leveling = true
+	#Whether player level bonuses bypass the maximum level cap
+	#When true (default), player bonuses are applied after the cap, allowing mobs to exceed max level
+	#When false, player bonuses are applied before the cap and can be limited by max level
+	#Similar to how structure/biome bonuses can have bypasses_cap set in their data files
+	player_level_bypasses_cap = true
+	#How to aggregate multiple player level providers for display purposes
+	#This only affects what level is shown above the player's head.
+	#Mob scaling uses each provider's calculateBonusLevels() method instead.
+	#HIGHEST_PRIORITY: Use the provider with the highest priority (defined by the provider itself)
+	#MAX: Use the maximum level from all providers
+	#SUM: Add all provider levels together
+	#AVERAGE: Average all provider levels
+	#FIRST: Use only the first registered provider
+	#Allowed Values: HIGHEST_PRIORITY, MAX, SUM, AVERAGE, FIRST
+	player_level_display_strategy = "HIGHEST_PRIORITY"
+	#How often (in ticks) to update player levels as a fallback (20 ticks = 1 second)
+	#Providers can trigger immediate updates via events, this is just a safety net
+	#Set to 0 to disable periodic updates (only event-driven updates will occur)
+	# Default: 600
+	# Range: 0 ~ 1200
+	player_level_update_interval = 600
+
+[playtime_based_scaling]
+	#Enable playtime-based level scaling
+	#When enabled, uses Minecraft's built-in playtime statistic (Stats.PLAY_TIME)
+	#Playtime is automatically tracked by Minecraft and persists across sessions
+	enable_playtime_scaling = false
+	#How many levels to add per hour of nearby-player playtime
+	#Playtime from all nearby players is averaged and converted to levels
+	#Example: 2 players with 10 and 20 hours = 15 hours average = 15 * this_value levels
+	levels_per_playtime_hour = 0.1
+
+[puffish_skills_integration]
+	#List of Puffish Skills tree IDs that should be excluded from player level calculations
+	#Trees in this list will not contribute their points to player-based mob level scaling
+	#Example: ["puffish_skills:mining", "puffish_skills:combat"]
+	#Leave empty to include all trees in mob scaling
+	puffish_skills_tree_blacklist = ["puffish_skills:mining"]
+
+[reskillable_integration]
+	#List of Reskillable skill names that should be excluded from player level calculations
+	#Skills in this list will not contribute their levels to player-based mob level scaling
+	#Valid skill names: MINING, GATHERING, ATTACK, DEFENSE, BUILDING, FARMING, AGILITY, MAGIC
+	#Default: ["GATHERING", "MINING", "FARMING", "BUILDING"]
+	#Leave empty to include all skills in mob scaling
+	reskillable_skill_blacklist = ["GATHERING", "MINING", "FARMING", "BUILDING"]
+
+[entity_filtering]
+	#Whether passive mobs (animals) should be prevented from leveling
+	disable_passive_mob_leveling = true
+	#Entities that cannot level up
+	#Supports wildcards: use 'modid:*' to blacklist all entities from a mod
+	#Examples: ["minecraft:zombie", "minecraft:skeleton", "cataclysm:*"]
+	blacklisted_entities = []
+	#If not empty, only these entities can level up
+	#Supports wildcards: use 'modid:*' to whitelist all entities from a mod
+	#Examples: ["minecraft:zombie", "cataclysm:*"]
+	whitelisted_entities = []
+
+[attribute_bonuses]
+	#List of [attribute_id, bonus_per_level, operation] triplets
+	#attribute_id: The resource location of the attribute (e.g., "minecraft:generic.attack_damage")
+	#bonus_per_level: The amount to add per entity level
+	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
+	#Leave empty to disable all attribute bonuses
+	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.25, "add_value"], ["minecraft:generic.armor", 0.2, "add_value"], ["minecraft:generic.max_health", 0.05, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.25, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.25, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.25, "add_value"]]
+
+[level_up_items]
+	#Maximum level that Potion of Growth can raise an entity to
+	# Default: 20
+	# Range: 1 ~ 10000
+	potion_of_growth_max_level = 20
+	#Maximum level that Elixir of Nurturing can raise an entity to
+	# Default: 40
+	# Range: 1 ~ 10000
+	elixir_of_nurturing_max_level = 40
+	#Maximum level that Draught of Ascension can raise an entity to
+	# Default: 60
+	# Range: 1 ~ 10000
+	draught_of_ascension_max_level = 60
+	#Maximum level that Essence of Vitality can raise an entity to
+	# Default: 80
+	# Range: 1 ~ 10000
+	essence_of_vitality_max_level = 80
+	#Maximum level that Crystal of Awakening can raise an entity to
+	# Default: 100
+	# Range: 1 ~ 10000
+	crystal_of_awakening_max_level = 100
+
+[level_based_drops]
+	#Whether mobs should drop level-up items based on their level
+	#The drops are defined in data/dynamic_difficulty/loot_tables/inject/level_based_drops.json
+	#Users can edit that file to customize drop rates, level ranges, and add custom items
+	enable_level_based_drops = true

@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:arcane_crystal_block"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:smelter_prism"
+    }
+  ],
+  "enhancers": "forbidden_arcanus:elementarium",
+  "essences": {
+    "aureal": 200,
+    "blood": 1250,
+    "souls": 4
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:coal"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:prism_matrix"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "forbidden_arcanus:arcane_crystal_block"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "forbidden_arcanus:smelter_prism"
+    }
+  }
+}

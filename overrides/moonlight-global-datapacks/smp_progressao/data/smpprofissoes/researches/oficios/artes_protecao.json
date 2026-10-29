@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.artes_protecao.name",
+  "subtitle": "smpprofissoes.research.oficios.artes_protecao.subtitle",
+  "icon": "torchmaster:megatorch",
+  "researchLevel": 2,
+  "sortOrder": 32,
+  "costs": [
+    {
+      "count": 4,
+      "item": "minecraft:gold_block"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:glowstone"
+    },
+    {
+      "count": 16,
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/artes_protecao",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_irons"
+}

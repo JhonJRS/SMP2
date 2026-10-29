@@ -1,0 +1,7 @@
+{
+  "parent": "aetherworks:block/dial",
+  "textures": {
+    "dial": "aetherworks:block/heat_dial",
+    "particle": "aetherworks:block/heat_dial"
+  }
+}

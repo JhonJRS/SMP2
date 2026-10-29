@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fundacao_arcanus.name",
+  "subtitle": "smpprofissoes.research.oficios.fundacao_arcanus.subtitle",
+  "icon": "forbidden_arcanus:arcane_crystal",
+  "researchLevel": 1,
+  "sortOrder": 68,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 1
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:smeltery",
+      "level": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fundacao_arcanus",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:cabbages",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onions",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:barley_crop",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:oat_crop",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:onion_crop",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:lettuce_crop",
+      "required": false
+    },
+    {
+      "id": "vinery:red_grape_bush",
+      "required": false
+    },
+    {
+      "id": "vinery:white_grape_bush",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grape_bush_red",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grape_bush_white",
+      "required": false
+    },
+    {
+      "id": "vinery:grapevine_stem",
+      "required": false
+    },
+    {
+      "id": "herbalbrews:tea_plant",
+      "required": false
+    },
+    {
+      "id": "minecolonies:cabbage",
+      "required": false
+    },
+    {
+      "id": "minecolonies:onion",
+      "required": false
+    },
+    {
+      "id": "minecolonies:garlic",
+      "required": false
+    },
+    {
+      "id": "enchanted:mandrake",
+      "required": false
+    },
+    {
+      "id": "enchanted:wolfsbane",
+      "required": false
+    },
+    {
+      "id": "enchanted:belladonna",
+      "required": false
+    },
+    {
+      "id": "enchanted:garlic",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:mourning_bloom_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:grim_vine_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:iron_root_plant",
+      "required": false
+    },
+    {
+      "id": "toxony:false_berry_bush",
+      "required": false
+    },
+    {
+      "id": "minecolonies:butternut_squash",
+      "required": false
+    },
+    {
+      "id": "minecolonies:durum",
+      "required": false
+    },
+    {
+      "id": "silentgear:fluffy_plant",
+      "required": false
+    },
+    {
+      "id": "toxony:moonlight_hemlock",
+      "required": false
+    },
+    {
+      "id": "toxony:warproot",
+      "required": false
+    },
+    {
+      "id": "toxony:nightshade",
+      "required": false
+    },
+    {
+      "id": "toxony:whirlsnap",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:dried_glow_leaf_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:razor_leaf_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:tox_kiss_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:snap_pepper_plant",
+      "required": false
+    },
+    {
+      "id": "vinery:savanna_grape_bush_red",
+      "required": false
+    },
+    {
+      "id": "vinery:savanna_grape_bush_white",
+      "required": false
+    },
+    {
+      "id": "vinery:apple_leaves",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_leaves",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:divine_mold"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:blood_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:cultist_chestplate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:flesh_mass_chestplate"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:divine_mold"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:blood_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:archmage_codex"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:cultist_chestplate"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:flesh_mass_chestplate"
+    }
+  }
+}

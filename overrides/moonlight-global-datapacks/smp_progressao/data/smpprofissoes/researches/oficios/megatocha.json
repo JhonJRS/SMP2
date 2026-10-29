@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.megatocha.name",
+  "subtitle": "smpprofissoes.research.oficios.megatocha.subtitle",
+  "icon": "torchmaster:megatorch",
+  "researchLevel": 3,
+  "sortOrder": 33,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:gold_block"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:glowstone"
+    },
+    {
+      "count": 32,
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/megatocha",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/artes_protecao"
+}

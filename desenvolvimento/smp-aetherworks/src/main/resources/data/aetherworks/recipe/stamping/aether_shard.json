@@ -1,0 +1,13 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 10,
+    "fluid": "aetherworks:aether_gas_impure"
+  },
+  "output": {
+    "id": "aetherworks:aether_shard"
+  },
+  "stamp": {
+    "item": "embers:flat_stamp"
+  }
+}

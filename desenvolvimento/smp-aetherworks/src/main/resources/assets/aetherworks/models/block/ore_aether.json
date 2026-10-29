@@ -1,0 +1,33 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "#stone",
+    "ore": "aetherworks:block/ore_aether",
+    "stone": "aetherworks:block/ore_aether_overlay"
+  },
+  "elements": [
+	  {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#stone", "cullface": "down" },
+                "up":    { "texture": "#stone", "cullface": "up" },
+                "north": { "texture": "#stone", "cullface": "north" },
+                "south": { "texture": "#stone", "cullface": "south" },
+                "west":  { "texture": "#stone", "cullface": "west" },
+                "east":  { "texture": "#stone", "cullface": "east" }
+            }
+        },
+	  {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#ore", "cullface": "down",  "neoforge_data": { "block_light": 10 } },
+                "up":  	 { "texture": "#ore", "cullface": "up",    "neoforge_data": { "block_light": 10 } },
+                "north": { "texture": "#ore", "cullface": "north", "neoforge_data": { "block_light": 10 } },
+                "south": { "texture": "#ore", "cullface": "south", "neoforge_data": { "block_light": 10 } },
+                "west":  { "texture": "#ore", "cullface": "west",  "neoforge_data": { "block_light": 10 } },
+                "east":  { "texture": "#ore", "cullface": "east",  "neoforge_data": { "block_light": 10 } }
+            }
+        }
+  ]
+}

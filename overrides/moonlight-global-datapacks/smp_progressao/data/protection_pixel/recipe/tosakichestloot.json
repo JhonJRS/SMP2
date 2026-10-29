@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "protection_pixel:heatresistantceramicsheet"
+    },
+    "B": {
+      "item": "protection_pixel:smallnetheritesheet"
+    },
+    "C": {
+      "item": "create:fluid_tank"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "create:iron_sheet"
+    },
+    "F": {
+      "item": "create:cogwheel"
+    },
+    "G": {
+      "item": "protection_pixel:chestplatelining"
+    },
+    "Z": {
+      "item": "smpprofissoes:exo_plating"
+    }
+  },
+  "pattern": [
+    "ZE E ",
+    "CADAC",
+    "ABGBA",
+    "FAAAF"
+  ],
+  "result": {
+    "id": "protection_pixel:tosaki_chestplate",
+    "count": 1
+  }
+}

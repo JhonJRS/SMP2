@@ -1,0 +1,87 @@
+#Where this server sends marks, and where website-drawn marks arrive from.
+#Leave websiteUrl empty and the mod works fine, just without the site.
+[website]
+	websiteUrl = ""
+	#Shared secret. Treat it like a password: it is not synced to clients.
+	websiteSecret = ""
+	#Usually leave this empty. The bridge then goes to websiteUrl with
+	#/api/warpaint/socket on the end, which is right when the site sits behind
+	#a normal reverse proxy.
+	#Set it only when the socket is somewhere else, which it is when running
+	#the site directly without a proxy: the pages and the socket then listen
+	#on two ports. For example ws://127.0.0.1:8100/api/warpaint/socket
+	websiteSocketUrl = ""
+
+#A map in the browser, for servers that have no website of their own.
+#Maps and Quills is built for servers with a website (see [website] above). Without one,
+#turn this on and /maq map hands a player a private link that shows the
+#map in a browser: the same ground, borders and marks, filtered exactly as in
+#game. Links expire. Needs one TCP port open to players; off by default.
+[webmap]
+	enabled = false
+	# Default: 8123
+	# Range: 1024 ~ 65535
+	port = 8123
+	#How players reach it, for example http://play.example.com:8123
+	#Empty uses this server's address and the port above, which is right on a
+	#machine players connect to directly and wrong behind a proxy or NAT.
+	publicAddress = ""
+	#How long a link keeps working, in minutes.
+	# Default: 60
+	# Range: 5 ~ 1440
+	linkMinutes = 60
+
+#Pings: ephemeral, faction only, never stored.
+[pings]
+	# Default: 20
+	# Range: 0 ~ 6000
+	cooldownTicks = 20
+	# Default: 120
+	# Range: 20 ~ 1200
+	lifetimeTicks = 120
+
+#Limits that keep one player from filling the world save.
+[limits]
+	# Default: 500
+	# Range: 1 ~ 100000
+	maxMarksPerPlayer = 500
+	# Default: 512
+	# Range: 2 ~ 20000
+	maxPointsPerMark = 512
+
+#What an ordinary player is allowed to put on the map.
+#Turning drawing off leaves the map readable by everyone and writable by
+#operators only, which is what a heavily curated server wants.
+[authoring]
+	playersMayDraw = true
+	#Submit a place for an admin to approve on the website.
+	playersMaySubmit = true
+
+#Who shows up as a dot on somebody else's map.
+#FACTION is the default and the safe one on a server with war on it: a map
+#that shows every player deletes scouting, ambushes and raids in one go.
+#ALLIES also shows factions you are friendly with. ALL is a co-op setting.
+[players]
+	#Allowed Values: NONE, FACTION, ALLIES, ALL
+	visibleTo = "FACTION"
+
+#Fog of war: each faction's map shows only the ground its members have been near,
+#plus the ground of factions that shared their map with it (/maq share).
+#Other factions' borders appear once you have explored where they are; your own
+#faction's borders always show. A player with no faction explores alone, and
+#brings that with them when they join one.
+#Turn it off and every player sees every surveyed chunk and every border again.
+#A linked website still shows everything. The /maq map browser link is fogged
+#the same way the game is.
+[fog]
+	enabled = true
+	#How many chunks around a player count as explored.
+	#0 uses the server's view distance, which is what the player could actually see.
+	# Default: 0
+	# Range: 0 ~ 32
+	revealRadiusChunks = 0
+
+#Optional mods. Each is reached by fail-soft reflection and skipped when absent.
+[integrations]
+	easyFactions = true
+	warNNobility = true

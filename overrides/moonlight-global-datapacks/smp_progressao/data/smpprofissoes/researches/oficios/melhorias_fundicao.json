@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.melhorias_fundicao.name",
+  "subtitle": "smpprofissoes.research.oficios.melhorias_fundicao.subtitle",
+  "icon": "productivemetalworks:powered_heating_coil",
+  "researchLevel": 2,
+  "sortOrder": 62,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:copper_block"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:redstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/melhorias_fundicao",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_silentgear"
+}

@@ -1,0 +1,168 @@
+{
+ "name": "Yawn",
+ "author": "SMP 2",
+ "description": "So sleepy...",
+ "uuid": "2fb1cf84-4a91-5a11-82a8-8bd92ae41ebf",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 60,
+  "stopTick": 66,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 12,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.9
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "roll": 0.35
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -2.9
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "roll": -0.35
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.4
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "torso": {
+     "pitch": -0.1
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.9
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "roll": 0.35
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -2.9
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "roll": -0.35
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.4
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "torso": {
+     "pitch": -0.1
+    }
+   },
+   {
+    "tick": 44,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": 0.0
+    }
+   },
+   {
+    "tick": 44,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "roll": 0.0
+    }
+   },
+   {
+    "tick": 44,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": 0.0
+    }
+   },
+   {
+    "tick": 44,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "roll": 0.0
+    }
+   },
+   {
+    "tick": 44,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.3
+    }
+   },
+   {
+    "tick": 44,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "torso": {
+     "pitch": 0.0
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.3
+    }
+   }
+  ]
+ }
+}

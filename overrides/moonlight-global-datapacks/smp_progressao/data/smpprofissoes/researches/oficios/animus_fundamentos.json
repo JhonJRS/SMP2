@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.animus_fundamentos.name",
+  "subtitle": "smpprofissoes.research.oficios.animus_fundamentos.subtitle",
+  "icon": "animusnv:spear_iron",
+  "researchLevel": 2,
+  "sortOrder": 53,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:redstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/animus_fundamentos",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_neovitae"
+}

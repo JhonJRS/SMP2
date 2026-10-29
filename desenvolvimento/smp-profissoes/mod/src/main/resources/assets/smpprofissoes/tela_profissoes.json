@@ -1,0 +1,186 @@
+[
+  {
+    "id": "engenheiro",
+    "nome": "Engenheiro",
+    "icone": "⚙",
+    "inicios": [
+      {
+        "licenca": "eng_create",
+        "rotulo": "Create",
+        "descricao": "Máquinas cinéticas, engrenagens e contraptions",
+        "codigo": 111,
+        "kit": [
+          "create:wrench",
+          "create:goggles",
+          "create:hand_crank",
+          "create:andesite_alloy",
+          "create:cogwheel",
+          "create:shaft",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      },
+      {
+        "licenca": "eng_ie",
+        "rotulo": "Immersive Engineering",
+        "descricao": "Multiblocos industriais, aço e eletricidade",
+        "codigo": 112,
+        "kit": [
+          "immersiveengineering:manual",
+          "immersiveengineering:hammer",
+          "immersiveengineering:screwdriver",
+          "immersiveengineering:wirecutter",
+          "immersiveengineering:treated_wood_horizontal",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      },
+      {
+        "licenca": "eng_embers",
+        "rotulo": "Embers",
+        "descricao": "Ember, caminite e metalurgia antiga",
+        "codigo": 113,
+        "kit": [
+          "embers:tinker_hammer",
+          "embers:caminite_blend",
+          "embers:ember_crystal",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arcanista",
+    "nome": "Arcanista",
+    "icone": "✦",
+    "inicios": [
+      {
+        "licenca": "arc_irons",
+        "rotulo": "Iron's Spells",
+        "descricao": "Grimórios, pergaminhos e magias",
+        "codigo": 121,
+        "kit": [
+          "irons_spellbooks:copper_spell_book",
+          "irons_spellbooks:inscription_table",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      },
+      {
+        "licenca": "arc_malum",
+        "rotulo": "Malum",
+        "descricao": "Espíritos, altar espiritual e almas",
+        "codigo": 122,
+        "kit": [
+          "malum:encyclopedia_arcana",
+          "malum:crude_scythe",
+          "malum:runewood_sapling",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      },
+      {
+        "licenca": "arc_botania",
+        "rotulo": "Botania",
+        "descricao": "Flores mágicas e mana",
+        "codigo": 123,
+        "kit": [
+          "botania:lexicon",
+          "botania:twig_wand",
+          "botania:white_mystical_flower",
+          "botania:fertilizer",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      },
+      {
+        "licenca": "arc_neovitae",
+        "rotulo": "Neo Vitae",
+        "descricao": "Magia de sangue",
+        "codigo": 124,
+        "kit": [
+          "neovitae:guide_book",
+          "neovitae:blood_orb_weak",
+          "neovitae:throwing_dagger",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ferreiro",
+    "nome": "Ferreiro",
+    "icone": "⚒",
+    "inicios": [
+      {
+        "licenca": "fer_silentgear",
+        "rotulo": "Silent Gear + Productive Metalworks",
+        "descricao": "Ferramentas modulares e a fundição",
+        "codigo": 131,
+        "kit": [
+          "silentgear:guide_book",
+          "silentgear:blueprint_paper",
+          "silentgear:template_board",
+          "productivemetalworks:casting_table",
+          "minecraft:iron_ingot",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      },
+      {
+        "licenca": "fer_arcanus",
+        "rotulo": "Forbidden Arcanus",
+        "descricao": "Metalurgia arcana e a Forja de Hefesto",
+        "codigo": 132,
+        "kit": [
+          "forbidden_arcanus:arcane_crystal",
+          "forbidden_arcanus:mundabitur_dust",
+          "minecraft:iron_ingot",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naturalista",
+    "nome": "Naturalista",
+    "icone": "❀",
+    "inicios": [
+      {
+        "licenca": "nat_cozinha",
+        "rotulo": "Farmer's Delight + Farm & Charm",
+        "descricao": "Culinária, cultivos, moinhos e silos",
+        "codigo": 141,
+        "kit": [
+          "farmersdelight:flint_knife",
+          "farmersdelight:cooking_pot",
+          "farmersdelight:cabbage_seeds",
+          "farmersdelight:tomato_seeds",
+          "farmersdelight:rice",
+          "farm_and_charm:lettuce_seeds",
+          "minecraft:bone_meal",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      },
+      {
+        "licenca": "nat_ervas",
+        "rotulo": "Herbalismo",
+        "descricao": "Chás, ervas e remédios (HerbalBrews + Vital Herbs)",
+        "codigo": 142,
+        "kit": [
+          "vital_herbs:teapot",
+          "herbalbrews:tea_kettle",
+          "vital_herbs:sooth_blossom_seeds",
+          "vital_herbs:snap_pepper_seeds",
+          "vital_herbs:bleeding_heart_seeds",
+          "minecraft:bread",
+          "minecraft:torch"
+        ]
+      }
+    ]
+  }
+]

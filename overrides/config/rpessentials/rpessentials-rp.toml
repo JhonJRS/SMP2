@@ -1,0 +1,95 @@
+[AFK]
+	#Dimension to teleport to when using /rp afk.
+	dimension = "minecraft:overworld"
+	#X coordinate.
+	# Default: 0.0
+	# Range: -3.0E7 ~ 3.0E7
+	x = 0.0
+	#Y coordinate.
+	# Default: 255.0
+	# Range: -64.0 ~ 320.0
+	y = 255.0
+	#Z coordinate.
+	# Default: 0.0
+	# Range: -3.0E7 ~ 3.0E7
+	z = 0.0
+	#Yaw.
+	# Default: 90.0
+	# Range: -180.0 ~ 180.0
+	yaw = 90.0
+	#Pitch.
+	# Default: 0.0
+	# Range: -90.0 ~ 90.0
+	pitch = 0.0
+
+[Action]
+	#Radius in blocks for /rp action and /me messages.
+	# Default: 16
+	# Range: 1 ~ 256
+	actionDistance = 16
+
+["Dice System"]
+	#Enable the dice roll system.
+	enableDiceSystem = true
+	#Available dice types.
+	#Format: name;maxValue  (e.g. d6;6)
+	#Or custom faces: name;face1,face2,face3 (e.g. coin;Heads,Tails)
+	diceTypes = ["d4;4", "d6;6", "d8;8", "d10;10", "d12;12", "d20;20", "d100;100"]
+	#Radius (-1 = global).
+	# Default: 32
+	# Range: -1 ~ 256
+	diceRollDistance = 32
+
+["RP Cooldowns"]
+	#Cooldown for /rp action and /me (0=disabled).
+	# Default: 0
+	# Range: 0 ~ 300
+	actionCooldownSeconds = 0
+	#Cooldown for /rp commerce (0=disabled).
+	# Default: 0
+	# Range: 0 ~ 300
+	commerceCooldownSeconds = 0
+	#Cooldown for /rp incognito (0=disabled).
+	# Default: 0
+	# Range: 0 ~ 300
+	incognitoCooldownSeconds = 0
+
+["Self Nick"]
+	#Allow players to set their own nickname via /rp selfnick.
+	enableSelfNick = false
+	#Cooldown for /rp selfnick in seconds (0 = disabled).
+	# Default: 300
+	# Range: 0 ~ 86400
+	selfNickCooldownSeconds = 300
+	#Allow color codes (& and §) in self-assigned nicknames.
+	selfNickAllowColors = false
+	#Maximum nickname length (excluding color codes).
+	# Default: 24
+	# Range: 1 ~ 64
+	selfNickMaxLength = 24
+
+[Annonce]
+	#Play a sound to all players on announcement.
+	playSound = true
+	#Sound resource location.
+	sound = "minecraft:entity.arrow.hit_player"
+
+["Immersive Presets"]
+	#Presets for ImmersiveMessages display mode.
+	#Format: name;duration;fadeIn;fadeOut  (floats, seconds)
+	#
+	#Usage in display mode configs:
+	#  'IMMERSIVE'        → uses preset named 'default'
+	#  'IMMERSIVE:death'  → uses preset named 'death'
+	#  'IMMERSIVE:zone'   → uses preset named 'zone'
+	#
+	#Fallback to ACTION_BAR if ImmersiveMessages is absent client-side.
+	#
+	#Predefined presets (can be overridden):
+	#  default — 3s, fade 0.5s in/out  → general purpose
+	#  death   — 5s, fade 0.5s in/out  → death RP events
+	#  zone    — 3s, fade 0.3s in/out  → zone entry/exit
+	#  alert   — 4s, fade 0.2s in, 1s out → warnings
+	#  hrp     — 4s, fade 0.5s in/out  → HRP hours notification
+	#  title   — 5s, fade 1s in/out    → announcements
+	presets = ["default;3.0;0.5;0.5", "death;5.0;0.5;0.5", "zone;3.0;0.3;0.3", "alert;4.0;0.2;1.0", "hrp;4.0;0.5;0.5", "title;5.0;1.0;1.0"]

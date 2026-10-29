@@ -1,0 +1,25 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "tag": "c:plates/dawnstone"
+    },
+    {
+      "tag": "c:plates/dawnstone"
+    },
+    {
+      "item": "aetherworks:aether_pearl"
+    },
+    {
+      "tag": "c:plates/dawnstone"
+    },
+    {
+      "tag": "c:plates/dawnstone"
+    }
+  ],
+  "output": {
+    "item": "aetherworks:lexicon"
+  },
+  "temperature": 2700,
+  "temperature_rate": 30.0
+}

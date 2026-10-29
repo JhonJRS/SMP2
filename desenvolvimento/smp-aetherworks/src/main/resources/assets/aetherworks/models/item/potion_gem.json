@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "aetherworks:item/potion_gem_overlay_empty",
+		"layer1": "aetherworks:item/potion_gem"
+	},
+    "overrides": [
+		{
+            "predicate": {
+                "aetherworks:has_gem": 1
+            },
+            "model": "aetherworks:item/potion_gem_filled"
+        }
+	]
+}

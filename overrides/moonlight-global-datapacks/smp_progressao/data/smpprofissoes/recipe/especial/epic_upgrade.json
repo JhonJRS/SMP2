@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "irons_spellbooks:epic_ink"
+    },
+    "M": {
+      "item": "minecraft:heavy_core"
+    },
+    "S": {
+      "item": "minecraft:echo_shard"
+    },
+    "O": {
+      "item": "irons_spellbooks:upgrade_orb"
+    }
+  },
+  "pattern": [
+    " I ",
+    "MOS",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:epic_upgrade"
+  }
+}

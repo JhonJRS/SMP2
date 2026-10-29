@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 5,
+  "emberPerHit": 70,
+  "input": {
+    "item": "aetherworks:crossbow_frame_crude"
+  },
+  "numberOfHits": 35,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "aetherworks:crossbow_frame"
+    }
+  ],
+  "temperatureMax": 3000,
+  "temperatureMin": 2600
+}

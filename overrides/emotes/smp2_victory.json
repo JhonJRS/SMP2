@@ -1,0 +1,144 @@
+{
+ "name": "Victory",
+ "author": "SMP 2",
+ "description": "Fist pump!",
+ "uuid": "6acaea8f-f6fc-5767-a859-c3f525aa800b",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 46,
+  "stopTick": 52,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 4,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -3.05
+    }
+   },
+   {
+    "tick": 4,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.2
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.1
+    }
+   },
+   {
+    "tick": 16,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -3.05
+    }
+   },
+   {
+    "tick": 16,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 22,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.2
+    }
+   },
+   {
+    "tick": 22,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.1
+    }
+   },
+   {
+    "tick": 28,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -3.05
+    }
+   },
+   {
+    "tick": 28,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 34,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.2
+    }
+   },
+   {
+    "tick": 34,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.1
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -3.05
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 46,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.2
+    }
+   },
+   {
+    "tick": 46,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.1
+    }
+   }
+  ]
+ }
+}

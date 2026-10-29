@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.reliquias_mana.name",
+  "subtitle": "smpprofissoes.research.oficios.reliquias_mana.subtitle",
+  "icon": "botania:tornado_rod",
+  "researchLevel": 3,
+  "sortOrder": 48,
+  "costs": [
+    {
+      "count": 8,
+      "item": "botania:mana_pearl"
+    },
+    {
+      "count": 8,
+      "item": "botania:mana_diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/manipulacao_mana"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/reliquias_mana",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arsenal_mana"
+}

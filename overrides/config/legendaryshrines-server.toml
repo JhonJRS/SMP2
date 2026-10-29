@@ -1,0 +1,33 @@
+[binding]
+	#How close a player must get to a shrine to bind to it, in blocks.
+	# Default: 16
+	# Range: 1 ~ 128
+	bindRadius = 16
+	#How far a player can travel from their shrine before the link breaks, in blocks.
+	#Set to 0 to make links never break by distance.
+	# Default: 1000
+	# Range: 0 ~ 30000000
+	breakDistance = 1000
+	#Require players to right click a shrine to bind to it instead of binding by proximity.
+	#bindRadius is ignored while this is enabled.
+	bindOnUse = false
+
+[respawn]
+	#Seconds before a player may respawn at a shrine again after using one.
+	#Set to 0 to disable the cooldown.
+	# Default: 0
+	# Range: 0 ~ 86400
+	cooldownSeconds = 0
+	#Make the vanilla Respawn button send bound players to their shrine.
+	#The extra Respawn at the Shrine button is hidden, and the shrine takes priority
+	#over beds and world spawn. Players without a link, or on cooldown, respawn normally.
+	overrideVanillaRespawn = false
+
+[block]
+	#Make shrines unbreakable by players and explosions.
+	#Shrines never drop anything when broken.
+	unbreakable = false
+
+[effects]
+	#Play shrine sounds on binding and on losing a link.
+	soundsEnabled = true

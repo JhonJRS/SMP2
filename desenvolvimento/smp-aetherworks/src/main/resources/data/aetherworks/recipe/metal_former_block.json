@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "embers:ash"
+    },
+    "B": {
+      "item": "embers:caminite_brick"
+    },
+    "P": {
+      "item": "embers:caminite_plate"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "PPP"
+  ],
+  "result": {
+    "id": "aetherworks:forge_metal_former"
+  },
+  "show_notification": true
+}

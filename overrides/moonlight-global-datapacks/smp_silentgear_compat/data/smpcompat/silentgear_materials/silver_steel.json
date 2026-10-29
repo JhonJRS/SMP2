@@ -1,0 +1,95 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "toxony:silver_steel_ingot"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFC8D2DC",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "text": "Silver Steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 18.0,
+      "armor/helmet": 3,
+      "armor/chestplate": 7,
+      "armor/leggings": 5,
+      "armor/boots": 3,
+      "armor_durability": 22.0,
+      "armor_toughness": 2.0,
+      "attack_damage": 4.0,
+      "attack_speed": 0.0,
+      "charging_value": 0.8,
+      "draw_speed": 0.0,
+      "durability": 1100.0,
+      "enchantment_value": 18.0,
+      "harvest_speed": 9.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 7.0,
+      "magic_damage": 2.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 2.0,
+      "rarity": 55.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:venom"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 192.0
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 15.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ]
+    }
+  }
+}

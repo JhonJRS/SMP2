@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU GPLv3"
+issueTrackerURL="https://github.com/Sirplop/AetherworksRefracted/issues"
+
+[[mods]]
+modId="aetherworks"
+version="1.21.1-1.1.8-smp"
+displayName="Aetherworks Refracted"
+logoFile="aw_logo.png"
+authors="Sirplop (port to 1.21.1 NeoForge / Embers Re-Ignited for the SMP 2 modpack)"
+description='''An addon to Embers focused on processing Aetherium into tools and armor.
+Unofficial 1.21.1 port of Aetherworks Refracted 1.1.8 (GPLv3), source in smp-aetherworks/.'''
+
+[[dependencies.aetherworks]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aetherworks]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.21.2)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aetherworks]]
+    modId="embers"
+    type="required"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.aetherworks]]
+    modId="curios"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"

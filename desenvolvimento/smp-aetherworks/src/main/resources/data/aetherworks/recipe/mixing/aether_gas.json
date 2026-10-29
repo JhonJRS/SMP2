@@ -1,0 +1,17 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 4,
+      "fluid": "aetherworks:aether_gas_impure"
+    },
+    {
+      "amount": 3,
+      "fluid": "aetherworks:alchemic_precursor"
+    }
+  ],
+  "output": {
+    "amount": 3,
+    "fluid": "aetherworks:aether_gas"
+  }
+}

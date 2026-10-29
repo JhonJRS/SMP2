@@ -1,0 +1,93 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_ocean"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:clay"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:andesite"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:mud"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "aetherworks:aether_shard"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "embers:raw_lead_block"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:prismarine"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:sea_lantern"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:wet_sponge"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "minecraft:sniffer_egg"
+    },
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "aetherworks:block_shards_raw"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "create:brass_hand"
+    },
+    "F": {
+      "item": "create:sturdy_sheet"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABZCA",
+    "DBECD",
+    "DFFFD"
+  ],
+  "result": {
+    "id": "protection_pixel:equipmentkit",
+    "count": 1
+  }
+}

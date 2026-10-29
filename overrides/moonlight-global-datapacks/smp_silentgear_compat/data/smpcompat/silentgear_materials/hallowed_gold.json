@@ -1,0 +1,117 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFF2D16B",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "text": "Hallowed Gold"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 13.0,
+      "armor/helmet": 2,
+      "armor/chestplate": 5,
+      "armor/leggings": 4,
+      "armor/boots": 2,
+      "armor_durability": 12.0,
+      "armor_toughness": 0.0,
+      "attack_damage": 1.0,
+      "attack_speed": 0.0,
+      "charging_value": 0.8,
+      "draw_speed": 0.0,
+      "durability": 400.0,
+      "enchantment_value": 28.0,
+      "harvest_speed": 14.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 12.0,
+      "magic_damage": 6.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 0.5,
+      "rarity": 60.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:soft"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.2
+      },
+      "traits": [
+        {
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ],
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      }
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 64.0
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 15.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ]
+    }
+  }
+}

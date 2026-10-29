@@ -1,0 +1,15 @@
+# NOTICE: This config is regenerated when modified in-game.
+
+["Assist Mode"]
+# Options that may make the mod easier or not as punishing.
+
+# Defines when sculk damage should be healed. Requires restart for recipe changes to take effect.
+# NORMAL - Default behaviour; only heal under normal circumstances (e.g. exposure so skylight).
+# RESIST - Heal when affected by sculk resistance.
+# ALWAYS - Disables sculk hearts entirely.
+"Sculk Healing Circumstance" = NORMAL
+
+# Sculk Resistance grants total immunity to sculk.
+# If this is enabled when the game starts, it disables the recipes for the stronger variants of sculk resistance to avoid accidentally crafting them (since they're useless). This requires a game restart when changed to be reflected in-game.
+"Sculk Resistance Grants Immunity" = false
+

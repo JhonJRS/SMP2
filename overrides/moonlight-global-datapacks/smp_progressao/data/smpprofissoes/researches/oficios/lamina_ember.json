@@ -1,0 +1,50 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.lamina_ember.name",
+  "subtitle": "smpprofissoes.research.oficios.lamina_ember.subtitle",
+  "icon": "embers:dawnstone_ingot",
+  "researchLevel": 5,
+  "sortOrder": 108,
+  "costs": [
+    {
+      "count": 16,
+      "item": "embers:dawnstone_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/alquimia_artificios"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/lamina_ember",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/ligas_runicas"
+}

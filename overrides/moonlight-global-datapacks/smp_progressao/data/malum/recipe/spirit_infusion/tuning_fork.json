@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "malum:runewood_planks"
+    },
+    {
+      "count": 2,
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:crucible_primer"
+    }
+  ],
+  "input": {
+    "count": 2,
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:tuning_fork"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ]
+}

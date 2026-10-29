@@ -1,0 +1,56 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.redes_quanticas.name",
+  "subtitle": "smpprofissoes.research.oficios.redes_quanticas.subtitle",
+  "icon": "ae2:quantum_ring",
+  "researchLevel": 5,
+  "sortOrder": 8,
+  "costs": [
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/alquimia_venenosa"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/armaria_netherite"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/engenharia_arcana"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/ligas_runicas"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/sintese_terrasteel"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/redes_quanticas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/redes_me"
+}

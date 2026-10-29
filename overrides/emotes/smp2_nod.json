@@ -1,0 +1,64 @@
+{
+ "name": "Nod",
+ "author": "SMP 2",
+ "description": "Yes",
+ "uuid": "eea9bee0-946d-54b6-889b-f2fb1e6afabd",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 29,
+  "stopTick": 35,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 4,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.35
+    }
+   },
+   {
+    "tick": 9,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.05
+    }
+   },
+   {
+    "tick": 14,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.35
+    }
+   },
+   {
+    "tick": 19,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.05
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.35
+    }
+   },
+   {
+    "tick": 29,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.05
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arsenal_ember.name",
+  "subtitle": "smpprofissoes.research.oficios.arsenal_ember.subtitle",
+  "icon": "embers:blazing_ray",
+  "researchLevel": 3,
+  "sortOrder": 20,
+  "costs": [
+    {
+      "count": 16,
+      "item": "embers:dawnstone_ingot"
+    },
+    {
+      "count": 16,
+      "item": "embers:ember_crystal"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arsenal_ember",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/processamento_ember"
+}

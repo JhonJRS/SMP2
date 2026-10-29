@@ -1,0 +1,34 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 600,
+  "fluid": {
+    "amount": 810,
+    "fluid": "aetherworks:aether_gas"
+  },
+  "input": {
+    "item": "aetherworks:potion_gem"
+  },
+  "match_exactly": true,
+  "output": {
+    "id": "aetherworks:potion_gem",
+    "count": 1,
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "aetherworks:moonfire",
+            "amplifier": 0,
+            "duration": 200,
+            "ambient": true,
+            "show_icon": true,
+            "show_particles": true
+          }
+        ]
+      },
+      "minecraft:custom_data": {
+        "gem_color": -8210433
+      }
+    }
+  },
+  "temperature": 2400
+}

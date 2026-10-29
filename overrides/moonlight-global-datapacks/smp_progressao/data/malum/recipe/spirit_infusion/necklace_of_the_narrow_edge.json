@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "tag": "c:storage_blocks/iron"
+    },
+    {
+      "count": 2,
+      "tag": "c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:void_shard"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_necklace"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:necklace_of_the_narrow_edge"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    }
+  ]
+}

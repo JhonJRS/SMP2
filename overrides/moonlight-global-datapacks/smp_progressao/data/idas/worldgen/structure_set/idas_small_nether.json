@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "idas:animal_den/foxhound_den",
+      "weight": 1
+    },
+    {
+      "structure": "idas:nether_pump_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169263692,
+    "spacing": 60,
+    "separation": 50,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:small_nether_avoid"
+    }
+  }
+}

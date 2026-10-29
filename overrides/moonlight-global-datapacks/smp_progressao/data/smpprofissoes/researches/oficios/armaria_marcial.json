@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.armaria_marcial.name",
+  "subtitle": "smpprofissoes.research.oficios.armaria_marcial.subtitle",
+  "icon": "simplyswords:iron_claymore",
+  "researchLevel": 2,
+  "sortOrder": 70,
+  "costs": [
+    {
+      "count": 48,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:leather"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/armaria_marcial",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_arcanus"
+}

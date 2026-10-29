@@ -1,0 +1,33 @@
+#Spice of Life: Classic Edition - Server Configuration
+#
+#NeoForge stores this config globally in the config/ directory.
+#This file is shared across all worlds.
+#To use different settings per world, copy this file to
+#saves/<world_name>/serverconfig/ and edit it there.
+[SolClassicSettings]
+	#Maximum number of food history entries to track
+	# Default: 100
+	# Range: 5 ~ 300
+	maxFoodHistorySize = 100
+	#Maximum number of food short history entries to track
+	# Default: 5
+	# Range: 1 ~ 100
+	maxShortFoodHistorySize = 5
+	#Long decay modifiers for food recovery
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	longFoodDecayModifiers = 0.01
+	#List of decay modifiers for food recovery, applied sequentially
+	shortFoodDecayModifiers = [1.0, 0.9, 0.75, 0.5, 0.05]
+	#List of food items that should not be tracked
+	foodBlacklist = ["minecraft:dried_kelp"]
+	#List of food items that cannot be put into the Basket / Wicker Basket. Items already inside can still be taken out.
+	basketBlacklist = []
+	#Enable Wicker Basket
+	enableWickerBasket = true
+	#Guarantee minimum 1 nutrition even when decay reduces it to 0. When false, fully decayed food gives no nutrition.
+	guaranteeMinimumNutrition = false
+	#Enable food decay tooltip on food items
+	enableTooltip = true
+	#Enable description tooltip on mod items (Wicker Basket, Food History Book)
+	enableItemDescription = true

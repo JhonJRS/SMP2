@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aetherworks:item/aether_ember_jar_glass",
+    "layer1": "aetherworks:item/aether_ember_jar_shine",
+    "layer2": "aetherworks:item/aether_ember_jar"
+  }
+}

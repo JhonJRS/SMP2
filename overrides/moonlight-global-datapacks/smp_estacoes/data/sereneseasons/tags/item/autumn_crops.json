@@ -1,0 +1,129 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:cabbage_seeds",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onion",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:barley_seeds",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:oat_seeds",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:onion",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:lettuce_seeds",
+      "required": false
+    },
+    {
+      "id": "vinery:red_grape_bush",
+      "required": false
+    },
+    {
+      "id": "vinery:white_grape_seeds",
+      "required": false
+    },
+    {
+      "id": "vinery:grapevine_stem",
+      "required": false
+    },
+    {
+      "id": "minecolonies:cabbage",
+      "required": false
+    },
+    {
+      "id": "minecolonies:onion",
+      "required": false
+    },
+    {
+      "id": "minecolonies:garlic",
+      "required": false
+    },
+    {
+      "id": "enchanted:mandrake_seeds",
+      "required": false
+    },
+    {
+      "id": "enchanted:wolfsbane_seeds",
+      "required": false
+    },
+    {
+      "id": "enchanted:belladonna_seeds",
+      "required": false
+    },
+    {
+      "id": "enchanted:garlic",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:mourning_bloom",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:grim_vine",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:iron_root",
+      "required": false
+    },
+    {
+      "id": "minecolonies:butternut_squash",
+      "required": false
+    },
+    {
+      "id": "minecolonies:durum",
+      "required": false
+    },
+    {
+      "id": "silentgear:fluffy_seeds",
+      "required": false
+    },
+    {
+      "id": "toxony:moonlight_hemlock",
+      "required": false
+    },
+    {
+      "id": "toxony:warproot",
+      "required": false
+    },
+    {
+      "id": "toxony:nightshade",
+      "required": false
+    },
+    {
+      "id": "toxony:whirlsnap",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:razor_leaf",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:tox_kiss_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:snap_pepper_seeds",
+      "required": false
+    },
+    {
+      "id": "vinery:apple_leaves",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_leaves",
+      "required": false
+    }
+  ]
+}

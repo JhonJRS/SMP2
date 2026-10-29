@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:cogwheel"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:propeller"
+    },
+    "E": {
+      "item": "create:andesite_alloy"
+    },
+    "F": {
+      "item": "create:chute"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    "ZF F "
+  ],
+  "result": {
+    "id": "protection_pixel:steambooster",
+    "count": 1
+  }
+}

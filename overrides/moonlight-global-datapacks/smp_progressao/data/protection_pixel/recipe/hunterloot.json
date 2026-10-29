@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/brass"
+    },
+    "B": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "create:brass_sheet"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "item": "minecraft:iron_helmet"
+    },
+    "F": {
+      "item": "create:iron_sheet"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABZBA",
+    " ACA ",
+    " DEC ",
+    " FAF "
+  ],
+  "result": {
+    "id": "protection_pixel:hunter_helmet",
+    "count": 1
+  }
+}

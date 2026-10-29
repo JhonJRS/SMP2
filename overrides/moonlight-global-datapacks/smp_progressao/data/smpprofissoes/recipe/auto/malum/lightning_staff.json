@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:energized_core"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "crystal_chronicles:voltite_shard"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:lightning_staff"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:aerial",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:runefused_gem"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:netherite_katana"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:stars_edge"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:mythic_core"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "simplyswords:runefused_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:stellarite_piece"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "simplyswords:netherite_katana"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "simplyswords:stars_edge"
+    }
+  }
+}

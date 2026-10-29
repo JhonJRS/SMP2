@@ -1,0 +1,10 @@
+{
+  "type": "embers:melting",
+  "input": {
+    "item": "aetherworks:aether_shard"
+  },
+  "output": {
+    "amount": 10,
+    "fluid": "aetherworks:aether_gas_impure"
+  }
+}

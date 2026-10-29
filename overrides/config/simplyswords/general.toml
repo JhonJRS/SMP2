@@ -1,0 +1,27 @@
+# Don't change this! Version used to track needed updates.
+version = 3
+enableWeaponImpactSounds = true
+weaponImpactSoundsVolume = 0.3
+enableWeaponFootfalls = true
+enablePassiveParticles = true
+enableModernFieldEffects = true
+stormEffectDetail = 2
+enableWeaponImplicits = true
+enableNonPlayerWeaponAbilityUse = true
+enableAbilityDamageEnchantScaling = true
+nonPlayerWeaponAbilityDamageModifier = 0.5
+weaponAbilityDamageToPlayersModifier = 0.5
+nonPlayerWeaponHitDamageModifier = 0.3
+nonPlayerWeaponAbilityCheckInterval = 80
+nonPlayerWeaponAbilityChance = 50
+abilityIgnoredEntities = [
+    "passive",
+    "minecraft:armor_stand",
+    "minecraft:villager"
+]
+enableUniqueWeaponAwakening = true
+enableUniqueGemSockets = true
+additionalGemSocketItems = [  ]
+enableTooltipInfoButtons = true
+tooltipInfoButtonsRequireInventoryScreen = true
+containedRemnantTransformFrequency = 18000

@@ -1,0 +1,103 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:sturdy_sheet"
+  },
+  "loops": 7,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "protection_pixel:heatoverlockingmechanism"
+    },
+    {
+      "chance": 10.0,
+      "id": "create:precision_mechanism"
+    },
+    {
+      "chance": 10.0,
+      "id": "create:sturdy_sheet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "smpprofissoes:exo_plating"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompleteheatoverlockmechanism"
+  }
+}

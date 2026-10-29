@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.tecelagem_almas.name",
+  "subtitle": "smpprofissoes.research.oficios.tecelagem_almas.subtitle",
+  "icon": "malum:weavers_workbench",
+  "researchLevel": 2,
+  "sortOrder": 40,
+  "costs": [
+    {
+      "count": 16,
+      "item": "malum:arcane_spirit"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:string"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/tecelagem_almas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_malum"
+}

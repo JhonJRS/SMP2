@@ -1,0 +1,58 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazentouvelib:shadow_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:wizard_helmet"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:masked_fool_helmet"
+    }
+  ],
+  "essences": {
+    "aureal": 2400,
+    "blood": 3600,
+    "experience": 1500,
+    "souls": 20
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazentouvelib:shadow_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:wizard_helmet"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:masked_fool_helmet"
+    }
+  }
+}

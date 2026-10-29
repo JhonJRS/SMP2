@@ -1,0 +1,19 @@
+# ArcadiaGuard: zona por coordenadas + flags (sem WorldEdit)
+
+## Zona e proteção de blocos
+> forceload add -16 -16 16 16
+> setblock 0 200 0 minecraft:stone
+> setblock 2 200 2 minecraft:stone
+> setblock 12 200 12 minecraft:stone
+> ag zone add teste -5 190 -5 5 210 5 => Zone created
+> ag zone flag teste block-break deny => block-break
+> ag zone flag teste block-place deny => block-place
+> ag zone flag teste pvp deny => pvp
+> ag zone flag teste irons-spell-cast deny => irons-spell-cast
+> ag zone info teste
+> smpteste quebrar 0 200 0 => PROTEGIDO
+> smpteste quebrar 12 200 12 => QUEBROU
+> ag zone flag teste block-break allow => block-break
+> smpteste quebrar 2 200 2 => QUEBROU
+> ag log teste
+> ag zone remove teste => removed

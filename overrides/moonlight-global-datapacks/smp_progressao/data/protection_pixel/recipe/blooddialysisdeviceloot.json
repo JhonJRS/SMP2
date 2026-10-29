@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:electron_tube"
+    },
+    "B": {
+      "item": "create:iron_sheet"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:fluid_tank"
+    },
+    "E": {
+      "item": "create:whisk"
+    },
+    "F": {
+      "item": "create:mechanical_pump"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "ADEDA",
+    "DFZFD",
+    " B B "
+  ],
+  "result": {
+    "id": "protection_pixel:blooddialysisdevice",
+    "count": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "tag": "c:ingots/iron"
+    },
+    {
+      "count": 2,
+      "item": "malum:soulwood_planks"
+    },
+    {
+      "count": 1,
+      "item": "malum:malignant_lead"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:crucible_primer"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:lamplighters_tongs"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:catalyst_lobber"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:infernal",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ]
+}

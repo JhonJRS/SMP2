@@ -1,0 +1,25 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "aetherworks:crossbow_limbs_magma"
+    },
+    {
+      "tag": "c:plates/dawnstone"
+    },
+    {
+      "item": "aetherworks:aether_pearl"
+    },
+    {
+      "item": "minecraft:lever"
+    },
+    {
+      "item": "aetherworks:crossbow_frame_infused"
+    }
+  ],
+  "output": {
+    "item": "aetherworks:crossbow_magma"
+  },
+  "temperature": 2900,
+  "temperature_rate": 5.0
+}

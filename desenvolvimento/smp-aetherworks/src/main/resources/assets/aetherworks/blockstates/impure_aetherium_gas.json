@@ -1,0 +1,19 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"fluid": {
+			"model": "neoforge:fluid",
+			"custom": { 
+				"fluid": "aetherworks.impure_aetherium_gas" 
+			}
+		},
+		"inventory": {
+			"model": "neoforge:fluid",
+			"transform": "neoforge:default-item",
+			"custom": {
+				"fluid": "aetherworks.impure_aetherium_gas",
+				"flipGas": true
+			}
+		}
+	}
+}

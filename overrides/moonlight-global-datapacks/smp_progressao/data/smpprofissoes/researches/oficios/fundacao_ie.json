@@ -1,0 +1,31 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fundacao_ie.name",
+  "subtitle": "smpprofissoes.research.oficios.fundacao_ie.subtitle",
+  "icon": "immersiveengineering:hammer",
+  "researchLevel": 1,
+  "sortOrder": 11,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:bricks"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fundacao_ie",
+      "level": 1
+    }
+  ]
+}

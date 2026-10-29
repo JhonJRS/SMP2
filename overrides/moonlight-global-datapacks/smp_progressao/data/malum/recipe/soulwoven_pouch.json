@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "smpprofissoes:soul_thread"
+    },
+    "Y": {
+      "item": "malum:soulwoven_silk"
+    }
+  },
+  "pattern": [
+    "X",
+    "Y"
+  ],
+  "result": {
+    "count": 1,
+    "id": "malum:soulwoven_pouch"
+  }
+}

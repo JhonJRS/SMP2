@@ -1,0 +1,225 @@
+#Chance that a generated chest receives a lock. Set to 1.0 for every chest, lower to skip some.
+#Renamed from 'Generation Chance' in 1.5.0 to reset stale configs where the old key was marked as unused.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+"Lock Generation Chance" = 0.0
+#Chance to randomly enchant a generated lock during world generation. Set to 0 to disable
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+"Generation Enchant Chance" = 0.4
+#Items that can be generated as locks (must be instance of LockItem in code!)
+"Generated Locks" = ["locks:wood_lock", "locks:copper_lock", "locks:iron_lock", "locks:steel_lock", "locks:gold_lock", "locks:diamond_lock", "locks:netherite_lock"]
+#WARNING: THE AMOUNT OF NUMBERS SHOULD BE EQUAL TO THE AMOUNT OF GENERATED LOCK ITEMS!!!
+#The relative probability that the corresponding lock item will be generated on a chest. Higher number = higher chance to generate
+"Generated Lock Chances" = [3, 3, 3, 2, 2, 1, 1]
+#Randomize lock IDs and combinations when loading them from a structure file. Randomization works just like during world generation
+"Randomize Loaded Locks" = false
+
+#Override built-in lock stats without datapacks. Set any value to -1 to use the JSON default.
+#'Pick Wear' is how much durability this lock takes off a lock pick on every wrong pin. It is the
+#main difficulty knob alongside 'Length', since a pick breaks only when its durability runs out.
+["Lock Stats"]
+
+	["Lock Stats"."Wood Lock"]
+		#Number of pins (1-20). JSON default: 5. Set to -1 to use default.
+		# Default: -1
+		# Range: -1 ~ 20
+		Length = -1
+		#Enchantability (1-50). JSON default: 15.
+		# Default: -1
+		# Range: -1 ~ 50
+		"Enchantment Value" = -1
+		#Explosion resistance (0-1000). JSON default: 4.
+		# Default: -1
+		# Range: -1 ~ 1000
+		Resistance = -1
+		#Lock pick durability a wrong pin costs on this lock (1-1000). JSON default: 1.
+		# Default: -1
+		# Range: -1 ~ 1000
+		"Pick Wear" = -1
+
+	["Lock Stats"."Copper Lock"]
+		#Number of pins (1-20). JSON default: 6. Set to -1 to use default.
+		# Default: -1
+		# Range: -1 ~ 20
+		Length = -1
+		#Enchantability (1-50). JSON default: 16.
+		# Default: -1
+		# Range: -1 ~ 50
+		"Enchantment Value" = -1
+		#Explosion resistance (0-1000). JSON default: 8.
+		# Default: -1
+		# Range: -1 ~ 1000
+		Resistance = -1
+		#Lock pick durability a wrong pin costs on this lock (1-1000). JSON default: 2.
+		# Default: -1
+		# Range: -1 ~ 1000
+		"Pick Wear" = -1
+
+	["Lock Stats"."Iron Lock"]
+		#Number of pins (1-20). JSON default: 7. Set to -1 to use default.
+		# Default: -1
+		# Range: -1 ~ 20
+		Length = -1
+		#Enchantability (1-50). JSON default: 14.
+		# Default: -1
+		# Range: -1 ~ 50
+		"Enchantment Value" = -1
+		#Explosion resistance (0-1000). JSON default: 12.
+		# Default: -1
+		# Range: -1 ~ 1000
+		Resistance = -1
+		#Lock pick durability a wrong pin costs on this lock (1-1000). JSON default: 3.
+		# Default: -1
+		# Range: -1 ~ 1000
+		"Pick Wear" = -1
+
+	["Lock Stats"."Steel Lock"]
+		#Number of pins (1-20). JSON default: 9. Set to -1 to use default.
+		# Default: -1
+		# Range: -1 ~ 20
+		Length = -1
+		#Enchantability (1-50). JSON default: 12.
+		# Default: -1
+		# Range: -1 ~ 50
+		"Enchantment Value" = -1
+		#Explosion resistance (0-1000). JSON default: 20.
+		# Default: -1
+		# Range: -1 ~ 1000
+		Resistance = -1
+		#Lock pick durability a wrong pin costs on this lock (1-1000). JSON default: 6.
+		# Default: -1
+		# Range: -1 ~ 1000
+		"Pick Wear" = -1
+
+	["Lock Stats"."Gold Lock"]
+		#Number of pins (1-20). JSON default: 6. Set to -1 to use default.
+		# Default: -1
+		# Range: -1 ~ 20
+		Length = -1
+		#Enchantability (1-50). JSON default: 22.
+		# Default: -1
+		# Range: -1 ~ 50
+		"Enchantment Value" = -1
+		#Explosion resistance (0-1000). JSON default: 6.
+		# Default: -1
+		# Range: -1 ~ 1000
+		Resistance = -1
+		#Lock pick durability a wrong pin costs on this lock (1-1000). JSON default: 2.
+		# Default: -1
+		# Range: -1 ~ 1000
+		"Pick Wear" = -1
+
+	["Lock Stats"."Diamond Lock"]
+		#Number of pins (1-20). JSON default: 11. Set to -1 to use default.
+		# Default: -1
+		# Range: -1 ~ 20
+		Length = -1
+		#Enchantability (1-50). JSON default: 10.
+		# Default: -1
+		# Range: -1 ~ 50
+		"Enchantment Value" = -1
+		#Explosion resistance (0-1000). JSON default: 100.
+		# Default: -1
+		# Range: -1 ~ 1000
+		Resistance = -1
+		#Lock pick durability a wrong pin costs on this lock (1-1000). JSON default: 12.
+		# Default: -1
+		# Range: -1 ~ 1000
+		"Pick Wear" = -1
+
+	["Lock Stats"."Netherite Lock"]
+		#Number of pins (1-20). JSON default: 14. Set to -1 to use default.
+		# Default: -1
+		# Range: -1 ~ 20
+		Length = -1
+		#Enchantability (1-50). JSON default: 8.
+		# Default: -1
+		# Range: -1 ~ 50
+		"Enchantment Value" = -1
+		#Explosion resistance (0-1000). JSON default: 200.
+		# Default: -1
+		# Range: -1 ~ 1000
+		Resistance = -1
+		#Lock pick durability a wrong pin costs on this lock (1-1000). JSON default: 24.
+		# Default: -1
+		# Range: -1 ~ 1000
+		"Pick Wear" = -1
+
+#Override built-in lockpick stats without datapacks. Set any value to -1.0 to use the JSON default.
+#Strength decides which locks a pick may attempt at all (the Complexity gate). Since 1.7.3 it no
+#longer affects how fast a pick wears out - that is the lock's 'Pick Wear' above.
+#Durability cannot be set here: it is fixed when the item is registered, before this file is read.
+#Set it in config/locks/lockpick_types/<pick>.json instead.
+["Lockpick Stats"]
+	#Strength (0.01-10.0). JSON default: 0.2. Set to -1.0 to use default.
+	# Default: -1.0
+	# Range: -1.0 ~ 10.0
+	"Wood Lockpick Strength" = -1.0
+	#Strength (0.01-10.0). JSON default: 0.28.
+	# Default: -1.0
+	# Range: -1.0 ~ 10.0
+	"Copper Lockpick Strength" = -1.0
+	#Strength (0.01-10.0). JSON default: 0.35.
+	# Default: -1.0
+	# Range: -1.0 ~ 10.0
+	"Iron Lockpick Strength" = -1.0
+	#Strength (0.01-10.0). JSON default: 0.7.
+	# Default: -1.0
+	# Range: -1.0 ~ 10.0
+	"Steel Lockpick Strength" = -1.0
+	#Strength (0.01-10.0). JSON default: 0.25.
+	# Default: -1.0
+	# Range: -1.0 ~ 10.0
+	"Gold Lockpick Strength" = -1.0
+	#Strength (0.01-10.0). JSON default: 0.85.
+	# Default: -1.0
+	# Range: -1.0 ~ 10.0
+	"Diamond Lockpick Strength" = -1.0
+	#Strength (0.01-10.0). JSON default: 0.95.
+	# Default: -1.0
+	# Range: -1.0 ~ 10.0
+	"Netherite Lockpick Strength" = -1.0
+
+#When enabled, lock tier is determined by the value of a chest's loot table contents instead of random weighted selection. Chests below the minimum value threshold get no lock at all.
+["Loot-Scaled Locks"]
+	#Enable loot-value-based lock tier selection. When disabled, the random weighted system (Generation Chance + Generated Lock Chances) is used instead
+	"Enable Loot-Scaled Locks" = true
+	#Base value assigned to each item before multipliers
+	# Default: 1.0
+	# Range: 0.01 ~ 1000.0
+	"Default Item Value" = 1.0
+	#Value multiplier added per enchantment level on an item (e.g. 0.25 means Sharpness V adds 1.25x)
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	"Enchantment Value Bonus" = 0.25
+	#Value multiplier for COMMON rarity items
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	"Common Rarity Multiplier" = 1.0
+	#Value multiplier for UNCOMMON rarity items
+	# Default: 1.5
+	# Range: 0.01 ~ 100.0
+	"Uncommon Rarity Multiplier" = 1.5
+	#Value multiplier for RARE rarity items
+	# Default: 2.5
+	# Range: 0.01 ~ 100.0
+	"Rare Rarity Multiplier" = 2.5
+	#Value multiplier for EPIC rarity items
+	# Default: 5.0
+	# Range: 0.01 ~ 100.0
+	"Epic Rarity Multiplier" = 5.0
+	#Minimum loot value thresholds for each lock in the 'Generated Locks' list (same order).
+	#WARNING: THE AMOUNT OF NUMBERS SHOULD BE EQUAL TO THE AMOUNT OF GENERATED LOCK ITEMS!!!
+	#A chest's total loot value is compared against these thresholds and it receives the highest tier it qualifies for.
+	#If the value is below the lowest threshold, NO lock is generated for that chest.
+	#Defaults: wood=3, copper=6, iron=10, steel=16, gold=24, diamond=40, netherite=60.
+	#Example - make diamond (or better) locks exclusive to high-value chests: raise the diamond/netherite
+	#thresholds (e.g. 80 and 140) so only the richest loot tables reach them, and raise the lowest threshold
+	#to skip locks on poor chests. With [10, 20, 35, 50, 65, 80, 140] a chest worth 90 gets diamond and one
+	#worth 150 gets netherite, while a chest worth 8 gets no lock at all.
+	"Loot Value Tiers" = [3.0, 6.0, 10.0, 16.0, 24.0, 40.0, 60.0]
+	#Override the base value for specific items. Format: 'modid:item_name=value'.
+	#Items not listed here use the Default Item Value.
+	#Useful for materials like diamonds or emeralds that have COMMON rarity but are inherently valuable.
+	"Item Value Overrides" = ["minecraft:diamond=5.0", "minecraft:emerald=4.0", "minecraft:netherite_ingot=10.0", "minecraft:netherite_scrap=6.0", "minecraft:enchanted_golden_apple=15.0", "minecraft:totem_of_undying=12.0", "minecraft:elytra=20.0", "minecraft:heart_of_the_sea=8.0", "minecraft:golden_apple=3.0", "minecraft:ender_pearl=2.0", "minecraft:experience_bottle=2.0", "minecraft:saddle=3.0", "minecraft:name_tag=3.0", "minecraft:iron_ingot=2.0", "minecraft:gold_ingot=3.0"]

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "smpprofissoes:arcane_inscription"
+    },
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    {
+      "item": "hazennstuff:deus_essence"
+    },
+    {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:archmage_codex",
+    "count": 2
+  }
+}

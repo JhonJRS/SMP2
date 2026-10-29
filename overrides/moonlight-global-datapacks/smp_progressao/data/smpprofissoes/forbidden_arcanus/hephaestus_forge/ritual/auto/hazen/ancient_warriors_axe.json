@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:excalibur_fragment"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:silver_scraps"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:graybeard_staff"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:ancient_warriors_axe"
+    }
+  ],
+  "essences": {
+    "aureal": 1200,
+    "blood": 1800,
+    "experience": 800,
+    "souls": 10
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:excalibur_fragment"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:silver_scraps"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:graybeard_staff"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:ancient_warriors_axe"
+    }
+  }
+}

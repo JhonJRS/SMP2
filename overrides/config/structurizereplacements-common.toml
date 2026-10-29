@@ -1,0 +1,2 @@
+#Enable block substitution when placing Structurize blueprints.
+enableSubstitution = true

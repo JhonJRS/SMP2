@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "aetherworks:gem_aether"
+    },
+    "X": {
+      "item": "aetherworks:ingot_aether"
+    }
+  },
+  "pattern": [
+    "XGX"
+  ],
+  "result": {
+    "id": "aetherworks:pickaxe_head_crude"
+  },
+  "show_notification": true
+}

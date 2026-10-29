@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arranjos_vitae.name",
+  "subtitle": "smpprofissoes.research.oficios.arranjos_vitae.subtitle",
+  "icon": "neovitae:sigil_water",
+  "researchLevel": 2,
+  "sortOrder": 52,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 16,
+      "item": "neovitae:bloodstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arranjos_vitae",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_neovitae"
+}

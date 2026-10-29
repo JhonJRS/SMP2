@@ -1,0 +1,66 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.forja_estelar.name",
+  "subtitle": "smpprofissoes.research.oficios.forja_estelar.subtitle",
+  "icon": "forbidden_arcanus:stellarite_piece",
+  "researchLevel": 5,
+  "sortOrder": 105,
+  "costs": [
+    {
+      "count": 2,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 8,
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:dragon_breath"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/tintas_herbais"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/maestria_hefesto"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/alquimia_venenosa"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/cervejaria_botanica"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/alquimia_natural_runas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/forja_estelar",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/ligas_runicas"
+}

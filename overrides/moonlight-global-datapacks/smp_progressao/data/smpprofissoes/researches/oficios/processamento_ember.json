@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.processamento_ember.name",
+  "subtitle": "smpprofissoes.research.oficios.processamento_ember.subtitle",
+  "icon": "embers:melter",
+  "researchLevel": 2,
+  "sortOrder": 19,
+  "costs": [
+    {
+      "count": 16,
+      "item": "embers:ember_crystal"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/processamento_ember",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_embers"
+}

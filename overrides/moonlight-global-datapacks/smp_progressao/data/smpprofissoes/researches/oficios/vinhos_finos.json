@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.vinhos_finos.name",
+  "subtitle": "smpprofissoes.research.oficios.vinhos_finos.subtitle",
+  "icon": "vinery:aegis_wine",
+  "researchLevel": 3,
+  "sortOrder": 84,
+  "costs": [
+    {
+      "count": 8,
+      "item": "vinery:red_wine"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:farmer",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/vinhos_finos",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/vinicultura"
+}

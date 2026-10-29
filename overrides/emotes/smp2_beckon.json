@@ -1,0 +1,72 @@
+{
+ "name": "Beckon",
+ "author": "SMP 2",
+ "description": "Come here",
+ "uuid": "393b9b1f-1400-5d8b-afbe-f54f94d70fdc",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 42,
+  "stopTick": 48,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.5
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.15
+    }
+   },
+   {
+    "tick": 18,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.5
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.15
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.5
+    }
+   },
+   {
+    "tick": 36,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.15
+    }
+   },
+   {
+    "tick": 42,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.5
+    }
+   }
+  ]
+ }
+}

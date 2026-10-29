@@ -1,0 +1,53 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.armas_miticas.name",
+  "subtitle": "smpprofissoes.research.oficios.armas_miticas.subtitle",
+  "icon": "simplyswords:mjolnir",
+  "researchLevel": 5,
+  "sortOrder": 77,
+  "costs": [
+    {
+      "count": 2,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 8,
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/artes_vazio"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/estudos_pergaminhos"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/prismas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/armas_miticas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/armaria_lendaria"
+}

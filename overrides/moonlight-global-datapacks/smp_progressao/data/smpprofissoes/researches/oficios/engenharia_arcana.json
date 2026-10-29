@@ -1,0 +1,49 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.engenharia_arcana.name",
+  "subtitle": "smpprofissoes.research.oficios.engenharia_arcana.subtitle",
+  "icon": "create_wizardry:arcane_casing",
+  "researchLevel": 4,
+  "sortOrder": 94,
+  "costs": [
+    {
+      "count": 32,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 32,
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/grimorios_expandidos"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/maestria_arcana"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/engenharia_arcana",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/combustiveis_industriais"
+}

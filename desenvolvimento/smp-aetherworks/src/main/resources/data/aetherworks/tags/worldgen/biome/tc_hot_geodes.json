@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#minecraft:is_nether"
+  ],
+  "values": [
+    "#c:is_hot"
+  ]
+}

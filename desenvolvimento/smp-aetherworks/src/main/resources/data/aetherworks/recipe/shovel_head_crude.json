@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "aetherworks:gem_aether"
+    },
+    "P": {
+      "item": "aetherworks:plate_aether"
+    }
+  },
+  "pattern": [
+    "G",
+    "P"
+  ],
+  "result": {
+    "id": "aetherworks:shovel_head_crude"
+  },
+  "show_notification": true
+}

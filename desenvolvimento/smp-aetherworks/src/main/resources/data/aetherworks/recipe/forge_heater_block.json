@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "H": {
+      "item": "embers:superheater"
+    },
+    "P": {
+      "tag": "c:plates/dawnstone"
+    },
+    "S": {
+      "item": "embers:wildfire_core"
+    },
+    "V": {
+      "item": "embers:fluid_vessel"
+    }
+  },
+  "pattern": [
+    " S ",
+    "HVH",
+    "PCP"
+  ],
+  "result": {
+    "id": "aetherworks:forge_heater"
+  },
+  "show_notification": true
+}

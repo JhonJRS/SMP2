@@ -1,0 +1,21 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    [],
+    {
+      "item": "aetherworks:axe_head_sculk"
+    },
+    {
+      "item": "aetherworks:aether_pearl"
+    },
+    {
+      "item": "aetherworks:tool_rod_infused"
+    },
+    []
+  ],
+  "output": {
+    "item": "aetherworks:axe_sculk"
+  },
+  "temperature": 2800,
+  "temperature_rate": 10.0
+}

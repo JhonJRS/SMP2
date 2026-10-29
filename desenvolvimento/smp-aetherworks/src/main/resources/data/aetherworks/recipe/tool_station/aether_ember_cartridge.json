@@ -1,0 +1,25 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "aetherworks:aether_shard"
+    },
+    {
+      "tag": "c:plates/dawnstone"
+    },
+    {
+      "item": "embers:ember_cartridge"
+    },
+    {
+      "tag": "c:plates/dawnstone"
+    },
+    {
+      "item": "aetherworks:aether_shard"
+    }
+  ],
+  "output": {
+    "item": "aetherworks:aether_ember_cartridge"
+  },
+  "temperature": 2500,
+  "temperature_rate": 15.0
+}

@@ -1,0 +1,80 @@
+{
+ "name": "Hug",
+ "author": "SMP 2",
+ "description": "Come here, friend",
+ "uuid": "5411a663-5129-54ea-a6eb-e3498faa5e49",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 40,
+  "stopTick": 46,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.5
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.55
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -1.5
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": 0.55
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.5
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.55
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -1.5
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": 0.55
+    }
+   }
+  ]
+ }
+}

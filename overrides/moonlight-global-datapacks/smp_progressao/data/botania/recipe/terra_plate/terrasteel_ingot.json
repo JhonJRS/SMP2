@@ -1,0 +1,22 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "botania:manasteel_ingot"
+    },
+    {
+      "item": "botania:mana_pearl"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "smpprofissoes:terra_core"
+    }
+  ],
+  "mana": 500000,
+  "result": {
+    "count": 1,
+    "id": "botania:terrasteel_ingot"
+  }
+}

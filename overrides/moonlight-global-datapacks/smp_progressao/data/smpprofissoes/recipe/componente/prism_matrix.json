@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:prism_matrix",
+    "count": 2
+  }
+}

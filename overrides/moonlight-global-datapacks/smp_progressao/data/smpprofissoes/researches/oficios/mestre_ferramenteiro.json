@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.mestre_ferramenteiro.name",
+  "subtitle": "smpprofissoes.research.oficios.mestre_ferramenteiro.subtitle",
+  "icon": "silentgear:upgrade_base",
+  "researchLevel": 3,
+  "sortOrder": 67,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:emerald"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/mestre_ferramenteiro",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_precisao"
+}

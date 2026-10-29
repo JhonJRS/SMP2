@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.cavaleiros_cristal.name",
+  "subtitle": "smpprofissoes.research.oficios.cavaleiros_cristal.subtitle",
+  "icon": "crystal_chronicles:holy_knight_chestplate",
+  "researchLevel": 3,
+  "sortOrder": 36,
+  "costs": [
+    {
+      "count": 16,
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/estudos_pergaminhos"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/vestes_arcanas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/cavaleiros_cristal",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/cronicas_cristal"
+}

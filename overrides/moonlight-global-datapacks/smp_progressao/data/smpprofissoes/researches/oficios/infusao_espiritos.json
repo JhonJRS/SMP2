@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.infusao_espiritos.name",
+  "subtitle": "smpprofissoes.research.oficios.infusao_espiritos.subtitle",
+  "icon": "malum:soul_stained_steel_ingot",
+  "researchLevel": 2,
+  "sortOrder": 41,
+  "costs": [
+    {
+      "count": 16,
+      "item": "malum:arcane_spirit"
+    },
+    {
+      "count": 32,
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/infusao_espiritos",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_malum"
+}

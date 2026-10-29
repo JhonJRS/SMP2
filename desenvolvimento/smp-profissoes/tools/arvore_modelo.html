@@ -1,0 +1,167 @@
+<title>Guild of Trades</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: abas por profissão; cada linha de mod é uma faixa com 5 colunas (nível 1 → 5), nós ligados pai → filho; detalhe ao lado */
+:root {
+  --bg: #eef0f2; --panel: #ffffff; --ink: #1d2329; --muted: #5b6672; --line: #c9d0d6; --soft: #e3e7ea;
+  --eng: #b7791f; --arc: #7b4bb8; --fer: #b8322f; --nat: #2f8a4c; --gold: #c99a17;
+  --display: "Alegreya SC", Georgia, serif; --body: "Alegreya Sans", "Segoe UI", system-ui, sans-serif; --mono: "JetBrains Mono", Consolas, monospace;
+  --acc: var(--eng);
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #15191d; --panel: #1e2429; --ink: #e7ebee; --muted: #9aa5af; --line: #38424b; --soft: #262e35;
+  --eng: #e0a33f; --arc: #b18be8; --fer: #ec6f6a; --nat: #5fc27f; --gold: #f2c94c; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #15191d; --panel: #1e2429; --ink: #e7ebee; --muted: #9aa5af; --line: #38424b; --soft: #262e35;
+  --eng: #e0a33f; --arc: #b18be8; --fer: #ec6f6a; --nat: #5fc27f; --gold: #f2c94c; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 20px; }
+header h1 { font: 700 2rem/1.1 var(--display); margin: 0; letter-spacing: .02em; text-wrap: balance; }
+header p { margin: 6px 0 0; color: var(--muted); max-width: 70ch; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tab { font: 700 .95rem var(--display); letter-spacing: .04em; border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 8px 14px; border-radius: 999px; cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+.tab .n { font: 500 .75rem var(--mono); color: var(--muted); }
+.tab[aria-selected="true"] { border-color: var(--acc); box-shadow: inset 0 0 0 1px var(--acc); }
+.tab:focus-visible, .no:focus-visible { outline: 2px solid var(--acc); outline-offset: 2px; }
+.legenda { display: flex; flex-wrap: wrap; gap: 14px; color: var(--muted); font-size: .85rem; }
+.legenda span { display: inline-flex; gap: 6px; align-items: center; }
+.sw { width: 14px; height: 14px; border-radius: 4px; border: 2px solid var(--line); background: var(--panel); }
+.sw.x { border-style: dashed; border-color: var(--acc); }
+.sw.g { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 18%, var(--panel)); }
+.corpo { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 20px; align-items: start; }
+@media (max-width: 900px) { .corpo { grid-template-columns: minmax(0, 1fr); } }
+.faixas { display: grid; gap: 16px; min-width: 0; }
+.faixa { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px 14px; min-width: 0; }
+.faixa h2 { font: 700 1.05rem var(--display); letter-spacing: .03em; margin: 0 0 8px; display: flex; gap: 10px; align-items: baseline; }
+.faixa h2 small { font: 400 .78rem var(--mono); color: var(--muted); }
+.rolagem { overflow-x: auto; }
+.grade { position: relative; }
+.cab { display: grid; grid-template-columns: repeat(5, var(--col)); font: 500 .7rem var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 4px; }
+svg.fios { position: absolute; inset: 0; pointer-events: none; overflow: visible; }
+svg.fios path { fill: none; stroke: var(--line); stroke-width: 2; }
+.no { position: absolute; width: calc(var(--col) - 26px); box-sizing: border-box; background: var(--panel); border: 2px solid var(--line); border-radius: 8px; padding: 6px 9px; text-align: left; cursor: pointer; color: var(--ink); font: 500 .86rem/1.25 var(--body); }
+.no .nv { font: 500 .66rem var(--mono); color: var(--muted); display: block; }
+.no.cruz { border-style: dashed; border-color: var(--acc); }
+.no.top { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 14%, var(--panel)); }
+.no.sel { box-shadow: 0 0 0 3px color-mix(in srgb, var(--acc) 45%, transparent); }
+.no:hover { border-color: var(--acc); }
+aside { position: sticky; top: max(16px, env(safe-area-inset-top, 0px)); background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
+aside h3 { font: 700 1.2rem/1.2 var(--display); margin: 0; text-wrap: balance; }
+aside .eyebrow { font: 500 .72rem var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+aside p { margin: 0; color: var(--muted); }
+aside dl { margin: 0; display: grid; gap: 8px; }
+aside dt { font: 700 .78rem var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+aside dd { margin: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { font: 400 .74rem var(--mono); background: var(--soft); border-radius: 4px; padding: 1px 6px; overflow-wrap: anywhere; }
+.badge { font: 700 .7rem var(--body); text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--acc); color: var(--acc); justify-self: start; }
+.badge.g { border-color: var(--gold); color: var(--gold); }
+@media (prefers-reduced-motion: no-preference) { .no { transition: border-color .15s, box-shadow .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Guild of Trades</h1>
+    <p>The colony research tab of SMP 2, drawn by profession. Each band is one mod line from foundation (level 1) to its capstone (level 5). Dashed nodes also need research from another profession; gold nodes are the level-5 game changers.</p>
+  </header>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div class="legenda">
+    <span><i class="sw"></i>Research</span>
+    <span><i class="sw x"></i>Cross-profession (needs another line)</span>
+    <span><i class="sw g"></i>Level 5 · game changer</span>
+  </div>
+  <div class="corpo">
+    <div class="faixas" id="faixas"></div>
+    <aside id="detalhe" aria-live="polite"><p>Select a research to see its cost, buildings and what it unlocks.</p></aside>
+  </div>
+</div>
+
+<script>
+const D = /*DADOS*/null;
+const COR = { engenheiro: "--eng", arcanista: "--arc", ferreiro: "--fer", naturalista: "--nat" };
+const NOME_PROF = Object.fromEntries(D.profs.map(p => [p.id, p.nome]));
+const COL = () => (innerWidth < 600 ? 170 : 196), ROW = 64;
+let atual = null, selecionado = null;
+try { atual = localStorage.getItem("got-prof"); } catch (e) {}
+if (location.hash && NOME_PROF[location.hash.slice(1)]) atual = location.hash.slice(1);
+if (!NOME_PROF[atual]) atual = D.profs[0].id;
+
+function abas() {
+  const t = document.getElementById("tabs"); t.innerHTML = "";
+  for (const p of D.profs) {
+    const b = document.createElement("button");
+    b.className = "tab"; b.id = "tab-" + p.id; b.setAttribute("role", "tab"); b.setAttribute("aria-selected", p.id === atual);
+    b.style.setProperty("--acc", `var(${COR[p.id]})`);
+    b.innerHTML = `${p.nome}<span class="n">${D.nos.filter(n => n.prof === p.id).length}</span>`;
+    b.onclick = () => { atual = p.id; selecionado = null; try { localStorage.setItem("got-prof", atual); } catch (e) {} render(); };
+    t.append(b);
+  }
+}
+
+function render() {
+  abas();
+  document.documentElement.style.setProperty("--acc", `var(${COR[atual]})`);
+  const col = COL(); document.documentElement.style.setProperty("--col", col + "px");
+  const box = document.getElementById("faixas"); box.innerHTML = "";
+  const nos = D.nos.filter(n => n.prof === atual);
+  const raizes = nos.filter(n => !n.pai);
+  const filhos = {}; for (const n of nos) if (n.pai) (filhos[n.pai] ||= []).push(n);
+  for (const r of raizes) {
+    const pos = {}; let linha = 0;
+    (function dfs(n) {
+      const fs = filhos[n.id] || [];
+      if (!fs.length) { pos[n.id] = linha++; return; }
+      fs.forEach(dfs); pos[n.id] = pos[fs[0].id];
+    })(r);
+    const total = Object.keys(pos).length, linhas = linha;
+    const sec = document.createElement("section"); sec.className = "faixa";
+    sec.innerHTML = `<h2>${r.nome}<small>${total} research · up to level ${Math.max(...Object.keys(pos).map(id => nos.find(n => n.id === id).nivel))}</small></h2>`;
+    const rol = document.createElement("div"); rol.className = "rolagem";
+    const cab = document.createElement("div"); cab.className = "cab";
+    cab.innerHTML = [1, 2, 3, 4, 5].map(l => `<span>Level ${l}</span>`).join("");
+    const g = document.createElement("div"); g.className = "grade";
+    g.style.width = 5 * col + "px"; g.style.height = linhas * ROW + "px";
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg"); svg.classList.add("fios");
+    svg.setAttribute("width", 5 * col); svg.setAttribute("height", linhas * ROW);
+    for (const id of Object.keys(pos)) {
+      const n = nos.find(x => x.id === id);
+      const b = document.createElement("button");
+      b.className = "no" + (n.extra.length ? " cruz" : "") + (n.nivel === 5 ? " top" : "") + (id === selecionado ? " sel" : "");
+      b.style.left = (n.nivel - 1) * col + "px"; b.style.top = pos[id] * ROW + 4 + "px";
+      b.innerHTML = `<span class="nv">L${n.nivel}${n.extra.length ? " · cross" : ""}</span>${n.nome}`;
+      b.onclick = () => { selecionado = id; detalhe(n); render(); };
+      g.append(b);
+      if (n.pai && pos[n.pai] !== undefined) {
+        const p = nos.find(x => x.id === n.pai);
+        const x1 = (p.nivel - 1) * col + col - 26, y1 = pos[n.pai] * ROW + 26, x2 = (n.nivel - 1) * col, y2 = pos[id] * ROW + 26;
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        const mx = (x1 + x2) / 2;
+        path.setAttribute("d", `M${x1} ${y1} C${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`);
+        svg.append(path);
+      }
+    }
+    g.prepend(svg); rol.append(cab, g); sec.append(rol); box.append(sec);
+  }
+  const sel = D.nos.find(n => n.id === selecionado && n.prof === atual);
+  if (sel) detalhe(sel); else document.getElementById("detalhe").innerHTML = "<p>Select a research to see its cost, buildings and what it unlocks.</p>";
+}
+
+function chips(lista) { return `<div class="chips">${lista.map(x => `<span class="chip">${x}</span>`).join("")}</div>`; }
+function detalhe(n) {
+  const a = document.getElementById("detalhe");
+  const lib = n.libera.map(l => `<dd><strong>${l.quem}</strong>${l.mods.length ? ` · whole mod: ${l.mods.join(", ")}` : ""}${l.itens.length ? chips(l.itens.map(i => i.replace(/_/g, " ")).concat(l.mais ? [`+${l.mais} more`] : [])) : ""}${l.componentes.length ? `<div class="chips"><span class="chip">component: ${l.componentes.join(", ")}</span></div>` : ""}</dd>`).join("");
+  a.innerHTML = `<span class="eyebrow">${NOME_PROF[n.prof]} · level ${n.nivel}</span>
+    <h3>${n.nome}</h3>${n.nivel === 5 ? '<span class="badge g">Game changer</span>' : n.extra.length ? '<span class="badge">Cross-profession</span>' : ""}
+    <p>${n.sub}</p>
+    <dl>
+      ${n.pai ? `<div><dt>After</dt><dd>${D.nos.find(x => x.id === n.pai).nome}</dd></div>` : ""}
+      ${n.extra.length ? `<div><dt>Also needs</dt><dd>${n.extra.join(", ")} <span class="chip">${n.extraProf.map(p => NOME_PROF[p] || p).join(", ")}</span></dd></div>` : ""}
+      <div><dt>Buildings</dt><dd>${chips(n.predios)}</dd></div>
+      <div><dt>Cost</dt><dd>${chips(n.custos)}</dd></div>
+      ${lib ? `<div><dt>Unlocks</dt>${lib}</div>` : `<div><dt>Unlocks</dt><dd>The next research in this line</dd></div>`}
+    </dl>`;
+}
+addEventListener("resize", () => { clearTimeout(window.__r); window.__r = setTimeout(render, 150); });
+render();
+</script>

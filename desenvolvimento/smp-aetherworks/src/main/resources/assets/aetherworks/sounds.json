@@ -1,0 +1,26 @@
+{
+  "block.forge_groan": {
+    "sounds": [
+      "aetherworks:forge_groan"
+    ],
+    "subtitle": "subtitles.aetherworks.block.forge_groan"
+  },
+  "item.aethershield.lower": {
+    "sounds": [
+      "aetherworks:shield_lower"
+    ],
+    "subtitle": "subtitles.aetherworks.item.aethershield.lower"
+  },
+  "item.aethershield.raise1": {
+    "sounds": [
+      "aetherworks:shield_raise_1"
+    ],
+    "subtitle": "subtitles.aetherworks.item.aethershield.raise"
+  },
+  "item.aethershield.raise2": {
+    "sounds": [
+      "aetherworks:shield_raise_2"
+    ],
+    "subtitle": "subtitles.aetherworks.item.aethershield.raise"
+  }
+}

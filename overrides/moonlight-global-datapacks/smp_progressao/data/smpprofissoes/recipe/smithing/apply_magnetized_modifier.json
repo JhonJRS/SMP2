@@ -1,0 +1,10 @@
+{
+  "type": "forbidden_arcanus:apply_modifier",
+  "addition": {
+    "item": "forbidden_arcanus:whirlwind_prism"
+  },
+  "modifier": "forbidden_arcanus:magnetized",
+  "template": {
+    "item": "forbidden_arcanus:apply_modifier_smithing_template"
+  }
+}

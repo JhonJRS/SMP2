@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "smpprofissoes"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sereneseasons"
+    }
+  ],
+  "dimensions": {
+    "minecraft:overworld": {
+      "priority": 0,
+      "spawn_requirements": {
+        "rules": [
+          {
+            "type": "enhancedcelestials2core:min_nights_between",
+            "settings": {
+              "min_nights": 12
+            }
+          },
+          {
+            "type": "enhancedcelestials2core:valid_moon_phase",
+            "settings": {
+              "valid_moon_phases": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            }
+          },
+          {
+            "type": "smpprofissoes:season",
+            "settings": {
+              "seasons": [
+                "AUTUMN",
+                "WINTER"
+              ]
+            }
+          }
+        ],
+        "weight": 10
+      }
+    }
+  },
+  "lunar_event": "enhancedcelestials2defaultlunarevents:blood_moon"
+}

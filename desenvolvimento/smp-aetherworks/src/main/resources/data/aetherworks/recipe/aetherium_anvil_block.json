@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "c:storage_blocks/dawnstone"
+    },
+    "P": {
+      "item": "aetherworks:plate_aether"
+    },
+    "X": {
+      "item": "aetherworks:ingot_aether"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "XDX"
+  ],
+  "result": {
+    "id": "aetherworks:forge_anvil"
+  },
+  "show_notification": true
+}

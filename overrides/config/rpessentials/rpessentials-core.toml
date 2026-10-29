@@ -1,0 +1,173 @@
+["Obfuscation Settings"]
+	#The distance (in blocks) required to see another player's name clearly.
+	#Beyond this distance the name is replaced by '???'. Default: 8 blocks.
+	# Default: 12
+	# Range: 1 ~ 128
+	proximityDistance = 12
+	#Enables or disables the name blurring system.
+	enableBlur = true
+	#Number of characters used to replace the name (e.g. 5 → '?????').
+	# Default: 5
+	# Range: 1 ~ 16
+	obfuscatedNameLength = 5
+	#If true, prefixes (ranks, titles) are also hidden in the TabList.
+	obfuscatePrefix = true
+	#If true, sneaking players are only visible at a much closer distance.
+	enableSneakStealth = true
+	#Distance at which sneaking players can be detected. Default: 2 blocks.
+	# Default: 1
+	# Range: 1 ~ 32
+	sneakProximityDistance = 1
+	#If true, operators and staff always see all names clearly.
+	opsSeeAll = true
+	#DEBUG only — applies blur to yourself. Never leave enabled in production.
+	debugSelfBlur = false
+	#If true, hides all player nametags above their heads.
+	#This config is synced to clients via HideNametagsPacket.
+	hideNametags = false
+	#If true, displays LuckPerms prefix/suffix above player heads.
+	showNametagPrefixSuffix = true
+	#Players who always see everything clearly and are never obfuscated.
+	whitelist = []
+	#Players who are always obfuscated regardless of proximity.
+	blacklist = []
+	#Players who are always shown clearly in the TabList.
+	alwaysVisibleList = []
+	#If true, spectators are also subject to name blurring.
+	blurSpectators = true
+	#If true, tab-whitelisted players are also exempted from profession restrictions.
+	whitelistExemptProfessions = false
+
+["Permissions System"]
+	#LuckPerms tags/groups considered as staff.
+	staffTags = ["admin", "moderator", "staff", "builder"]
+	#Minimum OP level to bypass all restrictions. 0 = disabled.
+	# Default: 2
+	# Range: 0 ~ 4
+	opLevelBypass = 2
+	#If true, uses LuckPerms groups to determine staff status.
+	useLuckPermsGroups = true
+	#LuckPerms groups considered as staff. Only used if useLuckPermsGroups = true.
+	luckPermsStaffGroups = ["admin", "moderateur", "staff"]
+
+["World Border Warning"]
+	#Enable warning when players reach the world border distance. Since the 4.2.0, if the value is set to false, the world border will now be completely disabled.
+	enableWorldBorderWarning = true
+	#Distance from spawn (blocks) before warning is triggered.
+	# Default: 1500
+	# Range: 100 ~ 100000
+	worldBorderDistance = 1500
+	#If true, players reaching the world border are teleported to the opposite side.
+	worldBorderTeleportEnabled = false
+	#Per-dimension world border overrides.
+	#Format: dimension;distance;teleport;prewarnDistance
+	#  dimension      : resource location (e.g. minecraft:overworld)
+	#  distance       : border distance in blocks from spawn (0 = use global value)
+	#  teleport       : true/false (overrides global worldBorderTeleportEnabled)
+	#  prewarnDistance: pre-warning distance (0 = use global value)
+	#Example: minecraft:the_nether;1000;false;800
+	worldBorderDimensionOverrides = []
+	#Distance from spawn at which the pre-warning is sent, before the hard border.
+	#Must be less than worldBorderDistance. Set to 0 to disable.
+	# Default: 0
+	# Range: 0 ~ 100000
+	worldBorderPrewarnDistance = 0
+	#Message sent when a player reaches the pre-warning distance.
+	#Variables: {distance}, {player}, {border}
+	worldBorderPrewarnMessage = "§e⚠ You are approaching the world border ({distance} blocks from center). Limit: {border} blocks."
+	#Message displayed when player reaches border. Variables: {distance}, {player}
+	worldBorderMessage = "§c§l⚠ WARNING §r§7You've reached the limit of the world! (§c{distance} blocks§7)"
+	#Check interval in ticks (20 = 1 second).
+	# Default: 40
+	# Range: 20 ~ 200
+	worldBorderCheckInterval = 40
+	#Named zones with entry/exit messages.
+	#Format without dimension: name;centerX;centerZ;radius;messageEnter;messageExit
+	#Format with dimension:    name;centerX;centerZ;radius;dimension;messageEnter;messageExit
+	#Example: spawn;0;0;50;minecraft:overworld;Welcome to spawn!;You left spawn.
+	namedZones = []
+	#Display mode for zone/border messages: IMMERSIVE, CHAT, ACTION_BAR.
+	zoneMessageMode = "ACTION_BAR"
+
+[DeathRP]
+	#Global state of the Death RP system.
+	#When true, all players without an individual override are affected.
+	globalEnabled = false
+	#Automatically remove the player from the whitelist on RP death.
+	whitelistRemove = false
+
+	[DeathRP.deathEvent]
+		#Message broadcast to all players on RP death.
+		#Variables: {player} (nickname), {realname} (MC name). Supports & and § color codes.
+		deathMessage = "&c[Death RP] &f{player} &7({realname}) &chas permanently lost their life."
+		#Sound played to all players on RP death. Format: namespace:sound_id. 'none' to disable.
+		deathSound = "minecraft:entity.wither.death"
+		#Volume of the death sound (0.0 - 10.0).
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		deathSoundVolume = 1.0
+		#Pitch of the death sound (0.5 - 2.0).
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		deathSoundPitch = 1.0
+
+	[DeathRP.playerToggle]
+		#Message sent to the player when their RP death is individually enabled.
+		#Variables: {player}, {realname}.
+		enableMessage = "&6[Death RP] &fYour RP death has been &aenabled&f. Your next death will be permanent."
+		#Display mode for individual enable message: CHAT, ACTION_BAR, TITLE, IMMERSIVE.
+		enableMessageMode = "CHAT"
+		#Message sent to the player when their RP death is individually disabled.
+		#Variables: {player}, {realname}.
+		disableMessage = "&6[Death RP] &fYour RP death has been &cdisabled&f."
+		#Display mode for individual disable message: CHAT, ACTION_BAR, TITLE, IMMERSIVE.
+		disableMessageMode = "CHAT"
+		#Sound played to the player on individual toggle. 'none' to disable.
+		toggleSound = "minecraft:block.note_block.pling"
+		#Volume of the individual toggle sound (0.0 - 10.0).
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		toggleSoundVolume = 1.0
+		#Pitch of the individual toggle sound (0.5 - 2.0).
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		toggleSoundPitch = 1.0
+
+	[DeathRP.globalToggle]
+		#Message broadcast when the Death RP system is globally enabled.
+		#Variables: {staff}.
+		enableMessage = "&6[Death RP] &fThe Death RP system has been &aenabled &fby {staff}."
+		#Display mode for global enable message: CHAT, ACTION_BAR, TITLE, IMMERSIVE.
+		enableMessageMode = "CHAT"
+		#Message broadcast when the Death RP system is globally disabled.
+		#Variables: {staff}.
+		disableMessage = "&6[Death RP] &fThe Death RP system has been &cdisabled &fby {staff}."
+		#Display mode for global disable message: CHAT, ACTION_BAR, TITLE, IMMERSIVE.
+		disableMessageMode = "CHAT"
+		#Sound played to all on global toggle. 'none' to disable.
+		globalToggleSound = "minecraft:ui.toast.challenge_complete"
+		#Volume of the global toggle sound (0.0 - 10.0).
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		globalToggleSoundVolume = 1.0
+		#Pitch of the global toggle sound (0.5 - 2.0).
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		globalToggleSoundPitch = 1.0
+
+[Roles]
+	#Role definitions with their associated permissions.
+	#Format: id;luckpermsGroup;perm1,perm2,...
+	#
+	#Available permissions:
+	#  isStaff                : access to staff commands
+	#  tabWhitelist           : always shown clearly in the tab list
+	#  scheduleWhitelist      : can connect outside server hours
+	#  professionWhitelist    : bypasses profession restrictions
+	#  seeNicknames           : sees 'Nickname (RealName)' in tab
+	#  seeAll                 : sees all players clearly in tab regardless of range
+	#  bypassWorldBorder      : not teleported by world border
+	#  spyMessages            : receives spy messages (proximity chat, RP actions)
+	#  bypassAutoUnwhitelist  : never removed by auto-unwhitelist
+	#  bypassDeathRpWhitelist : death RP does not remove them from whitelist
+	roles = ["admin;admin;isStaff,professionWhitelist,scheduleWhitelist,seeNicknames,seeAll,bypassWorldBorder,spyMessages,bypassAutoUnwhitelist,bypassDeathRpWhitelist", "moderator;moderator;isStaff,scheduleWhitelist,professionWhitelist,seeNicknames,bypassWorldBorder,bypassAutoUnwhitelist,bypassDeathRpWhitelist", "builder;builder;scheduleWhitelist,professionWhitelist,bypassWorldBorder,bypassAutoUnwhitelist,bypassDeathRpWhitelist", "player;player"]

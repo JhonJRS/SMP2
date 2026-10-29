@@ -1,0 +1,50 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.regalia_praga.name",
+  "subtitle": "smpprofissoes.research.oficios.regalia_praga.subtitle",
+  "icon": "toxony:plague_doctor_hood",
+  "researchLevel": 4,
+  "sortOrder": 109,
+  "costs": [
+    {
+      "count": 1,
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "count": 32,
+      "item": "toxony:toxin"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/logistica_seguranca"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/regalia_praga",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/alquimia_natural"
+}

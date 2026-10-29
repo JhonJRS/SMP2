@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "embers:archaic_circuit"
+    },
+    "D": {
+      "tag": "c:ingots/dawnstone"
+    },
+    "L": {
+      "item": "aetherworks:aetherium_lens"
+    }
+  },
+  "pattern": [
+    "DLD",
+    "LCL",
+    "DLD"
+  ],
+  "result": {
+    "id": "aetherworks:prism"
+  },
+  "show_notification": true
+}

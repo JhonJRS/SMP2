@@ -1,0 +1,14 @@
+{
+  "type": "neovitae:ara_vitae_recipe",
+  "bloodNeeded": 4000,
+  "craftSpeed": 5,
+  "drainSpeed": 5,
+  "input": {
+    "item": "smpprofissoes:vital_flask_base"
+  },
+  "minTier": 1,
+  "output": {
+    "count": 1,
+    "id": "neovitae:alchemy_flask"
+  }
+}

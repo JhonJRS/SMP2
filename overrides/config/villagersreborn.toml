@@ -1,0 +1,68 @@
+[appearance]
+	#Allowed Values: SELECTION_SCREEN, MODERN, FANTASY
+	newWorldSkinType = "SELECTION_SCREEN"
+	customVillagerSkins = true
+	customIllagerSkins = true
+	customWitchSkin = true
+	customPillagerModel = true
+	customVindicatorModel = true
+	customEvokerModel = true
+	customVillagerSounds = true
+	customIllagerSounds = true
+	villagerNameTag = true
+	pressRToTalkIndicator = true
+
+[compatibility]
+	guardVillagersVisualCompat = true
+	enableCuriosCompatibility = true
+	enableAccessoriesCompatibility = true
+	enableFarmersDelightSpouseCookingCompatibility = true
+	enableEasyVillagersCompatibility = true
+	enableMCACompatibility = true
+	# Default: 50
+	# Range: 0 ~ 100
+	mcaVillagerSpawnChance = 50
+
+[gameplay]
+	# Default: 1.0
+	# Range: 0.5 ~ 1.5
+	dialogueCameraSensitivity = 1.0
+	invertDialogueCameraX = false
+	invertDialogueCameraY = false
+	dialogueScreenBlur = false
+	forceFirstPersonInDialogue = false
+	# Default: 5.0
+	# Range: 0.1 ~ 100.0
+	healthPerGoldenCarrot = 5.0
+	# Default: 100.0
+	# Range: 0.0 ~ 1000.0
+	maxBonusHealth = 100.0
+
+[family]
+	genderedRelationshipLabels = true
+	allowMultiplePlayerSpouses = true
+	spouseCookingEnabled = true
+	# Default: 24000
+	# Range: 1200 ~ 240000
+	spouseCookingCooldownTicks = 24000
+	enableWeddingCutscene = true
+	enableFamilyCutscene = true
+	# Default: 144000
+	# Range: 20 ~ 24000000
+	pregnancyDurationTicks = 144000
+	enablePregnancyBelly = true
+	enableHavingChildren = true
+	# Default: 3
+	# Range: 1 ~ 20
+	familyCharmMaxChildrenPerPair = 3
+	enableNaturalFamilySpawns = true
+	enableAging = true
+	# Default: 144000
+	# Range: 20 ~ 24000000
+	toddlerDurationTicks = 144000
+	# Default: 336000
+	# Range: 20 ~ 24000000
+	childDurationTicks = 336000
+	# Default: 336000
+	# Range: 20 ~ 24000000
+	teenDurationTicks = 336000

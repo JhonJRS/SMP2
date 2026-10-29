@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.rituais_sangue.name",
+  "subtitle": "smpprofissoes.research.oficios.rituais_sangue.subtitle",
+  "icon": "neovitae:ritual_diviner",
+  "researchLevel": 3,
+  "sortOrder": 54,
+  "costs": [
+    {
+      "count": 4,
+      "item": "minecraft:gold_block"
+    },
+    {
+      "count": 32,
+      "item": "neovitae:bloodstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/rituais_sangue",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arranjos_vitae"
+}

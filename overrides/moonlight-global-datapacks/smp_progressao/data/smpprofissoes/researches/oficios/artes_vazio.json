@@ -1,0 +1,53 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.artes_vazio.name",
+  "subtitle": "smpprofissoes.research.oficios.artes_vazio.subtitle",
+  "icon": "malum:weight_of_worlds",
+  "researchLevel": 4,
+  "sortOrder": 44,
+  "costs": [
+    {
+      "count": 8,
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "count": 16,
+      "item": "malum:void_salts"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/cadinho_espiritual"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/metalurgia_arcana"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/tecelagem_almas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/artes_vazio",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/rituais_convergencia"
+}

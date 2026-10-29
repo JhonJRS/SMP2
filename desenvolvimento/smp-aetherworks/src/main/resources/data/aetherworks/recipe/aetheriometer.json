@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "G": {
+      "item": "embers:atmospheric_gauge"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "embers:ember_jar"
+    }
+  },
+  "pattern": [
+    " IC",
+    "IGM",
+    " IC"
+  ],
+  "result": {
+    "id": "aetherworks:aetheriometer"
+  },
+  "show_notification": true
+}

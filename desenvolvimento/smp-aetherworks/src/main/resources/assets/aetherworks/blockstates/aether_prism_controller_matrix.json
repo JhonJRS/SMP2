@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aetherworks:block/aether_prism_control_matrix"
+    }
+  }
+}

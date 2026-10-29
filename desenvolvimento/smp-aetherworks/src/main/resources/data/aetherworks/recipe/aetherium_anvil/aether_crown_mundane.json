@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 6,
+  "emberPerHit": 80,
+  "input": {
+    "item": "aetherworks:aether_crown_crude"
+  },
+  "numberOfHits": 30,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "aetherworks:aether_crown_mundane"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2500
+}

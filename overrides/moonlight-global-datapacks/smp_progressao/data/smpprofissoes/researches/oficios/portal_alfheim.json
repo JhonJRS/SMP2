@@ -1,0 +1,49 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.portal_alfheim.name",
+  "subtitle": "smpprofissoes.research.oficios.portal_alfheim.subtitle",
+  "icon": "botania:alfheim_portal",
+  "researchLevel": 5,
+  "sortOrder": 107,
+  "costs": [
+    {
+      "count": 4,
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "count": 16,
+      "item": "botania:mana_diamond"
+    },
+    {
+      "count": 64,
+      "item": "botania:livingwood"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/alquimia_natural"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/boticario"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/portal_alfheim",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/sintese_terrasteel"
+}

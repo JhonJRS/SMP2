@@ -1,0 +1,68 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_cold"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "embers:raw_silver"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:ice"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:snow_block"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:diorite"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "aetherworks:aether_shard"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:raw_iron_block"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "chance": 3.0,
+      "count": 1,
+      "item": "minecraft:emerald"
+    },
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "aetherworks:block_shards_raw"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

@@ -1,0 +1,113 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF7B4FB3",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "text": "Soul Stained Steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 20.0,
+      "armor/helmet": 3,
+      "armor/chestplate": 8,
+      "armor/leggings": 6,
+      "armor/boots": 3,
+      "armor_durability": 30.0,
+      "armor_toughness": 4.0,
+      "attack_damage": 5.0,
+      "attack_speed": 0.0,
+      "charging_value": 0.8,
+      "draw_speed": 0.0,
+      "durability": 1600.0,
+      "enchantment_value": 16.0,
+      "harvest_speed": 10.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 9.0,
+      "magic_damage": 4.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 2.5,
+      "rarity": 70.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:jagged"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:cursed"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.15
+      },
+      "traits": [
+        {
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ],
+          "level": 1,
+          "trait": "silentgear:jagged"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 256.0
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 15.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:jagged"
+        }
+      ]
+    }
+  }
+}

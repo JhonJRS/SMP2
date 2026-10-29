@@ -1,0 +1,141 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:cabbage_seeds",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onion",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:lettuce_seeds",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:onion",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:strawberry_seeds",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:oat_seeds",
+      "required": false
+    },
+    {
+      "id": "vinery:apple_tree_sapling",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_sapling",
+      "required": false
+    },
+    {
+      "id": "minecolonies:cabbage",
+      "required": false
+    },
+    {
+      "id": "minecolonies:onion",
+      "required": false
+    },
+    {
+      "id": "minecolonies:garlic",
+      "required": false
+    },
+    {
+      "id": "enchanted:garlic",
+      "required": false
+    },
+    {
+      "id": "enchanted:belladonna_seeds",
+      "required": false
+    },
+    {
+      "id": "enchanted:water_artichoke",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:sooth_blossom_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:bleeding_heart_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:glow_leaf",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:needle_heart_seeds",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:barley_seeds",
+      "required": false
+    },
+    {
+      "id": "minecolonies:peas",
+      "required": false
+    },
+    {
+      "id": "minecolonies:chickpea",
+      "required": false
+    },
+    {
+      "id": "minecolonies:mint",
+      "required": false
+    },
+    {
+      "id": "minecolonies:durum",
+      "required": false
+    },
+    {
+      "id": "silentgear:flax_seeds",
+      "required": false
+    },
+    {
+      "id": "silentgear:fluffy_seeds",
+      "required": false
+    },
+    {
+      "id": "toxony:bloodroot",
+      "required": false
+    },
+    {
+      "id": "toxony:ocelot_mint",
+      "required": false
+    },
+    {
+      "id": "toxony:water_hemlock",
+      "required": false
+    },
+    {
+      "id": "toxony:whirlsnap",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:burst_bud",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:crimson_lily_seeds",
+      "required": false
+    },
+    {
+      "id": "supplementaries:flax",
+      "required": false
+    },
+    {
+      "id": "vinery:apple_leaves",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_leaves",
+      "required": false
+    }
+  ]
+}

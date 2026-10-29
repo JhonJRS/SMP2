@@ -1,0 +1,6 @@
+#Mob Settings
+[mobSpawning]
+	#The chance mobs can drop their cosmetics. 0 disables this feature. Ex. Witches dropping their hats.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	mobCosmetics = 0.05

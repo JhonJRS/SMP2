@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "toxony:moonlight_hemlock"
+    },
+    {
+      "item": "toxony:moonlight_hemlock"
+    },
+    {
+      "item": "herbalbrews:hibiscus"
+    },
+    {
+      "item": "botania:mana_pearl"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:pigmento_lendario",
+    "count": 1
+  }
+}

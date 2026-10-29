@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "silentgear:crimson_steel_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "simplybows:upgrades/reinforced_bow_frame"
+  }
+}

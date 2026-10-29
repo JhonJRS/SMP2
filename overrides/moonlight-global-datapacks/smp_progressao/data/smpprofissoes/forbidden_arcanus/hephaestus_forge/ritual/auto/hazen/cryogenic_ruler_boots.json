@@ -1,0 +1,78 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:divine_mold"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:ice_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:sea_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:cryomancer_boots"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:cryogenic_ruler_boots"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:divine_mold"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:ice_rune"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:archmage_codex"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:sea_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:cryomancer_boots"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:cryogenic_ruler_boots"
+    }
+  }
+}

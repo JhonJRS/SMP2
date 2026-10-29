@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "aetherworks:gem_aether"
+    },
+    "I": {
+      "item": "embers:inflictor_gem"
+    },
+    "X": {
+      "item": "aetherworks:ingot_aether"
+    }
+  },
+  "pattern": [
+    " X ",
+    "GIG",
+    " X "
+  ],
+  "result": {
+    "id": "aetherworks:potion_gem"
+  },
+  "show_notification": true
+}

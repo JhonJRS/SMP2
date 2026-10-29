@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arquitetura_industrial.name",
+  "subtitle": "smpprofissoes.research.oficios.arquitetura_industrial.subtitle",
+  "icon": "createdeco:industrial_iron_catwalk",
+  "researchLevel": 3,
+  "sortOrder": 2,
+  "costs": [
+    {
+      "count": 32,
+      "item": "create:andesite_alloy"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:stone_bricks"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 1
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/fundacao_create"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arquitetura_industrial",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_latao"
+}

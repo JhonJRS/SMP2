@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    },
+    {
+      "tag": "embers:aspectus/copper"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:aether_shard"
+    },
+    {
+      "item": "aetherworks:aether_shard"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:pickaxe_head_aether"
+  },
+  "tablet": {
+    "item": "aetherworks:pickaxe_head"
+  }
+}

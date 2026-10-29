@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "aetherworks:gem_aether"
+    },
+    "P": {
+      "item": "aetherworks:plate_aether"
+    },
+    "X": {
+      "item": "aetherworks:ingot_aether"
+    }
+  },
+  "pattern": [
+    "G  ",
+    " XP",
+    "  G"
+  ],
+  "result": {
+    "id": "aetherworks:crossbow_frame_crude"
+  },
+  "show_notification": true
+}

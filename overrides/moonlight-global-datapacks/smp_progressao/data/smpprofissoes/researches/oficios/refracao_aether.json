@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.refracao_aether.name",
+  "subtitle": "smpprofissoes.research.oficios.refracao_aether.subtitle",
+  "icon": "aetherworks:prism",
+  "researchLevel": 3,
+  "sortOrder": 24,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "count": 32,
+      "item": "embers:ember_crystal"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/logistica_ember"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/refracao_aether",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/processamento_ember"
+}

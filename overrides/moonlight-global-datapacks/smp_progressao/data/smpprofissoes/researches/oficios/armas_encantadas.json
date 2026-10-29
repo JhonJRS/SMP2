@@ -1,0 +1,58 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.armas_encantadas.name",
+  "subtitle": "smpprofissoes.research.oficios.armas_encantadas.subtitle",
+  "icon": "minecraft:nether_star",
+  "researchLevel": 4,
+  "sortOrder": 104,
+  "costs": [
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 1
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/arsenal_arcano"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/fundacao_ervas"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/metalurgia_arcana"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/prismas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/armas_encantadas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/profundezas_eldritch"
+}

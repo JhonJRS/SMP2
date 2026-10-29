@@ -1,0 +1,56 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.grimorios_lendarios.name",
+  "subtitle": "smpprofissoes.research.oficios.grimorios_lendarios.subtitle",
+  "icon": "hazennstuff:singularity",
+  "researchLevel": 5,
+  "sortOrder": 101,
+  "costs": [
+    {
+      "count": 4,
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    {
+      "count": 2,
+      "item": "hazennstuff:deus_essence"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/armas_encantadas"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/arsenal_arcano"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/cavaleiros_cristal"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/prismas"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/vestes_arcanas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/grimorios_lendarios",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/tintas_herbais"
+}

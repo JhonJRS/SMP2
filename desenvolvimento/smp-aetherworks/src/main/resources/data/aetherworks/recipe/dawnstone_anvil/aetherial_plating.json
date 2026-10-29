@@ -1,0 +1,13 @@
+{
+  "type": "embers:tool_augment",
+  "augment": "aetherworks:aetherial_plating",
+  "input": {
+    "item": "aetherworks:aetherial_plating"
+  },
+  "tool": {
+    "type": "embers:has_heat",
+    "base": {
+      "tag": "embers:augmentables/armors"
+    }
+  }
+}

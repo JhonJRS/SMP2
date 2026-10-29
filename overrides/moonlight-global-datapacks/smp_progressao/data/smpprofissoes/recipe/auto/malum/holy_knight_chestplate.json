@@ -1,0 +1,40 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:priest_chestplate"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:holy_rune"
+    },
+    {
+      "count": 1,
+      "item": "crystal_chronicles:divinite_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:holy_knight_chestplate",
+    "components": {
+      "irons_spellbooks:spell_container": {
+        "data": [],
+        "maxSpells": 1,
+        "mustEquip": true,
+        "spellWheel": true
+      }
+    }
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true
+}

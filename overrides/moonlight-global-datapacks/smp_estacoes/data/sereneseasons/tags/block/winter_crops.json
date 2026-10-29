@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "enchanted:snowbell",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:frost_mint_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:blue_spar_plant",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grape_bush_red",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grape_bush_white",
+      "required": false
+    },
+    {
+      "id": "toxony:coldsnap",
+      "required": false
+    },
+    {
+      "id": "toxony:snow_mint",
+      "required": false
+    },
+    {
+      "id": "enchanted:wolfsbane",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:iron_root_plant",
+      "required": false
+    }
+  ]
+}

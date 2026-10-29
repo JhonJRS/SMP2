@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "S": {
+      "item": "silentgear:tyrian_steel_ingot"
+    },
+    "L": {
+      "item": "toxony:lethal_dose"
+    },
+    "H": {
+      "item": "protection_pixel:heatoverlockingmechanism"
+    },
+    "M": {
+      "item": "ae2:matter_ball"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "TMS",
+    "MNM",
+    "LMH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:singularity"
+  }
+}

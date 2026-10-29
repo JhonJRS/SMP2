@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.armaria_vapor.name",
+  "subtitle": "smpprofissoes.research.oficios.armaria_vapor.subtitle",
+  "icon": "protection_pixel:foldedsteamectoskeleton",
+  "researchLevel": 3,
+  "sortOrder": 95,
+  "costs": [
+    {
+      "count": 48,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:iron_block"
+    },
+    {
+      "count": 32,
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/energia_vapor"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/armaria_vapor",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_latao"
+}

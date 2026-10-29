@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:propeller"
+    },
+    "D": {
+      "item": "create:mechanical_pump"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABZBA",
+    "ACDCA",
+    "ACECA"
+  ],
+  "result": {
+    "id": "protection_pixel:suspjetpack",
+    "count": 1
+  }
+}

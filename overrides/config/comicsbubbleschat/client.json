@@ -1,0 +1,37 @@
+{
+  "outlineColor": [
+    0,
+    0,
+    0,
+    220
+  ],
+  "insideColor": [
+    203,
+    203,
+    203,
+    220
+  ],
+  "textColor": [
+    0,
+    0,
+    0,
+    220
+  ],
+  "theme": "COMIC",
+  "durationBubbles": 10,
+  "maxBubblesStack": 0,
+  "lineWidth": 150,
+  "sizeBubble": 0,
+  "separators": [
+    ":",
+    "\u003e\u003e",
+    "\u003e",
+    "»",
+    "›",
+    "➢",
+    "⇝"
+  ],
+  "bubblesListener": true,
+  "throughBlock": true,
+  "forceFormatChat": false
+}

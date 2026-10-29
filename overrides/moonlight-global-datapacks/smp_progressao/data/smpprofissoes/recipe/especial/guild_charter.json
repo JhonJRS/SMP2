@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "F": {
+      "item": "silentgear:crimson_steel_ingot"
+    },
+    "T": {
+      "item": "toxony:toxin"
+    },
+    "B": {
+      "item": "minecraft:written_book"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "EAF",
+    "TNT",
+    "DBD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "smpprofissoes:guild_charter"
+  }
+}

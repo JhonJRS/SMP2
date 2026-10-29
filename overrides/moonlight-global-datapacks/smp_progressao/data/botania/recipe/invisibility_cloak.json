@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "G": {
+      "item": "botania:mana_glass"
+    },
+    "P": {
+      "item": "botania:mana_pearl"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "T": {
+      "item": "irons_spellbooks:timeless_slurry"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "GTG",
+    "GPG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:invisibility_cloak"
+  }
+}

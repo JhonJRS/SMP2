@@ -1,0 +1,453 @@
+[System]
+	#Message shown when the config is not yet loaded.
+	configNotLoaded = "§c[RpEssentials] Config not loaded."
+	#Message shown when a specific config value is unavailable.
+	configUnavailable = "§c[RpEssentials] Config unavailable."
+	#Message shown when the config spec is not yet built.
+	configNotBuilt = "§c[RpEssentials] Config not yet initialized."
+	#Message shown when a config value is successfully updated.
+	#Placeholders: {label} = option name, {value} = new value.
+	configUpdated = "§a[RpEssentials] §e{label} §aupdated: §f{value}"
+	#Message shown when a player-only command is run from console.
+	commandPlayerOnly = "§c[RpEssentials] This command can only be used by a player."
+
+["Private Messaging"]
+	#Tooltip shown when hovering a player name in a private message.
+	hoverReply = "Click to reply"
+	#Prefix shown to the sender of a private message.
+	#Placeholders: {target} = recipient display name.
+	toSender = "[PM] Writing to {target}: "
+	#Prefix shown to the recipient of a private message.
+	#Placeholders: {sender} = sender display name.
+	fromTarget = "[PM] {sender} writes: "
+	#Message shown when /r is used but there is no one to reply to.
+	noOneToReply = "§c[PM] You have no one to reply to."
+	#Message shown when /r is used but the last interlocutor has disconnected.
+	targetOffline = "§c[PM] This player is no longer online."
+	#Message shown to the target when the console sends a private message.
+	#Placeholders: {msg} = message content.
+	consoleTo = "§7[PM] §f§lServer§r§7 writes to you: {msg}"
+	#Feedback shown to the console after sending a private message.
+	#Placeholders: {target} = target player name, {msg} = message content.
+	consoleFrom = "§7[PM] Writing to §f§l{target}§r§7: {msg}"
+
+["Warn System"]
+	#Message sent to a player when they receive a permanent warn.
+	#Placeholders: {id} = warn ID, {reason} = reason.
+	receivedPermanent = """
+§c⚠ §lYou have received a warning §r§c(warn #{id})!
+§7Reason  : §f{reason}
+§7Duration: §fPermanent
+§7Type §l/mywarn §r§7to view all your warnings."""
+	#Message sent to a player when they receive a temporary warn.
+	#Placeholders: {id} = warn ID, {reason} = reason, {duration} = formatted duration.
+	receivedTemporary = """
+§c⚠ §lYou have received a temporary warning §r§c(warn #{id})!
+§7Reason  : §f{reason}
+§7Duration: §f{duration}
+§7Type §l/mywarn §r§7to view all your warnings."""
+	#Message shown when a warn ID cannot be found. Placeholder: {id}.
+	notFound = "§c[RpEssentials] Warn not found: §e#{id}"
+	#Message shown when a warn cannot be removed. Placeholder: {id}.
+	removeFailed = "§c[RpEssentials] Failed to remove warn §e#{id}"
+	#Message sent to the warned player when their warn is removed. Placeholder: {id}.
+	removedPlayer = "§a✔ Your warning §l#{id} §r§ahas been removed by staff."
+	#Message sent to the player when all their warns are cleared.
+	clearedPlayer = "§a✔ All your warnings have been cleared by staff."
+	#Message shown to the player when the warn system is disabled (via /mywarn).
+	systemDisabled = "§c[RpEssentials] The warn system is disabled."
+	#Message shown to staff when the warn system is disabled in config.
+	systemDisabledConfig = "§c[RpEssentials] The warn system is disabled in config."
+	#Header line of the warn list.
+	#Placeholders: {player} = player name, {count} = active warn count.
+	listHeader = "§6╔═ Warnings for §e{player} §6({count} active) ═╗"
+	#Message shown to staff when a player has no warns. Placeholder: {player}.
+	listNone = "§7[RpEssentials] §e{player} §7has no warnings."
+	#Message shown to a player when they have no active warns.
+	listNoneSelf = "§a✔ You have no active warnings."
+	#Message shown to staff when clearing a player who had no warns. Placeholder: {player}.
+	listNoneStaff = "§7[RpEssentials] §e{player} §7had no warnings."
+	#Message shown after a purge. Placeholder: {count} = purged count.
+	purgeDone = "§a[RpEssentials] Purge complete: §e{count} §aexpired warn(s) removed."
+	#Header of the warn info box. Placeholder: {id}.
+	infoHeader = "§6╔═ Warn #{id} ════════════════════════╗"
+	#'Player' label in warn info.
+	infoPlayer = "§6║ §7Player    : "
+	#'Staff' label in warn info.
+	infoStaff = "§6║ §7Staff     : "
+	#'Reason' label in warn info.
+	infoReason = "§6║ §7Reason    : "
+	#'Date' label in warn info.
+	infoDate = "§6║ §7Date      : "
+	#'Type' label in warn info.
+	infoType = "§6║ §7Type      : "
+	#'Expiry' label in warn info.
+	infoExpiry = "§6║ §7Expiry    : "
+	#Text for a permanent warn.
+	typePermanent = "§cPermanent"
+	#Text for an expired warn.
+	typeExpired = "§8Expired"
+	#Text for a temporary active warn.
+	typeTemporary = "§eTemporary"
+	#Tag for permanent warns in the list.
+	tagPerm = "§c[PERM]"
+	#Tag for temporary active warns in the list.
+	tagTemp = "§e[TEMP]"
+	#Tag for expired warns in the list.
+	tagExpired = "§8[EXP]"
+	#Message shown when temp warn duration exceeds the maximum.
+	#Placeholders: {maxDays}, {maxMinutes}.
+	maxDurationExceeded = "§c[RpEssentials] Maximum allowed duration: {maxDays} days ({maxMinutes} minutes)."
+	#Duration format for < 1 hour. Placeholder: {min}.
+	durationMinutes = "{min} minute(s)"
+	#Duration format for 1h–24h. Placeholders: {h}, {min}.
+	durationHours = "{h}h {min}min"
+	#Duration format for >= 1 day. Placeholders: {d}, {h}.
+	durationDays = "{d}d {h}h"
+
+["Last Connection"]
+	#Message shown when the last connection system is disabled in config.
+	disabled = "§c[RpEssentials] Last connection tracking is disabled in config."
+	#Message shown when a player cannot be found.
+	#Placeholders: {player} = player name.
+	playerNotFound = """
+§c[RpEssentials] Player not found: §e{player}
+§7(The player must have connected at least once.)"""
+	#Message shown when no connection data exists for a player. Placeholder: {player}.
+	noData = "§c[RpEssentials] No connection data for §e{player}"
+	#Message shown when no connection data exists at all.
+	noDataList = "§7[RpEssentials] No connection data recorded yet."
+	#Status label for an online player.
+	online = "§a● Online"
+	#Status label for an offline player.
+	offline = "§7○ Offline"
+	#Label when a value is unknown/missing.
+	unknown = "§8Unknown"
+	#Header of the last connection info box. Placeholder: none.
+	boxHeader = "§6╔═ Last connection ═══════════════════╗"
+	#'Player' label.
+	boxPlayer = "§6║ §7Player : "
+	#'Status' label.
+	boxStatus = "§6║ §7Status : "
+	#'Login' label.
+	boxLogin = "§6║ §7Login  : "
+	#'Logout' label.
+	boxLogout = "§6║ §7Logout : "
+	#Header of the last connection list.
+	#Placeholders: {shown} = displayed count, {total} = total count.
+	listHeader = "§6╔═ Recent connections ({shown}/{total}) ══╗"
+
+["Death RP"]
+	#Message shown when the DeathRP config is not yet available.
+	configUnavailable = "§c[RpEssentials] Config not yet available."
+	#Staff feedback when the global DeathRP system is enabled.
+	globalEnabled = "§a[RpEssentials] Global Death RP enabled."
+	#Staff feedback when the global DeathRP system is disabled.
+	globalDisabled = "§c[RpEssentials] Global Death RP disabled."
+	#Staff feedback when Death RP is enabled for a specific player.
+	#Placeholder: {player} = player name.
+	playerEnabled = "§a[RpEssentials] Death RP enabled for §e{player}§a."
+	#Staff feedback when Death RP is disabled for a specific player.
+	#Placeholder: {player} = player name.
+	playerDisabled = "§c[RpEssentials] Death RP disabled for §e{player}§c."
+	#Staff feedback when the individual override is removed.
+	#Placeholder: {player} = player name.
+	overrideReset = "§a[RpEssentials] Death RP override removed for §e{player}§a. They now follow the global setting."
+	#Header of the deathrp status box.
+	statusHeader = """
+§6═══════════════════════════════
+§6║ §eDeath RP System"""
+	#'Global state' label. Placeholder: {value}.
+	statusGlobal = "§6║ §7Global state  : {value}"
+	#'Whitelist removal' label. Placeholder: {value}.
+	statusWhitelist = "§6║ §7WL removal    : {value}"
+	#'Individual overrides' section header.
+	statusOverrides = "§6║ §eIndividual overrides:"
+	#Shown when there are no individual overrides.
+	statusNone = "§6║  §7(no overrides)"
+	#'Active' value in the status display.
+	statusActive = "§aActive"
+	#'Inactive' value in the status display.
+	statusInactive = "§cInactive"
+	#'Yes' value in the status display.
+	statusYes = "§aYes"
+	#'No' value in the status display.
+	statusNo = "§7No"
+	#Fallback when a player name cannot be resolved.
+	statusUnknown = "Unknown"
+
+[Whois]
+	#Message shown when no player is found for the given nickname.
+	#Placeholder: {nick} = searched nickname.
+	notFound = "§c[Whois] No player found with nickname: §f{nick}"
+	#Header shown before whois results.
+	#Placeholder: {nick} = searched nickname.
+	resultsHeader = "§6[Whois] §7Results for \"§f{nick}§7\":"
+
+["Player List"]
+	#Header of the /list command output.
+	#Placeholder: {count} = number of online players.
+	header = "§ePlayers online ({count}): "
+
+["Profession Restrictions"]
+	#Fallback message when the profession config is unavailable during a craft block.
+	craftBlockedFallback = "§cCrafting blocked."
+	#Fallback message when the profession config is unavailable during a block break.
+	breakBlockedFallback = "§cBlock breaking blocked."
+	#Fallback message when the profession config is unavailable during item use.
+	useBlockedFallback = "§cItem use blocked."
+	#Fallback message when the profession config is unavailable during equipment.
+	equipBlockedFallback = "§cEquipment blocked."
+	#Shown instead of a profession list when no professions are required (open to all).
+	noneAvailable = "§cNone"
+	#Shown when the profession restriction system is not yet initialized.
+	systemNotInit = "§cSystem not initialized"
+	#Part of the license check message when a player HAS the license.
+	#Placeholders: {player} = player name, {profession} = profession name.
+	hasLicense = "§e{player} §adoes have §ea §f{profession} §alicense."
+	#Part of the license check message when a player does NOT have the license.
+	#Placeholders: {player} = player name, {profession} = profession name.
+	noLicense = "§e{player} §cdoes NOT have §ea §f{profession} §clicense."
+
+["Schedule Display"]
+	#Header line of /schedule.
+	scheduleHeader = "§8§m----------------------------------"
+	#Status shown when server is open.
+	scheduleStatusOpen = "§a§lOPEN"
+	#Status shown when server is closed.
+	scheduleStatusClosed = "§c§lCLOSED"
+	#Format for an open day. Placeholders: {day} {open} {close}
+	scheduleDayOpenFormat = "{day} : §a{open}§7 → §c{close}"
+	#Format for a closed day. Placeholder: {day}
+	scheduleDayClosedFormat = "{day} : §cClosed"
+	#Prefix for the current day.
+	scheduleDayTodayPrefix = "§e▶ "
+	#Prefix for other days.
+	scheduleDayOtherPrefix = "  §7"
+	#Footer line of /schedule.
+	scheduleFooter = "§8§m----------------------------------"
+	#Day name for Monday.
+	dayMonday = "Monday"
+	#Day name for Tuesday.
+	dayTuesday = "Tuesday"
+	#Day name for Wednesday.
+	dayWednesday = "Wednesday"
+	#Day name for Thursday.
+	dayThursday = "Thursday"
+	#Day name for Friday.
+	dayFriday = "Friday"
+	#Day name for Saturday.
+	daySaturday = "Saturday"
+	#Day name for Sunday.
+	daySunday = "Sunday"
+	#Label for the Death Hours section.
+	scheduleDeathHoursLabel = "§c☠ Death Hours"
+	#Shown when death hours are active now.
+	scheduleDeathHoursActive = "§cACTIVE"
+	#Shown when death hours are not active now. Placeholder: {slots}
+	scheduleDeathHoursInactive = "§7{slots}"
+	#Label for the HRP Hours section.
+	scheduleHrpLabel = "§6✦ HRP Hours"
+	#Shown when HRP is currently tolerated.
+	scheduleHrpTolerated = "§6TOLERATED"
+	#Shown when HRP is currently allowed.
+	scheduleHrpAllowed = "§aALLOWED"
+	#Shown when HRP hours are not active now. Placeholder: {slots}
+	scheduleHrpInactive = "§7{slots}"
+	#Message broadcast to all players when death hours begin.
+	#Placeholder: {slots}
+	scheduleDeathHoursNotify = "§c☠ [Death Hours] RP death is now active until: {slots}. Be careful."
+	#Display mode for death hours notification: CHAT, ACTION_BAR, TITLE, IMMERSIVE.
+	scheduleDeathHoursNotifyMode = "CHAT"
+
+[Licenses]
+	#Prefix of the physical license item name.
+	#The profession name is appended automatically: e.g. '§aHunter §lLicense'.
+	#Placeholder: {profession} = formatted profession name (color + display name).
+	itemName = "§lLicense of "
+	#Lore line showing who the license was issued to.
+	#Placeholder: {player} = recipient display name.
+	loreIssuedTo = "§7Issued to: §f{player}"
+	#Lore line showing the issuance date on a permanent license.
+	#Placeholder: {date} = date string.
+	loreDate = "§7Date: §f{date}"
+	#Lore line showing the issuance date on an RP license.
+	#Placeholder: {date} = date string.
+	loreIssuedDate = "§7Issued on: §f{date}"
+	#Lore line showing the expiration date on an RP license.
+	#Placeholder: {date} = expiration date string.
+	loreValidUntil = "§7Valid until: §f{date}"
+	#Tooltip line shown on all license items.
+	tooltipOfficial = "§7Official document"
+	#Tooltip line shown on all license items.
+	tooltipNonTransferable = "§8Non-transferable"
+	#Bold title added to a revoked license item's lore.
+	revokedTitle = "§c§l✖ LICENSE REVOKED"
+	#Description line added to a revoked license item's lore.
+	revokedBody = "§cThis license is no longer valid."
+	#Error shown when an unknown profession ID is provided.
+	#Placeholder: {profession} = the unknown ID.
+	unknownProfession = "§c[RpEssentials] Unknown profession: {profession}"
+	#Staff feedback after issuing a permanent license.
+	#Placeholders: {profession} = formatted profession name, {player} = recipient name.
+	giveStaff = "§a[RpEssentials] License for {profession} §aissued to §f{player}"
+	#Notification sent to the player when they receive a permanent license.
+	#Placeholder: {profession} = formatted profession name.
+	givePlayer = "§aYou received a {profession}§6§l License§a!"
+	#Staff feedback after issuing an RP (temporary) license.
+	#Placeholders: {profession}, {player}, {days}, {date} = expiration date.
+	giveRpStaff = "§a[RpEssentials] Temporary license for {profession} §aissued to §f{player} §7({days} days, expires {date})"
+	#Notification sent to the player when they receive an RP license.
+	#Placeholders: {profession}, {date} = expiration date.
+	giveRpPlayer = "§aYou received a {profession}§6§l License §7valid until §f{date}"
+	#Staff feedback after revoking a license.
+	#Placeholders: {profession} = profession display name, {player} = player name.
+	revokeStaff = "§a[RpEssentials] License for §f{profession} §arevoked for §f{player}"
+	#Notification sent to the player when their license is revoked.
+	#Placeholder: {profession} = profession display name.
+	revokePlayer = "§cYour §f{profession} §clicense has been revoked."
+	#Message shown when a player has no licenses.
+	#Placeholder: {player} = player name.
+	listNone = "§e[RpEssentials] §f{player} §ehas no licenses."
+	#Header title of the license list box.
+	#Placeholder: {player} = player name.
+	listHeader = "§6║ §e§lLICENSES — §f{player}"
+	#Suffix appended to a license entry when it is an RP (temporary) license.
+	#Placeholder: {date} = expiration date.
+	listRpExpiry = " §7(RP - expires {date})"
+	#Message shown when no licenses are registered at all.
+	listAllNone = "§e[RpEssentials] No licenses registered."
+	#Header title line of the all-players license list.
+	listAllHeader = "§6║ §e§lLICENSES — ALL PLAYERS §6║"
+	#Shown in the all-players list when a player has no active license.
+	listAllNoneForPlayer = "§8None"
+	#Staff feedback after reissuing a license item.
+	#Placeholders: {profession} = profession display name, {player} = player name.
+	reissueStaff = "§a[RpEssentials] Replacement license for {profession} §agiven to §f{player}§a."
+	#Notification sent to the player when a replacement license item is given.
+	#Placeholder: {profession} = profession display name.
+	reissuePlayer = "§aYou received a replacement {profession}§6§l License§a."
+	#Error shown when the player does not have the license to reissue.
+	#Placeholders: {player} = player name, {profession} = profession id.
+	reissueNotFound = "§c[RpEssentials] §f{player} §cdoes not have the §f{profession} §clicense."
+	#Message sent to the player when their RP license expires.
+	#Placeholder: {profession} = profession display name.
+	expiredRpPlayer = "§cYour §f{profession} §clicense has expired. The item remains in your inventory."
+	#Message shown when a player sets their own nickname. Placeholder: {nick}
+	selfNickSet = "§aYour nickname has been set to: {nick}"
+	#Message shown when a player resets their own nickname.
+	selfNickReset = "§aYour nickname has been reset."
+	#Message shown when self-nick is disabled.
+	selfNickDisabled = "§c[RP] Self-nick is disabled on this server."
+	#Message shown when color codes are not allowed in self-nicks.
+	selfNickColorsDisabled = "§c[RP] Color codes are not allowed in self-assigned nicknames."
+	#Message shown when the nickname exceeds the max length. Placeholder: {max}
+	selfNickTooLong = "§c[RP] Nickname too long (max {max} characters)."
+
+["RP Commands"]
+	#Message shown when a player lacks permission for an RP staff command.
+	permissionDenied = "§c[ERROR] Permission denied."
+	#Message shown to the player when they use /rp afk.
+	afkTeleport = "§b[INFO] Transferring to AFK zone."
+	#Format of the /rp commerce broadcast.
+	#Placeholders: {player} = sender nickname, {message} = message content.
+	commerceFormat = "§a[COMMERCE] §e{player} §f: {message}"
+	#Format of the /rp incognito broadcast seen by all players.
+	#Placeholder: {message} = message content.
+	incognitoFormat = "§8§l[INCOGNITO] §7{message}"
+	#Log line sent to staff members when /rp incognito is used.
+	#Placeholders: {player} = real sender nickname, {message} = message content.
+	incognitoLog = "§7[INCOGNITO-LOG] §e{player} §7: §f{message}"
+	#Format of the /rp action and /me messages shown to nearby players.
+	#Placeholders: {player} = sender nickname, {action} = action text.
+	actionFormat = "§5* §e{player} §f{action} §5*"
+	#Format of the spy log shown to staff outside action range.
+	#Placeholders: {player} = sender nickname, {action} = action text.
+	actionSpy = "§7[SPY] §e{player} §7(far) : §5* §f{action} §5*"
+	#Title text shown in the center of the screen for /rp annonce title.
+	annonceTitleText = "§6§l[ANNONCE]"
+	#Subtitle format for /rp annonce title.
+	#Placeholder: {message} = announcement content.
+	annonceSubtitleFormat = "§e{message}"
+	#Format of /rp annonce chat broadcast.
+	#Placeholder: {message} = announcement content.
+	annonceChatFormat = "§6§l[ANNONCE] §f{message}"
+	#Feedback sent to the staff member after sending an announcement.
+	annonceSent = "§a[INFO] Announcement sent."
+
+[Roles]
+	#Shown when the role ID is not found. Placeholder: {role}
+	setroleUnknown = "§c[RPE] Unknown role: {role}."
+	#Staff feedback on /setrole. Placeholders: {role} {player}
+	setroleSuccessStaff = "§a✔ §aRole §e§l{role} §aassigned to §e§l{player}§a."
+	#Message sent to the target. Placeholder: {role}
+	setroleSuccessPlayer = "§6[RPE] §fYour role has been updated: §e§l{role}§f."
+
+["Schedule Commands"]
+	#Shown when a day schedule value is updated. Placeholders: {day} {type} {value}
+	scheduleDayUpdated = "§a[RPE] §e{day} {type} §aupdated: §f{value}"
+	#Shown when an invalid day is provided. Placeholder: {day}
+	scheduleDayInvalid = "§c[RPE] Invalid day: {day}"
+	#Shown when a day is enabled or disabled. Placeholders: {day} {state}
+	scheduleDayEnabled = "§a[RPE] §e{day} §a{state}."
+	#Shown when the time format is invalid.
+	scheduleTimeInvalid = "§c[RPE] Invalid format. Use HH:MM (e.g. 19:00)."
+	#Staff notification when a player is auto-unwhitelisted. Placeholders: {player} {days}
+	autoUnwhitelistStaffNotify = "§6[Auto-Unwhitelist] §e{player} §7removed ({days} days inactive). "
+
+["Proximity Chat"]
+	#Format shown to staff outside proximity range.
+	#Placeholders: {player}, {msg}, {distance}
+	proximityChatSpyFormat = "§7[PROX-SPY] §e{player} §7(§f{distance}m§7)§7: {msg}"
+	#Message sent to staff when they enable proximity spy.
+	proximityChatSpyEnabled = "§a[SPY] Proximity chat spy enabled."
+	#Message sent to staff when they disable proximity spy.
+	proximityChatSpyDisabled = "§c[SPY] Proximity chat spy disabled."
+
+["Mute System"]
+	#Message sent to the muted player. Placeholders: {reason} {duration}
+	muteReceived = "§c[MUTE] You have been muted. Reason: §f{reason}§c. Duration: §f{duration}§c."
+	#Message sent when mute expires.
+	muteExpired = "§a[MUTE] Your mute has expired. You can chat again."
+	#Shown to muted player on login. Placeholders: {reason} {expiry}
+	muteNotifyOnJoin = "§c[MUTE] You are currently muted. Reason: §f{reason}§c. Expires: §f{expiry}§c."
+	#Shown when muted player tries to chat. Placeholder: {expiry}
+	muteBlockedMessage = "§c[MUTE] You cannot chat. Mute expires: §f{expiry}§c."
+	#Staff feedback when muting. Placeholders: {player} {duration} {reason}
+	muteStaffAdded = "§a[MUTE] §e{player} §amuted for §f{duration}§a. Reason: §f{reason}"
+	#Staff feedback when unmuting. Placeholder: {player}
+	muteStaffRemoved = "§a[MUTE] §e{player} §ahas been unmuted."
+	#Staff broadcast when auto-mute triggers. Placeholders: {player} {count} {duration}
+	muteAutoNotify = "§6[AUTO-MUTE] §e{player} §7auto-muted ({count} active warns, {duration})."
+
+["Staff Notes"]
+	#Feedback when a note is added. Placeholders: {player} {id}
+	noteAdded = "§a[NOTE] Note §e#{id} §aadded for §e{player}§a."
+	#Feedback when a note is removed. Placeholders: {player} {id}
+	noteRemoved = "§a[NOTE] Note §e#{id} §aremoved for §e{player}§a."
+	#Shown when player has no notes. Placeholder: {player}
+	noteNone = "§7[NOTE] No notes for §e{player}§7."
+	#Header of the note list. Placeholder: {player}
+	noteListHeader = "§6╔═ Notes for §e{player} §6═╗"
+
+["Death RP History"]
+	#Header of the death history. Placeholder: {player}
+	deathHistoryHeader = "§6╔═ Death RP History — §e{player} §6═╗"
+	#Shown when player has no death history. Placeholder: {player}
+	deathHistoryNone = "§7No death RP recorded for §e{player}§7."
+	#Format of each history entry. Placeholders: {index} {date} {cause}
+	deathHistoryEntry = "§6║ §e#{index} §7— §f{date} §7— {cause}"
+
+["RP Cooldowns"]
+	#Shown when a player is on cooldown. Placeholders: {command} {seconds}
+	rpCooldownMessage = "§c[RP] Please wait §e{seconds}s §cbefore using §f/{command} §cagain."
+
+[Stats]
+	#Header of the /rpessentials stats command.
+	statsHeader = "§6╔═════════ §e§lRP Essentials Stats §6═════════╗"
+
+[Dice]
+	#Format of the dice roll broadcast. Placeholders: {player} {dice} {result}
+	diceRollFormat = "§8[🎲] §e{player} §7rolled §6{dice} §7and got §a§l{result}§7!"
+	#Format shown to staff outside dice range. Placeholders: {player} {dice} {result}
+	diceRollSpyFormat = "§7[DICE-SPY] §e{player} §7rolled §6{dice}§7: §f{result}"

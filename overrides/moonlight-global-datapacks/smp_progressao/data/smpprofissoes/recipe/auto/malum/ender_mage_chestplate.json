@@ -1,0 +1,44 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:shadowwalker_chestplate"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:ender_rune"
+    },
+    {
+      "count": 1,
+      "item": "crystal_chronicles:voidstone_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:ender_mage_chestplate",
+    "components": {
+      "irons_spellbooks:spell_container": {
+        "data": [],
+        "maxSpells": 1,
+        "mustEquip": true,
+        "spellWheel": true
+      }
+    }
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    },
+    {
+      "type": "malum:earthen",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true
+}

@@ -1,0 +1,55 @@
+[friendly]
+common = "minecraft:bread"
+uncommon = "minecraft:cake"
+rare = "minecraft:emerald"
+veryRare = "minecraft:honey_bottle"
+legendary = "minecraft:golden_apple"
+
+[mean]
+common = "minecraft:rotten_flesh"
+uncommon = "minecraft:coal"
+rare = "minecraft:tnt"
+veryRare = "minecraft:iron_ingot"
+legendary = "minecraft:netherite_scrap"
+
+[shy]
+common = "minecraft:pumpkin_pie"
+uncommon = "minecraft:apple"
+rare = "minecraft:honey_bottle"
+veryRare = "minecraft:diamond"
+legendary = "minecraft:potion"
+
+[brave]
+common = "minecraft:arrow"
+uncommon = "minecraft:shield"
+rare = "minecraft:potion"
+veryRare = "minecraft:diamond_sword"
+legendary = "minecraft:totem_of_undying"
+
+[grumpy]
+common = "minecraft:potato"
+uncommon = "minecraft:iron_ingot"
+rare = "minecraft:emerald"
+veryRare = "minecraft:ender_pearl"
+legendary = "minecraft:diamond_chestplate"
+
+[greedy]
+common = "minecraft:copper_ingot"
+uncommon = "minecraft:gold_nugget"
+rare = "minecraft:gold_ingot"
+veryRare = "minecraft:emerald"
+legendary = "minecraft:diamond"
+
+[romantic]
+common = "minecraft:poppy"
+uncommon = "minecraft:apple"
+rare = "minecraft:emerald"
+veryRare = "minecraft:blaze_powder"
+legendary = "minecraft:heart_of_the_sea"
+
+[wise]
+common = "minecraft:book"
+uncommon = "minecraft:lapis_lazuli"
+rare = "minecraft:potion"
+veryRare = "minecraft:potion"
+legendary = "minecraft:shulker_shell"

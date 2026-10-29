@@ -1,0 +1,22 @@
+{
+  "type": "toxony:alchemical_forge",
+  "affinities": [
+    "toxony:decay",
+    "toxony:forest",
+    "toxony:moon"
+  ],
+  "auxiliary": [
+    {
+      "item": "smpprofissoes:cursed_toxin"
+    },
+    {
+      "item": "toxony:toxin_canister"
+    }
+  ],
+  "main": {
+    "item": "toxony:netherite_scalpel"
+  },
+  "result": {
+    "id": "toxony:lethal_dose"
+  }
+}

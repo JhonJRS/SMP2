@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "c:plates/silver"
+    },
+    "P": {
+      "tag": "c:plates/dawnstone"
+    },
+    "S": {
+      "item": "aetherworks:aether_shard"
+    }
+  },
+  "pattern": [
+    " SP",
+    "SLS",
+    "PS "
+  ],
+  "result": {
+    "id": "aetherworks:tuning_cylinder"
+  },
+  "show_notification": true
+}

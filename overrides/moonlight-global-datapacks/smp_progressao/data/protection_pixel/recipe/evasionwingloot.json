@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "create:cogwheel"
+    },
+    "F": {
+      "item": "create:transmitter"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABZBA",
+    "ACACA",
+    "DEFED",
+    "A   A"
+  ],
+  "result": {
+    "id": "protection_pixel:evasionwing",
+    "count": 1
+  }
+}

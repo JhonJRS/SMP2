@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.logistica_ember.name",
+  "subtitle": "smpprofissoes.research.oficios.logistica_ember.subtitle",
+  "icon": "embers:ember_relay",
+  "researchLevel": 2,
+  "sortOrder": 18,
+  "costs": [
+    {
+      "count": 48,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 8,
+      "item": "embers:ember_crystal"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/logistica_ember",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_embers"
+}

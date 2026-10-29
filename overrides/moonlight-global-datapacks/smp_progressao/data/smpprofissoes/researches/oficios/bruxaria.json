@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.bruxaria.name",
+  "subtitle": "smpprofissoes.research.oficios.bruxaria.subtitle",
+  "icon": "enchanted:altar",
+  "researchLevel": 2,
+  "sortOrder": 88,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:redstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/bruxaria",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_ervas"
+}

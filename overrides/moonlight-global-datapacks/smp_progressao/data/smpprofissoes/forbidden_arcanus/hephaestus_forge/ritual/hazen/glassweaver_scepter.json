@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:prismatic_shard"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazentouvelib:radiance_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:artificer_cane"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:glassweaver_scepter"
+    }
+  ],
+  "essences": {
+    "aureal": 1500,
+    "blood": 2000,
+    "experience": 1000,
+    "souls": 15
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazennstuff:prismatic_shard"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazentouvelib:radiance_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:artificer_cane"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:glassweaver_scepter"
+    }
+  }
+}

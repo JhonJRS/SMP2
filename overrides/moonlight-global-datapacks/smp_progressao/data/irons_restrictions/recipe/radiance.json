@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "R": {
+      "item": "hazentouvelib:radiance_rune"
+    },
+    "F": {
+      "item": "minecraft:sea_lantern"
+    },
+    "S": {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    "U": {
+      "item": "irons_restrictions:unfinished_manuscript"
+    }
+  },
+  "pattern": [
+    "ERE",
+    "FUF",
+    "ESE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:manuscript",
+    "components": {
+      "irons_restrictions:school_component": "hazentouvelib:radiance"
+    }
+  }
+}

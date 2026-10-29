@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "toxony:toxin"
+    },
+    {
+      "item": "toxony:toxin"
+    },
+    {
+      "item": "herbalbrews:herbal_infusion"
+    },
+    {
+      "item": "vital_herbs:compacted_sooth_blossom"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "botania:mana_pearl"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:eternity_essence",
+    "count": 1
+  }
+}

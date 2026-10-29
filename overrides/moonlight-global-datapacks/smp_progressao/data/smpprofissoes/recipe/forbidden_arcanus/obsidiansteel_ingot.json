@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    "OIO",
+    "IBI",
+    "OIO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "forbidden_arcanus:obsidiansteel_ingot"
+  }
+}

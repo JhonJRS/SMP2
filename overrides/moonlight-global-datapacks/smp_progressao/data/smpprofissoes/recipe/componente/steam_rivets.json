@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:andesite_alloy"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:steam_rivets",
+    "count": 2
+  }
+}

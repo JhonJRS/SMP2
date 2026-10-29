@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "R": {
+      "item": "irons_spellbooks:blood_rune"
+    },
+    "F": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "S": {
+      "item": "minecraft:ghast_tear"
+    },
+    "U": {
+      "item": "irons_restrictions:unfinished_manuscript"
+    }
+  },
+  "pattern": [
+    "ERE",
+    "FUF",
+    "ESE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:manuscript",
+    "components": {
+      "irons_restrictions:school_component": "irons_spellbooks:blood"
+    }
+  }
+}

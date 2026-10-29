@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.frascos_vitais.name",
+  "subtitle": "smpprofissoes.research.oficios.frascos_vitais.subtitle",
+  "icon": "neovitae:alchemy_flask",
+  "researchLevel": 3,
+  "sortOrder": 59,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/fundacao_neovitae"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/frascos_vitais",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/boticario"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "smpprofissoes:legend_core"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "malum:void_salts"
+    },
+    {
+      "item": "malum:void_salts"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:mythic_core",
+    "count": 1
+  }
+}

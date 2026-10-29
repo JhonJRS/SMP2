@@ -1,0 +1,40 @@
+[defaults]
+	#Default raid length, seconds
+	# Default: 15
+	# Range: 1 ~ 3600
+	duration_seconds = 15
+	#Default seconds between enemy waves
+	# Default: 3
+	# Range: 1 ~ 600
+	interval_seconds = 3
+	#Default enemies kept ALIVE at once (the boss respawns to this)
+	# Default: 8
+	# Range: 0 ~ 1000
+	enemy_count = 8
+	# Default: 16
+	# Range: 1 ~ 256
+	radius_horizontal = 16
+	# Default: 8
+	# Range: 1 ~ 256
+	radius_vertical = 8
+	#Default per-player retrigger cooldown, in REAL-WORLD seconds (survives restarts).
+	#Use whole seconds: 1 hour = 3600, 1 day = 86400, 1 week = 604800.
+	#Per-POI override: /poi set <name> cooldown <seconds>
+	# Default: 86400
+	# Range: 0 ~ 31536000
+	cooldown_seconds = 86400
+
+[raids]
+	#Broadcast to ALL players when a raid is triggered and when it ends
+	announce_to_server = true
+	#If true, the server-wide raid announcements show as a big on-screen TITLE
+	#(so everyone knows a raid boss / loot POI was triggered). If false, plain chat.
+	announce_as_title = true
+	#If true, rewards drop even if the trigger player dies
+	drop_rewards_on_death = false
+
+[catalog]
+	#Sacrifice items admins commonly reference
+	sacrifice_items = ["minecraft:nether_star", "minecraft:netherite_ingot"]
+	#Global reward presets, '<itemId> <count>' per entry
+	reward_presets = ["minecraft:diamond_block 3", "minecraft:enchanted_golden_apple 1"]

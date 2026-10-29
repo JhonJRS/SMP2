@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x,half=lower,waterlogged=false": {
+      "model": "aetherworks:block/aether_forge_center"
+    },
+    "axis=x,half=lower,waterlogged=true": {
+      "model": "aetherworks:block/aether_forge_center"
+    },
+    "axis=x,half=upper,waterlogged=false": {
+      "model": "aetherworks:block/aether_forge_top"
+    },
+    "axis=x,half=upper,waterlogged=true": {
+      "model": "aetherworks:block/aether_forge_top"
+    },
+    "axis=z,half=lower,waterlogged=false": {
+      "model": "aetherworks:block/aether_forge_center"
+    },
+    "axis=z,half=lower,waterlogged=true": {
+      "model": "aetherworks:block/aether_forge_center"
+    },
+    "axis=z,half=upper,waterlogged=false": {
+      "model": "aetherworks:block/aether_forge_top"
+    },
+    "axis=z,half=upper,waterlogged=true": {
+      "model": "aetherworks:block/aether_forge_top"
+    }
+  }
+}

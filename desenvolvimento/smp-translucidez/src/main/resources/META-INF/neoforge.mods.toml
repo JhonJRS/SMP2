@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "smptranslucidez"
+version = "1.0.0"
+displayName = "SMP Translucidez"
+authors = "SMP 2"
+description = '''
+Jogadores invisíveis (por qualquer meio) aparecem translúcidos em vez de sumir. Mod de cliente.
+'''
+
+[[mixins]]
+config = "smptranslucidez.mixins.json"
+
+[[dependencies.smptranslucidez]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.smptranslucidez]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.smptranslucidez]]
+modId = "irons_spellbooks"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "CLIENT"

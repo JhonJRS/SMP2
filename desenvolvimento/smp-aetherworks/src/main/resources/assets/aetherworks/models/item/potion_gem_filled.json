@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aetherworks:item/potion_gem_overlay",
+    "layer1": "aetherworks:item/potion_gem"
+  }
+}

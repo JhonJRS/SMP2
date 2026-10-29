@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.animus_senciente.name",
+  "subtitle": "smpprofissoes.research.oficios.animus_senciente.subtitle",
+  "icon": "animusnv:hand_of_death",
+  "researchLevel": 4,
+  "sortOrder": 58,
+  "costs": [
+    {
+      "count": 16,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/animus_fundamentos"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/rituais_sangue"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/animus_senciente",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arsenal_senciente"
+}

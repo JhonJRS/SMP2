@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.petroquimica.name",
+  "subtitle": "smpprofissoes.research.oficios.petroquimica.subtitle",
+  "icon": "immersivepetroleum:pumpjack",
+  "researchLevel": 4,
+  "sortOrder": 16,
+  "costs": [
+    {
+      "count": 64,
+      "item": "immersiveengineering:ingot_steel"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:bucket"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/industria_pesada"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/sistemas_alta_potencia"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/petroquimica",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arsenal_ie"
+}

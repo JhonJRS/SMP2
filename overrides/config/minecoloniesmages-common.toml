@@ -1,0 +1,23 @@
+["Mage Native Integration"]
+	#Use MineColonies native progression/building/command flows whenever possible
+	enableNativeMinecoloniesFlow = true
+	#Mage recruit unlock depends on completing the Mage Troops combat research
+	requireCombatResearchForMageTroops = true
+	#Spells can only be taught when the colony has the mage recruit progression requirements met
+	requireMageProgressionAnchorForSpellTeaching = true
+	#Native military building id used as mage progression anchor (defaults to MineColonies Barracks)
+	mageProgressionAnchorBuildingId = "minecolonies:barracks"
+	#Research id used as native unlock gate for mage flow
+	combatResearchId = "minecolonies:combat/magetroops"
+	#Fallback max spell tier before mage progression is applied
+	# Default: 1
+	# Range: 1 ~ 10
+	defaultMaxTierWithoutUpgrades = 1
+	#Required mage progression level to allow tier 2 spells
+	# Default: 2
+	# Range: 1 ~ 20
+	houseLevelForTier2 = 2
+	#Required mage progression level to allow tier 3 spells
+	# Default: 4
+	# Range: 1 ~ 20
+	houseLevelForTier3 = 4

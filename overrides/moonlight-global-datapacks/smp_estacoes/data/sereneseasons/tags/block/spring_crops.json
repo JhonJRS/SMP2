@@ -1,0 +1,153 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:cabbages",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onions",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:lettuce_crop",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:onion_crop",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:strawberry_crop",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:oat_crop",
+      "required": false
+    },
+    {
+      "id": "vinery:apple_tree_sapling",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_sapling",
+      "required": false
+    },
+    {
+      "id": "herbalbrews:tea_plant",
+      "required": false
+    },
+    {
+      "id": "minecolonies:cabbage",
+      "required": false
+    },
+    {
+      "id": "minecolonies:onion",
+      "required": false
+    },
+    {
+      "id": "minecolonies:garlic",
+      "required": false
+    },
+    {
+      "id": "enchanted:garlic",
+      "required": false
+    },
+    {
+      "id": "enchanted:belladonna",
+      "required": false
+    },
+    {
+      "id": "enchanted:water_artichoke",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:sooth_blossom_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:bleeding_heart_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:glow_leaf_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:needle_heart_plant",
+      "required": false
+    },
+    {
+      "id": "toxony:false_berry_bush",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:barley_crop",
+      "required": false
+    },
+    {
+      "id": "minecolonies:peas",
+      "required": false
+    },
+    {
+      "id": "minecolonies:chickpea",
+      "required": false
+    },
+    {
+      "id": "minecolonies:mint",
+      "required": false
+    },
+    {
+      "id": "minecolonies:durum",
+      "required": false
+    },
+    {
+      "id": "silentgear:flax_plant",
+      "required": false
+    },
+    {
+      "id": "silentgear:fluffy_plant",
+      "required": false
+    },
+    {
+      "id": "toxony:bloodroot",
+      "required": false
+    },
+    {
+      "id": "toxony:ocelot_mint",
+      "required": false
+    },
+    {
+      "id": "toxony:water_hemlock",
+      "required": false
+    },
+    {
+      "id": "toxony:whirlsnap",
+      "required": false
+    },
+    {
+      "id": "herbalbrews:yerba_mate_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:burst_bud_plant",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:crimson_lily_plant",
+      "required": false
+    },
+    {
+      "id": "supplementaries:flax",
+      "required": false
+    },
+    {
+      "id": "vinery:apple_leaves",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_leaves",
+      "required": false
+    }
+  ]
+}

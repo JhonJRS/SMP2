@@ -1,0 +1,49 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.railgun.name",
+  "subtitle": "smpprofissoes.research.oficios.railgun.subtitle",
+  "icon": "immersiveengineering:railgun",
+  "researchLevel": 5,
+  "sortOrder": 98,
+  "costs": [
+    {
+      "count": 4,
+      "item": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "count": 16,
+      "item": "silentgear:crimson_steel_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/industria_pesada"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/ligas_runicas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/railgun",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/engenharia_balistica"
+}

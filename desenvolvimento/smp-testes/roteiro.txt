@@ -1,0 +1,148 @@
+# Roteiro principal do testador (smp-testes/rodar.py). Formato: veja smp-testes/LEIA-ME.md.
+
+## Componentes das pesquisas cruzadas (itens do smpprofissoes)
+> smpteste itens smpprofissoes: => ITENS 26
+> smpteste receitas smpprofissoes:runic_flux => smpprofissoes:componente/runic_flux
+> smpteste craft c3_fer smpprofissoes:componente/runic_flux => FABRICOU
+> smpteste craft - smpprofissoes:componente/runic_flux => BLOQUEADO
+> smpteste craft ferreiro+fer_mestre smpprofissoes:componente/runic_flux => BLOQUEADO
+> smpteste craft c6_arc smpprofissoes:componente/arcane_inscription => FABRICOU
+> smpteste craft arcanista smpprofissoes:componente/arcane_inscription => BLOQUEADO
+> smpteste craft c12_nat smpprofissoes:componente/vital_flask_base => FABRICOU
+> smpteste receitas silentgear:tyrian_steel_ingot => alloy
+> smpteste receitas botania:terrasteel_ingot => terra_plate
+
+## Forja de Hefesto (rituais carregados no registro do Forbidden Arcanus)
+> smpteste registro forbidden_arcanus:hephaestus_forge/ritual smpprofissoes:auto/hazen/ => total=228
+> smpteste registro forbidden_arcanus:hephaestus_forge/ritual smpprofissoes:simplyswords/ => total=8
+> smpteste registro forbidden_arcanus:hephaestus_forge/ritual smpprofissoes:hazen/ => total=9
+> smpteste registro forbidden_arcanus:hephaestus_forge/ritual forbidden_arcanus:eternal_stella => total=1
+> smpteste registro forbidden_arcanus:hephaestus_forge/ritual forbidden_arcanus:quantum_catcher => total=1
+
+## Pesquisas (aba Guild of Trades)
+> smpteste ramo smpprofissoes:oficios => 90 pesquisas
+> smpteste pesquisa smpprofissoes:oficios/energia_vapor => nivel=2
+> smpteste pesquisa smpprofissoes:oficios/grimorios_expandidos => nivel=2
+> smpteste pesquisa smpprofissoes:oficios/profundezas_eldritch => deeperdarker:soul_crystal
+> smpteste pesquisa smpprofissoes:oficios/lamina_ember => nivel=5
+> smpteste pesquisa smpprofissoes:oficios/lamina_ember => pai=smpprofissoes:oficios/ligas_runicas
+> smpteste pesquisa smpprofissoes:oficios/fundacao_neovitae => at least 1 levels
+> smpteste pesquisa smpprofissoes:oficios/fundacao_cultivo => PESQUISA_INEXISTENTE
+> smpteste pesquisa smpprofissoes:oficios/fundacao_cozinha => Farmstead Foundations
+> smpteste pesquisa smpprofissoes:oficios/engenharia_deep_dark => deeperdarker:sculk_bone
+> smpteste pesquisa smpprofissoes:oficios/fundacao_malum !=> soul_sand
+
+## Bloqueio de fabricação (jogador não-OP)
+> smpteste pode - create:steam_engine => NAO_PODE
+> smpteste pode engenheiro+eng_create create:steam_engine => NAO_PODE
+> smpteste pode engenheiro+eng_create+eng_vapor create:steam_engine => PODE
+> smpteste pode engenheiro+eng_logistica securitycraft:keypad_item => PODE
+> smpteste pode engenheiro+eng_logistica securitycraft:sentry => NAO_PODE
+> smpteste pode engenheiro+c2_eng securitycraft:sentry => NAO_PODE
+> smpteste pode engenheiro+eng_arsenal_ie securitycraft:sentry => PODE
+> smpteste pode engenheiro+c2_eng securitycraft:rift_stabilizer => PODE
+> smpteste pode engenheiro create_wizardry:mana_siphon => NAO_PODE
+> smpteste pode engenheiro+c11_eng create_wizardry:mana_siphon => PODE
+> smpteste pode arcanista+arc_protecao torchmaster:megatorch => NAO_PODE
+> smpteste pode arcanista+arc_megatocha torchmaster:megatorch => PODE
+> smpteste pode - torchmaster:megatorch => NAO_PODE
+> smpteste pode ferreiro+fer_armas simplyswords:iron_claymore => PODE
+> smpteste pode ferreiro+fer_armas simplyswords:runic_tablet => NAO_PODE
+> smpteste pode naturalista+nat_cozinha farm_and_charm:stove => PODE
+> smpteste pode - minecraft:crafting_table => PODE
+> smpteste craft - minecraft:crafting_table => FABRICOU
+
+## Receitas removidas / balanceamento
+> smpteste receitas neovitae:teleposer => RECEITAS 0
+> smpteste receitas neovitae:sigil_teleposition => RECEITAS 0
+> smpteste receitas irons_spellbooks:arcane_essence !=> sugar_filling
+> smpteste receitas irons_spellbooks:legendary_ink !=> mixing/legendary_ink
+> smpteste receitas hazennstuff:alchemist_supreme_boots => RECEITAS 0
+
+## Silent Gear: materiais de outros mods
+> smpteste material botania:manasteel_ingot => MATERIAL smpcompat:manasteel
+> smpteste material botania:terrasteel_ingot => MATERIAL smpcompat:terrasteel
+> smpteste material irons_spellbooks:mithril_ingot => MATERIAL smpcompat:mithril
+
+## Visual: componentes na barra e translucidez
+> time set day
+> weather clear
+p> clear @s
+p> item replace entity @s hotbar.0 with smpprofissoes:runic_flux
+p> item replace entity @s hotbar.1 with smpprofissoes:cursed_toxin
+p> item replace entity @s hotbar.2 with smpprofissoes:arcane_inscription
+p> item replace entity @s hotbar.3 with smpprofissoes:stellar_core
+p> item replace entity @s hotbar.4 with smpprofissoes:terra_core
+p> item replace entity @s hotbar.5 with smpprofissoes:ember_core
+p> item replace entity @s hotbar.6 with smpprofissoes:alchemical_regulator
+p> item replace entity @s hotbar.7 with smpprofissoes:pigmento_raro
+p> item replace entity @s hotbar.8 with smpprofissoes:void_shard
+espera 40
+foto componentes
+p> effect give @s minecraft:invisibility 120 0 true
+camera 3
+espera 60
+foto invisivel_de_frente
+camera 1
+
+## Rodada 3: ramos, nível 5 e poções do Naturalista
+> smpteste pesquisa smpprofissoes:oficios/railgun => nivel=5
+> smpteste pesquisa smpprofissoes:oficios/regalia_praga => nivel=4
+> smpteste pesquisa smpprofissoes:oficios/pocoes_eternas => nivel=5
+> smpteste pesquisa smpprofissoes:oficios/portal_alfheim => nivel=5
+> smpteste pesquisa smpprofissoes:oficios/sintese_terrasteel => nivel=4
+> smpteste pode engenheiro+c2_eng immersiveengineering:railgun => NAO_PODE
+> smpteste pode engenheiro+c15_eng immersiveengineering:railgun => PODE
+> smpteste pode arcanista minecraft:brewing_stand => NAO_PODE
+> smpteste pode naturalista+nat_boticario minecraft:brewing_stand => PODE
+> smpteste pode arcanista+arc_runas botania:brewery => NAO_PODE
+> smpteste pode naturalista+c18_nat botania:brewery => PODE
+> smpteste receitas irons_spellbooks:oakskin_elixir => alchemist_cauldron
+> forceload add -16 -16 16 16
+> setblock 0 200 0 minecraft:brewing_stand
+> smpteste usar arcanista 0 200 0 => BARRADO
+> smpteste usar engenheiro+eng_create 0 200 0 => BARRADO
+> smpteste usar naturalista 0 200 0 => BARRADO
+> smpteste usar naturalista+nat_boticario 0 200 0 => USOU
+> setblock 2 200 2 botania:brewery
+> smpteste usar arcanista+arc_mana 2 200 2 => BARRADO
+> smpteste usar naturalista+c18_nat 2 200 2 !=> BARRADO
+
+## Rodada 4: Guild Charter, Draught of Oblivion, Clérigo, ramos novos
+> smpteste trocas minecraft:cleric minecraft:echo_shard => com_echo_shard=0
+> smpteste receitas smpprofissoes:guild_charter => especial/guild_charter
+> smpteste receitas smpprofissoes:draught_of_oblivion => especial/draught_of_oblivion
+> smpteste pesquisa smpprofissoes:oficios/armaria_netherite => nivel=4
+> smpteste pesquisa smpprofissoes:oficios/megatocha => nivel=3
+> smpteste pesquisa smpprofissoes:oficios/arcana_enigmatica => nivel=3
+> smpteste pesquisa smpprofissoes:oficios/cronicas_cristal => nivel=2
+> smpteste pesquisa smpprofissoes:oficios/melhorias_fundicao => Foundry Upgrades
+> smpteste pesquisa smpprofissoes:oficios/grimorios_lendarios => Legendary Artifacts
+> smpteste pode ferreiro+fer_silentgear productivemetalworks:casting_table => PODE
+> smpteste pode ferreiro+fer_silentgear productivemetalworks:powered_heating_coil => NAO_PODE
+> smpteste pode arcanista+arc_maestria irons_spellbooks:dragonskin_spell_book => PODE
+> smpteste pode arcanista+arc_irons irons_spellbooks:dragonskin_spell_book => NAO_PODE
+> smpteste pode arcanista+arc_irons irons_spellbooks:mithril_ingot => PODE
+> smpteste pode - computercraft:computer_normal => PODE
+> smpprofissoes resetar SMPTeste
+p> clear @s
+p> item replace entity @s weapon.mainhand with smpprofissoes:guild_charter
+p> smpteste usaritem => resultado=FAIL
+> execute as SMPTeste run function profissoes:inicio/eng_create
+p> smpteste licencas => engenheiro
+p> smpteste usaritem => resultado=CONSUME
+p> guildcharter arc_irons
+p> smpteste licencas => arcanista
+p> smpteste licencas => inicio_arc_irons
+p> smpteste licencas => inicio_eng_create
+p> guildcharter nat_ervas => Use a Guild Charter first
+p> smpteste usaritem => resultado=FAIL
+p> item replace entity @s weapon.mainhand with smpprofissoes:draught_of_oblivion
+p> smpteste usaritem => USOUITEM smpprofissoes:draught_of_oblivion
+p> smpteste licencas !=> engenheiro
+p> smpteste licencas !=> arcanista
+p> smpteste licencas !=> inicio_
+> tag SMPTeste add prof.escolhida
+
+## CoreProtectNeo
+> co help

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "c:plates/dawnstone"
+    },
+    "S": {
+      "item": "aetherworks:aether_amalgam"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PSP",
+    " P "
+  ],
+  "result": {
+    "id": "aetherworks:aetherium_lens"
+  },
+  "show_notification": true
+}

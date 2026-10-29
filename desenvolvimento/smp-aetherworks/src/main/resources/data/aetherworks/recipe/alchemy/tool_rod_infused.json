@@ -1,0 +1,31 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:ember_grit"
+    },
+    {
+      "item": "embers:ash"
+    },
+    {
+      "item": "embers:ember_grit"
+    },
+    {
+      "item": "embers:ash"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:tool_rod_infused"
+  },
+  "tablet": {
+    "item": "aetherworks:tool_rod"
+  }
+}

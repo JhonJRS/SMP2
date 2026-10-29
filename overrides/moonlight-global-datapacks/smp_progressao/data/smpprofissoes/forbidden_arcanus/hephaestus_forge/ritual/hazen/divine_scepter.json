@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:mithril_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:holy_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:artificer_cane"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:divine_scepter"
+    }
+  ],
+  "essences": {
+    "aureal": 1500,
+    "blood": 2000,
+    "experience": 1000,
+    "souls": 15
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:divine_pearl"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:mithril_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:holy_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:artificer_cane"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:divine_scepter"
+    }
+  }
+}

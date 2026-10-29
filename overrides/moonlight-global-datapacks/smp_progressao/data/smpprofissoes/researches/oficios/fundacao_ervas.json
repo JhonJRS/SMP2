@@ -1,0 +1,31 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fundacao_ervas.name",
+  "subtitle": "smpprofissoes.research.oficios.fundacao_ervas.subtitle",
+  "icon": "vital_herbs:teapot",
+  "researchLevel": 1,
+  "sortOrder": 85,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecolonies:compost"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:farmer",
+      "level": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fundacao_ervas",
+      "level": 1
+    }
+  ]
+}

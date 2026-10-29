@@ -1,0 +1,43 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "extraInputs": [
+    {
+      "count": 2,
+      "tag": "irons_spellbooks:twilight_gale_crystal"
+    },
+    {
+      "count": 1,
+      "tag": "c:ingots/mithril"
+    },
+    {
+      "count": 1,
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "count": 1,
+      "item": "silentgear:crimson_steel_ingot"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:arcane_inscription"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_spellbooks:twilight_gale"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 4
+    }
+  ]
+}

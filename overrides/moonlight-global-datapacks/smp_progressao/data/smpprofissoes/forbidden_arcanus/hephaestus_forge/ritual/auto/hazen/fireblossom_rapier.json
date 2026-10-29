@@ -1,0 +1,64 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:fireblossom"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:excalibur_fragment"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:fireblossom_rapier"
+    }
+  ],
+  "essences": {
+    "aureal": 1200,
+    "blood": 1800,
+    "experience": 800,
+    "souls": 10
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:fireblossom"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:excalibur_fragment"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "minecraft:blaze_rod"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:fireblossom_rapier"
+    }
+  }
+}

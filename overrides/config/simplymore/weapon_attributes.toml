@@ -1,0 +1,100 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[weaponTypesDamage]
+greatkatana_damage_modifier = 1
+grandsword_damage_modifier = 6
+backhandblade_damage_modifier = -2
+lance_damage_modifier = 0
+khopesh_damage_modifier = -1
+dagger_damage_modifier = -2
+quarterstaff_damage_modifier = -2
+pernach_damage_modifier = 1
+greatspear_damage_modifier = 3
+deerhorns_damage_modifier = -1
+
+[typeDamageModifier]
+wooden_damage_modifier = 3
+stone_damage_modifier = 3
+hallowed_damage_modifier = 3
+legendary_banglum_damage_modifier = 3
+tidesinger_damage_modifier = 3
+
+[weaponTypesSwingSpeed]
+greatkatana_attack_speed = -2.6
+grandsword_attack_speed = -3.4
+backhandblade_attack_speed = -1.7
+lance_attack_speed = -3.0
+khopesh_attack_speed = -2.1
+dagger_attack_speed = -1.8
+quarterstaff_attack_speed = -2.0
+pernach_attack_speed = -2.7
+greatspear_attack_speed = -3.0
+deerhorns_attack_speed = -1.9
+
+[uniqueWeaponsDamage]
+greatslither_damage_modifier = 5
+moltenflare_damage_modifier = 10
+grandfrost_damage_modifier = 11
+glimmerstep_damage_modifier = 3
+thebloodharvester_damage_modifier = 2
+jesterpenetrate_damage_modifier = 0
+mimicry_damage_modifier = 4
+myrmedge_damage_modifier = 2
+blackpearl_damage_modifier = 3
+thepan_damage_modifier = -2
+thevesselbreach_damage_modifier = 0
+bladeofthegrotesque_damage_modifier = 6
+viperscall_damage_modifier = 0
+timekeeper_damage_modifier = 2
+matterbane_damage_modifier = 3
+smoulderingruin_damage_modifier = 1
+stasis_damage_modifier = 2
+tidebreaker_damage_modifier = 3
+ruyijingubang_damage_modifier = 3
+rupturedidol_damage_modifier = 4
+boasfang_damage_modifier = 1
+earthshatter_damage_modifier = 6
+soulfracture_damage_modifier = 3
+serpentinevalour_damage_modifier = 5
+lustrousmoxie_damage_modifier = 4
+brassturn_damage_modifier = 2
+cindergorge_damage_modifier = 5
+deathseyrie_damage_modifier = 6
+perforiscus_damage_modifier = 4
+revvengine_damage_modifier = 2
+moundshifter_damage_modifier = 3
+culterex_damage_modifier = 2
+
+[uniqueWeaponsSwingSpeed]
+greatslither_attack_speed = -2.6
+moltenflare_attack_speed = -3.4
+grandfrost_attack_speed = -3.4
+glimmerstep_attack_speed = -3.0
+thebloodharvester_attack_speed = -2.4
+jesterpenetrate_attack_speed = -3.0
+myrmedge_attack_speed = -2.1
+blackpearl_attack_speed = -2.0
+thepan_attack_speed = -2.5
+thevesselbreach_attack_speed = -1.8
+bladeofthegrotesque_attack_speed = -2.8
+viperscall_attack_speed = -3.0
+timekeeper_attack_speed = -2.0
+matterbane_attack_speed = -2.4
+smoulderingruin_attack_speed = -1.7
+stasis_attack_speed = -2.0
+tidebreaker_attack_speed = -1.9
+ruyijingubang_attack_speed = -2.0
+rupturedidol_attack_speed = -2.7
+boasfang_attack_speed = -2.2
+earthshatter_attack_speed = -3.4
+soulfracture_attack_speed = -2.6
+serpentinevalour_attack_speed = -3.3
+lustrousmoxie_attack_speed = -2.6
+brassturn_attack_speed = -0.2
+cindergorge_attack_speed = -2.7
+deathseyrie_attack_speed = -3.2
+perforiscus_attack_speed = -3.3
+revvengine_attack_speed = -2.0
+moundshifter_attack_speed = -3.0
+culterex_attack_speed = -1.8

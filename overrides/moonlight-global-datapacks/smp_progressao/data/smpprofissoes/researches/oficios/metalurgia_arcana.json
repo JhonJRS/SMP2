@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.metalurgia_arcana.name",
+  "subtitle": "smpprofissoes.research.oficios.metalurgia_arcana.subtitle",
+  "icon": "forbidden_arcanus:clibano_core",
+  "researchLevel": 2,
+  "sortOrder": 69,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/metalurgia_arcana",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_arcanus"
+}

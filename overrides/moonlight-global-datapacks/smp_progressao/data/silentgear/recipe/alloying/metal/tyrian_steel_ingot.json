@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/crimson_steel"
+    },
+    {
+      "tag": "c:ingots/azure_electrum"
+    },
+    {
+      "item": "silentgear:crushed_shulker_shell"
+    },
+    {
+      "item": "smpprofissoes:runic_flux"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "silentgear:tyrian_steel_ingot"
+  }
+}

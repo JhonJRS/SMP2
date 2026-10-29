@@ -1,0 +1,64 @@
+{
+ "name": "Halt",
+ "author": "SMP 2",
+ "description": "Stop right there!",
+ "uuid": "806e74ed-8f60-5191-908c-051487c7ddd1",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 35,
+  "stopTick": 41,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.65
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": 0.1
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.05
+    }
+   },
+   {
+    "tick": 35,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.65
+    }
+   },
+   {
+    "tick": 35,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": 0.1
+    }
+   },
+   {
+    "tick": 35,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.05
+    }
+   }
+  ]
+ }
+}

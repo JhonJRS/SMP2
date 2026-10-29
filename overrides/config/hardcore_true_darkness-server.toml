@@ -1,0 +1,9 @@
+#Hardcore True Darkness server settings.
+#How long the server waits for a player's Hardcore True Darkness client to confirm it is ready before disconnecting them.
+#Minecraft measures time in ticks: 20 ticks equals 1 second.
+#The default of 200 ticks gives players 10 seconds to finish loading.
+#Increase this only if slow computers or connections are causing valid players to be disconnected.
+#This setting does not disable darkness or allow players without the matching mod to join.
+# Default: 200
+# Range: 20 ~ 1200
+statusTimeoutTicks = 200

@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arsenal_senciente.name",
+  "subtitle": "smpprofissoes.research.oficios.arsenal_senciente.subtitle",
+  "icon": "neovitae:sentient_sword",
+  "researchLevel": 3,
+  "sortOrder": 55,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 32,
+      "item": "neovitae:bloodstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arsenal_senciente",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arranjos_vitae"
+}

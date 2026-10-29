@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.culinaria.name",
+  "subtitle": "smpprofissoes.research.oficios.culinaria.subtitle",
+  "icon": "farmersdelight:stuffed_pumpkin",
+  "researchLevel": 2,
+  "sortOrder": 82,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:beef"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:pumpkin"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:farmer",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/culinaria",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_cozinha"
+}

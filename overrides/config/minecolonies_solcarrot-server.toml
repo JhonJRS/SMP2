@@ -1,0 +1,15 @@
+#Follows 'Spice of Life: Carrot Edition' config, if it installed.
+followCE = true
+
+[milestones]
+	# Default: 2
+	# Range: 0 ~ 1000
+	heartsPerMilestones = 2
+	milestones = [5, 10, 15, 20, 25]
+
+[filtering]
+	blacklist = []
+	whitelist = []
+	# Default: 1
+	# Range: 0 ~ 1000
+	minimumNutrition = 1

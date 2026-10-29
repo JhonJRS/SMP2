@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.forja_runica.name",
+  "subtitle": "smpprofissoes.research.oficios.forja_runica.subtitle",
+  "icon": "simplyswords:runic_tablet",
+  "researchLevel": 3,
+  "sortOrder": 71,
+  "costs": [
+    {
+      "count": 16,
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/metalurgia_arcana"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/forja_runica",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/armaria_marcial"
+}

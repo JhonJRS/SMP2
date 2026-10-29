@@ -1,0 +1,53 @@
+[general]
+	enable_logging = true
+	log_to_file = true
+	#Mode debug : si true, affiche tous les messages INFO d'ArcadiaGuard
+	#(boot, registrations handlers, migrations YAWP, force-loaded chunks...) ET
+	#laisse passer les warnings 'marked as removed' causes par d'autres mods (Hominid).
+	#Si false (defaut), seuls les WARN et ERROR sont affiches et les warnings tiers
+	#sont silencieusement supprimes.
+	debug = false
+	# Default: 2
+	# Range: 0 ~ 4
+	bypass_op_level = 2
+
+[toggles]
+	enable_block_break = true
+	enable_block_place = true
+	enable_ironsspellbooks = true
+	enable_arsnouveau = true
+	enable_simplyswords = true
+	enable_occultism = true
+	enable_supplementaries = true
+	enable_apotheosis_enchants = true
+	enable_betterarcheology = true
+	enable_spawn_book_protection = true
+	enable_lead_protection = true
+	enable_spawn_egg_protection = true
+
+[messages]
+	message_block_break = "Vous ne pouvez pas casser des blocs ici."
+	message_block_place = "Vous ne pouvez pas placer des blocs ici."
+	message_ironsspellbooks = "Vous ne pouvez pas lancer ce sort ici."
+	message_arsnouveau = "Vous ne pouvez pas utiliser Ars Nouveau ici."
+	message_simplyswords = "Vous ne pouvez pas utiliser cette capacite ici."
+	message_occultism = "Vous ne pouvez pas utiliser cette magie ici."
+	message_supplementaries = "Vous ne pouvez pas lancer cet objet ici."
+	message_apotheosis = "Vous ne pouvez pas casser ces blocs ici."
+	message_betterarcheology = "Vous ne pouvez pas utiliser Tunneling ici."
+	message_spawn_book = " Vous ne pouvez pas placer de livres en zone spawn ! | You cannot place books in the spawn area!"
+	message_lead = "Vous ne pouvez pas utiliser une laisse ici."
+	message_spawn_egg = "Vous ne pouvez pas utiliser un oeuf de spawn ici."
+	message_dynamic_item = "arcadiaguard.message.dynamic_item"
+
+[async_writer]
+	# Default: 1024
+	# Range: 64 ~ 65536
+	async_writer_capacity = 1024
+	async_writer_policy = "BLOCK"
+
+[performance]
+	#Classes de frequence de flags a desactiver globalement (kill-switch).
+	#Valeurs acceptees: NEGLIGIBLE, LOW, NORMAL, HIGH, VERY_HIGH.
+	#Exemple: ["VERY_HIGH"] desactive leaf-decay, water-spread, sculk-spread, etc.
+	disabled_flag_frequencies = []

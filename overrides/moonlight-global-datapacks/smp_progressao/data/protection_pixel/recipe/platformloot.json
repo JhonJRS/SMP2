@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "create:cogwheel"
+    },
+    "D": {
+      "item": "create:brass_casing"
+    },
+    "F": {
+      "item": "create:large_cogwheel"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABZBA",
+    "AB BA",
+    " DFD "
+  ],
+  "result": {
+    "id": "protection_pixel:armorloadplatform",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aetherworks:item/tool/head/shovel_head_center",
+    "layer1": "aetherworks:item/tool/head/shovel_head_prismarine"
+  }
+}

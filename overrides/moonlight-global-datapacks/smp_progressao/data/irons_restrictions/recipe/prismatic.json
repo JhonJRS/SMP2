@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "R": {
+      "tag": "crystal_chronicles:prismatic_focus"
+    },
+    "F": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "S": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "U": {
+      "item": "irons_restrictions:unfinished_manuscript"
+    }
+  },
+  "pattern": [
+    "ERE",
+    "FUF",
+    "ESE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:manuscript",
+    "components": {
+      "irons_restrictions:school_component": "crystal_chronicles:prismatic"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.engenharia_esquemas.name",
+  "subtitle": "smpprofissoes.research.oficios.engenharia_esquemas.subtitle",
+  "icon": "create:schematicannon",
+  "researchLevel": 4,
+  "sortOrder": 3,
+  "costs": [
+    {
+      "count": 16,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:paper"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:dispenser"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/metalurgia_precisao"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/engenharia_esquemas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arquitetura_industrial"
+}

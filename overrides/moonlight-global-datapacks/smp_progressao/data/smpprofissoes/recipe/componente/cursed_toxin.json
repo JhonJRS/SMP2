@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "toxony:toxin"
+    },
+    {
+      "item": "toxony:toxin"
+    },
+    {
+      "item": "malum:wicked_spirit"
+    },
+    {
+      "item": "malum:wicked_spirit"
+    },
+    {
+      "item": "malum:eldritch_spirit"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:cursed_toxin",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aetherworks:item/lexicon",
+    "layer1": "aetherworks:item/lexicon_overlay"
+  }
+}

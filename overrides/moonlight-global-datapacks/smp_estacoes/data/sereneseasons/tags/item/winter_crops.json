@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "enchanted:snowbell_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:frost_mint",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:blue_spar_seeds",
+      "required": false
+    },
+    {
+      "id": "toxony:coldsnap",
+      "required": false
+    },
+    {
+      "id": "toxony:snow_mint",
+      "required": false
+    },
+    {
+      "id": "enchanted:wolfsbane_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:iron_root",
+      "required": false
+    }
+  ]
+}

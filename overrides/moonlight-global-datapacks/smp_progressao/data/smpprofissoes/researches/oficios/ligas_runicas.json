@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.ligas_runicas.name",
+  "subtitle": "smpprofissoes.research.oficios.ligas_runicas.subtitle",
+  "icon": "silentgear:tyrian_steel_ingot",
+  "researchLevel": 4,
+  "sortOrder": 99,
+  "costs": [
+    {
+      "count": 8,
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "count": 8,
+      "item": "silentgear:azure_electrum_ingot"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/infusao_espiritos"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/ligas_runicas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/mestre_ferramenteiro"
+}

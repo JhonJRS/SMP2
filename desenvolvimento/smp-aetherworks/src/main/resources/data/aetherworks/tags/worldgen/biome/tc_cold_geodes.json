@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#minecraft:is_end"
+  ],
+  "values": [
+    "#c:is_cold"
+  ]
+}

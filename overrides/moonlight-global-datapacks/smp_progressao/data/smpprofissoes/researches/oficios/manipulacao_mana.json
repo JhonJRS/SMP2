@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.manipulacao_mana.name",
+  "subtitle": "smpprofissoes.research.oficios.manipulacao_mana.subtitle",
+  "icon": "botania:mana_pool",
+  "researchLevel": 2,
+  "sortOrder": 49,
+  "costs": [
+    {
+      "count": 64,
+      "item": "botania:livingrock"
+    },
+    {
+      "count": 8,
+      "item": "botania:manasteel_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/manipulacao_mana",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_botania"
+}

@@ -1,0 +1,58 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:arcane_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:archevoker_chestplate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:miner_chestplate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:spectral_spelunker_chestplate"
+    }
+  ],
+  "essences": {
+    "aureal": 2400,
+    "blood": 3600,
+    "experience": 1500,
+    "souls": 20
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:archevoker_chestplate"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "hazennstuff:miner_chestplate"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:spectral_spelunker_chestplate"
+    }
+  }
+}

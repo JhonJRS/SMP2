@@ -1,0 +1,22 @@
+{
+  "type": "toxony:alchemical_forge",
+  "affinities": [
+    "toxony:decay",
+    "toxony:wind",
+    "toxony:moon"
+  ],
+  "auxiliary": [
+    {
+      "item": "smpprofissoes:alchemical_regulator"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "main": {
+    "item": "toxony:plague_doctor_boots"
+  },
+  "result": {
+    "id": "toxony:plaguebringer_boots"
+  }
+}

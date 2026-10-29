@@ -1,0 +1,12 @@
+[hud]
+	#Draw the War 'n Nobility command overlay while you are in Hundred Years War's freecam
+	#(F4) RTS mode: the status strip, the Atlas minimap, the selected-force card and the
+	#control grid. Turning this OFF also stops us hiding HYW's own freecam UI, so you get
+	#HYW's stock action list, its mouse-control legend and its action-bar order messages
+	#back exactly as they were — this one switch undoes the whole overlay. Has no effect
+	#when Hundred Years War is not installed.
+	hyw_command_hud = true
+	#Let Alt+H toggle the overlay above without leaving the game. The key only listens
+	#while you are actually in HYW freecam, so it never clashes with normal play, and the
+	#new state is written straight back to this file. Set false if Alt+H is in your way.
+	hyw_command_hud_hotkey = true

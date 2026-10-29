@@ -1,0 +1,16 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 300,
+  "fluid": {
+    "amount": 360,
+    "fluid": "aetherworks:aether_gas"
+  },
+  "input": {
+    "item": "minecraft:emerald"
+  },
+  "match_exactly": false,
+  "output": {
+    "item": "aetherworks:gem_aether"
+  },
+  "temperature": 2800
+}

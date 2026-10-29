@@ -1,0 +1,53 @@
+#Whisper Config
+#Multipliers that affect the detection range and movement speed when the player is whispering.
+[whisper_configs]
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	whisper_range_multiplier = 0.5
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	whisper_speed_multiplier = 0.8
+
+#Mob Speed Boost Config
+#Enable or disable the mob speed boost when targeting speaking players
+[mob_speed_boost]
+	mob_speed_boost_enabled = true
+
+#Misc Config
+#Multipliers that affect the detection range of voices in specific situations.
+[misc_config]
+	# Default: 0.65
+	# Range: 0.0 ~ 1.0
+	thunder_range_multiplier = 0.65
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	sneaking_range_multiplier = 0.5
+
+#Sculk Sensor Voice Detection Config
+#Configure sculk sensors to activate when players speak via voice chat
+#Enable: Toggle sculk sensor activation from voice
+#Threshold: Minimum audio level (dB) required to trigger sculk sensors (-127 to 0)
+#Range: Maximum distance (blocks) from player to activate sculk sensors
+#Frequency: Redstone signal strength output (1-15)
+[sculk_sensor_config]
+	sculk_sensor_enabled = true
+	# Default: -45.0
+	# Range: -127.0 ~ 0.0
+	sculk_sensor_threshold = -45.0
+	# Default: 16
+	# Range: 1 ~ 100
+	sculk_sensor_range = 16
+	# Default: 8
+	# Range: 1 ~ 15
+	sculk_sensor_frequency = 8
+
+#Armor Effects Config
+#Define multipliers for mob detection range and speed when a player wears specific armor items.
+#Format: item_id=speedMultiplier,rangeMultiplier
+#Example: minecraft:diamond_helmet=0.5,0.5
+[armor_effects]
+	effects = ["minecraft:diamond_helmet=0.9,0.6", "minecraft:diamond_chestplate=1.0,0.7"]
+
+#Debugging Config
+[debugging]
+	debug = false

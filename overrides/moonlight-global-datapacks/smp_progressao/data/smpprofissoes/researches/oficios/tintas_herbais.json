@@ -1,0 +1,53 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.tintas_herbais.name",
+  "subtitle": "smpprofissoes.research.oficios.tintas_herbais.subtitle",
+  "icon": "irons_spellbooks:legendary_ink",
+  "researchLevel": 4,
+  "sortOrder": 100,
+  "costs": [
+    {
+      "count": 64,
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "count": 16,
+      "item": "toxony:nightshade"
+    },
+    {
+      "count": 16,
+      "item": "herbalbrews:lavender"
+    },
+    {
+      "count": 16,
+      "item": "botania:mana_powder"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/fundacao_botania"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/toxicologia"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/tintas_herbais",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/maestria_arcana"
+}

@@ -1,0 +1,56 @@
+{
+ "name": "Look Around",
+ "author": "SMP 2",
+ "description": "Where am I?",
+ "uuid": "771a0927-223e-5534-b572-239a64a6c348",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 74,
+  "stopTick": 80,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 10,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.9
+    }
+   },
+   {
+    "tick": 28,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.9
+    }
+   },
+   {
+    "tick": 44,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": -0.9
+    }
+   },
+   {
+    "tick": 62,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": -0.9
+    }
+   },
+   {
+    "tick": 74,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.0
+    }
+   }
+  ]
+ }
+}

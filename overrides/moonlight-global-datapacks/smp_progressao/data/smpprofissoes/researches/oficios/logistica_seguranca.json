@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.logistica_seguranca.name",
+  "subtitle": "smpprofissoes.research.oficios.logistica_seguranca.subtitle",
+  "icon": "create_security:card_reader",
+  "researchLevel": 3,
+  "sortOrder": 6,
+  "costs": [
+    {
+      "count": 16,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:redstone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/logistica_seguranca",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_latao"
+}

@@ -1,0 +1,49 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arcos_lendarios.name",
+  "subtitle": "smpprofissoes.research.oficios.arcos_lendarios.subtitle",
+  "icon": "simplybows:echo_bow/echo_bow",
+  "researchLevel": 4,
+  "sortOrder": 66,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:bow"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:string"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:fletcher",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/forja_runica"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/prismas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arcos_lendarios",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/armaria_distancia"
+}

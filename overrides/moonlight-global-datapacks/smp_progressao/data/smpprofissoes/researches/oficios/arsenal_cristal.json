@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arsenal_cristal.name",
+  "subtitle": "smpprofissoes.research.oficios.arsenal_cristal.subtitle",
+  "icon": "crystal_chronicles:lightning_bident",
+  "researchLevel": 4,
+  "sortOrder": 37,
+  "costs": [
+    {
+      "count": 16,
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/maestria_arcana"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/cronicas_cristal"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arsenal_cristal",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arsenal_arcano"
+}

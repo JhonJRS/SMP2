@@ -1,0 +1,128 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:typhoon_chestplate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "protection_pixel:typhoonas_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletetyphoon"
+        },
+        {
+          "item": "smpprofissoes:exo_plating"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletetyphoon"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletetyphoon"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletetyphoon"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletetyphoon"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletetyphoon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletetyphoon"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletetyphoon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletetyphoon"
+        },
+        {
+          "item": "protection_pixel:heatoverlockingmechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletetyphoon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletetyphoon"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletetyphoon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletetyphoon"
+        },
+        {
+          "item": "protection_pixel:smallnetheritesheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletetyphoon"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompletetyphoon"
+  }
+}

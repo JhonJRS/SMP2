@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "create:electron_tube"
+    },
+    "D": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "item": "minecraft:glass_pane"
+    },
+    "F": {
+      "item": "minecraft:iron_helmet"
+    },
+    "G": {
+      "tag": "c:ingots/brass"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "DEFED",
+    "ZAGA "
+  ],
+  "result": {
+    "id": "protection_pixel:nightdemon_helmet",
+    "count": 1
+  }
+}

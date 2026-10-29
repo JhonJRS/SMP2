@@ -1,0 +1,97 @@
+["Silent Commands"]
+	#Enable /RpEssentials staff gm/tp/effect commands.
+	enableSilentCommands = true
+	#Notify other staff members when a silent command is used.
+	logToStaff = false
+	#Log silent commands to the server console.
+	logToConsole = true
+	#If 'true', the target receives a message (useful for debug, otherwise leave false).
+	notifyTarget = false
+
+["Teleportation Platforms"]
+	#Enable the /RpEssentials staff platform command.
+	enablePlatforms = true
+	#List of TP platforms.
+	#Format: id;DisplayName;dimension;x;y;z
+	#Example: spawn;The Spawn;minecraft:overworld;0;100;0
+	platforms = ["platform1;Platform 1;minecraft:overworld;0;300;0"]
+
+["Last Connection"]
+	#Enable tracking of each player's last connection/disconnection.
+	#Data is stored in: world/data/RpEssentialsmod/lastconnection.json
+	#Commands: /RpEssentials lastconnection <player>  |  /RpEssentials lastconnection list [count]
+	enableLastConnection = true
+	#If true, also records the last disconnection time of each player.
+	trackLogout = true
+	#Date format used when storing and displaying connection times.
+	#Uses Java SimpleDateFormat syntax.
+	#Examples: 'dd/MM/yyyy HH:mm:ss'  |  'yyyy-MM-dd HH:mm'  |  'MM/dd/yyyy hh:mm a'
+	dateFormat = "dd/MM/yyyy HH:mm:ss"
+
+["Warn System"]
+	#Enable the warn system.
+	#Warns are stored in: world/data/RpEssentialsmod/warns.json
+	#Staff commands: /RpEssentials warn add|temp|remove|list|info|clear|purge
+	#Player command:  /mywarn
+	enableWarnSystem = true
+	#If true, players are notified of their active warn count on every login.
+	#They are also invited to type /mywarn to see the details.
+	notifyOnJoin = false
+	#Message sent to the player at login when they have active warns.
+	#Placeholders: {count} = number of active warns.
+	joinMessage = "§c⚠ You have §l{count} active warning(s)§r§c. Type §l/mywarn §r§cto view them."
+	#Maximum duration (in days) allowed for a /RpEssentials warn temp.
+	#Set to 0 to disable the limit (allow any duration).
+	# Default: 30
+	# Range: 0 ~ 3650
+	maxTempDays = 30
+	#If true, expired temp-warns are automatically removed from the file
+	#on each server startup and on every player login.
+	autoPurgeExpired = true
+	#Message broadcast to all staff members when a warn is added.
+	#Placeholders: {id} {staff} {player} {reason} {expiry}
+	#Set to '' (empty string) to disable staff broadcast.
+	addedBroadcastFormat = "§6[STAFF][WARN] §e{staff} §7sent a warn to §e{player} §7(warn #{id})| §f{reason} §7| {expiry}"
+	#Message broadcast to all staff members when a warn is removed.
+	#Placeholders: {id} {staff}
+	#Set to '' (empty string) to disable staff broadcast.
+	removedBroadcastFormat = "§6[STAFF][WARN] §e{staff} §7has deleted the warn §e#{id}§7."
+
+["Staff Notes"]
+	#Maximum number of notes per player. 0 = unlimited.
+	# Default: 20
+	# Range: 0 ~ 200
+	noteMaxPerPlayer = 20
+
+["Death RP History"]
+	#Maximum age of Death RP history entries in days.
+	#Entries older than this value are purged automatically at 3 AM.
+	#Set to 0 to disable purging.
+	# Default: 90
+	# Range: 0 ~ 3650
+	deathHistoryMaxDays = 90
+
+["Mute System"]
+	#Enable the mute system.
+	enableMuteSystem = true
+	#If true, players are automatically muted when they reach muteAutoWarnCount active warns.
+	muteAutoFromWarns = false
+	#Number of active warns that triggers an automatic mute.
+	# Default: 3
+	# Range: 1 ~ 100
+	muteAutoWarnCount = 3
+	#Duration of the automatic mute in minutes (0 = permanent).
+	# Default: 60
+	# Range: 0 ~ 43200
+	muteAutoDurationMinutes = 60
+
+["Auto Unwhitelist"]
+	#Auto-remove from whitelist players inactive for more than autoUnwhitelistDays days.
+	#Requires enableLastConnection = true. Runs once per day at midnight.
+	autoUnwhitelistEnabled = false
+	#Days of inactivity before auto-unwhitelist.
+	# Default: 30
+	# Range: 1 ~ 3650
+	autoUnwhitelistDays = 30
+	#Extra commands run for each removed player. Placeholders: {player} {uuid}
+	autoUnwhitelistExtraCommands = []

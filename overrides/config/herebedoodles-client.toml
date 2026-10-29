@@ -1,0 +1,8 @@
+[book]
+	#Grow the atlas book to fill the window (Antique Atlas 4 style).
+	#EXPERIMENTAL - off by default. Doodling works at either size.
+	bigBook = false
+
+[toolbar]
+	#Start with the doodle toolbar expanded when the atlas opens.
+	startOpen = true

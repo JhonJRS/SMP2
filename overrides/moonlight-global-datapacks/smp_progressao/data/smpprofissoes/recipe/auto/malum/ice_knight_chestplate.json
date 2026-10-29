@@ -1,0 +1,40 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:cryomancer_chestplate"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:ice_rune"
+    },
+    {
+      "count": 1,
+      "item": "crystal_chronicles:ice_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:ice_knight_chestplate",
+    "components": {
+      "irons_spellbooks:spell_container": {
+        "data": [],
+        "maxSpells": 1,
+        "mustEquip": true,
+        "spellWheel": true
+      }
+    }
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true
+}

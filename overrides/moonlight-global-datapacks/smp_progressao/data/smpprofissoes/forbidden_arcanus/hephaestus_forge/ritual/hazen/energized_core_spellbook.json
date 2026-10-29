@@ -1,0 +1,78 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:storm_weave"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:volt_core"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:energized_core"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:iron_spell_book"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:energized_core_spellbook"
+    }
+  ],
+  "essences": {
+    "aureal": 2500,
+    "blood": 3500,
+    "experience": 1500,
+    "souls": 25
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "hazennstuff:storm_weave"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:lightning_rune"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazennstuff:volt_core"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:energized_core"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:iron_spell_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:energized_core_spellbook"
+    }
+  }
+}

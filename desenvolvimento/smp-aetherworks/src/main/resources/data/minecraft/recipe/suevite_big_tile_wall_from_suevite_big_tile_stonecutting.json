@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "aetherworks:suevite_big_tile"
+  },
+  "result": {
+    "id": "aetherworks:suevite_big_tile_wall",
+    "count": 1
+  }
+}

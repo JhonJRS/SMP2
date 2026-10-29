@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RTR",
+    "MLM",
+    "HLH"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "R": {
+      "item": "botania:rune_fire"
+    },
+    "M": {
+      "item": "botania:mana_diamond"
+    },
+    "L": {
+      "item": "malum:runewood_log"
+    },
+    "H": {
+      "item": "malum:hallowed_gold_ingot"
+    }
+  },
+  "result": {
+    "id": "torchmaster:megatorch"
+  }
+}

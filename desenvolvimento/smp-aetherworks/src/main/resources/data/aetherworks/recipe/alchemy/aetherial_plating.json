@@ -1,0 +1,37 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:ashen_fabric"
+    },
+    {
+      "item": "embers:ashen_fabric"
+    },
+    {
+      "item": "embers:ashen_fabric"
+    },
+    {
+      "item": "embers:adhesive"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:aetherial_plating"
+  },
+  "tablet": {
+    "item": "aetherworks:plate_aether"
+  }
+}

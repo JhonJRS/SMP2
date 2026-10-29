@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "embers:ashen_fabric"
+    },
+    "D": {
+      "item": "smpprofissoes:ashen_weave"
+    },
+    "P": {
+      "tag": "c:plates/dawnstone"
+    }
+  },
+  "pattern": [
+    "P P",
+    "CDC",
+    "CDC"
+  ],
+  "result": {
+    "id": "embers:ashen_cloak"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "toxony:alchemical_forge",
+  "affinities": [
+    "toxony:ocean",
+    "toxony:sun",
+    "toxony:forest"
+  ],
+  "auxiliary": [
+    {
+      "item": "smpprofissoes:cursed_toxin"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "main": {
+    "item": "minecraft:iron_sword"
+  },
+  "result": {
+    "id": "toxony:witching_blade"
+  }
+}

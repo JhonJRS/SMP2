@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:holy_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:seraph_boots"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:gabriel_ultrakill_boots"
+    }
+  ],
+  "essences": {
+    "aureal": 1200,
+    "blood": 1800,
+    "experience": 800,
+    "souls": 10
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:holy_rune"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "hazennstuff:seraph_boots"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:gabriel_ultrakill_boots"
+    }
+  }
+}

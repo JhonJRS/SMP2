@@ -1,0 +1,28 @@
+# Rodada 2 (25/10): ArcadiaGuard e nome oculto sobre jogador invisível
+
+## ArcadiaGuard: zona criada por coordenadas (sem WorldEdit)
+> forceload add -16 -16 16 16
+> setblock 0 200 0 minecraft:stone
+> setblock 12 200 12 minecraft:stone
+> smpteste quebrar 12 200 12 => QUEBROU
+> ag help
+> ag zone add teste -5 190 -5 5 210 5 => teste
+> ag zone list => teste
+> ag zone info teste
+> smpteste quebrar 0 200 0 => PROTEGIDO
+> setblock 3 200 3 minecraft:stone
+> ag flag teste block_break allow
+> smpteste quebrar 3 200 3
+> ag zone remove teste => teste
+
+## Nome oculto sobre jogador invisível (RPEssentials e vanilla)
+> time set day
+> weather clear
+p> effect give @s minecraft:invisibility 120 0 true
+camera 3
+espera 60
+foto invisivel_sem_nome
+p> effect clear @s minecraft:invisibility
+espera 40
+foto visivel_com_nome
+camera 1

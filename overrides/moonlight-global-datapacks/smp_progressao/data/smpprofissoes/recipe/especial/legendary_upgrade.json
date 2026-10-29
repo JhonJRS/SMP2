@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    "M": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "minecraft:heavy_core"
+    },
+    "O": {
+      "item": "irons_spellbooks:upgrade_orb"
+    }
+  },
+  "pattern": [
+    " I ",
+    "MOS",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:legendary_upgrade"
+  }
+}

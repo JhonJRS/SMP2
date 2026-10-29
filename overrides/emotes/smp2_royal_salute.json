@@ -1,0 +1,64 @@
+{
+ "name": "Royal Salute",
+ "author": "SMP 2",
+ "description": "Fist to the heart, for the crown",
+ "uuid": "18474754-6c96-5345-8b67-adf479150ae7",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 40,
+  "stopTick": 46,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.1
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.85
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.1
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.1
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.85
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": -0.1
+    }
+   }
+  ]
+ }
+}

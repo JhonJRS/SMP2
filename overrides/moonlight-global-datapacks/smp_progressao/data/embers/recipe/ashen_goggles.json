@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "embers:ashen_fabric"
+    },
+    "D": {
+      "tag": "c:ingots/dawnstone"
+    },
+    "S": {
+      "item": "smpprofissoes:ashen_weave"
+    }
+  },
+  "pattern": [
+    " S ",
+    "C C",
+    "DCD"
+  ],
+  "result": {
+    "id": "embers:ashen_goggles"
+  },
+  "show_notification": true
+}

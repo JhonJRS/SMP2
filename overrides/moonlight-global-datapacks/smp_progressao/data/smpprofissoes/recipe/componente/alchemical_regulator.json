@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:precision_mechanism"
+    },
+    {
+      "item": "create:electron_tube"
+    },
+    {
+      "item": "create:electron_tube"
+    },
+    {
+      "item": "toxony:toxin"
+    },
+    {
+      "item": "toxony:copper_crucible"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:alchemical_regulator",
+    "count": 1
+  }
+}

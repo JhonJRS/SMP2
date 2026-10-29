@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aetherworks:block/suevite_bricks_slab"
+    },
+    "type=double": {
+      "model": "aetherworks:block/suevite_bricks"
+    },
+    "type=top": {
+      "model": "aetherworks:block/suevite_bricks_slab_top"
+    }
+  }
+}

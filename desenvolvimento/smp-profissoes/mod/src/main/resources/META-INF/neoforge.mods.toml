@@ -1,0 +1,52 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "smpprofissoes"
+version = "1.0.0"
+displayName = "SMP Profissões"
+authors = "SMP 2"
+description = '''
+Integra as profissões do RPEssentials com as pesquisas e edifícios da MineColonies:
+concede/remove licenças de etapa no servidor e bloqueia padrões AE2 e ensino de receitas
+da MineColonies para quem não pode fabricar o item.
+'''
+
+[[mixins]]
+config = "smpprofissoes.mixins.json"
+
+[[dependencies.smpprofissoes]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.smpprofissoes]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.smpprofissoes]]
+modId = "minecolonies"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.smpprofissoes]]
+modId = "rpessentials"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.smpprofissoes]]
+modId = "ae2"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

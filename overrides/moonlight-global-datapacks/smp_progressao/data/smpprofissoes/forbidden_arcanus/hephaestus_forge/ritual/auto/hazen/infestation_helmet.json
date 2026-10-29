@@ -1,0 +1,64 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:divine_mold"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:netherite_mage_helmet"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:infestation_helmet"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:divine_mold"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "tag": "hazennstuff:items/eldritch_runes"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:archmage_codex"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:netherite_mage_helmet"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:infestation_helmet"
+    }
+  }
+}

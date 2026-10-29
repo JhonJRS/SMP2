@@ -1,0 +1,117 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "irons_spellbooks:mithril_ingot"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF9FD6E8",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "text": "Mithril"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 22.0,
+      "armor/helmet": 3,
+      "armor/chestplate": 9,
+      "armor/leggings": 7,
+      "armor/boots": 3,
+      "armor_durability": 34.0,
+      "armor_toughness": 6.0,
+      "attack_damage": 4.0,
+      "attack_speed": 0.0,
+      "charging_value": 0.8,
+      "draw_speed": 0.0,
+      "durability": 2200.0,
+      "enchantment_value": 30.0,
+      "harvest_speed": 14.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_crimson_steel_tools",
+        "level_hint": "4",
+        "name": "crimson_steel"
+      },
+      "magic_armor": 14.0,
+      "magic_damage": 8.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 2.0,
+      "rarity": 90.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.2
+      },
+      "traits": [
+        {
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ],
+          "level": 2,
+          "trait": "silentgear:light"
+        }
+      ],
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.0
+      }
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 320.0
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 4.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 25.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_crimson_steel_tools",
+        "level_hint": "4",
+        "name": "crimson_steel"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:light"
+        }
+      ]
+    }
+  }
+}

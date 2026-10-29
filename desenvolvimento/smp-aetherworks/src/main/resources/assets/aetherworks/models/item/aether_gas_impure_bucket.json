@@ -1,0 +1,7 @@
+{
+  "parent": "aetherworks:item/bucket_fluid",
+  "cover_is_mask": false,
+  "flip_gas": true,
+  "fluid": "aetherworks:aether_gas_impure",
+  "loader": "neoforge:fluid_container"
+}

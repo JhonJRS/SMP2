@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "minecraft:ender_eye"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    {
+      "count": 2,
+      "item": "crystal_chronicles:voidstone_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:ender_sickle"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    },
+    {
+      "type": "malum:earthen",
+      "count": 8
+    }
+  ]
+}

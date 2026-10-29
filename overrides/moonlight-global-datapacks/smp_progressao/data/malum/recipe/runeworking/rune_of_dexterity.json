@@ -1,0 +1,16 @@
+{
+  "type": "malum:runeworking",
+  "input": {
+    "count": 1,
+    "item": "smpprofissoes:runic_slate"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:rune_of_dexterity"
+  },
+  "secondaryInput": {
+    "count": 16,
+    "item": "malum:aerial_spirit"
+  },
+  "soundType": "malum:runic_workbench_shapes_tainted_rune"
+}

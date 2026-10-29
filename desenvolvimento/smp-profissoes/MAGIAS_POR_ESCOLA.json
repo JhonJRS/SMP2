@@ -1,0 +1,1498 @@
+[
+  {
+    "classe": "net.rev.darkermagic.spells.eldritch.SummonSculkCentipedeSpell",
+    "id": "darkermagic:summoned_sculk_centipede",
+    "escola": "eldritch",
+    "raridade_min": "RARE",
+    "jar": "darkermagic-1.3.3-1.21.1-ver.b.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.rev.darkermagic.spells.eldritch.SummonSculkSnapperSpell",
+    "id": "darkermagic:summoned_sculk_snapper",
+    "escola": "eldritch",
+    "raridade_min": "EPIC",
+    "jar": "darkermagic-1.3.3-1.21.1-ver.b.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.rev.darkermagic.spells.eldritch.SummonShatteredSpell",
+    "id": "darkermagic:summoned_shattered",
+    "escola": "eldritch",
+    "raridade_min": "EPIC",
+    "jar": "darkermagic-1.3.3-1.21.1-ver.b.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.rev.darkermagic.spells.eldritch.SummonWardenSpell",
+    "id": "darkermagic:summoned_warden",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "darkermagic-1.3.3-1.21.1-ver.b.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Blood.BoneBoltSpell",
+    "id": "hazennstuff:bone_bolt",
+    "escola": "blood",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Blood.ViolentRegurgitationSpell",
+    "id": "hazennstuff:violent_regurgitation",
+    "escola": "blood",
+    "raridade_min": "EPIC",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Cosmic.CosmicBoltSpell",
+    "id": "hazennstuff:cosmic_bolt",
+    "escola": "HLSchoolRegistry.cosmic",
+    "raridade_min": "EPIC",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Cosmic.EvercometBarrageSpell",
+    "id": "hazennstuff:evercomet_barrage",
+    "escola": "HLSchoolRegistry.cosmic",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Cosmic.MoonkissedSpell",
+    "id": "hazennstuff:moonkissed",
+    "escola": "HLSchoolRegistry.cosmic",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Cosmic.ShootingStarSpell",
+    "id": "hazennstuff:shooting_star",
+    "escola": "HLSchoolRegistry.cosmic",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Eldritch.SoulSeekersSpell",
+    "id": "hazennstuff:soul_seekers",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Ender.EndraconicMeteorSpell",
+    "id": "hazennstuff:endraconic_meteor",
+    "escola": "ender",
+    "raridade_min": "EPIC",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Evocation.ParrySpell",
+    "id": "hazennstuff:parry",
+    "escola": "evocation",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Evocation.SpectralAxeSpell",
+    "id": "hazennstuff:spectral_axe",
+    "escola": "evocation",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Fire.CinderousStepSpell",
+    "id": "hazennstuff:cinderous_step",
+    "escola": "fire",
+    "raridade_min": "UNCOMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Fire.ReignOfTyrosSpell",
+    "id": "hazennstuff:reign_of_tyros",
+    "escola": "fire",
+    "raridade_min": "LEGENDARY",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": false
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Fire.SoulFlamingStrikeSpell",
+    "id": "hazennstuff:soul_flaming_strike",
+    "escola": "fire",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Fire.SoulflameBoltSpell",
+    "id": "hazennstuff:soul_flame_bolt",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Hydro.TridentJetstreamSpell",
+    "id": "hazennstuff:trident_jetstream",
+    "escola": "ASSchoolRegistry.hydro",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Hydro.WaterBoltSpell",
+    "id": "hazennstuff:water_bolt",
+    "escola": "ASSchoolRegistry.hydro",
+    "raridade_min": "UNCOMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Ice.HailstormSpell",
+    "id": "hazennstuff:hailstorm",
+    "escola": "ice",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Ice.IceArrowSpell",
+    "id": "hazennstuff:ice_arrow",
+    "escola": "ice",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Lightning.DazzlingObliterationSpell",
+    "id": "hazennstuff:dazzling_obliteration",
+    "escola": "lightning",
+    "raridade_min": "EPIC",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Lightning.EnergyBurstSpell",
+    "id": "hazennstuff:energy_burst",
+    "escola": "lightning",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Nature.CounterspellSpiderLilySpell",
+    "id": "hazennstuff:counterspell_spider_lily",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Nature.DeathSentenceSpell",
+    "id": "hazennstuff:death_sentence",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Nature.ShardSwordSpell",
+    "id": "hazennstuff:shard_sword",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Nature.ThornChakramSpell",
+    "id": "hazennstuff:thorn_chakram",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Radiance.CallForthTerraprismaSpell",
+    "id": "hazennstuff:call_forth_terraprisma",
+    "escola": "HLSchoolRegistry.radiance",
+    "raridade_min": "EPIC",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Radiance.PrismaticShiftSpell",
+    "id": "hazennstuff:prismatic_shift",
+    "escola": "HLSchoolRegistry.radiance",
+    "raridade_min": "UNCOMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Radiance.SyringeBarrageSpell",
+    "id": "hazennstuff:syringe_barrage",
+    "escola": "HLSchoolRegistry.radiance",
+    "raridade_min": "COMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Radiance.TerraprismicBarrageSpell",
+    "id": "hazennstuff:terraprismic_barrage",
+    "escola": "HLSchoolRegistry.radiance",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Shadow.ArcaneCardsSpell",
+    "id": "hazennstuff:arcane_cards",
+    "escola": "HLSchoolRegistry.shadow",
+    "raridade_min": "UNCOMMON",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Shadow.ShadowReaverSpell",
+    "id": "hazennstuff:shadow_reaver",
+    "escola": "HLSchoolRegistry.shadow",
+    "raridade_min": "EPIC",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.hazen.hazennstuff.Spells.Schools.Shadow.UmbrashiftBarrageSpell",
+    "id": "hazennstuff:umbrashift_barrage",
+    "escola": "HLSchoolRegistry.shadow",
+    "raridade_min": "RARE",
+    "jar": "hazennstuff-1.4.0.14.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.AcupunctureSpell",
+    "id": "irons_spellbooks:acupuncture",
+    "escola": "blood",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.BloodNeedlesSpell",
+    "id": "irons_spellbooks:blood_needles",
+    "escola": "blood",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.BloodSlashSpell",
+    "id": "irons_spellbooks:blood_slash",
+    "escola": "blood",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.BloodStepSpell",
+    "id": "irons_spellbooks:blood_step",
+    "escola": "blood",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.DevourSpell",
+    "id": "irons_spellbooks:devour",
+    "escola": "blood",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.HeartstopSpell",
+    "id": "irons_spellbooks:heartstop",
+    "escola": "blood",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.RaiseDeadSpell",
+    "id": "irons_spellbooks:raise_dead",
+    "escola": "blood",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.RayOfSiphoningSpell",
+    "id": "irons_spellbooks:ray_of_siphoning",
+    "escola": "blood",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.SacrificeSpell",
+    "id": "irons_spellbooks:sacrifice",
+    "escola": "blood",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.blood.WitherSkullSpell",
+    "id": "irons_spellbooks:wither_skull",
+    "escola": "blood",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.eldritch.AbyssalShroudSpell",
+    "id": "irons_spellbooks:abyssal_shroud",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.eldritch.EldritchBlastSpell",
+    "id": "irons_spellbooks:eldritch_blast",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.eldritch.PlanarSightSpell",
+    "id": "irons_spellbooks:planar_sight",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.eldritch.PocketDimensionSpell",
+    "id": "irons_spellbooks:pocket_dimension",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.eldritch.SculkTentaclesSpell",
+    "id": "irons_spellbooks:sculk_tentacles",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.eldritch.SonicBoomSpell",
+    "id": "irons_spellbooks:sonic_boom",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.eldritch.TelekinesisSpell",
+    "id": "irons_spellbooks:telekinesis",
+    "escola": "eldritch",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.ArcaneShackleSpell",
+    "id": "irons_spellbooks:arcane_shackle",
+    "escola": "ender",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.BlackHoleSpell",
+    "id": "irons_spellbooks:black_hole",
+    "escola": "ender",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.CounterspellSpell",
+    "id": "irons_spellbooks:counterspell",
+    "escola": "ender",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.DragonBreathSpell",
+    "id": "irons_spellbooks:dragon_breath",
+    "escola": "ender",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.EchoingStrikesSpell",
+    "id": "irons_spellbooks:echoing_strikes",
+    "escola": "ender",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.EvasionSpell",
+    "id": "irons_spellbooks:evasion",
+    "escola": "ender",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.GravityFissureSpell",
+    "id": "irons_spellbooks:gravity_fissure",
+    "escola": "ender",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.MagicArrowSpell",
+    "id": "irons_spellbooks:magic_arrow",
+    "escola": "ender",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.MagicMissileSpell",
+    "id": "irons_spellbooks:magic_missile",
+    "escola": "ender",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.PortalSpell",
+    "id": "irons_spellbooks:portal",
+    "escola": "ender",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.RecallSpell",
+    "id": "irons_spellbooks:recall",
+    "escola": "ender",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.ShadowSlashSpell",
+    "id": "irons_spellbooks:shadow_slash",
+    "escola": "ender",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.StarfallSpell",
+    "id": "irons_spellbooks:starfall",
+    "escola": "ender",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.SummonEnderChestSpell",
+    "id": "irons_spellbooks:summon_ender_chest",
+    "escola": "ender",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.SummonSwordsSpell",
+    "id": "irons_spellbooks:summon_swords",
+    "escola": "ender",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ender.TeleportSpell",
+    "id": "irons_spellbooks:teleport",
+    "escola": "ender",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.ArrowVolleySpell",
+    "id": "irons_spellbooks:arrow_volley",
+    "escola": "evocation",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.ChainCreeperSpell",
+    "id": "irons_spellbooks:chain_creeper",
+    "escola": "evocation",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.FangStrikeSpell",
+    "id": "irons_spellbooks:fang_strike",
+    "escola": "evocation",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.FangSwirlSpell",
+    "id": "irons_spellbooks:fang_swirl",
+    "escola": "evocation",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.FangWardSpell",
+    "id": "irons_spellbooks:fang_ward",
+    "escola": "evocation",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.FirecrackerSpell",
+    "id": "irons_spellbooks:firecracker",
+    "escola": "evocation",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.GustSpell",
+    "id": "irons_spellbooks:gust",
+    "escola": "evocation",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.InvisibilitySpell",
+    "id": "irons_spellbooks:invisibility",
+    "escola": "evocation",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.LobCreeperSpell",
+    "id": "irons_spellbooks:lob_creeper",
+    "escola": "evocation",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.ScapegoatSpell",
+    "id": "irons_spellbooks:scapegoat",
+    "escola": "evocation",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.ShieldSpell",
+    "id": "irons_spellbooks:shield",
+    "escola": "evocation",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.SlowSpell",
+    "id": "irons_spellbooks:slow",
+    "escola": "evocation",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.SpectralHammerSpell",
+    "id": "irons_spellbooks:spectral_hammer",
+    "escola": "evocation",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.SummonHorseSpell",
+    "id": "irons_spellbooks:summon_horse",
+    "escola": "evocation",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.SummonVexSpell",
+    "id": "irons_spellbooks:summon_vex",
+    "escola": "evocation",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.ThrowSpell",
+    "id": "irons_spellbooks:throw",
+    "escola": "evocation",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.evocation.WololoSpell",
+    "id": "irons_spellbooks:wololo",
+    "escola": "evocation",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.BlazeStormSpell",
+    "id": "irons_spellbooks:blaze_storm",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.BurningDashSpell",
+    "id": "irons_spellbooks:burning_dash",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.FireArrowSpell",
+    "id": "irons_spellbooks:fire_arrow",
+    "escola": "fire",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.FireballSpell",
+    "id": "irons_spellbooks:fireball",
+    "escola": "fire",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.FireboltSpell",
+    "id": "irons_spellbooks:firebolt",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.FireBreathSpell",
+    "id": "irons_spellbooks:fire_breath",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.FlamingBarrageSpell",
+    "id": "irons_spellbooks:flaming_barrage",
+    "escola": "fire",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.FlamingStrikeSpell",
+    "id": "irons_spellbooks:flaming_strike",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.HeatSurgeSpell",
+    "id": "irons_spellbooks:heat_surge",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.MagmaBombSpell",
+    "id": "irons_spellbooks:magma_bomb",
+    "escola": "fire",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.RaiseHellSpell",
+    "id": "irons_spellbooks:raise_hell",
+    "escola": "fire",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.ScorchSpell",
+    "id": "irons_spellbooks:scorch",
+    "escola": "fire",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.SoulfireRaySpell",
+    "id": "irons_spellbooks:soulfire_ray",
+    "escola": "fire",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": false
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.fire.WallOfFireSpell",
+    "id": "irons_spellbooks:wall_of_fire",
+    "escola": "fire",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.AngelWingsSpell",
+    "id": "irons_spellbooks:angel_wing",
+    "escola": "holy",
+    "raridade_min": "LEGENDARY",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.BlessingOfLifeSpell",
+    "id": "irons_spellbooks:blessing_of_life",
+    "escola": "holy",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.CleanseSpell",
+    "id": "irons_spellbooks:cleanse",
+    "escola": "holy",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.CloudOfRegenerationSpell",
+    "id": "irons_spellbooks:cloud_of_regeneration",
+    "escola": "holy",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.DivineSmiteSpell",
+    "id": "irons_spellbooks:divine_smite",
+    "escola": "holy",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.FortifySpell",
+    "id": "irons_spellbooks:fortify",
+    "escola": "holy",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.GreaterHealSpell",
+    "id": "irons_spellbooks:greater_heal",
+    "escola": "holy",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.GuidingBoltSpell",
+    "id": "irons_spellbooks:guiding_bolt",
+    "escola": "holy",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.HasteSpell",
+    "id": "irons_spellbooks:haste",
+    "escola": "holy",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.HealingCircleSpell",
+    "id": "irons_spellbooks:healing_circle",
+    "escola": "holy",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.HealSpell",
+    "id": "irons_spellbooks:heal",
+    "escola": "holy",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.SunbeamSpell",
+    "id": "irons_spellbooks:sunbeam",
+    "escola": "holy",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.holy.WispSpell",
+    "id": "irons_spellbooks:wisp",
+    "escola": "holy",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.BlizzardSpell",
+    "id": "irons_spellbooks:blizzard",
+    "escola": "ice",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.ConeOfColdSpell",
+    "id": "irons_spellbooks:cone_of_cold",
+    "escola": "ice",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.FrostbiteSpell",
+    "id": "irons_spellbooks:frostbite",
+    "escola": "ice",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.FrostStepSpell",
+    "id": "irons_spellbooks:frost_step",
+    "escola": "ice",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.FrostwaveSpell",
+    "id": "irons_spellbooks:frostwave",
+    "escola": "ice",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.IceBlockSpell",
+    "id": "irons_spellbooks:ice_block",
+    "escola": "ice",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.IceSpikesSpell",
+    "id": "irons_spellbooks:ice_spikes",
+    "escola": "ice",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.IceTombSpell",
+    "id": "irons_spellbooks:ice_tomb",
+    "escola": "ice",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.IcicleSpell",
+    "id": "irons_spellbooks:icicle",
+    "escola": "ice",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.RayOfFrostSpell",
+    "id": "irons_spellbooks:ray_of_frost",
+    "escola": "ice",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.SnowballSpell",
+    "id": "irons_spellbooks:snowball",
+    "escola": "ice",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.ice.SummonPolarBearSpell",
+    "id": "irons_spellbooks:summon_polar_bear",
+    "escola": "ice",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.AscensionSpell",
+    "id": "irons_spellbooks:ascension",
+    "escola": "lightning",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.BallLightningSpell",
+    "id": "irons_spellbooks:ball_lightning",
+    "escola": "lightning",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.ChainLightningSpell",
+    "id": "irons_spellbooks:chain_lightning",
+    "escola": "lightning",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.ChargeSpell",
+    "id": "irons_spellbooks:charge",
+    "escola": "lightning",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.ElectrocuteSpell",
+    "id": "irons_spellbooks:electrocute",
+    "escola": "lightning",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.LightningBoltSpell",
+    "id": "irons_spellbooks:lightning_bolt",
+    "escola": "lightning",
+    "raridade_min": "EPIC",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.LightningLanceSpell",
+    "id": "irons_spellbooks:lightning_lance",
+    "escola": "lightning",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.ShockwaveSpell",
+    "id": "irons_spellbooks:shockwave",
+    "escola": "lightning",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.ThunderStepSpell",
+    "id": "irons_spellbooks:thunder_step",
+    "escola": "lightning",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": false
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.ThunderstormSpell",
+    "id": "irons_spellbooks:thunderstorm",
+    "escola": "lightning",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.lightning.VoltStrikeSpell",
+    "id": "irons_spellbooks:volt_strike",
+    "escola": "lightning",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.AcidOrbSpell",
+    "id": "irons_spellbooks:acid_orb",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.BlightSpell",
+    "id": "irons_spellbooks:blight",
+    "escola": "nature",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.EarthquakeSpell",
+    "id": "irons_spellbooks:earthquake",
+    "escola": "nature",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.FireflySwarmSpell",
+    "id": "irons_spellbooks:firefly_swarm",
+    "escola": "nature",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.GluttonySpell",
+    "id": "irons_spellbooks:gluttony",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.OakskinSpell",
+    "id": "irons_spellbooks:oakskin",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.PoisonArrowSpell",
+    "id": "irons_spellbooks:poison_arrow",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.PoisonBreathSpell",
+    "id": "irons_spellbooks:poison_breath",
+    "escola": "nature",
+    "raridade_min": "COMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.PoisonSplashSpell",
+    "id": "irons_spellbooks:poison_splash",
+    "escola": "nature",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.RootSpell",
+    "id": "irons_spellbooks:root",
+    "escola": "nature",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.SpiderAspectSpell",
+    "id": "irons_spellbooks:spider_aspect",
+    "escola": "nature",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.StompSpell",
+    "id": "irons_spellbooks:stomp",
+    "escola": "nature",
+    "raridade_min": "UNCOMMON",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.nature.TouchDigSpell",
+    "id": "irons_spellbooks:touch_dig",
+    "escola": "nature",
+    "raridade_min": "RARE",
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "io.redspace.ironsspellbooks.spells.NoneSpell",
+    "id": "irons_spellbooks:none",
+    "escola": null,
+    "raridade_min": null,
+    "jar": "irons_spellbooks-1.21.1-3.16.3.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.AnchoringKunaiSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "UNCOMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.AshigaruSquadSpell",
+    "id": "iss_magicfromtheeast:ashigaru_squad",
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "UNCOMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.BoneHandsSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "UNCOMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.CalamityCutSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.KitsunePackSpell",
+    "id": "iss_magicfromtheeast:kitsune_pack",
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.PhantomChargeSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "RARE",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.RevenantOfHonorSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "RARE",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.SoulBurstSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.SoulCatalystSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.SpiritChallengingSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "RARE",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.spirit.SplittingShurikenSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.spirit",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.BaguaArrayCircleSpell",
+    "id": "iss_magicfromtheeast:bagua_array_circle",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "UNCOMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.CloudRideSpell",
+    "id": "iss_magicfromtheeast:cloud_ride",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "UNCOMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.DragonGlideSpell",
+    "id": "iss_magicfromtheeast:dragon_glide",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.DrapesOfReflectionSpell",
+    "id": "iss_magicfromtheeast:drapes_of_reflection",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "RARE",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.JadeBulletSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.JadeJudgementSpell",
+    "id": "iss_magicfromtheeast:jade_judgement",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "RARE",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.JiangshiInvokeSpell",
+    "id": "iss_magicfromtheeast:jiangshi_invoke",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.NephriteSlashSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "COMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.PunishingHeavenSpell",
+    "id": null,
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "EPIC",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.SwordDanceSpell",
+    "id": "iss_magicfromtheeast:sword_dance",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "UNCOMMON",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.warphan.iss_magicfromtheeast.spells.symmetry.UnderworldAidSpell",
+    "id": "iss_magicfromtheeast:underworld_aid",
+    "escola": "MFTESchoolRegistries.symmetry",
+    "raridade_min": "RARE",
+    "jar": "iss_magicfromtheeast-1.1.5.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.CelestialChantSpell",
+    "id": "tunes_n_tomes:celestial_chant",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "LEGENDARY",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.ChordBlastSpell",
+    "id": "tunes_n_tomes:chord_blast",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "RARE",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.ClamorNoteSpell",
+    "id": "tunes_n_tomes:clamor_note",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "COMMON",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.CrescendoSpell",
+    "id": "tunes_n_tomes:crescendo",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "EPIC",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.DalSegnoSpell",
+    "id": "tunes_n_tomes:dal_segno",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "UNCOMMON",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.EncoreSpell",
+    "id": "tunes_n_tomes:encore",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "RARE",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.FortissimoSpell",
+    "id": "tunes_n_tomes:fortissimo",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "COMMON",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.GrandFinaleSpell",
+    "id": "tunes_n_tomes:grand_finale",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "RARE",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.HarmonicAriaSpell",
+    "id": "tunes_n_tomes:harmonic_aria",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "COMMON",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.HymnOfHopeSpell",
+    "id": "tunes_n_tomes:hymn_of_hope",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "EPIC",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.PiercingSoloSpell",
+    "id": "tunes_n_tomes:piercing_solo",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "LEGENDARY",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.RhapsodySpell",
+    "id": "tunes_n_tomes:rhapsody",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "EPIC",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.SerenadeSpell",
+    "id": "tunes_n_tomes:serenade",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "LEGENDARY",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.SlumberNoteSpell",
+    "id": "tunes_n_tomes:slumber_note",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "COMMON",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.SonataSpell",
+    "id": "tunes_n_tomes:sonata",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "EPIC",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  },
+  {
+    "classe": "net.alshanex.tunes_n_tomes.spells.SwiftMelodySpell",
+    "id": "tunes_n_tomes:swift_melody",
+    "escola": "TSchoolRegistry.melody",
+    "raridade_min": "UNCOMMON",
+    "jar": "tunes_n_tomes-1.1.0-HOTFIX.jar",
+    "registrada": true
+  }
+]

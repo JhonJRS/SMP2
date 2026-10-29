@@ -1,0 +1,183 @@
+[level_plate_settings]
+	#Determines when entity levels are rendered: ALWAYS, NEVER, or LOOKING_AT (only when the player is looking directly at/near the entity).
+	#Allowed Values: ALWAYS, NEVER, LOOKING_AT
+	render_behavior = "LOOKING_AT"
+	maximum_render_distance = 64.0
+	#Show Apotheosis world tier in entity level display (if Apotheosis is installed)
+	#This will scan entity attributes for Apotheosis tier modifiers
+	#Tiers: Haven, Frontier, Ascent, Summit, Pinnacle
+	show_apotheosis_world_tier = true
+	#Show Dungeon Difficulty info in entity level display (if Dungeon Difficulty is installed)
+	#Displays the difficulty type and level in brackets after the entity level
+	#Example: 'Lv. 15 [Normal 5]'
+	show_dungeon_difficulty_info = true
+	#Enable line of sight checks for entity level rendering
+	#When enabled, levels are only shown for entities the player can see (requires raycast)
+	#When disabled, levels are shown based on distance and render behavior only (better performance)
+	enable_line_of_sight_check = true
+	#Whether to inject level information into mob (non-player) nameplates
+	#When false, mob nameplates show only the vanilla name without level info
+	inject_level_into_mobs = true
+	#Whether to inject level information into player nameplates
+	#When false, player nameplates show only the vanilla name without level info
+	inject_level_into_players = true
+	#Whether to override the default nameplate visibility for mobs (non-players)
+	#When false, vanilla decides when mob nameplates are shown (sneaking, spectator, etc.)
+	#Level injection (if enabled) still applies when vanilla shows the nameplate
+	override_mob_nameplate_visibility = true
+	#Whether to override the default nameplate visibility for players
+	#When false, vanilla decides when player nameplates are shown (sneaking, spectator, etc.)
+	#Level injection (if enabled) still applies when vanilla shows the nameplate
+	override_player_nameplate_visibility = true
+
+[integration_options]
+	#Show entity levels in Jade tooltips (requires Jade to be installed)
+	enable_jade_integration = true
+
+[entity_settings]
+	entities_with_hidden_levels = []
+
+[structure_title_display]
+	#Display structure names and level bonuses when entering structures
+	#Defaults to false if Structure Credits mod is loaded
+	show_structure_titles = true
+	#Only display structure titles if the structure provides a level bonus
+	#When false, structure titles always display when entering structures
+	#When true (default), structure titles only display if structureBonus > 0
+	structure_title_only_announce_if_modified = true
+	#Time in ticks for structure title to fade in
+	# Default: 10
+	# Range: 0 ~ 100
+	structure_title_fade_in_time = 10
+	#Time in ticks to display structure title
+	# Default: 60
+	# Range: 0 ~ 600
+	structure_title_display_time = 60
+	#Time in ticks for structure title to fade out
+	# Default: 20
+	# Range: 0 ~ 100
+	structure_title_fade_out_time = 20
+	#Text color in hex format (e.g., "FFFFFF" for white)
+	structure_title_text_color = "FFFFFF"
+	#Render text shadow for structure titles
+	structure_title_render_shadow = true
+	#Text size multiplier for structure titles
+	# Default: 2.0
+	# Range: 0.5 ~ 5.0
+	structure_title_text_size = 2.0
+	#Anchor point for structure title positioning
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	structure_title_anchor = "BOTTOM_CENTER"
+	#X offset from anchor point for structure title position
+	structure_title_x_offset = 0
+	#Y offset from anchor point for structure title position
+	structure_title_y_offset = -82
+
+[biome_title_display]
+	#Display biome names when entering biomes
+	#Defaults to false if Traveler's Titles mod is loaded
+	show_biome_titles = true
+	#Only display biome titles if the biome provides a level bonus
+	#When false (default), biome titles always display when entering biomes
+	#When true, biome titles only display if biomeBonus > 0
+	biome_title_only_announce_if_modified = false
+	#Time in ticks for biome title to fade in
+	# Default: 10
+	# Range: 0 ~ 100
+	biome_title_fade_in_time = 10
+	#Time in ticks to display biome title
+	# Default: 60
+	# Range: 0 ~ 600
+	biome_title_display_time = 60
+	#Time in ticks for biome title to fade out
+	# Default: 20
+	# Range: 0 ~ 100
+	biome_title_fade_out_time = 20
+	#Text color in hex format (e.g., "FFFFFF" for white)
+	biome_title_text_color = "FFFFFF"
+	#Render text shadow for biome titles
+	biome_title_render_shadow = true
+	#Text size multiplier for biome titles
+	# Default: 1.4
+	# Range: 0.5 ~ 5.0
+	biome_title_text_size = 1.4
+	#Anchor point for biome title positioning
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	biome_title_anchor = "TOP_CENTER"
+	#X offset from anchor point for biome title position
+	biome_title_x_offset = 0
+	#Y offset from anchor point for biome title position
+	biome_title_y_offset = -60
+	#Cooldown time in ticks before biome title can be shown again
+	# Default: 20
+	# Range: 0 ~ 200
+	biome_title_cooldown_time = 20
+	#Number of recent biomes to cache (prevents spam)
+	# Default: 5
+	# Range: 0 ~ 20
+	biome_recent_cache_size = 5
+
+[dimension_title_display]
+	#Display dimension names when entering dimensions
+	#Defaults to false if Traveler's Titles mod is loaded
+	show_dimension_titles = true
+	#Only display dimension titles if the dimension modifies leveling
+	#When false (default), dimension titles always display when entering dimensions
+	#When true, dimension titles only display if the dimension has leveling settings
+	dimension_title_only_announce_if_modified = false
+	#Time in ticks for dimension title to fade in
+	# Default: 10
+	# Range: 0 ~ 100
+	dimension_title_fade_in_time = 10
+	#Time in ticks to display dimension title
+	# Default: 60
+	# Range: 0 ~ 600
+	dimension_title_display_time = 60
+	#Time in ticks for dimension title to fade out
+	# Default: 20
+	# Range: 0 ~ 100
+	dimension_title_fade_out_time = 20
+	#Text color in hex format (e.g., "FFFFFF" for white)
+	dimension_title_text_color = "FFFFFF"
+	#Render text shadow for dimension titles
+	dimension_title_render_shadow = true
+	#Text size multiplier for dimension titles
+	# Default: 2.0
+	# Range: 0.5 ~ 5.0
+	dimension_title_text_size = 2.0
+	#Anchor point for dimension title positioning
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	dimension_title_anchor = "TOP_CENTER"
+	#X offset from anchor point for dimension title position
+	dimension_title_x_offset = 0
+	#Y offset from anchor point for dimension title position
+	dimension_title_y_offset = -35
+
+[level_info_display]
+	#Time in ticks for level info to fade in
+	# Default: 10
+	# Range: 0 ~ 100
+	level_info_fade_in_time = 10
+	#Time in ticks to display level info
+	# Default: 60
+	# Range: 0 ~ 600
+	level_info_display_time = 60
+	#Time in ticks for level info to fade out
+	# Default: 20
+	# Range: 0 ~ 100
+	level_info_fade_out_time = 20
+	#Text color in hex format (e.g., "FFFFFF" for white)
+	level_info_text_color = "FFFFFF"
+	#Render text shadow for level info
+	level_info_render_shadow = true
+	#Text size multiplier for level info
+	# Default: 1.4
+	# Range: 0.5 ~ 5.0
+	level_info_text_size = 1.4
+	#Anchor point for level info positioning
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	level_info_anchor = "BOTTOM_CENTER"
+	#X offset from anchor point for level info position
+	level_info_x_offset = 0
+	#Y offset from anchor point for level info position
+	level_info_y_offset = -62

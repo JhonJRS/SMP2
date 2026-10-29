@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "tag": "c:ingots/brass"
+    },
+    "C": {
+      "item": "create:iron_sheet"
+    },
+    "D": {
+      "item": "minecraft:iron_helmet"
+    },
+    "E": {
+      "item": "minecraft:glass_pane"
+    },
+    "F": {
+      "item": "minecraft:redstone"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ZAEA ",
+    "BFEFB",
+    "ACDCA",
+    "BCCCB"
+  ],
+  "result": {
+    "id": "protection_pixel:hammer_helmet",
+    "count": 1
+  }
+}

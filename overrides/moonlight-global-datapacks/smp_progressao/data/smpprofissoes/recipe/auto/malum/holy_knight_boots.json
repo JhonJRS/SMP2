@@ -1,0 +1,32 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:priest_boots"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:holy_rune"
+    },
+    {
+      "count": 1,
+      "item": "crystal_chronicles:divinite_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:holy_knight_boots"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true
+}

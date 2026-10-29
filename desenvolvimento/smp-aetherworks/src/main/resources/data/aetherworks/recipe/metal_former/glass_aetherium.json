@@ -1,0 +1,16 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 30,
+  "fluid": {
+    "amount": 10,
+    "fluid": "aetherworks:aether_gas"
+  },
+  "input": {
+    "item": "minecraft:glass"
+  },
+  "match_exactly": false,
+  "output": {
+    "item": "aetherworks:glass_aetherium"
+  },
+  "temperature": 2550
+}

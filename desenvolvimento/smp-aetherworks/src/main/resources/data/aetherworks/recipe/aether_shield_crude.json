@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "aetherworks:gem_aether"
+    },
+    "I": {
+      "item": "aetherworks:ingot_aether"
+    }
+  },
+  "pattern": [
+    "III",
+    "IDI",
+    " I "
+  ],
+  "result": {
+    "id": "aetherworks:shield_core_crude"
+  },
+  "show_notification": true
+}

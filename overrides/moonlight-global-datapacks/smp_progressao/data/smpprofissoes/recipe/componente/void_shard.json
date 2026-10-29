@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malum:void_salts"
+    },
+    {
+      "item": "malum:void_salts"
+    },
+    {
+      "item": "malum:null_slate"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:void_shard",
+    "count": 1
+  }
+}

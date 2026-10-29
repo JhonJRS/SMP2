@@ -1,0 +1,80 @@
+{
+ "name": "Phew",
+ "author": "SMP 2",
+ "description": "Wipe the sweat",
+ "uuid": "e57cfe9a-720e-5e89-9a7a-12bf8ae020cb",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 34,
+  "stopTick": 40,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.55
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.7
+    }
+   },
+   {
+    "tick": 18,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.55
+    }
+   },
+   {
+    "tick": 18,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": 0.2
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.0
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": 0.0
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.15
+    }
+   },
+   {
+    "tick": 34,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.15
+    }
+   }
+  ]
+ }
+}

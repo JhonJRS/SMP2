@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.replicacao_reliquias.name",
+  "subtitle": "smpprofissoes.research.oficios.replicacao_reliquias.subtitle",
+  "icon": "relics:ring_of_the_seven_deadly_sins",
+  "researchLevel": 5,
+  "sortOrder": 78,
+  "costs": [
+    {
+      "count": 2,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/reliquias_mana"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/replicacao_reliquias",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/armaria_lendaria"
+}

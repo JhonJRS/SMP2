@@ -1,0 +1,49 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.pocoes_eternas.name",
+  "subtitle": "smpprofissoes.research.oficios.pocoes_eternas.subtitle",
+  "icon": "toxony:eternal_plague",
+  "researchLevel": 5,
+  "sortOrder": 103,
+  "costs": [
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 64,
+      "item": "toxony:toxin"
+    },
+    {
+      "count": 8,
+      "item": "botania:mana_diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/cervejaria_botanica"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/alquimia_natural_runas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/pocoes_eternas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/alquimia_venenosa"
+}

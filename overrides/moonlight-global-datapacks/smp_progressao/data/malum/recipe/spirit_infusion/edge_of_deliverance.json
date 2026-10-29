@@ -1,0 +1,36 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:malignant_core"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_scythe"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:edge_of_deliverance"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 32
+    },
+    {
+      "type": "malum:wicked",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ]
+}

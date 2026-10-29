@@ -1,0 +1,16 @@
+{
+  "type": "malum:runeworking",
+  "input": {
+    "count": 1,
+    "item": "smpprofissoes:runic_slate"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:rune_of_spell_mastery"
+  },
+  "secondaryInput": {
+    "count": 16,
+    "item": "malum:arcane_spirit"
+  },
+  "soundType": "malum:runic_workbench_shapes_void_rune"
+}

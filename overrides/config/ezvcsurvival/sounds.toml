@@ -1,0 +1,4 @@
+[weather]
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	thunder_range_multiplier = 0.8

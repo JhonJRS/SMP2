@@ -1,0 +1,823 @@
+# Don't change this! Version used to track needed updates.
+version = 3
+abilityAbsorptionCap = 20.0
+
+[gloam]
+exposureBuildTicks = 40
+exposureDecayTicks = 80
+maximumSlowBonus = 3
+graspDuration = 75
+graspImmunityDuration = 70
+growthRadius = 2.5
+growthDuration = 160
+growthFadeDuration = 30
+growthPatchCap = 8
+
+[harbinger]
+chance = 15
+cooldown = 700
+damageScaling = 0.26
+spellScaling = 1.25
+
+[arcanethyst]
+chance = 25
+cooldown = 220
+damageScaling = 0.06
+duration = 100
+radius = 6
+spellScaling = 0.76
+liftHeight = 4.0
+liftTicks = 18
+suspendTicks = 14
+slamTicks = 10
+slamDamageMultiplier = 4.0
+
+[caelestis]
+cooldown = 1800
+duration = 900
+expansionDuration = 140
+collapseDuration = 100
+maxRadius = 20.0
+verticalRange = 10.0
+spawnInterval = 30
+minSpawnPerWave = 2
+maxSpawnPerWave = 3
+maxMinions = 12
+maxTentacles = 12
+tentacleSpawnInterval = 30
+tentacleSlowDuration = 20
+tentacleSlowAmplifier = 1
+betrayalChance = 5
+unboundTabletDropChance = 1
+minionHealthScaling = 0.08
+minionDamageScaling = 0.3
+minionSpellScaling = 2.8
+unboundDamageMultiplier = 1.25
+riftlingWeight = 50
+hollowWeight = 35
+dreadglareWeight = 15
+
+[bramblethorn]
+cooldown = 240
+targetRange = 16.0
+captureRadius = 6.0
+maximumTargets = 6
+rootTravelTicks = 12
+bindingDuration = 60
+pullStrength = 0.22
+sharedDamageRatio = 0.35
+slamDamageScaling = 0.85
+slamSpellScaling = 3.9508
+maximumLiftWidth = 1.5
+maximumLiftHeight = 3.0
+maximumLiftResistance = 0.7
+liftClearance = 1.25
+liftForce = 0.58
+slamVelocity = 1.15
+huntMemoryDuration = 60
+huntCooldown = 8
+huntMaximumRange = 10.0
+huntTravelTicks = 8
+huntHitRadius = 0.7
+huntDamageScaling = 0.3
+huntSpellScaling = 1.3944
+huntSlowDuration = 30
+huntSlowAmplifier = 0
+
+[brimstone_claymore]
+chance = 15
+cooldown = 600
+range = 22.0
+duration = 120
+baseRadius = 2.5
+maxRadius = 6.0
+pulseInterval = 20
+hitDamageScaling = 0.8
+hitSpellScaling = 4.19
+pulseDamageScaling = 0.28
+radiusGrowthPerHit = 0.35
+finalDamageScaling = 1.0
+spellScaling = 5.3395
+targetJumpRange = 8.0
+
+[stars_edge]
+cooldown = 240
+activeReactivationCooldown = 240
+damageScaling = 0.155
+spellScaling = 0.725
+lifestealModifier = 0.1
+recordingDuration = 120
+initialDashDistance = 6.0
+initialDashSpeed = 1.5
+nodeSpacing = 2.0
+maxNodes = 12
+constellationDamageScaling = 0.27
+constellationSpellScaling = 1.3
+constellationDuration = 100
+constellationDamageInterval = 10
+constellationDamageWidth = 1.5
+segmentExplosionInterval = 5
+segmentExplosionRadius = 2.5
+
+[emberblade]
+cooldown = 60
+chance = 30
+initialDamageScaling = 0.24
+duration = 150
+initialSpellScaling = 0.9593
+maxChargeDamageScaling = 2.4
+maxChargeSpellScaling = 9.5935
+
+[flamewind]
+cooldown = 350
+damageScaling = 0.26
+spellScaling = 1.25
+detonationDamageScaling = 0.45
+detonationSpellScaling = 2.16
+maxHaste = 10
+spreadDistance = 5.0
+spreadCap = 6
+
+[enigma]
+enigmaCooldown = 800
+enigmaChaseRadius = 16.0
+enigmaTornadoRadius = 5.5
+enigmaOrbitTicks = 35
+enigmaFlingStrength = 1.35
+enigmaFlingUpwardStrength = 0.55
+enigmaDecayRate = 2
+damageScaling = 0.14
+spellScaling = 0.97
+
+[whisperwind]
+chance = 15
+cooldown = 175
+maxStacks = 99
+radius = 3
+dashVelocity = 3.0
+delayedDamageScaling = 0.54
+delayedSpellScaling = 2.48
+delayedDamagePerTargetScaling = 0.09
+delayedSpellPerTargetScaling = 0.18
+delayedDamageDelay = 20
+
+[dreadwhisper]
+cooldown = 250
+dashDistance = 20.0
+dashSpeed = 1.6
+frontWidth = 4.5
+frontHeight = 2.8
+weaponHitScaling = 1.0
+weaponHitSpellScaling = 4.59
+healRatio = 0.35
+stainDuration = 240
+stainFadeDuration = 40
+stainSlowAmplifier = 0
+woundDuration = 200
+criticalMultiplier = 1.5
+
+[twisted_blade]
+chance = 75
+duration = 100
+maxStacks = 15
+attackSpeedPerStack = 0.1
+crescendoBaseInterval = 5
+crescendoMinimumInterval = 2
+crescendoDamageScaling = 0.35
+crescendoSpellScaling = 1.8331
+crescendoRadius = 2.5
+crescendoKnockback = 0.25
+empoweredWindow = 100
+empoweredMinimumDamageScaling = 0.5
+empoweredMinimumSpellScaling = 2.6188
+empoweredMaximumDamageScaling = 2.5
+empoweredMaximumSpellScaling = 13.0938
+empoweredMinimumRadius = 2.5
+empoweredMaximumRadius = 4.0
+empoweredMinimumKnockback = 0.35
+empoweredMaximumKnockback = 0.9
+
+[wickpiercer]
+cooldown = 33
+damageScaling = 0.8
+spellScaling = 4.1312
+throwDamageScaling = 0.4
+throwSpellScaling = 2.0656
+duration = 80
+
+[gloampiercer]
+cooldown = 450
+castRange = 18.0
+barrageRadius = 7.0
+spearCount = 18
+strikeDamageScaling = 1.0
+strikeSpellScaling = 5.1
+cloneCount = 5
+channelDuration = 60
+liftHeight = 3.0
+movementRetention = 0.1
+projectileSpeed = 1.55
+collisionGrace = 0.45
+embeddedDuration = 100
+triggerRadius = 1.0
+explosionRadius = 2.5
+passiveMinRange = 3.0
+passiveMaxRange = 12.0
+passiveConeDegrees = 110.0
+passiveCooldown = 12
+stainRadius = 1.5
+stainDuration = 240
+stainFadeDuration = 40
+stainSlowAmplifier = 0
+
+[frostfall]
+chance = 25
+cooldown = 60
+damageScaling = 0.8
+pulseDamageScaling = 0.8
+duration = 80
+radius = 8.0
+spellScaling = 4.61
+
+[livyatan]
+cooldown = 65
+returnDamageScaling = 0.64
+returnSpellScaling = 3.32
+damageScaling = 0.64
+duration = 100
+radius = 6.0
+spellScaling = 3.32
+waveDamageScaling = 0.64
+swingWaveMinimumCooldownTicks = 2
+waveWidthBlocks = 5.0
+waveSegmentThickness = 1.25
+waveStepDistance = 0.8
+waveStepIntervalTicks = 1
+waveForwardStartOffset = 1.2
+waveLengthSteps = 7
+waveKnockback = 0.52
+waveKnockUp = 0.14
+returnWavePullStrength = 0.42
+returnLightningChance = 20
+returnLightningDamageScaling = 0.35
+returnLightningSpellScaling = 1.82
+returnLightningSkyHeight = 12.0
+
+[hiveheart]
+cooldown = 60
+beeDamageScaling = 0.88
+beeSpellScaling = 5.903
+activeCooldown = 300
+swarmBeeCount = 8
+swarmRadius = 8.0
+swarmLifetime = 240
+stingsPerBee = 10
+stingDamageScaling = 0.01
+stingSpellScaling = 0.07
+stingIntervalTicks = 10
+maxSlowAmplifier = 3
+
+[magiblade]
+cooldown = 35
+damageScaling = 0.85
+spellScaling = 4.2
+repelChance = 55
+repelRadius = 4.0
+sonicDistance = 16.0
+chargeDuration = 10
+summonDuration = 300
+sonicInterval = 100
+sonicChargeDuration = 12
+repelFrequency = 8
+headOrbitRadius = 0.9
+headVerticalOffset = 0.9
+headOrbitSpeed = 0.075
+headScale = 0.65
+headTurnSpeedDegreesPerTick = 12.0
+
+[magispear]
+cooldown = 120
+damageScaling = 1.1
+spellScaling = 5.88
+radius = 4.0
+magicChance = 35
+magicDamageScaling = 0.16
+magicSpellScaling = 0.83
+throwDamageScaling = 0.8
+throwSpellScaling = 4.27
+targetingRange = 24.0
+rainWaveCount = 6
+rainSplashRadius = 2.0
+inwardPushStrength = 0.35
+diveHeight = 6.0
+
+[magiscythe]
+cooldown = 980
+damageScaling = 0.24
+duration = 400
+radius = 4.0
+repairChance = 0.25
+spellScaling = 1.28
+
+[molten_edge]
+cooldown = 40
+heatPerHit = 5
+heatPerDamageTaken = 5
+ventDrainPerTick = 1
+radius = 5.0
+shockwaveTicks = 8
+shockwaveDamageScaling = 0.8
+shockwaveSpellScaling = 4.1306
+shockwaveKnockback = 0.9
+shockwaveIgniteSeconds = 4
+ruptureDamageScaling = 0.65
+ruptureSpellScaling = 3.0242
+ruptureLength = 7.0
+ruptureWidth = 2.0
+ruptureStepDistance = 1.0
+ruptureKnockUp = 0.25
+ruptureIgniteSeconds = 2
+minimumSwingCooldownTicks = 4
+
+[icewhisper]
+cooldown = 450
+damageScaling = 0.06
+duration = 200
+radius = 4
+spellScaling = 0.4
+cometInterval = 14
+cometsPerWave = 2
+cometFallTicks = 20
+cometSplashRadius = 2.5
+cometDamageMultiplier = 16.0
+
+[toxic_longsword]
+chance = 55
+feverPerHit = 1
+conversionFeverBonus = 2
+feverThreshold = 5
+feverDuration = 120
+tollDamageScaling = 0.6
+tollSpellScaling = 2.75
+tollRadius = 5.0
+tollFeverSpread = 2
+maxCascadeTolls = 6
+copiedAilmentDurationMultiplier = 0.5
+
+[ribboncleaver]
+cooldown = 40
+damageBonusPercent = 0.95
+resilienceAmplifier = 1
+
+[riftmane]
+cooldown = 200
+chargerCount = 5
+rankWidth = 7.0
+chargeDistance = 20.0
+chargeSpeed = 0.9
+rearDuration = 16
+spawnOffset = 3.0
+mountedDistanceMultiplier = 2.0
+waterWalking = true
+stepHeight = 1.0
+damageScaling = 1.0
+spellScaling = 6.23
+knockbackStrength = 1.2
+hitRadius = 1.1
+passiveChance = 70
+passiveLockout = 60
+passiveMinRange = 4.0
+passiveMaxRange = 16.0
+passiveConeDegrees = 110.0
+
+[dawnquiver]
+cooldown = 150
+quickCooldown = 50
+piercingCooldown = 100
+drawDuration = 80
+minimumDraw = 0.35
+piercingThreshold = 0.65
+fullDrawThreshold = 0.9
+maxChorus = 3
+bowDistance = 1.0
+bowScale = 0.75
+activeRange = 32.0
+arrowSpeed = 1.35
+homingStrength = 9.0
+impactRadius = 2.0
+initialDamageScaling = 0.4
+initialSpellScaling = 2.45
+maxChargeDamageScaling = 2.6
+maxChargeSpellScaling = 15.91
+passiveInterval = 100
+passiveLockout = 80
+passiveChorusChance = 0.35
+passiveRange = 24.0
+passiveDamageScaling = 0.5
+passiveSpellScaling = 3.06
+passiveArrowScale = 0.45
+passiveBowScale = 0.45
+piercingMaxTargets = 4
+piercingDamageRetention = 0.85
+convergenceFormationDelay = 6
+convergenceFiringStagger = 2
+convergenceRadius = 3.5
+convergenceRetargetRange = 6.0
+
+[sunfire]
+chance = 15
+cooldown = 700
+damageScaling = 0.26
+healScaling = 0.33
+spellScaling = 1.8509
+spellScalingHeal = 1.38
+
+[shadowsting]
+chance = 40
+cooldown = 200
+duration = 100
+strikeInterval = 8
+strikeRadius = 10
+damageScaling = 1.0
+spellScaling = 3.0202
+
+[stormbringer]
+cooldown = 240
+damageScaling = 1.06
+spellScaling = 5.34
+blockDuration = 50
+parryDuration = 20
+radius = 3.0
+maxStormCharges = 10
+stormChargesPerParry = 5
+stormChargesPerBlock = 1
+chainLightningCooldown = 20
+chainLightningRange = 6.0
+chainLightningDamageScaling = 0.35
+chainLightningSpellScaling = 1.65
+
+[stormscale]
+cooldown = 1000
+duration = 800
+targetingRange = 18.0
+maxTetherDistance = 32.0
+energyTravelTicks = 16
+pulseRadius = 3.5
+pulseTargetCap = 24
+pulseGrowthPerHit = 0.01
+maximumPulseGrowth = 0.8
+pulsePullStrength = 0.32
+pulseDamageScaling = 0.4
+pulseSpellScaling = 1.8592
+
+[ionbound_stormscale]
+rechargeInterval = 160
+shieldTriggerHealthFraction = 0.2
+shieldDuration = 40
+cooldown = 60
+corridorLength = 12.0
+corridorWidth = 6.0
+corridorHeight = 4.0
+corridorMaterializeTicks = 6
+corridorHoldTicks = 8
+corridorCloseTicks = 8
+corridorPullStrength = 0.34
+slamDamageScaling = 1.0
+slamSpellScaling = 4.59
+slowDuration = 80
+slowAmplifier = 1
+followupWindow = 20
+corridorTargetCap = 24
+beamTargetCap = 16
+beamWidth = 1.1
+beamDuration = 60
+beamDamageInterval = 5
+beamTotalDamageMultiplier = 4.0
+beamMovementSpeedReduction = 0.9
+beamDamageScaling = 2.75
+beamSpellScaling = 12.62
+paralysisDuration = 100
+
+[bloodwake]
+cooldown = 10
+burstRadius = 4.0
+burstDamageScaling = 0.65
+burstSpellScaling = 2.3491
+plagueDuration = 160
+plagueRadius = 4.0
+targetingRadius = 10.0
+maximumScreamTargets = 6
+screamDuration = 200
+bladeTargetCap = 24
+bladeHoverTicks = 30
+bladePlungeTicks = 10
+bladeDamagePerBleedStack = 0.2
+bloodFlyCount = 8
+bloodFlyLifetime = 200
+bloodFlyContacts = 3
+bloodFlyContactInterval = 20
+waveThickness = 1.25
+waveStepDistance = 0.8
+waveStepInterval = 1
+waveLengthSteps = 10
+wavePush = 0.65
+waveLift = 0.15
+delugeDuration = 100
+delugeExtensionDuration = 100
+delugeVolleyInterval = 15
+stainDuration = 600
+stainFadeDuration = 100
+stainHealAmount = 1.0
+stainHealInterval = 40
+stainSlowAmplifier = 0
+
+[emberlash]
+cooldown = 80
+heal = 15.0
+maxStacks = 5
+spellScaling = 0.38
+smoulderDamageScaling = 0.12
+
+[lichblade]
+absorptionCap = 8
+cooldown = 700
+damageScaling = 0.37
+duration = 200
+heal = 0.5
+radius = 3
+range = 22.0
+spellScaling = 2.52
+
+[soulkeeper]
+cooldown = 800
+activeExtraLanternDuration = 300
+lanternDamageScaling = 0.24
+spellScaling = 1.76
+speedIncreasePerHit = 0.2
+speedLossPerSecond = 0.15
+maxSpeedMultiplier = 6.0
+orbitRadius = 2.65
+
+[soulrender]
+chance = 85
+duration = 500
+maxStacks = 8
+radius = 10.0
+healMulti = 0.5
+damageScaling = 0.26
+spellScaling = 1.31
+
+[soulstalker]
+cooldown = 1200
+duration = 800
+strikeDamageScaling = 1.0
+strikeSpellScaling = 4.59
+movementSpeed = 0.215
+climbSpeed = 0.3
+stepHeight = 2.0
+riderHeight = 2.2
+leapVerticalStrength = 1.0
+leapHorizontalStrength = 2.0
+leapSurfaceReleaseStrength = 0.6
+leapImpactDamageScaling = 0.75
+leapImpactRadius = 2.5
+leapImpactKnockback = 0.7
+leapImpactLift = 0.18
+leapImpactStainRadius = 0.9
+footfallDamageScaling = 0.15
+footfallRadius = 0.8
+footfallTargetImmunity = 10
+cleaveRange = 16.0
+cleaveSpeed = 0.8
+cleaveInitialWidth = 0.5
+cleaveFinalWidth = 3.2
+cleaveMinimumSwingCooldownTicks = 2
+passiveChance = 25
+passiveCheckInterval = 20
+passiveLockout = 60
+passiveRange = 8.0
+stainTrailWidth = 1.25
+stainRadius = 1.25
+stainDuration = 240
+stainFadeDuration = 40
+stainSlowAmplifier = 0
+
+[soulpyre]
+pulseCount = 10
+duration = 600
+collapseDuration = 60
+startingRadius = 3.0
+radiusGrowthPerKill = 1.0
+radius = 8.0
+verticalRange = 8.0
+damageScaling = 0.74
+spellScaling = 5.29
+heal = 1
+wispVolleySize = 5
+pulseDamageBonusPerSoul = 0.05
+requiemDamageBonusPerSoul = 0.12
+wispDamageMultiplier = 0.3
+requiemHealingPerSoul = 1.0
+cooldown = 1400
+
+[soulstealer]
+chance = 25
+cooldown = 20
+range = 20.0
+maxStacks = 5
+hitStacks = 1
+killStacks = 2
+minBackstabMultiplier = 2.0
+maxBackstabMultiplier = 5.0
+spellScalingPerMultiplier = 3.098
+
+[mjolnir]
+cooldown = 700
+duration = 200
+frequency = 10
+radius = 10
+damageScaling = 0.45
+spellScaling = 2.12
+conductiveDuration = 120
+skyHeight = 12.0
+conductiveBurstDamageScaling = 0.25
+conductiveBurstSpellScaling = 1.18
+conductiveBurstRadius = 2.5
+conductiveBurstKnockback = 0.35
+conductiveBurstKnockUp = 0.08
+finalBoltCount = 3
+finalBoltInterval = 3
+finalThunderclapDamageScaling = 0.9
+finalThunderclapSpellScaling = 4.33
+finalThunderclapRadius = 6.0
+finalThunderclapKnockback = 1.1
+finalThunderclapKnockUp = 0.25
+
+[storms_edge]
+chance = 15
+cooldown = 100
+damageScaling = 0.4
+spellScaling = 1.89
+thunderclapDamageScaling = 0.8
+thunderclapSpellScaling = 3.77
+dashDistance = 10.0
+dashSpeed = 2.5
+corridorWidth = 3.0
+corridorKnockback = 0.8
+corridorKnockUp = 0.15
+thunderclapRadius = 3.5
+thunderclapKnockback = 1.2
+thunderclapKnockUp = 0.3
+
+[thunderbrand]
+chance = 15
+cooldown = 250
+damageScaling = 0.18
+radius = 2
+spellScaling = 1.23
+chargeDuration = 40
+dashDuration = 15
+dashSpeed = 4.0
+chainTargets = 4
+chainRange = 6.0
+
+[hearthflame]
+chance = 50
+cooldown = 450
+brandDuration = 350
+duration = 220
+radius = 10
+brandedRangeBonus = 4.0
+maxChains = 6
+maximumPressure = 300
+minimumChainLength = 2.5
+pullStrength = 0.16
+echoDamageScaling = 0.2
+echoSpellScaling = 1.9084
+snapDamageScaling = 0.55
+snapSpellScaling = 4.0553
+finalDamageScaling = 0.9
+finalSpellScaling = 5.9638
+snapRadius = 2.5
+igniteSeconds = 4
+
+[tempest]
+duration = 1200
+maxSize = 30
+maxStacks = 10
+damageScaling = 0.33
+spellScaling = 1.2266
+
+[watcher]
+dreadDuration = 200
+maxDread = 5
+maxMarkedTargets = 5
+activationRange = 12.0
+warglaiveCooldown = 100
+warglaiveHuntRadius = 10.0
+warglaiveMaxTargets = 5
+warglaiveBatSpeed = 1.35
+warglaiveDamageScaling = 0.22
+warglaiveSpellScaling = 0.32
+warglaiveLifeSteal = 0.5
+warglaiveHealCap = 0.4
+claymoreCooldown = 180
+claymoreSwoopDuration = 60
+claymoreMinimumSwoops = 4
+claymoreMaximumSwoops = 12
+claymoreSwoopDamageScaling = 0.12
+claymoreSwoopSpellScaling = 0.18
+claymoreDamageScaling = 0.85
+claymoreSpellScaling = 1.25
+claymoreDreadBonusPerStack = 0.15
+claymoreMissingHealthBonus = 0.75
+omenAbsorptionCap = 20.0
+omenInstantKillThreshold = 0.25
+
+[devourer]
+cooldown = 1200
+duration = 800
+castRange = 14.0
+targetingRadius = 7.0
+verticalRange = 5.0
+maxTargets = 6
+pullStrength = 0.28
+looseTargetCap = 64
+looseTendrilCap = 3
+loosePullStrength = 0.36
+stainSlowAmplifier = 0
+stainSpreadDuration = 40
+stainCarrierCap = 12
+stainTrailWidth = 1.35
+startingMassRadius = 0.2
+maximumMassRadius = 3.9
+damageInterval = 20
+damageScaling = 0.12
+spellScaling = 0.7436
+reprisalReach = 24.0
+reprisalRadius = 3.5
+reprisalTargetCap = 6
+reprisalDragDuration = 10
+reprisalPullStrength = 0.32
+reprisalDamageScaling = 0.5
+reprisalSpellScaling = 3.0983
+
+[waxweaver]
+cooldown = 1200
+maxStacks = 3
+activeCooldown = 260
+targetRange = 12.0
+encasementDuration = 120
+maximumTargetWidth = 0.9
+maximumTargetHeight = 2.1
+tauntInterval = 10
+tauntRadius = 10.0
+tauntMaxTargets = 10
+explosionDamageScaling = 0.55
+spellScaling = 6.196
+explosionRadius = 4.0
+explosionKnockback = 0.4
+explosionIgniteSeconds = 4
+
+[wraithfang]
+hasteAmplifier = 1
+duration = 80
+spellScaling = 3.1
+
+[wraithmaw]
+cooldown = 600
+castRange = 18.0
+stormRadius = 6.0
+cutlassCount = 16
+cutlassDamageScaling = 1.0
+cutlassSpellScaling = 3.57
+collisionGrace = 0.45
+embeddedDuration = 500
+maxRecovered = 6
+recoveredDuration = 900
+launchSpeed = 1.35
+launchRange = 24.0
+homingRange = 4.0
+homingTurnRate = 7.0
+stainRadius = 1.25
+stainDuration = 240
+stainFadeDuration = 40
+stainSlowAmplifier = 0
+
+[chompolotl]
+cooldown = 60
+damageScaling = 0.8
+spellScaling = 2.52
+duration = 500
+breedChance = 0.0266
+dolphinsGrace = true
+
+[dreadtide]
+damageScaling = 0.8
+spellScaling = 4.03
+duration = 250
+corruptionFrequency = 60
+corruptionPerTick = 1.0
+corruptionDuration = 1200
+corruptionMax = 100.0
+startingTickFrequency = 12

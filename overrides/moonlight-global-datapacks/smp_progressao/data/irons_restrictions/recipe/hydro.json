@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "R": {
+      "tag": "aces_spell_utils:hydro_focus"
+    },
+    "F": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "S": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "U": {
+      "item": "irons_restrictions:unfinished_manuscript"
+    }
+  },
+  "pattern": [
+    "ERE",
+    "FUF",
+    "ESE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:manuscript",
+    "components": {
+      "irons_restrictions:school_component": "aces_spell_utils:hydro"
+    }
+  }
+}

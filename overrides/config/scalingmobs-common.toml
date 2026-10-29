@@ -1,0 +1,4 @@
+#translation{key='config.scalingmobs.comment.1', args=[]}
+#translation{key='config.scalingmobs.comment.2', args=[]}
+#translation{key='config.scalingmobs.comment.3', args=[]}
+bosses = ["minecraft:warden", "minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian", "minecells:concierge", "minecells:conjunctivius", "twilightforest:naga", "twilightforest:lich", "twilightforest:alpha_yeti", "twilightforest:ur_ghast", "twilightforest:hydra", "twilightforest:minoshroom", "twilightforest:snow_queen", "alexsmobs:void_worm", "alexscaves:luxtructosaurus", "aquamirae:captain_cornelia", "cataclysm:maledictus", "cataclysm:ignis", "cataclysm:the_leviathan", "cataclysm:netherite_monstrosity", "cataclysm:the_harbinger", "cataclysm:ender_guardian", "cataclysm:ancient_ancient_remnant", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:sculptor", "mowziesmobs:umvuthi", "irons_spellbooks:dead_king"]

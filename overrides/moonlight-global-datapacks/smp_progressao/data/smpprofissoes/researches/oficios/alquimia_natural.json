@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.alquimia_natural.name",
+  "subtitle": "smpprofissoes.research.oficios.alquimia_natural.subtitle",
+  "icon": "toxony:alembic",
+  "researchLevel": 3,
+  "sortOrder": 92,
+  "costs": [
+    {
+      "count": 4,
+      "item": "minecraft:pitcher_pod"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:torchflower_seeds"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/alquimia_natural",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/toxicologia"
+}

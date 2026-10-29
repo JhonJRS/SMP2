@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "embers:ember_crystal"
+    },
+    {
+      "item": "embers:ember_crystal"
+    },
+    {
+      "item": "embers:dawnstone_ingot"
+    },
+    {
+      "item": "embers:dawnstone_ingot"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:ember_core",
+    "count": 1
+  }
+}

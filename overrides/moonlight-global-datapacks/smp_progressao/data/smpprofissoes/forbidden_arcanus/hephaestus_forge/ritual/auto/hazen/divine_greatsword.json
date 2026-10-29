@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:divine_greatsword"
+    }
+  ],
+  "essences": {
+    "aureal": 2400,
+    "blood": 3600,
+    "experience": 1500,
+    "souls": 20
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:divine_pearl"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:weapon_parts"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:divine_greatsword"
+    }
+  }
+}

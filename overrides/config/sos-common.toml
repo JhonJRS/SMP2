@@ -1,0 +1,136 @@
+[anonymity]
+	#Whether the Hood's concealment (masked name, black silhouette, unattributed kills) needs
+	#the Hood to be your ONLY armour.
+	#  false (default) = the Hood conceals you even in full armour, so hooded fighters can take
+	#                    the field. This is the default because a hood you can't fight in just
+	#                    sends people back to invisibility potions and signs.
+	#  true            = a chestplate, leggings, or boots breaks the disguise, making the Hood a
+	#                    pure assassin/infiltration tool you can't wear into a pitched battle.
+	#NOTE: this only governs the plain Hood. Copying someone's identity (the Visage) has its own
+	#knob below (visageRequiresNoArmor) and stays strict, so opening up hooded combat does NOT
+	#let people impersonate others while armoured.
+	hoodRequiresNoArmor = false
+	#Whether wearing someone else's face (the Visage impersonation) needs it to be your ONLY
+	#armour. Impersonation is far stronger than a plain hood - you pass for a specific named
+	#player - so this is gated separately and stays STRICT by default even though the plain
+	#Hood now works in armour.
+	#  true (default) = a chestplate, leggings, or boots breaks the Visage. You can't pull up to
+	#                   a war wearing both full armour AND a stolen identity.
+	#  false          = the Visage holds in full armour too (very powerful; not recommended).
+	visageRequiresNoArmor = true
+
+[gaze]
+	#How many blocks away a hooded figure can be recognised by staring. Beyond this you can
+	#never make out who they are, no matter how long you look.
+	# Default: 12.0
+	# Range: 2.0 ~ 64.0
+	gazeRange = 12.0
+	#LEGACY (unused): recognition now uses your look-ray against the figure's whole body box
+	#(see gazeBodyMargin), not a tight cone on their head.
+	# Default: 0.985
+	# Range: 0.5 ~ 0.9999
+	gazeFocus = 0.985
+	#How forgiving the 'looking at' check is, in blocks. Recognition builds when your look-ray
+	#passes through the figure's body box inflated by this much - so you can look anywhere on
+	#their body (not pinpoint their head), but something off to the side of your view won't count.
+	#Bigger = easier to keep them in your gaze; too big starts catching peripheral targets.
+	# Default: 0.6
+	# Range: 0.0 ~ 4.0
+	gazeBodyMargin = 0.6
+	#Seconds of continuous, focused staring to fully strip a disguise and learn the figure's
+	#true face and name. Higher = harder to unmask someone, so a disguised player gets away with
+	#more before a determined watcher breaks them. Note: the disguise gives away NOTHING until
+	#the stare passes gazeRevealThreshold below, then peels over the remaining seconds.
+	# Default: 6.0
+	# Range: 0.5 ~ 60.0
+	gazeRevealSeconds = 6.0
+	#How far a stare must progress (0..1) before a disguise gives ANYTHING away. Below this the
+	#figure stays a featureless black silhouette (or a flawless Visage); only past it does the
+	#body start to resolve, reaching the real face/name at 1.0. So a glance or a half-second look
+	#reveals nothing, and the wearer can act under brief scrutiny - it takes a deliberate, held
+	#stare to crack them. 0.6 = the disguise holds completely until a watcher is 60% of the way
+	#to full recognition. 0 = the old behaviour (peels smoothly from the very first instant).
+	# Default: 0.6
+	# Range: 0.0 ~ 0.95
+	gazeRevealThreshold = 0.6
+	#Seconds for recognition to fade back to nothing once you look away, so a glance doesn't
+	#permanently unmask someone. Longer = recognition lingers.
+	# Default: 6.0
+	# Range: 0.5 ~ 120.0
+	gazeDecaySeconds = 6.0
+
+[witness]
+	#Radius (blocks) around a hooded killer that is checked for witnesses when they kill. A
+	#surviving player within this range is told the killer's true name.
+	# Default: 16.0
+	# Range: 2.0 ~ 128.0
+	witnessRadius = 16.0
+	#Legacy proximity/line-of-sight toggle. Witnessing now keys off the GAZE system: a witness
+	#must have fully stared down and recognised the hooded figure (cleared their silhouette) to
+	#know their name. A glance / silhouette in the periphery never identifies anyone.
+	witnessRequiresLineOfSight = true
+	#How long (seconds) a full recognition lingers: after you've stared a hooded figure down,
+	#you'll still identify them as the killer if they strike within this window and you're at the
+	#scene. So you don't have to be locked onto them at the exact instant of the kill.
+	# Default: 30
+	# Range: 1 ~ 600
+	witnessMemorySeconds = 30
+	#How long (seconds) a Forged Signet's frame lasts once activated (right-click). During this
+	#window, while hooded, your name and kills read as the scapegoat. Default 180 = 3 minutes.
+	# Default: 180
+	# Range: 5 ~ 3600
+	frameDurationSeconds = 180
+
+[poison]
+	#Once it takes hold, ticks between each bite of damage (20 = once per second).
+	#The poison never wears off: it only ends when the victim dies or drinks an Antidote.
+	# Default: 40
+	# Range: 1 ~ 1200
+	poisonIntervalTicks = 20
+	#Damage per bite. 2.0 = one heart. It ignores armour, Protection enchantments and the
+	#Resistance effect, so plate armour does not save anyone; only the Antidote does.
+	# Default: 2.0
+	# Range: 0.5 ~ 1024.0
+	poisonDamagePerDose = 3.0
+	#How a poison death reads in the death message:
+	#  false (default) = a MYSTERY: '<name> suddenly collapsed'. No mention of poison, so
+	#                    observers can suspect but never be certain it was you or a toxin.
+	#  true            = SPELLED OUT: '<name> succumbed to a deadly poison'.
+	#Either way the poisoner is never named (the kill stays unattributed).
+	poisonDeathRevealsPoison = false
+	#Real seconds between being poisoned and the first symptom. Until then there is no
+	#damage, no effect icon and no message, so the victim has no reason to suspect anything
+	#and the poisoner has time to be somewhere else. 180 = three minutes.
+	# Default: 180
+	# Range: 0 ~ 3600
+	poisonOnsetSeconds = 180
+	#While the poison is biting, the victim cannot heal at all: no regeneration, no healing
+	#potions, no golden apples. Turn off to let a well-fed player outheal it (not recommended:
+	#that is why the old poison never killed anyone).
+	poisonBlocksHealing = true
+
+[ambush]
+	#Extra damage a Concealed Blade deals when it strikes an unaware target (a clean ambush).
+	#Stacked on top of the blade's normal hit.
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	ambushBonusDamage = 8.0
+	#If true, the ambush bonus only triggers when you strike from BEHIND the target's facing
+	#(a true backstab). If false, any first strike on an unaware target counts.
+	ambushRequireBehind = true
+	#The Concealed Blade is invisible in hand until it strikes, then shows for this many ticks
+	#(20 = 1s) before vanishing again. It still looks like an iron sword in the inventory.
+	# Default: 30
+	# Range: 0 ~ 600
+	bladeRevealTicks = 30
+
+[sabotage]
+	#Explosion power of a Saboteur's Charge. 4.0 = TNT. Higher breaches thicker walls.
+	# Default: 5.0
+	# Range: 0.0 ~ 20.0
+	chargePower = 5.0
+	#Ticks (20 = 1s) between lighting a Saboteur's Charge and the blast, so the saboteur
+	#can slip away before it goes off.
+	# Default: 60
+	# Range: 0 ~ 6000
+	chargeFuseTicks = 60

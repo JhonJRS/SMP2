@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fundacao_botania.name",
+  "subtitle": "smpprofissoes.research.oficios.fundacao_botania.subtitle",
+  "icon": "botania:apothecary_default",
+  "researchLevel": 1,
+  "sortOrder": 46,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:poppy"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:dandelion"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 1
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:farmer",
+      "level": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fundacao_botania",
+      "level": 1
+    }
+  ]
+}

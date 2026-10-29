@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "aetherworks:plate_aether"
+    },
+    "B": {
+      "item": "embers:caminite_bricks"
+    },
+    "C": {
+      "item": "embers:archaic_circuit"
+    },
+    "P": {
+      "item": "embers:item_pipe"
+    },
+    "S": {
+      "tag": "c:plates/silver"
+    }
+  },
+  "pattern": [
+    " A ",
+    "SCS",
+    "BPB"
+  ],
+  "result": {
+    "id": "aetherworks:lexicon_receptacle"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,120 @@
+#Set this to false to disable the animation when an item is charging on top of a mana pool
+chargeAnimation = true
+#Turn this off ONLY IF you're on an extremely large world with an exaggerated count of Mana Spreaders/Mana Pools and are experiencing TPS lag. This toggles whether flowers are strict with their checking for connecting to pools/spreaders or just check whenever possible.
+flowerBindingForceCheck = true
+#Set to false to disable the ability for the Hand of Ender to pickpocket other players' ender chests
+enderPickpocket = true
+#Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
+manaEnchanter = true
+#Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
+relics = true
+#Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
+invertMagnetRing = false
+
+[blockBreakingParticles]
+	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.
+	enabled = true
+	#Set this to false to remove the block breaking particles from the Terra Shatterer, as there can be a good amount in higher levels.
+	toolEnabled = true
+
+[manaSpreaders]
+	#Set this to true to disable the mana spreader shooting sound
+	silent = false
+	#How many ticks into the future will mana spreaders attempt to predict where mana bursts go? Setting this lower will improve spreader performance, but will cause them to not fire at targets that are too far away.
+	# Default: 400
+	# Range: > 1
+	traceTime = 400
+
+[harvestLevels]
+	#The harvest level of the Mana Lens: Weight. 3 is diamond level. Defaults to 2 (iron level)
+	# Default: 2
+	# Range: > 0
+	weightLens = 2
+	#The harvest level of the Mana Lens: Bore. 3 is diamond level. Defaults to 3
+	# Default: 3
+	# Range: > 0
+	boreLens = 3
+
+[gardenOfGlass]
+	#Set this to false to disable spawning with a Lexica Botania in Garden of Glass worlds, if you are modifying the modpack's progression to not start with Botania.
+	spawnWithLexicon = false
+	#The multiplier for island distances for multiplayer Garden of Glass worlds.
+	#Islands are placed on a grid with 256 blocks between points, with the spawn island always being placed on 256, 256.
+	#By default, the scale is 8, putting each island on points separated by 2048 blocks.
+	#Values below 4 (1024 block spacing) are not recommended due to Nether portal collisions.
+	# Default: 8
+	# Range: 1 ~ 512
+	islandScaleMultiplier = 8
+
+[rannuncarpus]
+	#List of item registry names that will be ignored by rannuncarpuses when placing blocks.
+	itemBlacklist = []
+	#List of mod names for rannuncarpuses to ignore.
+	#Ignores Storage Drawers by default due to crashes with placing drawer blocks without player involvement.
+	modBlacklist = ["storagedrawers"]
+
+[witherManaRose]
+	enabled = true
+	# Default: 200000
+	# Range: > 1
+	manaPerStar = 200000
+	# Default: 1
+	# Range: 1 ~ 1200
+	generationInterval = 1
+	# Default: 850
+	# Range: > 1
+	generationPerCycle = 850
+	# Default: 8500
+	# Range: > 1
+	bufferSize = 8500
+	# Default: 850
+	# Range: > 1
+	outputPerTick = 850
+	# Default: 1600
+	# Range: > 0
+	cooldown = 1600
+
+[loonium]
+	#LOOT: the Loonium drops dungeon and structure loot directly as items (Botania 1.7.10 behavior). MOBS: the Loonium spawns monsters that carry the loot and drop it when killed.
+	#Allowed Values: LOOT, MOBS
+	mode = "LOOT"
+	#Mana spent per cycle in LOOT mode.
+	# Default: 35000
+	# Range: 1 ~ 10000000
+	lootManaCost = 35000
+	#Ticks between cycles in LOOT mode.
+	# Default: 200
+	# Range: 1 ~ 1200000
+	lootCooldown = 200
+	#Items dropped per cycle in LOOT mode.
+	# Default: 1
+	# Range: 1 ~ 64
+	lootItemsPerCycle = 1
+	#Drop radius in blocks in LOOT mode.
+	# Default: 3
+	# Range: 1 ~ 16
+	lootRange = 3
+
+[asgardandelion]
+	enabled = true
+	# Default: 1000000
+	# Range: 1 ~ 100000000
+	manaPerTick = 1000000
+
+[terraShatterer]
+	#Highest level the Terra Shatterer can reach. Level 0 = rank D (0 mana), 1 = rank C (10,000 mana), 2 = rank B (1,000,000 mana), 3 = rank A (10,000,000 mana), 4 = rank S (100,000,000 mana), 5 = rank SS (1,000,000,000 mana).
+	# Default: 5
+	# Range: 0 ~ 5
+	maxLevel = 5
+
+[modules]
+	#Set this to false to disable the Botania Extras module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	botania_extras = true
+	#Set this to true to enable the Skybox module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	skybox = false
+	#Set this to false to disable the Exploration module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	exploration = true
+	#Set this to false to disable the Creative Crafting module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	cre = true
+	#Set this to false to disable the Asgard module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	asg = true

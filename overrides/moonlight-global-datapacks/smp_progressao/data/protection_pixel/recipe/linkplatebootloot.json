@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "AAAA",
+    "ZBB ",
+    " AA "
+  ],
+  "result": {
+    "id": "protection_pixel:linkplate_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+﻿# Silent Gear: ferramentas com materiais de outros mods, na mão do jogador (fotos para comparar)
+## Silent Gear visual
+> time set day
+> gamerule doDaylightCycle false
+> weather clear
+p> tp @s ~ ~ ~ 0 20
+p> smpteste gear silentgear:sword silentgear:sword_blade minecraft:iron_ingot => GEAR
+espera 40
+foto sg_espada_ferro
+p> smpteste gear silentgear:sword silentgear:sword_blade botania:manasteel_ingot => GEAR
+espera 40
+foto sg_espada_manasteel
+p> smpteste gear silentgear:sword silentgear:sword_blade botania:terrasteel_ingot => GEAR
+espera 40
+foto sg_espada_terrasteel
+p> smpteste gear silentgear:pickaxe silentgear:pickaxe_head botania:elementium_ingot => GEAR
+espera 40
+foto sg_picareta_elementium
+p> smpteste gear silentgear:sword silentgear:sword_blade irons_spellbooks:mithril_ingot => GEAR
+espera 40
+foto sg_espada_mithril

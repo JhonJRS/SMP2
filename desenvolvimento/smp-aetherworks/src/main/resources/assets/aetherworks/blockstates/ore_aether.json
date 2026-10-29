@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aetherworks:block/ore_aether"
+    }
+  }
+}

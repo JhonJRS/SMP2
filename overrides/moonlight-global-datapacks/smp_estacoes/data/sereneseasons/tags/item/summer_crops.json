@@ -1,0 +1,153 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:rice",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:tomato_seeds",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:corn",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:barley_seeds",
+      "required": false
+    },
+    {
+      "id": "farm_and_charm:strawberry_seeds",
+      "required": false
+    },
+    {
+      "id": "vinery:red_grape_bush",
+      "required": false
+    },
+    {
+      "id": "vinery:white_grape_seeds",
+      "required": false
+    },
+    {
+      "id": "vinery:grapevine_stem",
+      "required": false
+    },
+    {
+      "id": "herbalbrews:coffee",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:hemp",
+      "required": false
+    },
+    {
+      "id": "minecolonies:tomato",
+      "required": false
+    },
+    {
+      "id": "minecolonies:corn",
+      "required": false
+    },
+    {
+      "id": "minecolonies:bell_pepper",
+      "required": false
+    },
+    {
+      "id": "minecolonies:eggplant",
+      "required": false
+    },
+    {
+      "id": "minecolonies:rice",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:snap_pepper_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:fizz_fruit_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:burst_bud",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:razor_leaf",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:crimson_lily_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:tox_kiss_seeds",
+      "required": false
+    },
+    {
+      "id": "enchanted:water_artichoke",
+      "required": false
+    },
+    {
+      "id": "minecolonies:soybean",
+      "required": false
+    },
+    {
+      "id": "minecolonies:chickpea",
+      "required": false
+    },
+    {
+      "id": "minecolonies:mint",
+      "required": false
+    },
+    {
+      "id": "minecolonies:durum",
+      "required": false
+    },
+    {
+      "id": "silentgear:flax_seeds",
+      "required": false
+    },
+    {
+      "id": "silentgear:fluffy_seeds",
+      "required": false
+    },
+    {
+      "id": "toxony:sunspot",
+      "required": false
+    },
+    {
+      "id": "toxony:nightshade",
+      "required": false
+    },
+    {
+      "id": "toxony:ocelot_mint",
+      "required": false
+    },
+    {
+      "id": "toxony:water_hemlock",
+      "required": false
+    },
+    {
+      "id": "enchanted:belladonna_seeds",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:glow_leaf",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:needle_heart_seeds",
+      "required": false
+    },
+    {
+      "id": "vinery:apple_leaves",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_leaves",
+      "required": false
+    }
+  ]
+}

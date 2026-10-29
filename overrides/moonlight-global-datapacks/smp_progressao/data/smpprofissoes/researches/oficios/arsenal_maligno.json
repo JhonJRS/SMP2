@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arsenal_maligno.name",
+  "subtitle": "smpprofissoes.research.oficios.arsenal_maligno.subtitle",
+  "icon": "malum:weight_of_worlds",
+  "researchLevel": 5,
+  "sortOrder": 45,
+  "costs": [
+    {
+      "count": 16,
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "count": 32,
+      "item": "malum:void_salts"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/maestria_hefesto"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arsenal_maligno",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/artes_vazio"
+}

@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.combustiveis_industriais.name",
+  "subtitle": "smpprofissoes.research.oficios.combustiveis_industriais.subtitle",
+  "icon": "createdieselgenerators:diesel_engine",
+  "researchLevel": 3,
+  "sortOrder": 9,
+  "costs": [
+    {
+      "count": 32,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/energia_vapor"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/combustiveis_industriais",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_latao"
+}

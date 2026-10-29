@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "relics:cut_glass_boot"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:replication_matrix"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "relics:cut_glass_boot"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 2,
+      "id": "relics:cut_glass_boot"
+    }
+  }
+}

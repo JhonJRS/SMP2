@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.industria_pesada.name",
+  "subtitle": "smpprofissoes.research.oficios.industria_pesada.subtitle",
+  "icon": "immersiveengineering:heavy_engineering",
+  "researchLevel": 3,
+  "sortOrder": 15,
+  "costs": [
+    {
+      "count": 48,
+      "item": "immersiveengineering:ingot_steel"
+    },
+    {
+      "count": 16,
+      "item": "immersiveengineering:component_steel"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/industria_pesada",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/sistemas_alta_potencia"
+}

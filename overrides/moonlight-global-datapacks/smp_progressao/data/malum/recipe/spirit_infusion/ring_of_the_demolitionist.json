@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 6,
+      "tag": "c:ingots/iron"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:void_shard"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_the_demolitionist"
+  },
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 32
+    }
+  ]
+}

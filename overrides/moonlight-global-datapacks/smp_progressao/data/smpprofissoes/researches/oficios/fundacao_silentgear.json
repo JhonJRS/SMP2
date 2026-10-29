@@ -1,0 +1,31 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fundacao_silentgear.name",
+  "subtitle": "smpprofissoes.research.oficios.fundacao_silentgear.subtitle",
+  "icon": "silentgear:pickaxe",
+  "researchLevel": 1,
+  "sortOrder": 61,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:anvil"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fundacao_silentgear",
+      "level": 1
+    }
+  ]
+}

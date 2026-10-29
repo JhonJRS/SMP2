@@ -1,0 +1,10 @@
+{
+  "values": [
+    "aetherworks:aether_gas_impure",
+    "aetherworks:flowing_aether_gas_impure",
+    "aetherworks:aether_gas",
+    "aetherworks:flowing_aether_gas",
+    "aetherworks:aether_gas_painful",
+    "aetherworks:flowing_aether_gas_painful"
+  ]
+}

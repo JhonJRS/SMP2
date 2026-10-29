@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aetherworks:item/tool_rod_crude"
+  }
+}

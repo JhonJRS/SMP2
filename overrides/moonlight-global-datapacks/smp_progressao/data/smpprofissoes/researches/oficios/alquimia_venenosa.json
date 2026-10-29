@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.alquimia_venenosa.name",
+  "subtitle": "smpprofissoes.research.oficios.alquimia_venenosa.subtitle",
+  "icon": "toxony:eternal_plague",
+  "researchLevel": 4,
+  "sortOrder": 102,
+  "costs": [
+    {
+      "count": 16,
+      "item": "toxony:toxin"
+    },
+    {
+      "count": 16,
+      "item": "malum:wicked_spirit"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:wither_rose"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/rituais_convergencia"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/alquimia_venenosa",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/alquimia_natural"
+}

@@ -1,0 +1,44 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.profundezas_eldritch.name",
+  "subtitle": "smpprofissoes.research.oficios.profundezas_eldritch.subtitle",
+  "icon": "darkermagic:volume_of_the_deep",
+  "researchLevel": 3,
+  "sortOrder": 30,
+  "costs": [
+    {
+      "count": 4,
+      "item": "deeperdarker:soul_crystal"
+    },
+    {
+      "count": 16,
+      "item": "deeperdarker:sculk_bone"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "count": 32,
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/vestes_arcanas"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/profundezas_eldritch",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/grimorios_expandidos"
+}

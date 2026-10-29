@@ -1,0 +1,56 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:arcane_crystal_block"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:sea_prism"
+    }
+  ],
+  "enhancers": "forbidden_arcanus:elementarium",
+  "essences": {
+    "aureal": 1000,
+    "blood": 2000,
+    "souls": 8
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:turtle_scute"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "forbidden_arcanus:arcane_crystal_block"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "forbidden_arcanus:sea_prism"
+    }
+  }
+}

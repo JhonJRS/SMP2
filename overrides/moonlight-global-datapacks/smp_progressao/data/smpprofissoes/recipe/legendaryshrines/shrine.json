@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "botania:manasteel_ingot"
+    },
+    "A": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "H": {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    "R": {
+      "item": "minecraft:amethyst_block"
+    },
+    "C": {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    "B": {
+      "item": "neovitae:blood_pearl"
+    }
+  },
+  "pattern": [
+    "MAM",
+    "HRH",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "legendaryshrines:shrine"
+  }
+}

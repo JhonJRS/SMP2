@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.metalurgia_precisao.name",
+  "subtitle": "smpprofissoes.research.oficios.metalurgia_precisao.subtitle",
+  "icon": "silentgear:alloy_forge",
+  "researchLevel": 2,
+  "sortOrder": 64,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/metalurgia_precisao",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_silentgear"
+}

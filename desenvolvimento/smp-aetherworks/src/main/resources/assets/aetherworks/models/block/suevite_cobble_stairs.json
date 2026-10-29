@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "aetherworks:block/suevite_cobble",
+    "side": "aetherworks:block/suevite_cobble",
+    "top": "aetherworks:block/suevite_cobble"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_wizardry:crushed_mithril"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "id": "create_wizardry:mithril_nugget"
+    },
+    {
+      "chance": 0.25,
+      "count": 1,
+      "id": "irons_spellbooks:arcane_essence"
+    }
+  ]
+}

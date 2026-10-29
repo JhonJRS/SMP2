@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "enchanted:bone_needle"
+    },
+    {
+      "item": "neovitae:teleposer_focus"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted:waystone"
+  }
+}

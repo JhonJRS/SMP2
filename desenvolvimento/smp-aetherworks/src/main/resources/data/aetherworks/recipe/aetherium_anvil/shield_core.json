@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 5,
+  "emberPerHit": 90,
+  "input": {
+    "item": "aetherworks:shield_core_crude"
+  },
+  "numberOfHits": 25,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "aetherworks:shield_core"
+    }
+  ],
+  "temperatureMax": 2500,
+  "temperatureMin": 2200
+}

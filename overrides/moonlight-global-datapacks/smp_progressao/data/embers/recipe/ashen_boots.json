@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "embers:ashen_fabric"
+    },
+    "W": {
+      "item": "smpprofissoes:ashen_weave"
+    }
+  },
+  "pattern": [
+    "C C",
+    "W W",
+    "C C"
+  ],
+  "result": {
+    "id": "embers:ashen_boots"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aetherworks:item/tool/head/hoe_head_center",
+    "layer1": "aetherworks:item/tool/head/hoe_head_amethyst"
+  }
+}

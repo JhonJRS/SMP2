@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.maestria_hefesto.name",
+  "subtitle": "smpprofissoes.research.oficios.maestria_hefesto.subtitle",
+  "icon": "forbidden_arcanus:diamond_blacksmith_gavel",
+  "researchLevel": 3,
+  "sortOrder": 75,
+  "costs": [
+    {
+      "count": 4,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/maestria_hefesto",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_arcana"
+}

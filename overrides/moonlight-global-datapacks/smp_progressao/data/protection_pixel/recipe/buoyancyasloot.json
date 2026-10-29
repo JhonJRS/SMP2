@@ -1,0 +1,128 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:buoyancy_leggings"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "protection_pixel:buoyancyas_leggings"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebuoyancy"
+        },
+        {
+          "item": "smpprofissoes:exo_plating"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebuoyancy"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebuoyancy"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebuoyancy"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebuoyancy"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebuoyancy"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebuoyancy"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebuoyancy"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebuoyancy"
+        },
+        {
+          "item": "protection_pixel:heatoverlockingmechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebuoyancy"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebuoyancy"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebuoyancy"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebuoyancy"
+        },
+        {
+          "item": "protection_pixel:smallnetheritesheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebuoyancy"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompletebuoyancy"
+  }
+}

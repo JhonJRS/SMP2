@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "ae2:formation_core"
+    },
+    "c": {
+      "item": "ae2:cell_component_16k"
+    },
+    "d": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "e": {
+      "item": "ae2:annihilation_core"
+    }
+  },
+  "pattern": [
+    "aab",
+    "cde",
+    "a  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:matter_cannon"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "embers:ash"
+    },
+    {
+      "item": "embers:ash"
+    },
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "item": "embers:ember_crystal"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:ashen_weave",
+    "count": 2
+  }
+}

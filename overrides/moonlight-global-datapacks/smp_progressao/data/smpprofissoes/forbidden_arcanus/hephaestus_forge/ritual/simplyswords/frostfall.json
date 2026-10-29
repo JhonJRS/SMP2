@@ -1,0 +1,70 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:sea_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:runefused_gem"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:diamond_claymore"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:frostfall"
+    }
+  ],
+  "essences": {
+    "aureal": 2400,
+    "blood": 3600,
+    "experience": 1500,
+    "souls": 20
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:sea_prism"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:blue_ice"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:packed_ice"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "simplyswords:runefused_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:legend_core"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "simplyswords:diamond_claymore"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "simplyswords:frostfall"
+    }
+  }
+}

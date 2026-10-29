@@ -1,0 +1,37 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:gem_aether"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:gem_aether"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:aether_pearl"
+  },
+  "tablet": {
+    "item": "aetherworks:gem_aether"
+  }
+}

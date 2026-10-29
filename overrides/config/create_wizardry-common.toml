@@ -1,0 +1,45 @@
+[mana_siphon]
+	#Block radius the Mana Siphon drains within in its confined mode (1 = a 3x3 area).
+	# Default: 1
+	# Range: 1 ~ 32
+	manaSiphonSmallRadius = 1
+	#Block radius the Mana Siphon drains within when expanded with a wrench (3 = a 7x7 area).
+	# Default: 3
+	# Range: 1 ~ 32
+	manaSiphonLargeRadius = 3
+	#Mana (mB) the Mana Siphon pulls from each entity per drain operation.
+	# Default: 1
+	# Range: 1 ~ 1000
+	manaSiphonDrainPerOp = 1
+	#Mana (mB) the Mana Siphon banks per 1 point of damage of a spell projectile
+	#pulled in and consumed within its radius (each absorption banks at least 1 mB).
+	# Default: 1.25
+	# Range: 0.0 ~ 1000.0
+	manaSiphonSpellManaPerDamage = 1.25
+	#Player mana spent per 1 mB the Mana Siphon stores (only applies to players).
+	# Default: 5
+	# Range: 1 ~ 1000
+	playerManaPerMb = 5
+	#Whether mobs drop their key item (e.g. tarnished crown, spell book, permafrost shard)
+	#when the Mana Siphon fully drains and reverts them.
+	manaSiphonDropKeyItems = true
+
+[mana_pipes]
+	#Whether Mana leaks out of uninsulated (non-arcane) pipes and pumps as it travels.
+	#When false, ordinary Create pipes carry Mana losslessly and no leak particles spawn.
+	manaLeakingEnabled = true
+	#Per-block Mana loss rate of uninsulated pipes. The fraction surviving b blocks is e^(-rate*b),
+	#so 0.05 leaves ~37% after 20 blocks. Only used when manaLeakingEnabled is true.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	manaPipeLossRate = 0.05
+
+[channeler]
+	#Block radius within which the Channeler drains nearby charged creepers.
+	# Default: 2
+	# Range: 1 ~ 32
+	channelerCreeperRange = 2
+	#Block radius within which the Channeler captures lightning bolts.
+	# Default: 8
+	# Range: 1 ~ 64
+	channelerLightningRange = 8

@@ -1,0 +1,96 @@
+{
+ "name": "Pray",
+ "author": "SMP 2",
+ "description": "Hands together in prayer",
+ "uuid": "b8f8a8c5-cdf1-554a-948a-7caf55dc38c6",
+ "emote": {
+  "isLoop": "true",
+  "returnTick": 8,
+  "beginTick": 0,
+  "endTick": 60,
+  "stopTick": 64,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.25
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.5
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -1.25
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": 0.5
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.45
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -1.25
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.5
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -1.25
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": 0.5
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.45
+    }
+   }
+  ]
+ }
+}

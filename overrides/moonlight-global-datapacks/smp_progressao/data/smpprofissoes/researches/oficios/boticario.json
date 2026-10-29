@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.boticario.name",
+  "subtitle": "smpprofissoes.research.oficios.boticario.subtitle",
+  "icon": "minecraft:brewing_stand",
+  "researchLevel": 2,
+  "sortOrder": 87,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/boticario",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_ervas"
+}

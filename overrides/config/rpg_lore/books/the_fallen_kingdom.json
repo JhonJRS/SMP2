@@ -1,0 +1,15 @@
+{
+  "title": "The Fallen Kingdom",
+  "author": "Unknown",
+  "generation": 0,
+  "weight": 1.0,
+  "title_color": "FFD700",
+  "description": "A weathered tome recounting the fall of a forgotten realm.",
+  "drop_conditions": {
+    "require_player_kill": true
+  },
+  "pages": [
+    "{\"text\":\"In ages past, a great kingdom\\nstood where only ruins remain.\\n\\nIts people were wise, its walls\\nwere strong, yet it fell all\\nthe same.\"}",
+    "{\"text\":\"Some say a creeping darkness\\nconsumed it from within.\\nOthers speak of betrayal\\nby those closest to the throne.\\n\\nThe truth, as always, lies\\nsomewhere in between.\"}"
+  ]
+}

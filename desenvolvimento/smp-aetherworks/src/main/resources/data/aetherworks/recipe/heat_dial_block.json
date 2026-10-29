@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:paper"
+    },
+    "P": {
+      "tag": "c:plates/dawnstone"
+    }
+  },
+  "pattern": [
+    "B",
+    "P"
+  ],
+  "result": {
+    "id": "aetherworks:heat_dial"
+  },
+  "show_notification": true
+}

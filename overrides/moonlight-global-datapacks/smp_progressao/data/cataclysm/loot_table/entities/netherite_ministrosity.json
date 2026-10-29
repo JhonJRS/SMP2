@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "name": "skull",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty"
+        }
+      ]
+    }
+  ]
+}

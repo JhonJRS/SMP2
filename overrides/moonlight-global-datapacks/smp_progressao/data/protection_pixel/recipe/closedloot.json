@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:iron_helmet"
+    },
+    "E": {
+      "tag": "c:ingots/brass"
+    },
+    "F": {
+      "item": "create:brass_sheet"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ZA A ",
+    " BBB ",
+    "CBDBC",
+    " EFE "
+  ],
+  "result": {
+    "id": "protection_pixel:closed_helmet",
+    "count": 1
+  }
+}

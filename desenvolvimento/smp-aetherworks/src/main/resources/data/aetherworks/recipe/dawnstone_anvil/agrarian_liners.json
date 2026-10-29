@@ -1,0 +1,13 @@
+{
+  "type": "embers:tool_augment",
+  "augment": "aetherworks:agrarian_liners",
+  "input": {
+    "item": "aetherworks:agrarian_liners"
+  },
+  "tool": {
+    "type": "embers:has_heat",
+    "base": {
+      "tag": "embers:augmentables/armors/boots"
+    }
+  }
+}

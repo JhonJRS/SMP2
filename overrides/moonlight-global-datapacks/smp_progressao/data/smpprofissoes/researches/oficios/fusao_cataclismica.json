@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fusao_cataclismica.name",
+  "subtitle": "smpprofissoes.research.oficios.fusao_cataclismica.subtitle",
+  "icon": "cataclysm:mechanical_fusion_anvil",
+  "researchLevel": 5,
+  "sortOrder": 74,
+  "costs": [
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/engenharia_balistica"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fusao_cataclismica",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/reliquias_cataclismo"
+}

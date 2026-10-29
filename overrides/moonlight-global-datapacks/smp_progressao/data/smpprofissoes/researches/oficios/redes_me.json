@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.redes_me.name",
+  "subtitle": "smpprofissoes.research.oficios.redes_me.subtitle",
+  "icon": "ae2:controller",
+  "researchLevel": 4,
+  "sortOrder": 7,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:quartz"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/sistemas_alta_potencia"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/redes_me",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/logistica_seguranca"
+}

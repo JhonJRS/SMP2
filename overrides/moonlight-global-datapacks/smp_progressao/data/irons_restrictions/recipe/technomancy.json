@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:barrier"
+    },
+    {
+      "item": "irons_restrictions:unfinished_manuscript"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:manuscript",
+    "components": {
+      "irons_restrictions:school_component": "aces_spell_utils:technomancy"
+    }
+  }
+}

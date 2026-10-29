@@ -1,0 +1,5 @@
+[mapItem]
+	#Players need the Faction Map in their hotbar or off hand to open the map,
+	#see the minimap, waypoints and pings. Turn it off and the map works with no item at
+	#all: M opens it and the minimap is always there, so nobody gives up an inventory slot.
+	requireMapItem = true

@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arsenal_ie.name",
+  "subtitle": "smpprofissoes.research.oficios.arsenal_ie.subtitle",
+  "icon": "immersiveengineering:revolver",
+  "researchLevel": 3,
+  "sortOrder": 13,
+  "costs": [
+    {
+      "count": 32,
+      "item": "immersiveengineering:ingot_steel"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "count": 8,
+      "item": "immersiveengineering:component_steel"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/metalurgia_latao"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arsenal_ie",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/ferramentas_ie"
+}

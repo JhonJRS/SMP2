@@ -1,0 +1,18 @@
+#Lore book drop settings
+[drops]
+	#Base chance (0.0 to 1.0) for a lore book to drop when at least one matching book exists
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	globalDropChance = 0.05
+	#If true, only hostile mobs (MobCategory.MONSTER) can drop lore books
+	onlyHostileMobs = true
+	#Maximum number of different lore books that can drop from a single kill
+	# Default: 1
+	# Range: 1 ~ 10
+	maxBooksPerKill = 1
+	#If true, use each book definition's weight for selection. If false, all matching books have equal chance.
+	enablePerBookWeights = true
+	#If true, the Looting enchantment increases drop chance (+1% per level)
+	lootScaling = false
+	#If true, non-player kills (e.g. wolves, golems) can also trigger book drops
+	allowNonPlayerKills = false

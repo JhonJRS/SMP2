@@ -1,0 +1,58 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazentouvelib:shadow_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:demonite_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:masked_fool_leggings"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:shadow_scale_leggings"
+    }
+  ],
+  "essences": {
+    "aureal": 1200,
+    "blood": 1800,
+    "experience": 800,
+    "souls": 10
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazentouvelib:shadow_rune"
+      }
+    },
+    {
+      "amount": 5,
+      "ingredient": {
+        "item": "hazennstuff:demonite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "hazennstuff:masked_fool_leggings"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:shadow_scale_leggings"
+    }
+  }
+}

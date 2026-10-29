@@ -1,0 +1,64 @@
+{
+ "name": "Shake Head",
+ "author": "SMP 2",
+ "description": "No",
+ "uuid": "f9556552-ce91-5199-9bc4-8b91fcf499b2",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 29,
+  "stopTick": 35,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 4,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.45
+    }
+   },
+   {
+    "tick": 9,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": -0.45
+    }
+   },
+   {
+    "tick": 14,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.45
+    }
+   },
+   {
+    "tick": 19,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": -0.45
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.45
+    }
+   },
+   {
+    "tick": 29,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": -0.45
+    }
+   }
+  ]
+ }
+}

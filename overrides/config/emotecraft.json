@@ -1,0 +1,73 @@
+{
+  "config_version": 4,
+  "loadbuiltin": true,
+  "quark": false,
+  "dark": false,
+  "oldChooseWheel": false,
+  "perspective": true,
+  "default3rdPersonFront": false,
+  "showicon": true,
+  "enableNSFW": false,
+  "alwaysOpenScreen": false,
+  "debug": true,
+  "validate": false,
+  "validationThreshold": 8.0,
+  "emotesFolderOnLogicalServer": false,
+  "emotesDirectory": "emotes",
+  "autoFixEmoteStop": true,
+  "checkPose": true,
+  "alwaysValidateEmote": false,
+  "playersafety": true,
+  "stopthreshold": 1.3330176,
+  "yratio": 0.75,
+  "showHiddenConfig": false,
+  "neverRemoveBadIcon": false,
+  "exportBuiltin": false,
+  "hideWarning": false,
+  "fastmenu": {
+    "0": {
+      "0": "ab3f4f1f-aba4-52ef-9e1d-bed8abddb0ae",
+      "1": "806e74ed-8f60-5191-908c-051487c7ddd1",
+      "2": "a7843e16-efa4-570a-86af-888f8798d126",
+      "3": "8104cd88-e04d-55dc-b40e-a52bdeafef64",
+      "4": "99cb2306-8d5a-58bd-b61c-ab23957fc4fa",
+      "5": "393b9b1f-1400-5d8b-afbe-f54f94d70fdc",
+      "6": "19b10f1c-7586-518f-a4b3-7cf7915e1396",
+      "7": "2812f9a1-2d81-5cee-9e5d-bc52d9fd89c2"
+    },
+    "1": {
+      "0": "458d17d7-fc00-504d-bc2c-53388b565e11",
+      "1": "8675dabf-8abb-51a3-9c5d-a9f69546d3cf",
+      "2": "e48192f7-74c1-55f8-9f30-9ddd5b56472e",
+      "3": "d2704772-26a1-5a51-93de-dbc7de488c5e",
+      "4": "9a638bd0-c59e-5889-8197-08e5be3cb75b",
+      "5": "5411a663-5129-54ea-a6eb-e3498faa5e49",
+      "6": "01a53a42-2fd2-418c-8e46-e4ee1ff9ee6a",
+      "7": "771a0927-223e-5534-b572-239a64a6c348"
+    },
+    "2": {
+      "0": "959cde56-4069-5dd1-9669-efd843d209d2",
+      "1": "f9556552-ce91-5199-9bc4-8b91fcf499b2",
+      "2": "b8f8a8c5-cdf1-554a-948a-7caf55dc38c6",
+      "3": "f3e5187b-b756-5c57-9acf-db40b9d45b39",
+      "4": "eea9bee0-946d-54b6-889b-f2fb1e6afabd",
+      "5": "e57cfe9a-720e-5e89-9a7a-12bf8ae020cb",
+      "6": "36725bf5-9fa9-5269-8c7f-38f5ad3a3478",
+      "7": "18474754-6c96-5345-8b67-adf479150ae7"
+    },
+    "3": {
+      "0": "6acaea8f-f6fc-5767-a859-c3f525aa800b",
+      "1": "2f3a935f-d733-5f45-8fba-5e8c4c10e279",
+      "2": "3d63c901-5efc-5dea-a8c8-8e888e08c893",
+      "3": "787eca61-4f9b-5d68-9bc4-39e654abeaa1",
+      "4": "094a6b8a-b4d2-528e-abcb-7769b3eef1b4",
+      "5": "42b03496-5c06-5c7c-a707-10e23eaddc7b",
+      "6": "fd7d8111-e547-59a3-a904-5e0298c79fa2",
+      "7": "71b97376-6b14-5c56-8bad-090e18efe462"
+    },
+    "4": {
+      "4": "2fb1cf84-4a91-5a11-82a8-8bd92ae41ebf"
+    }
+  },
+  "keys": {}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "aetherworks:block/fluid/aether_gas_impure_still"
+  }
+}

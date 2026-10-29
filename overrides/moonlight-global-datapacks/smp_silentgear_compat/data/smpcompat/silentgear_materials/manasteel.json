@@ -1,0 +1,113 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "botania:manasteel_ingot"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF3C8CE6",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "text": "Manasteel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 17.0,
+      "armor/helmet": 3,
+      "armor/chestplate": 7,
+      "armor/leggings": 5,
+      "armor/boots": 3,
+      "armor_durability": 18.0,
+      "armor_toughness": 1.0,
+      "attack_damage": 2.5,
+      "attack_speed": 0.0,
+      "charging_value": 0.8,
+      "draw_speed": 0.0,
+      "durability": 900.0,
+      "enchantment_value": 18.0,
+      "harvest_speed": 7.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 8.0,
+      "magic_damage": 3.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.2,
+      "rarity": 45.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:renew"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.1
+      },
+      "traits": [
+        {
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ],
+          "level": 1,
+          "trait": "silentgear:renew"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 128.0
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 10.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:renew"
+        }
+      ]
+    }
+  }
+}

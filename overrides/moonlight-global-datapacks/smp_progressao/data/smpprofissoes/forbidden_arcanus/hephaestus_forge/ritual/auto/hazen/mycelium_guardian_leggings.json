@@ -1,0 +1,68 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:divine_mold"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:glowing_mushroom"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:terrastomp_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:netherite_mage_leggings"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:mycelium_guardian_leggings"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:divine_mold"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:glowing_mushroom"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:archmage_codex"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:terrastomp_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:netherite_mage_leggings"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:mycelium_guardian_leggings"
+    }
+  }
+}

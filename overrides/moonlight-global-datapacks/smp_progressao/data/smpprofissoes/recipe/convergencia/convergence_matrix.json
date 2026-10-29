@@ -1,0 +1,209 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:matter_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "smpprofissoes:convergence_matrix"
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_precision_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "immersiveengineering:component_electronic_adv"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "embers:wildfire_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "irons_spellbooks:legendary_ink"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "malum:malignant_pewter_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "botania:dragonstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "neovitae:hellforged_resonator"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "silentgear:tyrian_steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "forbidden_arcanus:smelter_prism"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "toxony:lethal_dose"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "enchanted:soul_of_the_world"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "vinery:eiswein"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    }
+  ]
+}

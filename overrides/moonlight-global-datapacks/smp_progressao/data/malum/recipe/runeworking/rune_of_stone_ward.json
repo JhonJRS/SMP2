@@ -1,0 +1,16 @@
+{
+  "type": "malum:runeworking",
+  "input": {
+    "count": 1,
+    "item": "smpprofissoes:runic_slate"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:rune_of_stone_ward"
+  },
+  "secondaryInput": {
+    "count": 32,
+    "item": "malum:earthen_spirit"
+  },
+  "soundType": "malum:runic_workbench_shapes_wooden_rune"
+}

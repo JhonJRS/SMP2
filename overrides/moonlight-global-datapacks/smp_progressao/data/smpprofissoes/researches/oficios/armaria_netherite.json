@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.armaria_netherite.name",
+  "subtitle": "smpprofissoes.research.oficios.armaria_netherite.subtitle",
+  "icon": "protection_pixel:breakeras_chestplate",
+  "researchLevel": 4,
+  "sortOrder": 96,
+  "costs": [
+    {
+      "count": 4,
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "count": 8,
+      "item": "create:precision_mechanism"
+    },
+    {
+      "count": 32,
+      "item": "create:brass_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/metalurgia_precisao"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/armaria_netherite",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/armaria_vapor"
+}

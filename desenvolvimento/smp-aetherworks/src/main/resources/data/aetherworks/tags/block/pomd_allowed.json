@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:dripstone_block",
+    "minecraft:calcite",
+    "minecraft:smooth_basalt",
+    "minecraft:basalt",
+    "minecraft:end_stone",
+    "minecraft:obsidian",
+    "aetherworks:suevite",
+    "#minecraft:base_stone_overworld",
+    "#minecraft:base_stone_nether",
+    "#minecraft:nylium",
+    "#c:sandstone/blocks"
+  ]
+}

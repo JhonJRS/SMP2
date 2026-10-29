@@ -1,0 +1,53 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.forja_aether.name",
+  "subtitle": "smpprofissoes.research.oficios.forja_aether.subtitle",
+  "icon": "aetherworks:aether_forge",
+  "researchLevel": 4,
+  "sortOrder": 22,
+  "costs": [
+    {
+      "count": 16,
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/arsenal_ember"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/logistica_ember"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/maestria_hefesto"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/refracao_aether"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/forja_aether",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/alquimia_artificios"
+}

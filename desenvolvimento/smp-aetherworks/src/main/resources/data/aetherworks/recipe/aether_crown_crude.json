@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "aetherworks:gem_aether"
+    },
+    "P": {
+      "item": "aetherworks:plate_aether"
+    },
+    "X": {
+      "item": "aetherworks:ingot_aether"
+    }
+  },
+  "pattern": [
+    "   ",
+    "PGP",
+    "X X"
+  ],
+  "result": {
+    "id": "aetherworks:aether_crown_crude"
+  },
+  "show_notification": true
+}

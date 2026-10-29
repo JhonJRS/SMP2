@@ -1,0 +1,70 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:netherfused_gem"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "malum:void_salts"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:diamond_scythe"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:the_devourer"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "simplyswords:netherfused_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "malum:void_salts"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:mythic_core"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "simplyswords:diamond_scythe"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "simplyswords:the_devourer"
+    }
+  }
+}

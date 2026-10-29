@@ -1,0 +1,40 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:alchemical_waste"
+    },
+    {
+      "item": "embers:alchemical_waste"
+    },
+    {
+      "item": "embers:alchemical_waste"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:aether_gas_painful_bucket"
+  },
+  "tablet": {
+    "item": "aetherworks:aether_gas_bucket"
+  }
+}

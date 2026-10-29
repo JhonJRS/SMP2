@@ -1,0 +1,112 @@
+{
+ "name": "Hands on Hips",
+ "author": "SMP 2",
+ "description": "Well then?",
+ "uuid": "9a638bd0-c59e-5889-8197-08e5be3cb75b",
+ "emote": {
+  "isLoop": "true",
+  "returnTick": 6,
+  "beginTick": 0,
+  "endTick": 60,
+  "stopTick": 64,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "roll": 0.65
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": 0.3
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "roll": -0.65
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": -0.3
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "roll": 0.65
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": 0.3
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -0.25
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "roll": -0.65
+    }
+   },
+   {
+    "tick": 60,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": -0.3
+    }
+   }
+  ]
+ }
+}

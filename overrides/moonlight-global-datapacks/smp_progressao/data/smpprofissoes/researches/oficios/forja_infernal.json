@@ -1,0 +1,41 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.forja_infernal.name",
+  "subtitle": "smpprofissoes.research.oficios.forja_infernal.subtitle",
+  "icon": "neovitae:ingot_hellforged",
+  "researchLevel": 4,
+  "sortOrder": 57,
+  "costs": [
+    {
+      "count": 64,
+      "item": "neovitae:bloodstone"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/metalurgia_arcana"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/forja_infernal",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/arsenal_senciente"
+}

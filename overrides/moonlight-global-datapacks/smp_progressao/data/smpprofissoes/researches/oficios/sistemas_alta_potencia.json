@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.sistemas_alta_potencia.name",
+  "subtitle": "smpprofissoes.research.oficios.sistemas_alta_potencia.subtitle",
+  "icon": "immersiveengineering:capacitor_hv",
+  "researchLevel": 2,
+  "sortOrder": 14,
+  "costs": [
+    {
+      "count": 32,
+      "item": "immersiveengineering:ingot_steel"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/sistemas_alta_potencia",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_ie"
+}

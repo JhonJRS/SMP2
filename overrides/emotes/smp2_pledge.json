@@ -1,0 +1,80 @@
+{
+ "name": "Pledge",
+ "author": "SMP 2",
+ "description": "Hand on heart, head lowered",
+ "uuid": "f3e5187b-b756-5c57-9acf-db40b9d45b39",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 50,
+  "stopTick": 56,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -0.95
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.8
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.4
+    }
+   },
+   {
+    "tick": 8,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "torso": {
+     "pitch": 0.15
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -0.95
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.8
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.4
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "torso": {
+     "pitch": 0.15
+    }
+   }
+  ]
+ }
+}

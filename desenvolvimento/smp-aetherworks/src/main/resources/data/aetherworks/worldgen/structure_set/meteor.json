@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 773540182,
+    "separation": 5,
+    "spacing": 15
+  },
+  "structures": [
+    {
+      "structure": "aetherworks:meteor",
+      "weight": 1
+    }
+  ]
+}

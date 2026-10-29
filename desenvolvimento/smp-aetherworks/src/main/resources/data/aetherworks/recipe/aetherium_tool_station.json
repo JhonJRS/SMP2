@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "aetherworks:gem_aether"
+    },
+    "P": {
+      "tag": "c:plates/dawnstone"
+    },
+    "S": {
+      "tag": "c:storage_blocks/silver"
+    }
+  },
+  "pattern": [
+    "PDP",
+    "SSS"
+  ],
+  "result": {
+    "id": "aetherworks:forge_tool_station"
+  },
+  "show_notification": true
+}

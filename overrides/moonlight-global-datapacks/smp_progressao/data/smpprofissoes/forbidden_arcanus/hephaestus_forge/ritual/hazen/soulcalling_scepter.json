@@ -1,0 +1,84 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:pyrium_nugget"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:cloth_of_the_flamebearer"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:cinderous_soulcaller"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:pyrium_staff"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:soulcalling_scepter"
+    }
+  ],
+  "essences": {
+    "aureal": 1500,
+    "blood": 2000,
+    "experience": 1000,
+    "souls": 15
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazennstuff:pyrium_nugget"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazennstuff:cloth_of_the_flamebearer"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:cinderous_soulcaller"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:smelter_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:pyrium_staff"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:soulcalling_scepter"
+    }
+  }
+}

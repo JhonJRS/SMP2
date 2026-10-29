@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "irons_spellbooks:arcane_rune"
+    },
+    "T": {
+      "item": "irons_spellbooks:rare_ink"
+    },
+    "I": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "B": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "pattern": [
+    "RTR",
+    "IBI",
+    "RTR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "smpprofissoes:school_codex"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:whirlwind_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:runefused_gem"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:diamond_greathammer"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:mjolnir"
+    }
+  ],
+  "essences": {
+    "aureal": 4000,
+    "blood": 6000,
+    "experience": 2500,
+    "souls": 40
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:whirlwind_prism"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:lightning_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "simplyswords:runefused_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:mythic_core"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "simplyswords:diamond_greathammer"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "simplyswords:mjolnir"
+    }
+  }
+}

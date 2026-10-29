@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "D": {
+      "item": "create:mechanical_pump"
+    },
+    "E": {
+      "item": "create:fluid_tank"
+    },
+    "F": {
+      "item": "create:andesite_alloy"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ZABA ",
+    "CDEDC",
+    "CFFFC"
+  ],
+  "result": {
+    "id": "protection_pixel:heatpulsethruster",
+    "count": 1
+  }
+}

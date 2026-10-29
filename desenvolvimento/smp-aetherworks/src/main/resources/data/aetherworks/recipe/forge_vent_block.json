@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "P": {
+      "tag": "c:plates/dawnstone"
+    }
+  },
+  "pattern": [
+    "PIP",
+    "CBC",
+    "PCP"
+  ],
+  "result": {
+    "id": "aetherworks:forge_vent"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,16 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "fluid": "aetherworks:aether_gas"
+  },
+  "input": {
+    "item": "embers:ember_shard"
+  },
+  "output": {
+    "id": "aetherworks:aspectus_aetherium"
+  },
+  "stamp": {
+    "item": "embers:ingot_stamp"
+  }
+}

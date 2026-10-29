@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:dragonskin"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "crystal_chronicles:voidstone_shard"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:ender_staff"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    },
+    {
+      "type": "malum:earthen",
+      "count": 8
+    }
+  ]
+}

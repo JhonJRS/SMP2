@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malum:tainted_rock"
+    },
+    {
+      "item": "malum:tainted_rock"
+    },
+    {
+      "item": "malum:twisted_rock"
+    },
+    {
+      "item": "malum:twisted_rock"
+    },
+    {
+      "item": "malum:hex_ash"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:runic_slate",
+    "count": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "create:brass_sheet"
+    },
+    {
+      "item": "create:brass_sheet"
+    },
+    {
+      "item": "create:precision_mechanism"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:exo_plating",
+    "count": 1
+  }
+}

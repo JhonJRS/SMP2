@@ -1,0 +1,78 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:flaming_template"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:fire_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:cloth_of_the_flamebearer"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:blazeborne_helmet"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:garments_of_the_first_flamebearer_helmet"
+    }
+  ],
+  "essences": {
+    "aureal": 1200,
+    "blood": 1800,
+    "experience": 800,
+    "souls": 10
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:flaming_template"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:fire_rune"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "hazennstuff:cloth_of_the_flamebearer"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:smelter_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "hazennstuff:blazeborne_helmet"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:garments_of_the_first_flamebearer_helmet"
+    }
+  }
+}

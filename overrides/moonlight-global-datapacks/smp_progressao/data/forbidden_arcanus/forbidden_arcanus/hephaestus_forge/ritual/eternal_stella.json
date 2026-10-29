@@ -1,0 +1,84 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:xpetrified_orb"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "botania:life_essence"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "botania:mana_diamond"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:dark_nether_star"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:eternal_stella"
+    }
+  ],
+  "essences": {
+    "aureal": 3000,
+    "blood": 6000,
+    "experience": 2000,
+    "souls": 30
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:xpetrified_orb"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:stellarite_piece"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:stellar_core"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:mana_diamond"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:eternity_essence"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "forbidden_arcanus:dark_nether_star"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "forbidden_arcanus:eternal_stella"
+    }
+  }
+}

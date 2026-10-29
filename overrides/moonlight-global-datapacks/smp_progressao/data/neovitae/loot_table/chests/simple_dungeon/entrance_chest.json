@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty"
+        }
+      ],
+      "name": "keys",
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "neovitae:loot_table",
+          "name": "minecraft:chests/simple_dungeon"
+        }
+      ],
+      "name": "vanilla_dungeon",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "neovitae:chests/simple_dungeon/entrance_chest"
+}

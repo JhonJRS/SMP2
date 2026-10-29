@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "crystal_chronicles:hemalite_shard"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:bone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:blood_scythe"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:dragonskin"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:ender_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:artificer_cane"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:enderconic_scepter"
+    }
+  ],
+  "essences": {
+    "aureal": 1500,
+    "blood": 2000,
+    "experience": 1000,
+    "souls": 15
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:dragonskin"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:chorus_flower"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:ender_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:artificer_cane"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:enderconic_scepter"
+    }
+  }
+}

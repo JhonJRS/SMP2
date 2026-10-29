@@ -1,0 +1,68 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:flaming_template"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:fireblossom"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:fireblossom_gown_leggings"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:fireblossom_knight_leggings"
+    }
+  ],
+  "essences": {
+    "aureal": 2400,
+    "blood": 3600,
+    "experience": 1500,
+    "souls": 20
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:flaming_template"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:fireblossom"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:smelter_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "hazennstuff:fireblossom_gown_leggings"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:fireblossom_knight_leggings"
+    }
+  }
+}

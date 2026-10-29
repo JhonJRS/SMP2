@@ -1,0 +1,4 @@
+﻿## Conferência das expectativas atualizadas
+> smpteste craft c12_nat smpprofissoes:componente/vital_flask_base => FABRICOU
+> smpteste craft c12_arc smpprofissoes:componente/vital_flask_base => BLOQUEADO
+> smpteste pesquisa smpprofissoes:oficios/lamina_ember => pai=smpprofissoes:oficios/regalia_cinzenta

@@ -1,0 +1,95 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "create_deep_dark:echo_ingot"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF0F5C66",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "text": "Echo Alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 23.0,
+      "armor/helmet": 3,
+      "armor/chestplate": 9,
+      "armor/leggings": 7,
+      "armor/boots": 3,
+      "armor_durability": 36.0,
+      "armor_toughness": 8.0,
+      "attack_damage": 6.0,
+      "attack_speed": 0.0,
+      "charging_value": 0.8,
+      "draw_speed": 0.0,
+      "durability": 2600.0,
+      "enchantment_value": 18.0,
+      "harvest_speed": 15.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_crimson_steel_tools",
+        "level_hint": "4",
+        "name": "crimson_steel"
+      },
+      "magic_armor": 10.0,
+      "magic_damage": 5.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 3.0,
+      "rarity": 90.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:void_ward"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 384.0
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 20.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_crimson_steel_tools",
+        "level_hint": "4",
+        "name": "crimson_steel"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:void_ward"
+        }
+      ]
+    }
+  }
+}

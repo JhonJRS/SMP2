@@ -1,0 +1,48 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:mnemonic_fragment"
+    },
+    {
+      "count": 4,
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "count": 2,
+      "item": "malum:soulwood_planks"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:malignant_core"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:totemic_staff"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:mnemonic_hex_staff"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ]
+}

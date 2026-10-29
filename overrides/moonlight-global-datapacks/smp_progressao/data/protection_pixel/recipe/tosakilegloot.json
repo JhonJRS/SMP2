@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "protection_pixel:heatresistantceramicsheet"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "protection_pixel:leggingslining"
+    },
+    "D": {
+      "item": "create:cogwheel"
+    },
+    "E": {
+      "item": "protection_pixel:smallnetheritesheet"
+    },
+    "Z": {
+      "item": "smpprofissoes:exo_plating"
+    }
+  },
+  "pattern": [
+    "ZA A ",
+    "ABCBA",
+    "DE ED",
+    "AA AA"
+  ],
+  "result": {
+    "id": "protection_pixel:tosaki_leggings",
+    "count": 1
+  }
+}

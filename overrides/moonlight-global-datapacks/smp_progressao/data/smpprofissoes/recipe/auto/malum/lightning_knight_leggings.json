@@ -1,0 +1,32 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:electromancer_leggings"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    {
+      "count": 1,
+      "item": "crystal_chronicles:voltite_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:lightning_knight_leggings"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:aerial",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true
+}

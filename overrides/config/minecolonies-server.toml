@@ -1,0 +1,182 @@
+#minecolonies.config.gameplay.comment
+[gameplay]
+	#minecolonies.config.initialcitizenamount.comment [Default: 4, min: 1, max: 10]
+	# Default: 4
+	# Range: 1 ~ 10
+	initialcitizenamount = 4
+	#minecolonies.config.allowinfinitesupplychests.comment [Default: false]
+	allowinfinitesupplychests = false
+	#minecolonies.config.allowinfinitecolonies.comment [Default: false]
+	allowinfinitecolonies = false
+	#minecolonies.config.allowotherdimcolonies.comment [Default: true]
+	allowotherdimcolonies = true
+	#minecolonies.config.maxcitizenpercolony.comment [Default: 250, min: 25, max: 500]
+	# Default: 250
+	# Range: 25 ~ 500
+	maxcitizenpercolony = 250
+	#minecolonies.config.enableindevelopmentfeatures.comment [Default: false]
+	enableindevelopmentfeatures = false
+	#minecolonies.config.alwaysrendernametag.comment [Default: true]
+	alwaysrendernametag = true
+	#minecolonies.config.workersalwaysworkinrain.comment [Default: false]
+	workersalwaysworkinrain = false
+	#minecolonies.config.luckyblockchance.comment [Default: 1, min: 0, max: 100]
+	# Default: 1
+	# Range: 0 ~ 100
+	luckyblockchance = 1
+	#minecolonies.config.minthleveltoteleport.comment [Default: 3, min: 0, max: 5]
+	# Default: 3
+	# Range: 0 ~ 5
+	minthleveltoteleport = 3
+	#minecolonies.config.foodmodifier.comment [Default: 1.0, min: 0.1, max: 100.0]
+	# Default: 1.0
+	# Range: 0.1 ~ 100.0
+	foodmodifier = 1.0
+	#minecolonies.config.diseasemodifier.comment [Default: 5, min: 1, max: 100]
+	# Default: 5
+	# Range: 1 ~ 100
+	diseasemodifier = 5
+	#minecolonies.config.forceloadcolony.comment [Default: true]
+	forceloadcolony = true
+	#minecolonies.config.loadtime.comment [Default: 20, min: 1, max: 1440]
+	# Default: 20
+	# Range: 1 ~ 1440
+	loadtime = 20
+	#minecolonies.config.colonyloadstrictness.comment [Default: 3, min: 1, max: 15]
+	# Default: 3
+	# Range: 1 ~ 15
+	colonyloadstrictness = 3
+	#minecolonies.config.maxtreesize.comment [Default: 400, min: 1, max: 1000]
+	# Default: 400
+	# Range: 1 ~ 1000
+	maxtreesize = 400
+	#minecolonies.config.nosupplyplacementrestrictions.comment [Default: false]
+	nosupplyplacementrestrictions = false
+	#minecolonies.config.skyraiders.comment [Default: false]
+	skyraiders = false
+
+#minecolonies.config.research.comment
+[research]
+	#minecolonies.config.researchcreativecompletion.comment [Default: true]
+	researchcreativecompletion = true
+	#minecolonies.config.researchdebuglog.comment [Default: false]
+	researchdebuglog = false
+	#minecolonies.config.researchresetcost.comment
+	researchresetcost = ["minecolonies:ancienttome:1"]
+
+#minecolonies.config.commands.comment
+[commands]
+	#minecolonies.config.canplayerusertpcommand.comment [Default: false]
+	canplayerusertpcommand = false
+	#minecolonies.config.canplayerusecolonytpcommand.comment [Default: false]
+	canplayerusecolonytpcommand = false
+	#minecolonies.config.canplayeruseallytownhallteleport.comment [Default: true]
+	canplayeruseallytownhallteleport = true
+	#minecolonies.config.canplayerusehometpcommand.comment [Default: false]
+	canplayerusehometpcommand = false
+	#minecolonies.config.canplayeruseshowcolonyinfocommand.comment [Default: true]
+	canplayeruseshowcolonyinfocommand = true
+	#minecolonies.config.canplayerusekillcitizenscommand.comment [Default: false]
+	canplayerusekillcitizenscommand = false
+	#minecolonies.config.canplayerusemodifycitizenscommand.comment [Default: false]
+	canplayerusemodifycitizenscommand = false
+	#minecolonies.config.canplayeruseaddofficercommand.comment [Default: true]
+	canplayeruseaddofficercommand = true
+	#minecolonies.config.canplayerusedeletecolonycommand.comment [Default: false]
+	canplayerusedeletecolonycommand = false
+	#minecolonies.config.canplayeruseresetcommand.comment [Default: false]
+	canplayeruseresetcommand = false
+
+#minecolonies.config.claims.comment
+[claims]
+	#minecolonies.config.maxColonySize.comment [Default: 20, min: 1, max: 250]
+	# Default: 20
+	# Range: 1 ~ 250
+	maxColonySize = 20
+	#minecolonies.config.minColonyDistance.comment [Default: 8, min: 1, max: 200]
+	# Default: 8
+	# Range: 1 ~ 200
+	minColonyDistance = 8
+	#minecolonies.config.initialColonySize.comment [Default: 4, min: 1, max: 15]
+	# Default: 4
+	# Range: 1 ~ 15
+	initialColonySize = 4
+	#minecolonies.config.maxdistancefromworldspawn.comment [Default: 30000, min: 1000, max: 2147483647]
+	# Default: 30000
+	# Range: > 1000
+	maxdistancefromworldspawn = 30000
+	#minecolonies.config.mindistancefromworldspawn.comment [Default: 0, min: 0, max: 1000]
+	# Default: 0
+	# Range: 0 ~ 1000
+	mindistancefromworldspawn = 0
+
+#minecolonies.config.combat.comment
+[combat]
+	#minecolonies.config.enablecolonyraids.comment [Default: true]
+	enablecolonyraids = true
+	#minecolonies.config.raidDifficulty.comment [Default: 5, min: 0, max: 10]
+	# Default: 5
+	# Range: 0 ~ 10
+	raidDifficulty = 5
+	#minecolonies.config.maxRaiders.comment [Default: 80, min: 6, max: 400]
+	# Default: 80
+	# Range: 6 ~ 400
+	maxRaiders = 80
+	#minecolonies.config.raidersbreakblocks.comment [Default: true]
+	raidersbreakblocks = true
+	#minecolonies.config.averagenumberofnightsbetweenraids.comment [Default: 14, min: 1, max: 50]
+	# Default: 14
+	# Range: 1 ~ 50
+	averagenumberofnightsbetweenraids = 14
+	#minecolonies.config.minimumnumberofnightsbetweenraids.comment [Default: 10, min: 1, max: 30]
+	# Default: 10
+	# Range: 1 ~ 30
+	minimumnumberofnightsbetweenraids = 10
+	#minecolonies.config.mobattackcitizens.comment [Default: true]
+	mobattackcitizens = true
+	#minecolonies.config.raidersbreakdoors.comment [Default: true]
+	raidersbreakdoors = true
+	#minecolonies.config.guardDamageMultiplier.comment [Default: 1.0, min: 0.1, max: 15.0]
+	# Default: 1.0
+	# Range: 0.1 ~ 15.0
+	guardDamageMultiplier = 1.0
+	#minecolonies.config.guardhealthmult.comment [Default: 1.0, min: 0.1, max: 5.0]
+	# Default: 1.0
+	# Range: 0.1 ~ 5.0
+	guardhealthmult = 1.0
+	#minecolonies.config.pvp_mode.comment [Default: false]
+	pvp_mode = false
+
+#minecolonies.config.permissions.comment
+[permissions]
+	#minecolonies.config.enablecolonyprotection.comment [Default: true]
+	enablecolonyprotection = true
+	#minecolonies.config.turnoffexplosionsincolonies.comment [Default: DAMAGE_ENTITIES, values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING]
+	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
+	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
+	#minecolonies.config.permissioneventbypassminpermlevel.comment [Default: 2, min: 0, max: 4]
+	# Default: 2
+	# Range: 0 ~ 4
+	permissioneventbypassminpermlevel = 2
+
+#minecolonies.config.compatibility.comment
+[compatibility]
+	#minecolonies.config.auditcraftingtags.comment [Default: false]
+	auditcraftingtags = false
+	#minecolonies.config.debuginventories.comment [Default: false]
+	debuginventories = false
+	#minecolonies.config.blueprintbuildmode.comment [Default: false]
+	blueprintbuildmode = false
+	#minecolonies.config.pathNodeLimitMultiplier.comment [Default: 1.0, min: 1.0, max: 4.0]
+	# Default: 1.0
+	# Range: 1.0 ~ 4.0
+	pathNodeLimitMultiplier = 1.0
+	#minecolonies.config.minimumrailstopath.comment [Default: 8, min: 5, max: 100]
+	# Default: 8
+	# Range: 5 ~ 100
+	minimumrailstopath = 8
+
+#minecolonies.config.requestSystem.comment
+[requestSystem]
+	#minecolonies.config.creativeresolve.comment [Default: false]
+	creativeresolve = false

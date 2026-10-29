@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.vestes_arcanas.name",
+  "subtitle": "smpprofissoes.research.oficios.vestes_arcanas.subtitle",
+  "icon": "irons_spellbooks:pyromancer_chestplate",
+  "researchLevel": 2,
+  "sortOrder": 34,
+  "costs": [
+    {
+      "count": 16,
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    {
+      "count": 16,
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/vestes_arcanas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_irons"
+}

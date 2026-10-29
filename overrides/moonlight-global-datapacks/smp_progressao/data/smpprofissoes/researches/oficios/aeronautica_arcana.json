@@ -1,0 +1,45 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.aeronautica_arcana.name",
+  "subtitle": "smpprofissoes.research.oficios.aeronautica_arcana.subtitle",
+  "icon": "aeronautics:propeller_bearing",
+  "researchLevel": 4,
+  "sortOrder": 93,
+  "costs": [
+    {
+      "count": 8,
+      "item": "create:precision_mechanism"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "count": 4,
+      "item": "botania:mana_pearl"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/manipulacao_mana"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/aeronautica_arcana",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/combustiveis_industriais"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "aetherworks:block/suevite_small_bricks",
+    "side": "aetherworks:block/suevite_small_bricks",
+    "top": "aetherworks:block/suevite_small_bricks"
+  }
+}

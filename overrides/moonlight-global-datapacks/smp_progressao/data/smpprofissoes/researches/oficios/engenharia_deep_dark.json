@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.engenharia_deep_dark.name",
+  "subtitle": "smpprofissoes.research.oficios.engenharia_deep_dark.subtitle",
+  "icon": "create_deep_dark:echo_ingot",
+  "researchLevel": 3,
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 16,
+      "item": "deeperdarker:sculk_bone"
+    },
+    {
+      "count": 4,
+      "item": "deeperdarker:soul_crystal"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "count": 32,
+      "item": "create:brass_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/engenharia_deep_dark",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_latao"
+}

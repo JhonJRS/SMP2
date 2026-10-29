@@ -1,0 +1,14 @@
+#Mod chat language: en (English) or ru (Russian). Alias: eu -> en.
+language = "en"
+
+[database]
+	#Automatically purge old database logs.
+	purge_enabled = true
+	#Delete log entries older than this many days when purge runs.
+	# Default: 20
+	# Range: 1 ~ 3650
+	purge_retention_days = 20
+	#How often (in days) the automatic purge job runs.
+	# Default: 20
+	# Range: 1 ~ 3650
+	purge_interval_days = 20

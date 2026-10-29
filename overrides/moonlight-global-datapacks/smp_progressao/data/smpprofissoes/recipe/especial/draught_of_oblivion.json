@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deeperdarker:soul_crystal"
+    },
+    {
+      "item": "deeperdarker:soul_dust"
+    },
+    {
+      "item": "deeperdarker:soul_dust"
+    },
+    {
+      "item": "irons_spellbooks:tincture_of_forgetfulness"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "smpprofissoes:draught_of_oblivion"
+  }
+}

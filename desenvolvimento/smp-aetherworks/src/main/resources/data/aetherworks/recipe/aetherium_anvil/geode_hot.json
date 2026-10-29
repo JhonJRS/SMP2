@@ -1,0 +1,63 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_hot"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "embers:raw_lead"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "embers:raw_silver"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:sand"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:red_sand"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:clay"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:granite"
+    },
+    {
+      "chance": 7.5,
+      "count": 4,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "aetherworks:aether_shard"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:raw_gold_block"
+    },
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "aetherworks:block_shards_raw"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

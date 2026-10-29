@@ -1,0 +1,79 @@
+[ranks]
+	#The nobility ladder, lowest first.
+	#Full format per line: name;REQUIREMENT;param;entryScore;show;advanceText
+	#Only the first four are required; show and advanceText are optional.
+	#REQUIREMENT (how you ENTER this rank):
+	#  COMMAND    = just /nobility promote (hook NPCs/quests/boss kills here). This
+	#               is how the early ranks advance; the server decides its own way
+	#               when a player joins, takes a trade, is knighted, is made a Baron.
+	#  SUPPORT    = param SAME-RANK peers must pledge their seal to you; on promote
+	#               those sealers become your sentenced vassals (County/Duchy/Kingdom)
+	#  BUYIN      = pay param of the buyin_item, consumed on promote (unused default)
+	#  SCORE      = your score must have reached param (unused default; no war here)
+	#  CROWN      = the King step: param same-rank (Duke) seals AND lead a Holdfast Factions
+	#               faction over the claim threshold AND consume a Crown (see config below)
+	#  HIGHEST    = the Emperor seat. The FIRST King is crowned automatically; after
+	#               that the throne only changes through a usurpation challenge.
+	#entryScore = score you are set to on entering (negative = leave score alone).
+	#show = which Chancery lines appear AT this rank, comma-separated from
+	#       score,supporters,vassals,liege. Omit for smart auto-defaults;
+	#       include it (even empty) to override, e.g. 'Knight;COMMAND;0;0;'.
+	#advanceText = custom 'how to advance from here' text for a questline, e.g.:
+	#       'Knight;COMMAND;0;0;;Slay every server boss, then an NPC elevates you.'
+	#       (admins can also set this live with /nobility directive <rank> <text>).
+	#femaleName = feminine form of the title (Baroness, Countess, Queen...); blank =
+	#       reuse name. A player flips identity in the Chancery or via /nobility gender.
+	#Rename titles freely; the mechanics follow the REQUIREMENT column, not the name.
+	#Default ladder: Outsider -> Artisan -> Knight -> Baron -> Count -> Duke -> King -> Emperor.
+	#  Count needs 2 Baron seals, Duke needs 2 Count seals, King needs 2 Duke seals.
+	ladder = ["Outsider;COMMAND;0;0;;;Outsider", "Artisan;COMMAND;0;0;;;Artisan", "Knight;COMMAND;0;0;;;Dame", "Baron;COMMAND;0;0;;;Baroness", "Count;SUPPORT;2;0;;;Countess", "Duke;SUPPORT;2;0;;;Duchess", "King;CROWN;2;0;;;Queen", "Emperor;HIGHEST;0;-1;;;Empress"]
+
+[vassalage]
+	#Real-world days a vassal stays bound before it may break free. Stops players
+	#from vassal-hopping to swing different lords' promotions. Forced (conquered)
+	#vassals are bound for the same term once the conqueror ascends.
+	# Default: 7
+	# Range: 0 ~ 3650
+	vassal_sentence_days = 7
+
+[economy]
+	#Item consumed for a BUYIN promotion. Unused by the default ladder.
+	buyin_item = "minecraft:emerald"
+
+[integration]
+	#Bridge War 'n Taxes (modid 'minecolonytax') vassalizations into this mod: whenever a
+	#colony becomes a vassal there — by winning a vassalization WAR or a BESIEGE — its owner
+	#is force-sealed to the victor here, so vassalizing is how you collect the same-rank seals
+	#that promote you (e.g. vassalize 2 fellow Counts to rank up to Duke). The seal lasts as
+	#long as the War 'n Taxes vassalization and releases when it ends. Needs War 'n Taxes +
+	#MineColonies installed; harmless to leave true when they are absent.
+	tribute_enabled = true
+	#How often (seconds) to poll War 'n Taxes for new or ended vassalizations.
+	# Default: 20
+	# Range: 1 ~ 600
+	tribute_poll_seconds = 20
+	#Feudal protection: forbid declaring a War 'n Taxes war on a colony whose owner holds a
+	#HIGHER nobility rank than the declarer ('you may not make war upon your betters'). The
+	#would-be attacker is told why and the declaration is suppressed. Equal or lower rank is
+	#unaffected. Needs War 'n Taxes installed (a client mixin on its war-declaration path);
+	#harmless when it is absent. Set false to let anyone declare on anyone.
+	protect_higher_rank_from_war = true
+	#Feudal protection for BESIEGEMENTS: forbid declaring a War 'n Taxes besiege on a colony
+	#whose owner holds a HIGHER nobility rank than the declarer. War 'n Taxes itself treats a
+	#besiege as the way to 'punch up' at a stronger power, but under the noble ladder besieging
+	#your better wins you no seal, so with War 'n Nobility installed it is forbidden at the
+	#source (the would-be attacker is told why and the declaration is suppressed). Equal or
+	#lower rank is unaffected. Needs War 'n Taxes installed (a server mixin on its
+	#besiege-declaration path); harmless when it is absent. Set false to allow besieging upward.
+	protect_higher_rank_from_besiege = true
+	#King (CROWN) gate: the claimant must LEAD (own) a Holdfast Factions or Easy Factions faction.
+	#If neither is installed, this half of the gate is skipped and King needs only the
+	#Duke seals + the Crown.
+	king_requires_faction = true
+	#King (CROWN) gate: total claimed chunks the claimant's faction must hold.
+	# Default: 50
+	# Range: 0 ~ 1000000
+	king_faction_claim_threshold = 50
+	#King (CROWN) gate: consume the Crown at coronation. False = the King just has to bear
+	#one (it is not eaten), letting a single Crown crown several kings over time.
+	king_consume_crown = true

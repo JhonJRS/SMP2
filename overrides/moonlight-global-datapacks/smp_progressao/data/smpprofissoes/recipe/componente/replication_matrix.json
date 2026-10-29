@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:replication_matrix",
+    "count": 1
+  }
+}

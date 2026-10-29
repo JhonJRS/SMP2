@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "botania:mana_powder"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "irons_spellbooks:arcane_essence"
+    }
+  ]
+}

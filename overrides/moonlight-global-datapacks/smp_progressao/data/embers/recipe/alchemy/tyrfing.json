@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "c:storage_blocks/coal"
+    },
+    {
+      "tag": "c:obsidian"
+    },
+    {
+      "item": "silentgear:tyrian_steel_ingot"
+    },
+    {
+      "item": "malum:soul_stained_steel_plating"
+    },
+    {
+      "item": "smpprofissoes:ember_core"
+    }
+  ],
+  "output": {
+    "id": "embers:tyrfing"
+  },
+  "tablet": {
+    "item": "embers:dawnstone_sword"
+  }
+}

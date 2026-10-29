@@ -1,0 +1,43 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "br.smp.profissoes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RecipeManagerMixin",
+    "CraftingMenuMixin",
+    "ServerGamePacketListenerImplMixin",
+    "CreateAutomacaoMixin",
+    "BlueprintEntityMixin",
+    "BlueprintMenuMixin",
+    "PatternEncodingTermMenuMixin",
+    "CraftingTermMenuMixin",
+    "CraftingTermSlotMixin",
+    "AssemblyHaloMixin",
+    "ContainerCraftingMixin",
+    "AddRemoveRecipeMessageMixin",
+    "LocalResearchTreeMixin",
+    "CreatePocoesMixin",
+    "TickBlocoMixin",
+    "CliqueBlocoMixin",
+    "SubirColoniaMixin",
+    "VinhoResistenciaMixin",
+    "CondensadorAE2Mixin",
+    "SimplyMoreUsoMixin",
+    "SimplyMoreUsoContinuoMixin",
+    "SimplyMoreHabilidadeMixin",
+    "SimplyMoreEfeitoMixin",
+    "SimplyMoreUtilMixin",
+    "SimplyMoreGolpeMixin",
+    "SimplyMoreMyrmedgeMixin",
+    "CoreProtectExecutorMixin"
+  ],
+  "client": [
+    "ImagemBlockUIMixin",
+    "EscuridaoShaderMixin",
+    "LicencaTelaMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

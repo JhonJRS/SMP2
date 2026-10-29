@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.reliquias_cataclismo.name",
+  "subtitle": "smpprofissoes.research.oficios.reliquias_cataclismo.subtitle",
+  "icon": "cataclysm:ignitium_chestplate",
+  "researchLevel": 4,
+  "sortOrder": 73,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/maestria_hefesto"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/reliquias_cataclismo",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/forja_cataclismica"
+}

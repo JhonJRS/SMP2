@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "simplyswords:runefused_gem"
+    },
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:legend_core",
+    "count": 1
+  }
+}

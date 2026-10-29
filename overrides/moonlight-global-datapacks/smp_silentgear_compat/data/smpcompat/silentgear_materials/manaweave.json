@@ -1,0 +1,78 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "organic",
+      "cloth",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "botania:manaweave_cloth"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF6FB7E8",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "text": "Manaweave"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 8.0,
+      "armor/helmet": 1,
+      "armor/chestplate": 3,
+      "armor/leggings": 3,
+      "armor/boots": 1,
+      "armor_durability": 18.0,
+      "charging_value": 0.9,
+      "durability": 0.0,
+      "enchantment_value": 20.0,
+      "magic_armor": 18.0,
+      "rarity": 55.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:renew"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 4.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:flexible"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:renew"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.15
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:accelerate"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.metalurgia_latao.name",
+  "subtitle": "smpprofissoes.research.oficios.metalurgia_latao.subtitle",
+  "icon": "create:brass_ingot",
+  "researchLevel": 2,
+  "sortOrder": 4,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 16,
+      "item": "create:zinc_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/metalurgia_latao",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_create"
+}

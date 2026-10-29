@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "item": "malum:null_slate"
+    },
+    {
+      "item": "malum:null_slate"
+    },
+    {
+      "item": "malum:eldritch_spirit"
+    },
+    {
+      "item": "malum:eldritch_spirit"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "forbidden_arcanus:obsidiansteel_ingot"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:malignant_core",
+    "count": 1
+  }
+}

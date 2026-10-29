@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "irons_spellbooks:pyrium_ingot"
+    },
+    {
+      "count": 2,
+      "item": "crystal_chronicles:volcanite_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:fire_chakram"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:infernal",
+      "count": 8
+    }
+  ]
+}

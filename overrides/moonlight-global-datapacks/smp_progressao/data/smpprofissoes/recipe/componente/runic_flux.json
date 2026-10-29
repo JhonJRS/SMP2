@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "item": "malum:arcane_spirit"
+    },
+    {
+      "item": "malum:arcane_spirit"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:runic_flux",
+    "count": 1
+  }
+}

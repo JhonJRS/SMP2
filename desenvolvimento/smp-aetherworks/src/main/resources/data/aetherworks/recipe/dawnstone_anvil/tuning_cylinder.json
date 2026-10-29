@@ -1,0 +1,13 @@
+{
+  "type": "embers:tool_augment",
+  "augment": "aetherworks:tuning_cylinder",
+  "input": {
+    "item": "aetherworks:tuning_cylinder"
+  },
+  "tool": {
+    "type": "embers:has_heat",
+    "base": {
+      "tag": "embers:augmentables/tools"
+    }
+  }
+}

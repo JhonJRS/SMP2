@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.forja_cataclismica.name",
+  "subtitle": "smpprofissoes.research.oficios.forja_cataclismica.subtitle",
+  "icon": "cataclysm:black_steel_sword",
+  "researchLevel": 3,
+  "sortOrder": 72,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:iron_block"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:obsidian"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/forja_cataclismica",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/armaria_marcial"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 250,
+  "fluid": {
+    "amount": 180,
+    "fluid": "aetherworks:aether_gas"
+  },
+  "input": {
+    "tag": "c:plates/dawnstone"
+  },
+  "match_exactly": false,
+  "output": {
+    "item": "aetherworks:plate_aether"
+  },
+  "temperature": 2400
+}

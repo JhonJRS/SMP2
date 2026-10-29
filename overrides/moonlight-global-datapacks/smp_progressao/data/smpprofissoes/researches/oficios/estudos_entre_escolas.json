@@ -1,0 +1,41 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.estudos_entre_escolas.name",
+  "subtitle": "smpprofissoes.research.oficios.estudos_entre_escolas.subtitle",
+  "icon": "irons_spellbooks:arcane_rune",
+  "researchLevel": 3,
+  "sortOrder": 28,
+  "costs": [
+    {
+      "count": 64,
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "count": 8,
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:book"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:library",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/estudos_entre_escolas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/estudos_pergaminhos"
+}

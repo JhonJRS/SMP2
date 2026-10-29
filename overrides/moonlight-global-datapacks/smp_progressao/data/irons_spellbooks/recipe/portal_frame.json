@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MEM",
+    "ISI",
+    "I I"
+  ],
+  "key": {
+    "M": {
+      "tag": "c:ingots/mithril"
+    },
+    "I": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "S": {
+      "item": "ae2:singularity"
+    }
+  },
+  "result": {
+    "id": "irons_spellbooks:portal_frame",
+    "count": 2
+  }
+}

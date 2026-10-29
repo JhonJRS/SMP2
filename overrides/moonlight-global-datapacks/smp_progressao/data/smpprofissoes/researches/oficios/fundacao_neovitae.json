@@ -1,0 +1,35 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fundacao_neovitae.name",
+  "subtitle": "smpprofissoes.research.oficios.fundacao_neovitae.subtitle",
+  "icon": "minecraft:redstone",
+  "researchLevel": 1,
+  "sortOrder": 51,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:bone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fundacao_neovitae",
+      "level": 1
+    }
+  ]
+}

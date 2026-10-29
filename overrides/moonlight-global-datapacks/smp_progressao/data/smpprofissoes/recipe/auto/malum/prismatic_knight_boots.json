@@ -1,0 +1,32 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "tag": "crystal_chronicles:prismatic_boots_ingredients"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:arcane_rune"
+    },
+    {
+      "count": 1,
+      "item": "irons_spellbooks:divine_soulshard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:prismatic_knight_boots"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true
+}

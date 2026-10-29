@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:dawnstone_aspectus"
+    },
+    {
+      "item": "embers:dawnstone_aspectus"
+    },
+    {
+      "item": "aetherworks:focus_crystal"
+    },
+    {
+      "item": "aetherworks:focus_crystal"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:shield_core_infused"
+  },
+  "tablet": {
+    "item": "aetherworks:shield_core"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "c:obsidians"
+    },
+    {
+      "tag": "c:obsidians"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:axe_head_ender"
+  },
+  "tablet": {
+    "item": "aetherworks:axe_head"
+  }
+}

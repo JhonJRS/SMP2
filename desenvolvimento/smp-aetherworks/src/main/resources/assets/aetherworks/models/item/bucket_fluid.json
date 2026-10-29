@@ -1,0 +1,8 @@
+{
+    "parent": "neoforge:item/default",
+	"textures": {
+        "base": "aetherworks:item/bucket_base",
+        "cover": "aetherworks:item/bucket_cover",
+        "fluid": "aetherworks:item/bucket_fluid"
+  	}
+}

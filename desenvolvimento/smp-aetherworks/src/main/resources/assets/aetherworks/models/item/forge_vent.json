@@ -1,0 +1,51 @@
+{
+  "parent": "aetherworks:block/forge_vent",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "translation": [
+        -1.13,
+        3.2,
+        1.13
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        40,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ],
+      "translation": [
+        3,
+        -2,
+        0
+      ]
+    },
+    "thirdperson_righthand": {
+      "scale": [
+        0.475,
+        0.475,
+        0.475
+      ],
+      "translation": [
+        0,
+        2.5,
+        4
+      ]
+    }
+  }
+}

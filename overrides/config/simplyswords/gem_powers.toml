@@ -1,0 +1,231 @@
+# Don't change this! Version used to track needed updates.
+version = 3
+disabledPowers = [  ]
+
+[activeDefence]
+frequency = 20
+radius = 5.0
+
+[floating]
+chance = 15
+duration = 50
+
+[freeze]
+chance = 15
+duration = 120
+
+[frostWard]
+frequency = 20
+radius = 5.0
+duration = 60
+
+[dancingBlades]
+chance = 5
+maxSwords = 3
+duration = 400
+orbitRadius = 2.65
+damageScaling = 0.8
+spellScaling = 1.6
+
+[imbued]
+chance = 15
+spellScaling = 2.0
+
+[immolation]
+spellScaling = 2.0
+
+[radiance]
+spellScaling = 2.0
+
+[momentum]
+cooldown = 140
+
+[shielding]
+chance = 15
+duration = 120
+
+[slow]
+chance = 50
+duration = 50
+
+[stormlash]
+chance = 15
+chainCount = 6
+range = 6.0
+damageScaling = 0.35
+spellScaling = 0.8
+
+[stoneskin]
+chance = 15
+duration = 60
+
+[swiftness]
+chance = 15
+duration = 300
+
+[trailblaze]
+chance = 15
+duration = 120
+
+[unstable]
+frequency = 140
+duration = 140
+
+[weaken]
+chance = 15
+duration = 120
+
+[wildfire]
+chance = 10
+duration = 180
+radius = 10.0
+
+[zephyr]
+chance = 15
+duration = 180
+
+[verdantTrail]
+duration = 100
+placementSpacing = 1.25
+placementCooldown = 4
+radius = 1.35
+auraInterval = 20
+regenerationDuration = 60
+regenerationAmplifier = 0
+damageScaling = 0.18
+spellScaling = 0.36
+visualPointsMin = 7
+visualPointsMax = 11
+
+[faultline]
+chance = 10
+length = 8.0
+width = 2.4
+stepDistance = 1.0
+damageScaling = 0.35
+spellScaling = 0.8
+centerSpikeHeight = 1.05
+edgeSpikeHeight = 2.6
+riseTicks = 6
+holdTicks = 4
+sinkTicks = 8
+waveStepDelayTicks = 1
+
+[necromanticArsenal]
+chance = 10
+maxMinions = 3
+duration = 600
+damageScaling = 0.6
+spellScaling = 1.2
+activeAbilityChance = 10
+activeAbilityCheckInterval = 110
+activeAbilityInitialDelay = 40
+
+[wolfPack]
+chance = 40
+maxMinions = 2
+duration = 1400
+damageScaling = 1.0
+spellScaling = 2.0
+activeAbilityChance = 35
+activeAbilityCheckInterval = 40
+activeAbilityInitialDelay = 40
+
+[goatStampede]
+chance = 15
+goatCount = 4
+duration = 50
+damageScaling = 0.3
+spellScaling = 0.6
+screamingChance = 15
+screamingDamageScaling = 0.5
+screamingSpellScaling = 1.0
+knockbackStrength = 0.9
+chargeSpeed = 0.55
+summonerKnockback = 0.5
+maxActiveStampedes = 1
+
+[baneheadSwarm]
+maxActiveHeads = 5
+spawnFrequency = 60
+orbitRadius = 1.6
+orbitHeight = 1.4
+orbitAngularSpeed = 0.05
+homingRange = 12.0
+homingSpeed = 0.4
+homingInitialSpeedFraction = 0.3
+homingAccelerationTicks = 20
+homingCooldownTicks = 30
+homingTurnRateDegrees = 9.0
+explosionProximity = 1.1
+explosionRadius = 2.5
+damageScaling = 0.6
+spellScaling = 1.2
+maxHomingTicks = 100
+
+[wingBuffet]
+chance = 15
+range = 5.5
+coneAngleDegrees = 70.0
+damageScaling = 1.75
+spellScaling = 3.5
+knockbackStrength = 1.4
+upwardKnockback = 0.25
+visualLifetime = 18
+visualScale = 0.65
+
+[dragonMaw]
+chance = 15
+scanFrequencyTicks = 20
+range = 8.0
+visualLifetimeTicks = 300
+breathDelayTicks = 12
+breathRepeatTicks = 60
+breathCloudDurationTicks = 50
+breathRadius = 2.25
+damageIntervalTicks = 10
+damageScaling = 0.45
+spellScaling = 0.9
+headScale = 2.35
+headVerticalOffset = -0.59
+turnSpeedDegreesPerTick = 6.0
+
+[runicSlash]
+distance = 16.0
+speed = 1.2
+width = 1.15
+damageScaling = 1.0
+spellScaling = 2.0
+minimumSwingCooldownTicks = 2
+
+[evocation]
+range = 8.0
+scanFrequencyTicks = 10
+maxTargetsPerScan = 3
+targetCooldownTicks = 60
+fangWarmupTicks = 0
+damageDelayTicks = 8
+damageScaling = 0.2
+spellScaling = 0.4
+slownessDurationTicks = 60
+slownessAmplifier = 1
+
+[snifferSlam]
+chance = 5
+damageScaling = 2.0
+spellScaling = 4.0
+fallHeight = 8.0
+fallSpeed = 0.75
+impactRadius = 2.0
+immobiliseDurationTicks = 20
+lingerTicks = 20
+maxActiveSlams = 1
+screamingGoatSoundChance = 5
+
+[simplySkills]
+preciseChance = 30
+mightyChance = 30
+stealthyChance = 30
+renewedChance = 30
+leapingChance = 65
+spellshieldChance = 15

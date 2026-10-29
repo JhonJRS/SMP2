@@ -1,0 +1,113 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_nether"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:netherrack"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:basalt"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:blackstone"
+    },
+    {
+      "chance": 2.5,
+      "count": 4,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 2.5,
+      "count": 3,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 2.5,
+      "count": 2,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 2.5,
+      "count": 1,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 2.5,
+      "count": 3,
+      "item": "minecraft:quartz"
+    },
+    {
+      "chance": 5.0,
+      "count": 2,
+      "item": "minecraft:quartz"
+    },
+    {
+      "chance": 2.5,
+      "count": 1,
+      "item": "minecraft:quartz"
+    },
+    {
+      "chance": 5.0,
+      "count": 2,
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:gilded_blackstone"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:magma_block"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:obsidian"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "minecraft:glowstone"
+    },
+    {
+      "chance": 0.33,
+      "count": 1,
+      "item": "minecraft:ancient_debris"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

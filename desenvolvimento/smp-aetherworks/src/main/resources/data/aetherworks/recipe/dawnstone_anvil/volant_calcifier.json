@@ -1,0 +1,23 @@
+{
+  "type": "embers:tool_augment",
+  "augment": "aetherworks:volant_calcifier",
+  "input": {
+    "item": "aetherworks:volant_calcifier"
+  },
+  "tool": {
+    "type": "embers:has_heat",
+    "base": [
+      {
+        "type": "embers:has_augment",
+        "augment": "embers:caster_orb",
+        "base": {
+          "tag": "embers:augmentables/tools"
+        },
+        "level": 1
+      },
+      {
+        "tag": "embers:augmentables/projectiles"
+      }
+    ]
+  }
+}

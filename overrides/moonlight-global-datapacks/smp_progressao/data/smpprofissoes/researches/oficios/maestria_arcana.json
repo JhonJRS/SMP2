@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.maestria_arcana.name",
+  "subtitle": "smpprofissoes.research.oficios.maestria_arcana.subtitle",
+  "icon": "irons_spellbooks:upgrade_orb",
+  "researchLevel": 3,
+  "sortOrder": 27,
+  "costs": [
+    {
+      "count": 64,
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:heart_of_the_sea"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/maestria_arcana",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/estudos_pergaminhos"
+}

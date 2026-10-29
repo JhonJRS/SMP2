@@ -1,0 +1,196 @@
+#Maximum amount of blocks that can be locked at once
+# Default: 6
+# Range: > 1
+"Max Lockable Volume" = 6
+#Blocks that can be locked. Each entry is the mod domain followed by the block's registry name. Can include regular expressions
+"Lockable Blocks" = [".*chest", ".*barrel", ".*hopper", ".*door", ".*trapdoor", ".*fence_gate", ".*shulker_box"]
+#Block tags whose members can be locked. Each entry is a tag resource location (e.g. 'locks:lockable'). The 'locks:lockable' tag is always included
+"Lockable Tags" = ["locks:lockable"]
+#Open locks can be removed with an empty hand while sneaking
+"Allow Removing Locks" = true
+#Locked blocks cannot be destroyed in survival mode
+"Protect Lockables" = true
+#Lock blocks with just one click! It's magic! (Will probably fail spectacularly with custom doors, custom double chests, etc)
+"Easy Lock" = true
+#Controls whether Locks provides (and generates) its own native steel material.
+#Locks ships steel_ingot, steel_nugget, steel_ore and deepslate_steel_ore so its steel locks are
+#always craftable, and merges them into the standard common steel tags (c:ingots/steel,
+#c:nuggets/steel, c:ores/steel). The native blocks/items are ALWAYS registered so old worlds
+#and existing stacks stay valid — this setting only controls acquisition (recipes, ore generation,
+#creative-tab presentation).
+#  AUTO          - default. For each form (ingot/nugget/ore), provide Locks' native version only when
+#                  no OTHER mod already supplies it via the common steel tags (Locks' own entries are
+#                  ignored when detecting external steel). Native ore only generates when no foreign
+#                  steel ore exists and the native ingot is active.
+#  FORCE_NATIVE  - always enable Locks' native steel recipes and ore generation, even alongside an
+#                  external steel economy.
+#  EXTERNAL_ONLY - never enable native steel acquisition or generation, even if the steel tags are
+#                  empty (a warning is logged for any missing form).
+#Changing this may require a datapack reload (/reload) for recipes and a world reload for ore generation.
+#Allowed Values: AUTO, FORCE_NATIVE, EXTERNAL_ONLY
+"Steel Material Mode" = "AUTO"
+#When enabled, netherite lock picks never lose durability or break during lock picking
+"Netherite Lockpick Unbreakable" = false
+#Allow players to pick locked blocks with an empty main hand.
+#Itemless attempts use the normal pin minigame but never consume an item,
+#bypass lock-pick strength/Complexity requirements, and reset progress on a wrong pin.
+#This does not remove lock-pick items, recipes, loot, trades, or enchantments.
+"Allow Itemless Lock Picking" = false
+#Loot tables matching these patterns will receive lock pick / key loot injection.
+#Each entry is 'namespace:path_prefix' (e.g. 'minecraft:chests/' matches all vanilla chest loot tables).
+#Add entries for modded namespaces to inject lock picks into modded dungeon chests.
+"Loot Table Injection Patterns" = ["minecraft:chests/"]
+
+[Display]
+	#Hide the lock ID line from tooltips (both inventory and HUD)
+	"Hide Lock ID" = false
+	#Hide enchantment lines from the HUD floating tooltip (inventory tooltips are unaffected)
+	"Hide HUD Enchantments" = false
+	#Hide the floating HUD tooltip entirely when looking at a lock in the world (hides item name, enchantments, and all other info)
+	"Hide HUD Tooltip" = false
+
+#Enable or disable individual lock enchantments. Disabled enchantments will not appear in the enchanting table, trades, or loot, and their effects will be ignored on existing items.
+[Enchantments]
+	#Damages the player when a lock pick breaks
+	"Enable Shocking" = true
+	#Makes locks harder to pick by wearing lock picks down faster
+	"Enable Sturdy" = true
+	#Restricts which lock picks can open the lock
+	"Enable Complexity" = true
+	#Suppresses the rattle sound when accessing a locked block without a key
+	"Enable Silent" = true
+	#Chance to instantly unlock without the lock picking minigame
+	"Enable Auto Pick" = true
+	#Increases explosion resistance of locked blocks
+	"Enable Reinforced" = true
+	#Remembers who placed the lock; that player can open it without a key
+	"Enable Awareness" = true
+	#Finesse: reduces the durability a wrong pin costs the lock pick.
+	"Enable Finesse" = true
+	#Attunement: increases effective lock pick strength against complex locks.
+	"Enable Attunement" = true
+	#Grounded: reduces damage taken from Shocking locks while holding the pick.
+	"Enable Grounded" = true
+	#Quiet Hand: reduces the sound of failed pin attempts.
+	"Enable Quiet Hand" = true
+	#Last Catch: occasionally spares a lock pick the durability cost of a wrong pin.
+	"Enable Last Catch" = true
+
+	#Tuning for the lock picking durability model and the enchantments that bend it.
+	#A wrong pin costs the held pick a fixed amount of durability decided by the LOCK being picked
+	#(its 'Pick Wear' in the common config, or 'pick_wear' in its JSON definition). The pick breaks
+	#only when its own durability pool runs out - there is no random break chance.
+	#Setting an enchantment's Enable toggle above to false disables it entirely regardless of these.
+	[Enchantments."Lock Pick"]
+		#Fraction of the durability cost removed per Finesse level. Default 0.15 = -15%/level.
+		#A wrong pin always costs at least 1 durability, so Finesse can never make picking free.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		"Finesse Wear Reduction Per Level" = 0.15
+		#Effective pick-strength bonus per Attunement level, applied only when checking whether a pick can open a Complex lock. Default 0.10/level.
+		# Default: 0.1
+		# Range: 0.0 ~ 5.0
+		"Attunement Strength Per Level" = 0.1
+		#Extra durability cost per Sturdy level on the lock being picked. Default 0.5 = +50%/level.
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		"Sturdy Wear Per Level" = 0.5
+		#Durability cost multiplier when the guessed pin is off by exactly one, never rounding below 1.
+		#Default 0.33 = a near miss costs about a third of a far miss.
+		# Default: 0.33
+		# Range: 0.0 ~ 1.0
+		"Near Miss Wear Multiplier" = 0.33
+		#Fraction of Shocking damage removed per Grounded level while holding the pick. Default 0.20 = -20%/level (level 3 = -60%).
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		"Grounded Reduction Per Level" = 0.2
+		#Chance for Last Catch to cancel the durability cost of a wrong pin entirely. Default 0.20 = 20%.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		"Last Catch Save Chance" = 0.2
+		#Volume of the wrong-pin sound while holding a Quiet Hand pick (normal is 1.0). Default 0.25.
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		"Quiet Hand Volume" = 0.25
+
+	#Tuning for the Shocking enchantment and the theft punishments it enables.
+	#By default, Shocking deals 1.5 damage per enchantment level when a lock pick breaks.
+	#Final damage = Damage Base + level * Damage Per Level, clamped to Max Damage.
+	[Enchantments.Shocking]
+		#Flat shock damage dealt regardless of enchantment level (2.0 = 1 heart).
+		# Default: 0.0
+		# Range: 0.0 ~ 1024.0
+		"Shocking Damage Base" = 0.0
+		#Shock damage added per level of the Shocking enchantment. Default 1.5 reproduces the original behavior (level * 1.5).
+		# Default: 1.5
+		# Range: 0.0 ~ 1024.0
+		"Shocking Damage Per Level" = 1.5
+		#Upper clamp on shock damage after Base + level * Per Level. The default is effectively uncapped.
+		# Default: 1024.0
+		# Range: 0.0 ~ 1024.0
+		"Shocking Max Damage" = 1024.0
+		#If true, only locks that actually carry the Shocking enchantment can shock players.
+		#If false, every lock shocks (treated as level 1 when unenchanted) — useful for punishing all theft attempts.
+		"Shocking Requires Enchantment" = true
+		#Minimum ticks between shocks dealt to the same player (20 ticks = 1 second). 0 = no cooldown (original behavior).
+		#Raise this (e.g. to 20) when enabling the interaction or wrong-pin triggers below to avoid shock spam.
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Shocking Cooldown Ticks" = 0
+		#Shock the player when their lock pick breaks while picking. This is the original Shocking behavior.
+		#Since 1.7.3 a pick only breaks when its durability runs out, so this fires far less often than it
+		#used to. Enable the wrong-pin trigger below to punish every failed attempt instead.
+		"Shocking Triggers On Pick Break" = true
+		#Shock the player each time they set a wrong pin while picking, even if the pick does not break.
+		"Shocking Triggers On Wrong Pin" = false
+		#Shock the player when they interact with a locked block without the correct key, lock pick or key ring (the 'rattle').
+		"Shocking Triggers On Unauthorized Interaction" = false
+		#Shock the player when they attempt to break a protected locked block. Requires 'Protect Lockables' to be enabled.
+		"Shocking Triggers On Block Break Attempt" = false
+
+#Configure which lock-related items villagers and wandering traders sell.
+#Existing default trades are unchanged. Lock picks can be disabled independently of locks and mechanisms,
+#so you can remove easy lock picks while still letting players buy locks for early-game chest protection.
+[Trades]
+
+	[Trades.Villager]
+		#Master switch for all lock-related trades offered by the lock villager profession.
+		"Enable Villager Trades" = true
+		#Allow the lock villager to sell lock picks. Set this to false to remove lock pick sales (they can be considered overpowered) while keeping lock and mechanism sales.
+		"Enable Villager Lockpick Trades" = true
+		#Allow the lock villager to sell finished locks (wood/copper/iron at trade levels 1-3).
+		#Disabled by default — enable it to make early-game chest protection purchasable from villagers.
+		"Enable Villager Lock Trades" = false
+		#Allow the lock villager to sell lock mechanisms (crafting components).
+		"Enable Villager Lock Mechanism Trades" = true
+		#Which villager profession offers lock trades. Format 'namespace:profession' (e.g. 'minecraft:toolsmith', 'minecraft:librarian').
+		"Villager Profession" = "minecraft:toolsmith"
+
+	[Trades."Wandering Trader"]
+		#Master switch for all lock-related trades offered by the wandering trader.
+		"Enable Wandering Trader Trades" = true
+		#Allow the wandering trader to sell lock picks (gold and steel).
+		"Enable Wandering Trader Lockpick Trades" = true
+		#Allow the wandering trader to sell finished, enchanted locks (steel/diamond/netherite).
+		"Enable Wandering Trader Lock Trades" = true
+		#Allow the wandering trader to sell lock mechanisms (steel).
+		"Enable Wandering Trader Lock Mechanism Trades" = true
+
+#Integration with other mods. These sections only take effect when the relevant mod is installed.
+[Compatibility]
+
+	#Carry On lets players pick up and carry blocks (including containers). These options control how locks are moved with a carried block.
+	[Compatibility.CarryOn]
+		#Master switch for Carry On compatibility. When enabled, locks are moved together with the block they protect instead of being left behind.
+		"Enable Carry On Compatibility" = true
+		#Allow locked blocks to be picked up at all. When false, Carry On cannot pick up any locked block (the lock stays put). Unlocked locks are always allowed to move.
+		"Allow Carrying Locked Blocks" = true
+		#Require the player to be authorized to carry a locked block: holding (anywhere in their inventory) a matching key, key ring, or master key, being the Awareness owner, or being in creative.
+		#When false (default), anyone can carry a locked block and the lock simply travels with it.
+		#When true, Carry On cannot be used to bypass lock protection.
+		"Require Authorization To Carry Locked Blocks" = false
+		#Deny picking up a block that is part of a multi-block lock (e.g. one half of a locked double chest) when only a single block is being moved.
+		#This prevents corrupting a lock that spans more blocks than Carry On is moving. Recommended to leave enabled.
+		"Deny Partial Multi Block Lock Pickup" = true
+		#Log every Carry On lock capture/restore to the server log. Useful for debugging.
+		"Log Carry On Lock Transfers" = false

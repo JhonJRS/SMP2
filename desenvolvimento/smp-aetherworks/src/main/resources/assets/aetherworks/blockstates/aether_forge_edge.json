@@ -1,0 +1,109 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_side"
+      },
+      "when": {
+        "edge": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_side",
+        "y": 90
+      },
+      "when": {
+        "edge": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_side",
+        "y": 180
+      },
+      "when": {
+        "edge": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_side",
+        "y": 270
+      },
+      "when": {
+        "edge": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_corner"
+      },
+      "when": {
+        "edge": "northeast"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_corner",
+        "y": 90
+      },
+      "when": {
+        "edge": "southeast"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_corner",
+        "y": 180
+      },
+      "when": {
+        "edge": "southwest"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_corner",
+        "y": 270
+      },
+      "when": {
+        "edge": "northwest"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_connector"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_connector",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_connector",
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "aetherworks:block/aether_forge_connector",
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

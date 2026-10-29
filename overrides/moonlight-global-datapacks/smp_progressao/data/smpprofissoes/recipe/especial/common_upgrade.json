@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "irons_spellbooks:common_ink"
+    },
+    "M": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "S": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "O": {
+      "item": "irons_spellbooks:upgrade_orb"
+    }
+  },
+  "pattern": [
+    " I ",
+    "MOS",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:common_upgrade"
+  }
+}

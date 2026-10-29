@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "toxony:moonlight_hemlock"
+    },
+    {
+      "item": "herbalbrews:lavender"
+    },
+    {
+      "item": "botania:purple_petal"
+    },
+    {
+      "item": "botania:mana_powder"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:pigmento_epico",
+    "count": 2
+  }
+}

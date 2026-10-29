@@ -1,0 +1,70 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:whirlwind_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:runefused_gem"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:diamond_greathammer"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "simplyswords:stormbringer"
+    }
+  ],
+  "essences": {
+    "aureal": 2400,
+    "blood": 3600,
+    "experience": 1500,
+    "souls": 20
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:whirlwind_prism"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "simplyswords:runefused_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:legend_core"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "simplyswords:diamond_greathammer"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "simplyswords:stormbringer"
+    }
+  }
+}

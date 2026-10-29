@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "malum:arcane_spirit"
+    },
+    {
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:soul_thread",
+    "count": 4
+  }
+}

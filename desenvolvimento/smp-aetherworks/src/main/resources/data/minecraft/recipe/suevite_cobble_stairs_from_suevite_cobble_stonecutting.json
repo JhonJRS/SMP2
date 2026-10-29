@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "aetherworks:suevite_cobble"
+  },
+  "result": {
+    "id": "aetherworks:suevite_cobble_stairs",
+    "count": 1
+  }
+}

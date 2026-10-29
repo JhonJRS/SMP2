@@ -1,0 +1,128 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:breaker_chestplate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "protection_pixel:breakeras_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "smpprofissoes:exo_plating"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "protection_pixel:heatoverlockingmechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "protection_pixel:smallnetheritesheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletebreaker"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompletebreaker"
+  }
+}

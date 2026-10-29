@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:arcane_inscription",
+    "count": 2
+  }
+}

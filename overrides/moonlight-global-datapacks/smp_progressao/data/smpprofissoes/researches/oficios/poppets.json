@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.poppets.name",
+  "subtitle": "smpprofissoes.research.oficios.poppets.subtitle",
+  "icon": "enchanted:poppet",
+  "researchLevel": 3,
+  "sortOrder": 91,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:string"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:white_wool"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:bone"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:alchemist",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/poppets",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/bruxaria"
+}

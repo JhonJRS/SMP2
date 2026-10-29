@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "irons_spellbooks:frosted_helve"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "count": 2,
+      "item": "crystal_chronicles:ice_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "crystal_chronicles:ice_hammer"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ]
+}

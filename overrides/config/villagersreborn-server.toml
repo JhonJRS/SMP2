@@ -1,0 +1,12 @@
+#Global Villagers Reborn configuration (dedicated servers only).
+[server]
+	#Legacy dedicated server skin type setting. Deprecated and no longer used to control world skin type.
+	skinType = "modern"
+	#Allow villagers to use uploaded custom PNG skins in multiplayer/LAN. Disabled keeps multiplayer custom skins blocked.
+	allowMultiplayerCustomSkins = true
+	#Maximum uploaded custom skin size in kilobytes for multiplayer/LAN uploads.
+	# Default: 256
+	# Range: 16 ~ 2048
+	maxCustomSkinSizeKb = 256
+	enableHavingChildren = true
+	enableNaturalFamilySpawns = true

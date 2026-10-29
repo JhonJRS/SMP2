@@ -1,0 +1,128 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:magneticstorm_chestplate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "protection_pixel:magneticstormas_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "smpprofissoes:exo_plating"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "protection_pixel:heatoverlockingmechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "protection_pixel:smallnetheritesheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompletemagneticstorm"
+  }
+}

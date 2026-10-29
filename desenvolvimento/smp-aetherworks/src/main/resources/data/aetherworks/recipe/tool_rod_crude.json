@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "aetherworks:ingot_aether"
+    }
+  },
+  "pattern": [
+    "  X",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "id": "aetherworks:tool_rod_crude"
+  },
+  "show_notification": true
+}

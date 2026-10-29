@@ -1,0 +1,40 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:aether_pearl"
+    },
+    {
+      "item": "embers:eldritch_insignia"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:aether_crown"
+  },
+  "tablet": {
+    "item": "aetherworks:aether_crown_mundane"
+  }
+}

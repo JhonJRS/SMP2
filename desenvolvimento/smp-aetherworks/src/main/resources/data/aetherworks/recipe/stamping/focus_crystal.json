@@ -1,0 +1,16 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "fluid": "aetherworks:alchemic_precursor"
+  },
+  "input": {
+    "item": "aetherworks:gem_aether"
+  },
+  "output": {
+    "id": "aetherworks:focus_crystal"
+  },
+  "stamp": {
+    "item": "embers:flat_stamp"
+  }
+}

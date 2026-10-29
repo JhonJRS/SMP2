@@ -1,0 +1,62 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.sintese_terrasteel.name",
+  "subtitle": "smpprofissoes.research.oficios.sintese_terrasteel.subtitle",
+  "icon": "botania:terrasteel_ingot",
+  "researchLevel": 4,
+  "sortOrder": 106,
+  "costs": [
+    {
+      "count": 16,
+      "item": "botania:mana_diamond"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 4
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/arsenal_mana"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/reliquias_mana"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/mestre_ferramenteiro"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/infusao_espiritos"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/sintese_terrasteel",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/alquimia_natural_runas"
+}

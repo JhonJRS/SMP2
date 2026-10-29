@@ -1,0 +1,84 @@
+["Chat System"]
+	#Enable custom chat formatting system.
+	enableChatFormat = true
+	#Player name format in chat.
+	#
+	#BACKWARD-COMPATIBLE variables (unchanged behaviour):
+	#  $name    — nickname if set, otherwise MC username  (same as $nick)
+	#  $prefix  — LuckPerms prefix
+	#  $suffix  — LuckPerms suffix
+	#
+	#NEW variables (opt-in, do not affect existing configs):
+	#  $nick      — nickname if set, otherwise MC username (alias of $name)
+	#  $real      — always the Minecraft username, regardless of nickname
+	#  $nick_real — 'Nickname (RealName)' when they differ, otherwise just the name
+	#
+	#Examples:
+	#  '$prefix $name $suffix'           <- existing config, works unchanged
+	#  '$prefix $nick_real $suffix'      <- shows 'Aragorn (Steve)' when nick differs
+	#  '$prefix $nick §8($real)$suffix'  <- manual placement with custom colour
+	playerNameFormat = "$prefix $name $suffix"
+	#Chat message format.
+	#Variables: $time, $name (or $nick / $nick_real / $real), $msg
+	#See playerNameFormat comment for the full variable list.
+	chatMessageFormat = "[$time] $name: $msg"
+	#Global color for chat messages.
+	#Choose: AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, BLACK, GOLD,
+	#GRAY, BLUE, GREEN, DARK_GRAY, DARK_AQUA, DARK_RED,
+	#DARK_PURPLE, DARK_GREEN, DARK_BLUE
+	chatMessageColor = "WHITE"
+	#Show timestamp in chat messages.
+	enableTimestamp = true
+	#Timestamp format (Java SimpleDateFormat).
+	#Examples: HH:mm, HH:mm:ss, hh:mm a
+	timestampFormat = "HH:mm"
+	#Enable markdown styling in chat.
+	#**bold**, *italic*, __underline__, ~~strikethrough~~
+	markdownEnabled = true
+	#When true, the real MC username is automatically appended in parentheses
+	#after the nickname wherever a player has an active nickname.
+	#
+	#Applies to: chat, /msg, /rp action, /rp commerce, /rp incognito,
+	#            /rp annonce, join/leave messages, proximity spy log.
+	#
+	#Default: false — existing behaviour preserved.
+	#
+	#Note: you can also control placement manually with $nick_real / {nick_real}
+	#in the format strings instead of using this toggle.
+	showRealNameInChat = false
+	#If true, chat messages are only visible within proximityChatDistance blocks.
+	#Use the bypass prefix (default: !) to send a global message.
+	enableProximityChat = false
+	#If true, staff outside proximity range receive a spy log of nearby chat messages.
+	enableProximitySpy = true
+	#Radius in blocks for proximity chat.
+	# Default: 32
+	# Range: 1 ~ 256
+	proximityChatDistance = 32
+	#Prefix to bypass proximity chat (stripped from the message).
+	proximityChatBypassPrefix = "!"
+	#Format for proximity chat.
+	#Variables: $time, $name (or $nick / $nick_real / $real), $msg
+	proximityChatFormat = "[$time] $name: $msg"
+	#Format for global chat (bypass prefix or proximity disabled).
+	#Variables: $time, $name (or $nick / $nick_real / $real), $msg
+	globalChatFormat = "[$time] §f$name§r: $msg"
+	#Enable /colors command.
+	enableColorsCommand = true
+	#Log private messages (/msg) to console.
+	logPrivateMessages = false
+
+["Join and Leave Messages"]
+	#Enable custom join/leave messages.
+	enableCustomJoinLeave = true
+	#Join message.
+	#BACKWARD-COMPATIBLE: {player} = MC username, {nickname} = nick or MC username.
+	#NEW: {nick} = same as {nickname}, {real} = always MC username,
+	#     {nick_real} = 'Nick (Real)' when they differ.
+	#Set to 'none' to disable.
+	joinMessage = "§e{player} §7woke up"
+	#Leave message.
+	#BACKWARD-COMPATIBLE: {player} = MC username, {nickname} = nick or MC username.
+	#NEW: {nick}, {real}, {nick_real}.
+	#Set to 'none' to disable.
+	leaveMessage = "§e{player} §7went to sleep"

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "R": {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    "F": {
+      "item": "minecraft:lightning_rod"
+    },
+    "S": {
+      "item": "create:electron_tube"
+    },
+    "U": {
+      "item": "irons_restrictions:unfinished_manuscript"
+    }
+  },
+  "pattern": [
+    "ERE",
+    "FUF",
+    "ESE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "irons_restrictions:manuscript",
+    "components": {
+      "irons_restrictions:school_component": "irons_spellbooks:lightning"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:nature_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:chlorophyte_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "vital_herbs:compacted_sooth_blossom"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:terrastomp_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:graybeard_staff"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:white_lily_staff"
+    }
+  ],
+  "essences": {
+    "aureal": 1500,
+    "blood": 2000,
+    "experience": 1000,
+    "souls": 15
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:lily_of_the_valley"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:nature_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:chlorophyte_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "vital_herbs:compacted_sooth_blossom"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:terrastomp_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:graybeard_staff"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:white_lily_staff"
+    }
+  }
+}

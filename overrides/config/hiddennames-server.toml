@@ -1,0 +1,12 @@
+#General Settings
+[general]
+	#Default name visibility
+	default_visible = true
+	#Blocks hide nameplates. False is normal Minecraft nameplate rendering
+	blocks_hide = false
+	#The perm level to be able to change your own name
+	# Default: 2
+	# Range: 0 ~ 4
+	change_own_name_level = 2
+	#Team color overrides individual player color
+	team_override = true

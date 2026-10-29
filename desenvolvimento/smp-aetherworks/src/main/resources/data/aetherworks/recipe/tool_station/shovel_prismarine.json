@@ -1,0 +1,21 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    [],
+    {
+      "item": "aetherworks:shovel_head_prismarine"
+    },
+    {
+      "item": "aetherworks:aether_pearl"
+    },
+    {
+      "item": "aetherworks:tool_rod_infused"
+    },
+    []
+  ],
+  "output": {
+    "item": "aetherworks:shovel_prismarine"
+  },
+  "temperature": 2800,
+  "temperature_rate": 10.0
+}

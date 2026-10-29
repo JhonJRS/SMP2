@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.alquimia_natural_runas.name",
+  "subtitle": "smpprofissoes.research.oficios.alquimia_natural_runas.subtitle",
+  "icon": "botania:alfheim_portal",
+  "researchLevel": 3,
+  "sortOrder": 50,
+  "costs": [
+    {
+      "count": 8,
+      "item": "botania:mana_diamond"
+    },
+    {
+      "count": 16,
+      "item": "botania:mana_pearl"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:nautilus_shell"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/alquimia_natural_runas",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/manipulacao_mana"
+}

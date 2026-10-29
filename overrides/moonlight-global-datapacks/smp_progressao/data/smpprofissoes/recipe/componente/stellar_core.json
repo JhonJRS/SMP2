@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "silentgear:tyrian_steel_ingot"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:stellar_core",
+    "count": 1
+  }
+}

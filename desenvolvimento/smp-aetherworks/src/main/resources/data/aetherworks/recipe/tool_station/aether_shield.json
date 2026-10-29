@@ -1,0 +1,25 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "aetherworks:aetherium_lens"
+    },
+    {
+      "tag": "c:plates/dawnstone"
+    },
+    {
+      "item": "aetherworks:aether_pearl"
+    },
+    {
+      "item": "aetherworks:shield_core_infused"
+    },
+    {
+      "item": "aetherworks:aetherium_lens"
+    }
+  ],
+  "output": {
+    "item": "aetherworks:aether_shield"
+  },
+  "temperature": 2850,
+  "temperature_rate": 10.0
+}

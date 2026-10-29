@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 4,
+  "emberPerHit": 60,
+  "input": {
+    "item": "aetherworks:hoe_head_crude"
+  },
+  "numberOfHits": 25,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "aetherworks:hoe_head"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2400
+}

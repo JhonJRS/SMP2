@@ -1,0 +1,21 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 4,
+      "tag": "c:molten_gold"
+    },
+    {
+      "amount": 4,
+      "tag": "c:molten_lead"
+    },
+    {
+      "amount": 2,
+      "fluid": "embers:dwarven_oil"
+    }
+  ],
+  "output": {
+    "amount": 10,
+    "fluid": "aetherworks:alchemic_precursor"
+  }
+}

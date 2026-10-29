@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.rituais_convergencia.name",
+  "subtitle": "smpprofissoes.research.oficios.rituais_convergencia.subtitle",
+  "icon": "malum:totemic_staff",
+  "researchLevel": 3,
+  "sortOrder": 42,
+  "costs": [
+    {
+      "count": 16,
+      "item": "malum:eldritch_spirit"
+    },
+    {
+      "count": 8,
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/rituais_convergencia",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/infusao_espiritos"
+}

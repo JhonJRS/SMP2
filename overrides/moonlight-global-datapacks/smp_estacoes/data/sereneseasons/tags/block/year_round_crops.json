@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecolonies:nether_pepper",
+      "required": false
+    },
+    {
+      "id": "enchanted:alder_sapling",
+      "required": false
+    },
+    {
+      "id": "enchanted:hawthorn_sapling",
+      "required": false
+    },
+    {
+      "id": "enchanted:rowan_sapling",
+      "required": false
+    },
+    {
+      "id": "neovitae:weak_tau",
+      "required": false
+    },
+    {
+      "id": "neovitae:strong_tau",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:brown_mushroom_colony",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:red_mushroom_colony",
+      "required": false
+    }
+  ]
+}

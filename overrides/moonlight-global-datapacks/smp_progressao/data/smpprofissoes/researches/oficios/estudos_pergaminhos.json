@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.estudos_pergaminhos.name",
+  "subtitle": "smpprofissoes.research.oficios.estudos_pergaminhos.subtitle",
+  "icon": "irons_spellbooks:scroll_forge",
+  "researchLevel": 2,
+  "sortOrder": 26,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:paper"
+    },
+    {
+      "count": 16,
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/estudos_pergaminhos",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_irons"
+}

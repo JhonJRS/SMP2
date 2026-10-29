@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "toxony:nightshade"
+    },
+    {
+      "item": "herbalbrews:green_tea_leaf"
+    },
+    {
+      "item": "botania:green_petal"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:pigmento_raro",
+    "count": 2
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.cervejaria_botanica.name",
+  "subtitle": "smpprofissoes.research.oficios.cervejaria_botanica.subtitle",
+  "icon": "botania:brewery",
+  "researchLevel": 3,
+  "sortOrder": 60,
+  "costs": [
+    {
+      "count": 32,
+      "item": "botania:mana_powder"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 2
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/manipulacao_mana"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/cervejaria_botanica",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/boticario"
+}

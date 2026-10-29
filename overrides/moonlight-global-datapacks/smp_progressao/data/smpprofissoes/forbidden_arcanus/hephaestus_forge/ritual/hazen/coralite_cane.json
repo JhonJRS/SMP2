@@ -1,0 +1,80 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:arcane_sea_shell"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:elder_guardian_spine"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:sea_prism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:artificer_cane"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:coralite_cane"
+    }
+  ],
+  "essences": {
+    "aureal": 1500,
+    "blood": 2000,
+    "experience": 1000,
+    "souls": 15
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "tag": "hazennstuff:items/hydro_runes"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "hazennstuff:arcane_sea_shell"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "hazennstuff:elder_guardian_spine"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:sea_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:artificer_cane"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:coralite_cane"
+    }
+  }
+}

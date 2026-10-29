@@ -1,0 +1,22 @@
+{
+  "type": "toxony:alchemical_forge",
+  "affinities": [
+    "toxony:cold",
+    "toxony:soul",
+    "toxony:wind"
+  ],
+  "auxiliary": [
+    {
+      "item": "toxony:toxin_canister"
+    },
+    {
+      "item": "smpprofissoes:eternity_essence"
+    }
+  ],
+  "main": {
+    "item": "toxony:oil_pot_bandolier"
+  },
+  "result": {
+    "id": "toxony:eternal_plague"
+  }
+}

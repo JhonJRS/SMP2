@@ -1,0 +1,58 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:ender_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:quantum_core"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:quantum_catcher"
+    }
+  ],
+  "essences": {
+    "aureal": 600,
+    "blood": 2400,
+    "experience": 400,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "forbidden_arcanus:spawner_scrap"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:ender_rune"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "forbidden_arcanus:quantum_core"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "forbidden_arcanus:quantum_catcher"
+    }
+  },
+  "forge_tier": 2
+}

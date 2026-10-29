@@ -1,0 +1,197 @@
+{
+  "groups": [
+    {
+      "id": "primarch",
+      "title": "Primarch Gods",
+      "tab": "gods",
+      "gods": [
+        {
+          "id": "luminara",
+          "name": "Luminara",
+          "lore": "Woven of light, motion, and the green rush of all beginnings. The first to grow restless, she shaped the first mortals and loves her brief children past all reason. Offer the undying and she swells the living vessel against the long dark.",
+          "currency": {
+            "type": "item",
+            "item": "minecraft:totem_of_undying",
+            "amount": 1
+          },
+          "boons": [
+            {
+              "type": "max_health",
+              "cap": 40.0,
+              "tau": 8.0
+            }
+          ],
+          "color": "#E8C46E"
+        },
+        {
+          "id": "mortanis",
+          "name": "Mortanis",
+          "lore": "Cool and quiet, the long grey patience of all endings. The other half of the broken Constant, he holds death not as a wall but a door left ajar, and drags the devout back through it a few times, no more.",
+          "currency": {
+            "type": "item",
+            "item": "minecraft:totem_of_undying",
+            "amount": 1
+          },
+          "boons": [
+            {
+              "type": "auto_revive",
+              "cap": 5.0,
+              "tau": 6.0
+            }
+          ],
+          "color": "#6E92E8"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "Gods of Experience",
+      "tab": "gods",
+      "gods": [
+        {
+          "id": "forgrimm",
+          "name": "Forgrimm",
+          "lore": "Born of the mother's power to imagine, vast and warm as a forge in winter. When the world broke, he set out to find the lost god of death, and carved the first Dwarves from the marrow of his own legs to be his seekers, creatures of a single purpose. The smith-god knows the flaws in the steel are what let it be folded, layer over stronger layer; so he tempers what you craft and lengthens your reach.",
+          "currency": {
+            "type": "xp",
+            "levels": 5
+          },
+          "boons": [
+            {
+              "type": "durability",
+              "cap": 1.0,
+              "tau": 7.0
+            },
+            {
+              "type": "reach",
+              "cap": 3.0,
+              "tau": 7.0,
+              "params": {
+                "attribute": "minecraft:block_interaction_range"
+              }
+            },
+            {
+              "type": "reach",
+              "cap": 1.5,
+              "tau": 7.0,
+              "params": {
+                "attribute": "minecraft:entity_interaction_range"
+              }
+            }
+          ],
+          "color": "#E87A2E"
+        },
+        {
+          "id": "xerion",
+          "name": "Xerion",
+          "lore": "Born of the mother's absolute knowledge, cold and exact and bottomless. Cold where his brother was warm, he saw in the wreck of their mother a problem with a solution, and stayed to hold her splintering mind from coming wholly apart. To those who seek it, he pours out the deep aether of his knowing.",
+          "currency": {
+            "type": "xp",
+            "levels": 5
+          },
+          "boons": [
+            {
+              "type": "mana",
+              "cap": 200.0,
+              "tau": 7.0
+            }
+          ],
+          "color": "#2E9CE8"
+        }
+      ]
+    },
+    {
+      "id": "war",
+      "title": "Gods of War",
+      "tab": "gods",
+      "gods": [
+        {
+          "id": "imperius",
+          "name": "Imperius",
+          "lore": "The Lawgiver: three souls folded into one, his hands wrought of metal and fire. He was the argument that ended armies, and strains still to hold the realm in order and brace Arkain for a coming chaos it was never ready for. Spill the blood of Sanguinar's faithful to be hardened.",
+          "currency": {
+            "type": "kill",
+            "target": "sanguinar_followers"
+          },
+          "boons": [
+            {
+              "type": "war_stat",
+              "cap": 4.0,
+              "tau": 18.0,
+              "params": {
+                "effect": "minecraft:resistance"
+              }
+            }
+          ],
+          "color": "#8FB0DA",
+          "verb": "March for Imperius"
+        },
+        {
+          "id": "sanguinar",
+          "name": "Sanguinar",
+          "lore": "The Forsaken, Baron of Death, knit together in a cocoon of blood at the slaughter of Katagiri. He watched mercy fail and decided, forever, against it. Only eternal slaughter can save Arkain; spill the blood of Imperius's faithful to be sharpened.",
+          "currency": {
+            "type": "kill",
+            "target": "imperius_followers"
+          },
+          "boons": [
+            {
+              "type": "war_stat",
+              "cap": 4.0,
+              "tau": 18.0,
+              "params": {
+                "effect": "minecraft:strength"
+              }
+            }
+          ],
+          "color": "#C8323C",
+          "verb": "Bleed for Sanguinar"
+        }
+      ]
+    },
+    {
+      "id": "crown",
+      "title": "The Crowned",
+      "tab": "demigods",
+      "demigod": true,
+      "gods": [
+        {
+          "id": "loyalist",
+          "name": "Worship the Crown",
+          "lore": "Kneel to the living ruler. Your devotion swells the Emperor's body and might. Hunt those who would reject him to tear their faith into your own.",
+          "currency": {
+            "type": "kill",
+            "target": "regicides"
+          },
+          "boons": [
+            {
+              "type": "favor_theft",
+              "cap": 0.25,
+              "tau": 8.0
+            }
+          ],
+          "color": "#D9B44A",
+          "verb": "Pledge to the Crown"
+        },
+        {
+          "id": "regicide",
+          "name": "Reject the Crown",
+          "lore": "No god wears a crown. Every loyalist you cut down bleeds their devotion into yours, and starves the tyrant smaller.",
+          "currency": {
+            "type": "kill",
+            "target": "loyalists"
+          },
+          "boons": [
+            {
+              "type": "favor_theft",
+              "cap": 0.25,
+              "tau": 8.0
+            }
+          ],
+          "color": "#B0303A",
+          "verb": "Renounce the Crown"
+        }
+      ]
+    }
+  ]
+}

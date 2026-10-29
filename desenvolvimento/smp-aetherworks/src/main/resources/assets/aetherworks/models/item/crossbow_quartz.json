@@ -1,0 +1,38 @@
+{
+	"parent": "aetherworks:item/crossbow_base",
+	"textures": {
+		"layer0": "aetherworks:item/crossbow_base",
+		"layer1": "aetherworks:item/crossbow_base_accent",
+		"layer2": "aetherworks:item/crossbow_overlay_quartz"
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "aetherworks:pulling": 0,
+                "aetherworks:charged": 0
+            },
+            "model": "aetherworks:item/crossbow_base_quartz"
+        },
+        {
+            "predicate": {
+                "aetherworks:pulling": 1,
+                "aetherworks:pull": 0.58
+            },
+            "model": "aetherworks:item/crossbow_pulling_quartz"
+        },
+        {
+            "predicate": {
+                "aetherworks:pulling": 1,
+                "aetherworks:pull": 1.0
+            },
+            "model": "aetherworks:item/crossbow_drawn_quartz"
+        },
+        {
+            "predicate": {
+                "aetherworks:charged": 1
+            },
+            "model": "aetherworks:item/crossbow_drawn_quartz"
+        }
+    ]
+}
+

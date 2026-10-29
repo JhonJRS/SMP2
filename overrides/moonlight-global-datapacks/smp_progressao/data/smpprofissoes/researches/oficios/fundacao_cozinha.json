@@ -1,0 +1,31 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.fundacao_cozinha.name",
+  "subtitle": "smpprofissoes.research.oficios.fundacao_cozinha.subtitle",
+  "icon": "farmersdelight:cooking_pot",
+  "researchLevel": 1,
+  "sortOrder": 80,
+  "costs": [
+    {
+      "count": 48,
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:farmer",
+      "level": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/fundacao_cozinha",
+      "level": 1
+    }
+  ]
+}

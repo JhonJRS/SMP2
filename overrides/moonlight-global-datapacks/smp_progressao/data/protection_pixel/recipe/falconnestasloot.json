@@ -1,0 +1,128 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:falconnest_chestplate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "protection_pixel:falconnestas_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletefalconnest"
+        },
+        {
+          "item": "smpprofissoes:exo_plating"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletefalconnest"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletefalconnest"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletefalconnest"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletefalconnest"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletefalconnest"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletefalconnest"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletefalconnest"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletefalconnest"
+        },
+        {
+          "item": "protection_pixel:heatoverlockingmechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletefalconnest"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletefalconnest"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletefalconnest"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletefalconnest"
+        },
+        {
+          "item": "protection_pixel:smallnetheritesheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletefalconnest"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompletefalconnest"
+  }
+}

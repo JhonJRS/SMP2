@@ -1,0 +1,44 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.ritos_outrolugar.name",
+  "subtitle": "smpprofissoes.research.oficios.ritos_outrolugar.subtitle",
+  "icon": "enchanted:waystone",
+  "researchLevel": 4,
+  "sortOrder": 90,
+  "costs": [
+    {
+      "count": 4,
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:alchemist",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/poppets"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/bruxaria"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/ritos_outrolugar",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/caldeirao_bruxa"
+}

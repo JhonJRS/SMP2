@@ -1,0 +1,78 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:diamond_spell_book"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:evocation_rune"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "irons_spellbooks:graybeard_staff"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "hazennstuff:grimoire_staff"
+    }
+  ],
+  "essences": {
+    "aureal": 1500,
+    "blood": 2000,
+    "experience": 1000,
+    "souls": 15
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:diamond_spell_book"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:mithril_scrap"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:evocation_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "smpprofissoes:arcane_inscription"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "irons_spellbooks:graybeard_staff"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "hazennstuff:grimoire_staff"
+    }
+  }
+}

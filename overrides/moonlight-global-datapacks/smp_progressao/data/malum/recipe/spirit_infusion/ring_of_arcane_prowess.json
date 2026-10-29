@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "malum:raw_brilliance"
+    },
+    {
+      "count": 4,
+      "item": "malum:alchemical_calx"
+    },
+    {
+      "count": 1,
+      "item": "smpprofissoes:void_shard"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:gilded_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_arcane_prowess"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 32
+    }
+  ]
+}

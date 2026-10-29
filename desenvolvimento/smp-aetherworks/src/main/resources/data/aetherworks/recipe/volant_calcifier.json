@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "embers:archaic_circuit"
+    },
+    "C": {
+      "item": "embers:caminite_blend"
+    },
+    "E": {
+      "item": "embers:ember_crystal"
+    },
+    "I": {
+      "item": "embers:isolated_materia"
+    },
+    "P": {
+      "tag": "c:plates/dawnstone"
+    }
+  },
+  "pattern": [
+    "CIC",
+    "CEC",
+    "PAP"
+  ],
+  "result": {
+    "id": "aetherworks:volant_calcifier"
+  },
+  "show_notification": true
+}

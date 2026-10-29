@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.armaria_distancia.name",
+  "subtitle": "smpprofissoes.research.oficios.armaria_distancia.subtitle",
+  "icon": "silentgear:bow",
+  "researchLevel": 3,
+  "sortOrder": 65,
+  "costs": [
+    {
+      "count": 32,
+      "item": "silentgear:flax_string"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:feather"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/armaria_distancia",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/metalurgia_precisao"
+}

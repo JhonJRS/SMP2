@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "embers:ashen_fabric"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "L L",
+    "H H",
+    "A A"
+  ],
+  "result": {
+    "id": "aetherworks:agrarian_liners"
+  },
+  "show_notification": true
+}

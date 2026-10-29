@@ -1,0 +1,41 @@
+[afk]
+	# How long after being marked AFK a player is kicked.
+	# Set to 0 to disable kicking.
+	# Unit: minutes (0-120)
+	kickMinutes = 0
+	# How often the server checks for AFK changes.
+	# 20 ticks = ~1 second. Lower = more responsive, higher = less overhead.
+	# Range: 1-1200
+	checkIntervalTicks = 20
+	# How long a player must be inactive before being marked AFK.
+	# Unit: minutes (1-60)
+	triggerMinutes = 5
+[detection]
+	[detection.rotation]
+		# Minimum change in yaw/pitch required to count as activity.
+		# Ignored if detection.rotation.enabled = false.
+		# Unit: degrees (1-45)
+		thresholdDegrees = 5
+		# If true, mouse look (camera rotation) counts as activity.
+		# Useful for builders who look around without moving.
+		enabled = false
+[messages]
+	# If true, broadcast messages like "<name> is now AFK."
+	# and "<name> is no longer AFK."
+	systemMessages = true
+	# Color for AFK messages.
+	# Valid: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple,
+	# gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+	messageColor = "yellow"
+	# Message shown to players when kicked for being AFK.
+	kickMessage = "You were kicked for being AFK too long."
+[sleep]
+	# If true, AFK players are excluded from the sleep vote.
+	# Non-AFK players can skip the night without waiting for AFK players.
+	bypassEnabled = true
+[stats]
+	# If true, the vanilla "Time Played" statistic (minecraft:play_time)
+	# does not increase while a player is marked AFK.
+	# Time before afk.triggerMinutes elapses still counts.
+	# Scoreboard objectives using this statistic are paused too.
+	pausePlayTimeWhileAfk = false

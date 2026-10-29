@@ -1,0 +1,111 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:blaze_burner"
+  },
+  "results": [
+    {
+      "id": "create_wizardry:blaze_caster"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_wizardry:incomplete_blaze_caster"
+        },
+        {
+          "item": "irons_spellbooks:shriving_stone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_wizardry:incomplete_blaze_caster"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_wizardry:incomplete_blaze_caster"
+        },
+        {
+          "item": "irons_spellbooks:arcane_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_wizardry:incomplete_blaze_caster"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_wizardry:incomplete_blaze_caster"
+        },
+        {
+          "item": "irons_spellbooks:arcane_rune"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_wizardry:incomplete_blaze_caster"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_wizardry:incomplete_blaze_caster"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "create_wizardry:mana"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_wizardry:incomplete_blaze_caster"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_wizardry:incomplete_blaze_caster"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_wizardry:incomplete_blaze_caster"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_wizardry:incomplete_blaze_caster"
+        },
+        {
+          "item": "hazennstuff:pyrium_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_wizardry:incomplete_blaze_caster"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_wizardry:incomplete_blaze_caster"
+  }
+}

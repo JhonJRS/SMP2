@@ -1,0 +1,16 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 200,
+  "fluid": {
+    "amount": 90,
+    "fluid": "aetherworks:aether_gas"
+  },
+  "input": {
+    "tag": "c:ingots/dawnstone"
+  },
+  "match_exactly": false,
+  "output": {
+    "item": "aetherworks:ingot_aether"
+  },
+  "temperature": 2100
+}

@@ -1,0 +1,64 @@
+{
+ "name": "Military Salute",
+ "author": "SMP 2",
+ "description": "Hand to the brow",
+ "uuid": "458d17d7-fc00-504d-bc2c-53388b565e11",
+ "emote": {
+  "isLoop": "false",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 36,
+  "stopTick": 42,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.35
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.65
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "roll": 0.2
+    }
+   },
+   {
+    "tick": 36,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.35
+    }
+   },
+   {
+    "tick": 36,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.65
+    }
+   },
+   {
+    "tick": 36,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "roll": 0.2
+    }
+   }
+  ]
+ }
+}

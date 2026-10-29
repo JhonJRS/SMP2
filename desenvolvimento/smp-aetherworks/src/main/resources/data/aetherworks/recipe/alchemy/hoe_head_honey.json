@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:honey_block"
+    },
+    {
+      "item": "minecraft:honey_block"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  ],
+  "output": {
+    "id": "aetherworks:hoe_head_honey"
+  },
+  "tablet": {
+    "item": "aetherworks:hoe_head"
+  }
+}

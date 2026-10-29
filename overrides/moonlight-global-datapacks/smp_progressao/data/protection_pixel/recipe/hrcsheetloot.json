@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  ],
+  "results": [
+    {
+      "id": "protection_pixel:heatresistantceramicsheet"
+    }
+  ]
+}

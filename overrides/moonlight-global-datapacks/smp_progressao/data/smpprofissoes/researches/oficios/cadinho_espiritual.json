@@ -1,0 +1,36 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.cadinho_espiritual.name",
+  "subtitle": "smpprofissoes.research.oficios.cadinho_espiritual.subtitle",
+  "icon": "malum:spirit_crucible",
+  "researchLevel": 3,
+  "sortOrder": 43,
+  "costs": [
+    {
+      "count": 16,
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "count": 8,
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "count": 32,
+      "item": "malum:earthen_spirit"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/cadinho_espiritual",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/infusao_espiritos"
+}

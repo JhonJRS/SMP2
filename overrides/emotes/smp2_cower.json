@@ -1,0 +1,144 @@
+{
+ "name": "Cower",
+ "author": "SMP 2",
+ "description": "Please, don't hurt me!",
+ "uuid": "a7843e16-efa4-570a-86af-888f8798d126",
+ "emote": {
+  "isLoop": "true",
+  "returnTick": 5,
+  "beginTick": 0,
+  "endTick": 50,
+  "stopTick": 54,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.5
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.6
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -2.5
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": 0.6
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.5
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "torso": {
+     "pitch": 0.35
+    }
+   },
+   {
+    "tick": 9,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.08
+    }
+   },
+   {
+    "tick": 13,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": -0.08
+    }
+   },
+   {
+    "tick": 17,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": 0.08
+    }
+   },
+   {
+    "tick": 21,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "yaw": -0.08
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "pitch": -2.5
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "rightArm": {
+     "yaw": -0.6
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "pitch": -2.5
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "leftArm": {
+     "yaw": 0.6
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "head": {
+     "pitch": 0.5
+    }
+   },
+   {
+    "tick": 50,
+    "easing": "EASEINOUTQUAD",
+    "turn": 0,
+    "torso": {
+     "pitch": 0.35
+    }
+   }
+  ]
+ }
+}

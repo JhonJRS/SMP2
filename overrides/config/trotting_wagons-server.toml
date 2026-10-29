@@ -1,0 +1,62 @@
+#EntityTypes allowed to pull wagons
+allowed_entities = ["minecraft:horse"]
+#ID of the item (or tag, if starting with #) used to repair wagons
+repair_material = "minecraft:iron_ingot"
+#The amount of durability regained per repair item.
+# Default: 10
+# Range: > 0
+repair_value = 10
+
+["Conestoga Wagon Options"]
+	#Maximum health
+	# Default: 60
+	# Range: > 0
+	conestoga_wagon_health = 60
+	#Speed (per level)
+	# Default: 0.1
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conestoga_wagon_speed = 0.1
+	#Acceleration (seconds until maximum speed)
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conestoga_wagon_acceleration = 2.0
+	#Turn rate
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conestoga_wagon_turn_rate = 2.0
+
+["Royal Wagon Options"]
+	#Maximum health
+	# Default: 80
+	# Range: > 0
+	royal_wagon_health = 80
+	#Speed (per level)
+	# Default: 0.15
+	# Range: 0.0 ~ 1.7976931348623157E308
+	royal_wagon_speed = 0.15
+	#Acceleration (seconds until maximum speed)
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	royal_wagon_acceleration = 3.0
+	#Turn rate
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	royal_wagon_turn_rate = 2.0
+
+["Armored Wagon Options"]
+	#Maximum health
+	# Default: 120
+	# Range: > 0
+	armored_wagon_health = 120
+	#Speed (per level)
+	# Default: 0.1
+	# Range: 0.0 ~ 1.7976931348623157E308
+	armored_wagon_speed = 0.1
+	#Acceleration (seconds until maximum speed)
+	# Default: 4.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	armored_wagon_acceleration = 4.0
+	#Turn rate
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	armored_wagon_turn_rate = 2.0

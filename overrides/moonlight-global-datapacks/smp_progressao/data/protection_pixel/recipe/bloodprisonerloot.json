@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "forge:ingots/brass"
+    },
+    "B": {
+      "item": "minecraft:glass_pane"
+    },
+    "D": {
+      "item": "minecraft:iron_helmet"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "create:fluid_pipe"
+    },
+    "F": {
+      "item": "create:iron_sheet"
+    },
+    "G": {
+      "item": "create:fluid_valve"
+    },
+    "Z": {
+      "item": "smpprofissoes:steam_rivets"
+    }
+  },
+  "pattern": [
+    "ZABA ",
+    "ACDCA",
+    "EFGFE"
+  ],
+  "result": {
+    "id": "protection_pixel:bloodprisoner_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,1966 @@
+{
+  "_gerado_por": "smp-profissoes/tools/gerar.py - não edite à mão",
+  "intervaloTicks": 100,
+  "profissoes": [
+    "engenheiro",
+    "arcanista",
+    "ferreiro",
+    "naturalista"
+  ],
+  "namespacesProtegidos": [
+    "aces_spell_utils",
+    "ae2",
+    "aeronautics",
+    "aeroworks",
+    "aetherworks",
+    "animusnv",
+    "bellsandwhistles",
+    "botania",
+    "create",
+    "create_deep_dark",
+    "create_security",
+    "create_wizardry",
+    "createcobblestone",
+    "createdeco",
+    "createdieselgenerators",
+    "createpropulsion",
+    "crystal_chronicles",
+    "darkermagic",
+    "embers",
+    "enchanted",
+    "enigmatic_arcana",
+    "farm_and_charm",
+    "farmersdelight",
+    "forbidden_arcanus",
+    "hazennstuff",
+    "hazentouvelib",
+    "herbalbrews",
+    "immersiveengineering",
+    "immersivepetroleum",
+    "immersiveposts",
+    "irons_lib",
+    "irons_restrictions",
+    "irons_spellbooks",
+    "iss_magicfromtheeast",
+    "legendaryshrines",
+    "malum",
+    "neovitae",
+    "offroad",
+    "productivemetalworks",
+    "protection_pixel",
+    "securitycraft",
+    "sgearmetalworks",
+    "silentgear",
+    "simplymore",
+    "simplyswords",
+    "simulated",
+    "torchmaster",
+    "toxony",
+    "transmog",
+    "tunes_n_tomes",
+    "vinery",
+    "vital_herbs"
+  ],
+  "nomesPesquisas": {
+    "smpprofissoes:oficios/aeronautica_arcana": "Aeronautics Engineering",
+    "smpprofissoes:oficios/alquimia_artificios": "Alchemy & Artifice",
+    "smpprofissoes:oficios/alquimia_natural": "Natural Alchemy",
+    "smpprofissoes:oficios/alquimia_natural_runas": "Natural Alchemy & Runes",
+    "smpprofissoes:oficios/alquimia_venenosa": "Venomous Alchemy",
+    "smpprofissoes:oficios/animus_fundamentos": "Animus Foundations",
+    "smpprofissoes:oficios/animus_senciente": "Sentient Animus",
+    "smpprofissoes:oficios/arcana_enigmatica": "Enigmatic Arcana",
+    "smpprofissoes:oficios/arcos_lendarios": "Legendary Bowyery",
+    "smpprofissoes:oficios/armaria_distancia": "Ranged Smithing",
+    "smpprofissoes:oficios/armaria_lendaria": "Legendary Weaponsmithing",
+    "smpprofissoes:oficios/armaria_marcial": "Martial Weaponsmithing",
+    "smpprofissoes:oficios/armaria_netherite": "Netherite Exo-Armor",
+    "smpprofissoes:oficios/armaria_sg": "Armorsmithing",
+    "smpprofissoes:oficios/armaria_vapor": "Steam Armory",
+    "smpprofissoes:oficios/armas_encantadas": "Spellforged Arms",
+    "smpprofissoes:oficios/armas_miticas": "Mythic Arms",
+    "smpprofissoes:oficios/arquitetura_industrial": "Industrial Architecture",
+    "smpprofissoes:oficios/arranjos_vitae": "Sigils & Arrays",
+    "smpprofissoes:oficios/arsenal_arcano": "Spellblade Arsenal",
+    "smpprofissoes:oficios/arsenal_cristal": "Crystal Arsenal",
+    "smpprofissoes:oficios/arsenal_ember": "Ember Arsenal",
+    "smpprofissoes:oficios/arsenal_ie": "Immersive Arsenal",
+    "smpprofissoes:oficios/arsenal_maligno": "Malignant Arsenal",
+    "smpprofissoes:oficios/arsenal_mana": "Manasteel Arsenal",
+    "smpprofissoes:oficios/arsenal_senciente": "Sentient Arsenal",
+    "smpprofissoes:oficios/artefatos_aether": "Aetherium Artifacts",
+    "smpprofissoes:oficios/artes_protecao": "Warding Arts",
+    "smpprofissoes:oficios/artes_vazio": "Void Arts",
+    "smpprofissoes:oficios/boticario": "Apothecary Brewing",
+    "smpprofissoes:oficios/bruxaria": "Hedge Witchcraft",
+    "smpprofissoes:oficios/cadinho_espiritual": "Spirit Crucible",
+    "smpprofissoes:oficios/caldeirao_bruxa": "Witch's Kettle",
+    "smpprofissoes:oficios/cavaleiros_cristal": "Crystal Knights",
+    "smpprofissoes:oficios/cervejaria_botanica": "Botanical Brewery",
+    "smpprofissoes:oficios/combustiveis_industriais": "Industrial Fuels",
+    "smpprofissoes:oficios/cronicas_cristal": "Crystal Chronicles",
+    "smpprofissoes:oficios/culinaria": "Gourmet Cuisine",
+    "smpprofissoes:oficios/energia_vapor": "Steam Power",
+    "smpprofissoes:oficios/engenharia_arcana": "Arcane Engineering",
+    "smpprofissoes:oficios/engenharia_balistica": "Ballistic Engineering",
+    "smpprofissoes:oficios/engenharia_deep_dark": "Deep Dark Engineering",
+    "smpprofissoes:oficios/engenharia_esquemas": "Schematic Engineering",
+    "smpprofissoes:oficios/estudos_entre_escolas": "Cross-School Studies",
+    "smpprofissoes:oficios/estudos_pergaminhos": "Scroll Studies",
+    "smpprofissoes:oficios/ferramentas_ie": "Powered Tools",
+    "smpprofissoes:oficios/forja_aether": "Aetherium Forging",
+    "smpprofissoes:oficios/forja_cataclismica": "Cataclysmic Smithing",
+    "smpprofissoes:oficios/forja_estelar": "Stellar Forging",
+    "smpprofissoes:oficios/forja_infernal": "Hellforged Mastery",
+    "smpprofissoes:oficios/forja_runica": "Runic Weaponsmithing",
+    "smpprofissoes:oficios/frascos_vitais": "Vital Flasks",
+    "smpprofissoes:oficios/fundacao_arcanus": "Forbidden Foundations",
+    "smpprofissoes:oficios/fundacao_botania": "Botanical Foundations",
+    "smpprofissoes:oficios/fundacao_cozinha": "Farmstead Foundations",
+    "smpprofissoes:oficios/fundacao_create": "Create Foundations",
+    "smpprofissoes:oficios/fundacao_embers": "Ember Foundations",
+    "smpprofissoes:oficios/fundacao_ervas": "Herbal Foundations",
+    "smpprofissoes:oficios/fundacao_ie": "Immersive Foundations",
+    "smpprofissoes:oficios/fundacao_irons": "Iron's Foundations",
+    "smpprofissoes:oficios/fundacao_malum": "Spirit Foundations",
+    "smpprofissoes:oficios/fundacao_neovitae": "Blood Foundations",
+    "smpprofissoes:oficios/fundacao_silentgear": "Toolsmith & Foundry Foundations",
+    "smpprofissoes:oficios/fusao_cataclismica": "Cataclysmic Fusion",
+    "smpprofissoes:oficios/grimorios_expandidos": "Expanded Grimoires",
+    "smpprofissoes:oficios/grimorios_lendarios": "Legendary Artifacts",
+    "smpprofissoes:oficios/industria_pesada": "Heavy Industry",
+    "smpprofissoes:oficios/infusao_espiritos": "Spirit Infusion",
+    "smpprofissoes:oficios/lamina_ember": "The Ember Blade",
+    "smpprofissoes:oficios/ligas_runicas": "Runeforged Alloys",
+    "smpprofissoes:oficios/logistica_ember": "Ember Logistics",
+    "smpprofissoes:oficios/logistica_seguranca": "Logistics & Security",
+    "smpprofissoes:oficios/maestria_arcana": "Arcane Mastery",
+    "smpprofissoes:oficios/maestria_hefesto": "Hephaestus Mastery",
+    "smpprofissoes:oficios/manipulacao_mana": "Mana Manipulation",
+    "smpprofissoes:oficios/megatocha": "Grand Wards",
+    "smpprofissoes:oficios/melhorias_fundicao": "Foundry Upgrades",
+    "smpprofissoes:oficios/mestre_ferramenteiro": "Master Toolsmith",
+    "smpprofissoes:oficios/metalurgia_arcana": "Arcane Metallurgy",
+    "smpprofissoes:oficios/metalurgia_latao": "Brass Metallurgy",
+    "smpprofissoes:oficios/metalurgia_precisao": "Precision Metallurgy",
+    "smpprofissoes:oficios/pecuaria": "Animal Husbandry",
+    "smpprofissoes:oficios/petroquimica": "Petrochemistry",
+    "smpprofissoes:oficios/pocoes_eternas": "Eternal Brews",
+    "smpprofissoes:oficios/poppets": "Poppetry",
+    "smpprofissoes:oficios/portal_alfheim": "Alfheim & the Gaia Trials",
+    "smpprofissoes:oficios/prismas": "Modifier Prisms",
+    "smpprofissoes:oficios/processamento_ember": "Ember Processing",
+    "smpprofissoes:oficios/profundezas_eldritch": "Eldritch Depths",
+    "smpprofissoes:oficios/railgun": "Electromagnetic Railgun",
+    "smpprofissoes:oficios/redes_me": "ME Networks",
+    "smpprofissoes:oficios/redes_quanticas": "Quantum Networks",
+    "smpprofissoes:oficios/refracao_aether": "Aether Refraction",
+    "smpprofissoes:oficios/regalia_praga": "Plaguebringer Regalia",
+    "smpprofissoes:oficios/reliquias_cataclismo": "Boss Relic Armory",
+    "smpprofissoes:oficios/reliquias_mana": "Rods & Relics",
+    "smpprofissoes:oficios/replicacao_reliquias": "Relic Replication",
+    "smpprofissoes:oficios/ritos_outrolugar": "Otherwhere Rites",
+    "smpprofissoes:oficios/rituais_convergencia": "Rites & Spirit Convergence",
+    "smpprofissoes:oficios/rituais_sangue": "Blood Rituals",
+    "smpprofissoes:oficios/sigilos_animus": "Animus Sigils",
+    "smpprofissoes:oficios/sintese_terrasteel": "Terrasteel Synthesis",
+    "smpprofissoes:oficios/sistemas_alta_potencia": "High-Power Systems",
+    "smpprofissoes:oficios/tecelagem_almas": "Soulwoven Arts",
+    "smpprofissoes:oficios/tintas_herbais": "Herbal Inks",
+    "smpprofissoes:oficios/toxicologia": "Toxicology",
+    "smpprofissoes:oficios/vestes_arcanas": "Arcane Vestments",
+    "smpprofissoes:oficios/vinhos_finos": "Fine Wines",
+    "smpprofissoes:oficios/vinicultura": "Viticulture"
+  },
+  "nomesEdificios": {
+    "minecolonies:mechanic": "Mechanic's Hut",
+    "minecolonies:blacksmith": "Blacksmith's Hut",
+    "minecolonies:smeltery": "Smeltery",
+    "minecolonies:enchanter": "Enchanter's Tower",
+    "minecolonies:florist": "Flower Shop",
+    "minecolonies:farmer": "Farm",
+    "minecolonies:plantation": "Plantation",
+    "minecolonies:alchemist": "Alchemist Tower",
+    "minecolonies:fletcher": "Fletcher's Hut",
+    "minecolonies:library": "Library"
+  },
+  "receitasComLicenca": {
+    "smpprofissoes:componente/runic_flux": [
+      "c3_fer"
+    ],
+    "smpprofissoes:componente/cursed_toxin": [
+      "c5_nat"
+    ],
+    "smpprofissoes:componente/arcane_inscription": [
+      "c6_arc"
+    ],
+    "smpprofissoes:componente/stellar_core": [
+      "c7_fer"
+    ],
+    "smpprofissoes:componente/terra_core": [
+      "c8_arc"
+    ],
+    "smpprofissoes:componente/ember_core": [
+      "c9_eng"
+    ],
+    "smpprofissoes:componente/alchemical_regulator": [
+      "c10_nat"
+    ],
+    "smpprofissoes:componente/spirit_binding": [
+      "arc_malum_infusao"
+    ],
+    "smpprofissoes:componente/runic_slate": [
+      "arc_malum_rituais"
+    ],
+    "smpprofissoes:componente/crucible_primer": [
+      "arc_malum_cadinho"
+    ],
+    "smpprofissoes:componente/void_shard": [
+      "c14_arc"
+    ],
+    "smpprofissoes:componente/vital_flask_base": [
+      "c12_nat"
+    ],
+    "smpprofissoes:componente/ashen_weave": [
+      "eng_alquimia_artificios"
+    ],
+    "smpprofissoes:componente/archmage_codex": [
+      "c16_arc"
+    ],
+    "smpprofissoes:componente/soul_thread": [
+      "arc_tecelagem"
+    ],
+    "smpprofissoes:componente/malignant_core": [
+      "c17_arc"
+    ],
+    "smpprofissoes:componente/prism_matrix": [
+      "fer_prismas"
+    ],
+    "smpprofissoes:componente/legend_core": [
+      "c21_fer"
+    ],
+    "smpprofissoes:componente/mythic_core": [
+      "c22_fer"
+    ],
+    "smpprofissoes:componente/vintners_yeast": [
+      "nat_vinhos"
+    ],
+    "smpprofissoes:componente/eternity_essence": [
+      "c19_nat"
+    ],
+    "smpprofissoes:componente/pigmento_raro": [
+      "c4_arc"
+    ],
+    "smpprofissoes:componente/pigmento_epico": [
+      "c4_arc"
+    ],
+    "smpprofissoes:componente/pigmento_lendario": [
+      "c4_arc"
+    ],
+    "smpprofissoes:componente/exo_plating": [
+      "c25_eng"
+    ],
+    "smpprofissoes:componente/steam_rivets": [
+      "c13_eng"
+    ],
+    "smpprofissoes:componente/replication_matrix": [
+      "fer_replicacao"
+    ]
+  },
+  "etapas": [
+    {
+      "licenca": "eng_create",
+      "nome": "Engineer · Create Foundations",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_create"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "eng_arquitetura",
+      "nome": "Engineer · Industrial Architecture",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arquitetura_industrial",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 1
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_latao",
+      "nome": "Engineer · Brass Metallurgy",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_logistica",
+      "nome": "Engineer · Logistics & Security",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/logistica_seguranca",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_combustiveis",
+      "nome": "Engineer · Industrial Fuels",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/combustiveis_industriais",
+        "smpprofissoes:oficios/energia_vapor",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_vapor",
+      "nome": "Engineer · Steam Power",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/energia_vapor",
+        "smpprofissoes:oficios/fundacao_create"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_deep_dark",
+      "nome": "Engineer · Deep Dark Engineering",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/engenharia_deep_dark",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_ie",
+      "nome": "Engineer · Immersive Foundations",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_ie"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "eng_alta_potencia",
+      "nome": "Engineer · High-Power Systems",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/sistemas_alta_potencia"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_petroquimica",
+      "nome": "Engineer · Petrochemistry",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_ie",
+        "smpprofissoes:oficios/ferramentas_ie",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/industria_pesada",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/petroquimica",
+        "smpprofissoes:oficios/sistemas_alta_potencia"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_embers",
+      "nome": "Engineer · Ember Foundations",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_embers"
+      ],
+      "edificios": {
+        "minecolonies:smeltery": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "eng_processamento_ember",
+      "nome": "Engineer · Ember Processing",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/processamento_ember"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_alquimia_artificios",
+      "nome": "Engineer · Alchemy & Artifice",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_artificios",
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/processamento_ember"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_integracao_create_embers",
+      "nome": "Engineer · Create + Embers Integration",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/processamento_ember"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_irons",
+      "nome": "Arcanist · Iron's Foundations",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_irons"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "arc_pergaminhos",
+      "nome": "Arcanist · Scroll Studies",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_irons"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_maestria",
+      "nome": "Arcanist · Arcane Mastery",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/maestria_arcana"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_grimorios",
+      "nome": "Arcanist · Expanded Grimoires",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/grimorios_expandidos"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_enigmatic",
+      "nome": "Arcanist · Enigmatic Arcana",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arcana_enigmatica",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/grimorios_expandidos",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/maestria_arcana"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_malum",
+      "nome": "Arcanist · Spirit Foundations",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_malum"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "arc_malum_infusao",
+      "nome": "Arcanist · Spirit Infusion",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_malum_rituais",
+      "nome": "Arcanist · Rites & Spirit Convergence",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/rituais_convergencia"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_botania",
+      "nome": "Arcanist · Botanical Foundations",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_botania"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 1,
+        "minecolonies:florist": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "arc_mana",
+      "nome": "Arcanist · Mana Manipulation",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/manipulacao_mana"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_runas",
+      "nome": "Arcanist · Natural Alchemy & Runes",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural_runas",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/manipulacao_mana"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_neovitae",
+      "nome": "Arcanist · Blood Foundations",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_neovitae"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "fer_silentgear",
+      "nome": "Blacksmith · Toolsmith & Foundry Foundations",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_silentgear"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "fer_precisao",
+      "nome": "Blacksmith · Precision Metallurgy",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/metalurgia_precisao"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_mestre",
+      "nome": "Blacksmith · Master Toolsmith",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_precisao"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_arcanus",
+      "nome": "Blacksmith · Forbidden Foundations",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_arcanus"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 1,
+        "minecolonies:smeltery": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "fer_arcana",
+      "nome": "Blacksmith · Arcane Metallurgy",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/metalurgia_arcana"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_hefesto",
+      "nome": "Blacksmith · Hephaestus Mastery",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "nat_cozinha",
+      "nome": "Naturalist · Farmstead Foundations",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_cozinha"
+      ],
+      "edificios": {
+        "minecolonies:farmer": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "nat_vinicultura",
+      "nome": "Naturalist · Viticulture",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_cozinha",
+        "smpprofissoes:oficios/vinicultura"
+      ],
+      "edificios": {
+        "minecolonies:farmer": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "nat_ervas",
+      "nome": "Naturalist · Herbal Foundations",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_ervas"
+      ],
+      "edificios": {
+        "minecolonies:plantation": 1,
+        "minecolonies:farmer": 1
+      },
+      "inicio": true
+    },
+    {
+      "licenca": "nat_toxicologia",
+      "nome": "Naturalist · Toxicology",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {
+        "minecolonies:plantation": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "nat_alquimia",
+      "nome": "Naturalist · Natural Alchemy",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {
+        "minecolonies:plantation": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "c1_eng",
+      "nome": "Engineer · Aeronautics Engineering",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/aeronautica_arcana",
+        "smpprofissoes:oficios/combustiveis_industriais",
+        "smpprofissoes:oficios/energia_vapor",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c2_eng",
+      "nome": "Engineer · Ballistic Engineering",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_ie",
+        "smpprofissoes:oficios/engenharia_balistica",
+        "smpprofissoes:oficios/ferramentas_ie",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/logistica_seguranca",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/metalurgia_precisao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c3_fer",
+      "nome": "Blacksmith · Runeforged Alloys",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/ligas_runicas",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_precisao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c4_arc",
+      "nome": "Arcanist · Herbal Inks",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/maestria_arcana",
+        "smpprofissoes:oficios/tintas_herbais",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c5_nat",
+      "nome": "Naturalist · Venomous Alchemy",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural",
+        "smpprofissoes:oficios/alquimia_venenosa",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c6_arc",
+      "nome": "Arcanist · Spellforged Arms",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/armas_encantadas",
+        "smpprofissoes:oficios/arsenal_arcano",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/grimorios_expandidos",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/prismas",
+        "smpprofissoes:oficios/profundezas_eldritch",
+        "smpprofissoes:oficios/vestes_arcanas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c7_fer",
+      "nome": "Blacksmith · Stellar Forging",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural",
+        "smpprofissoes:oficios/alquimia_natural_runas",
+        "smpprofissoes:oficios/alquimia_venenosa",
+        "smpprofissoes:oficios/boticario",
+        "smpprofissoes:oficios/cervejaria_botanica",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/forja_estelar",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/ligas_runicas",
+        "smpprofissoes:oficios/maestria_arcana",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/tintas_herbais",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c8_arc",
+      "nome": "Arcanist · Terrasteel Synthesis",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural_runas",
+        "smpprofissoes:oficios/arsenal_mana",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/reliquias_mana",
+        "smpprofissoes:oficios/sintese_terrasteel"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c9_eng",
+      "nome": "Engineer · The Ember Blade",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_artificios",
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/lamina_ember",
+        "smpprofissoes:oficios/ligas_runicas",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/processamento_ember"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c10_nat",
+      "nome": "Naturalist · Plaguebringer Regalia",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/logistica_seguranca",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/regalia_praga",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_eldritch",
+      "nome": "Arcanist · Eldritch Depths",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/grimorios_expandidos",
+        "smpprofissoes:oficios/profundezas_eldritch",
+        "smpprofissoes:oficios/vestes_arcanas"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "c11_eng",
+      "nome": "Engineer · Arcane Engineering",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/combustiveis_industriais",
+        "smpprofissoes:oficios/energia_vapor",
+        "smpprofissoes:oficios/engenharia_arcana",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/grimorios_expandidos",
+        "smpprofissoes:oficios/maestria_arcana",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c13_eng",
+      "nome": "Engineer · Steam Armory",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_vapor",
+        "smpprofissoes:oficios/energia_vapor",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_protecao",
+      "nome": "Arcanist · Warding Arts",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/artes_protecao",
+        "smpprofissoes:oficios/fundacao_irons"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_malum_cadinho",
+      "nome": "Arcanist · Spirit Crucible",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/cadinho_espiritual",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "c14_arc",
+      "nome": "Arcanist · Void Arts",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/artes_vazio",
+        "smpprofissoes:oficios/cadinho_espiritual",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/tecelagem_almas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "fer_armas",
+      "nome": "Blacksmith · Martial Weaponsmithing",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/fundacao_arcanus"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_runica",
+      "nome": "Blacksmith · Runic Weaponsmithing",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/forja_runica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/metalurgia_arcana"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_ferramentas_ie",
+      "nome": "Engineer · Powered Tools",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/ferramentas_ie",
+        "smpprofissoes:oficios/fundacao_ie"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "eng_industria_pesada",
+      "nome": "Engineer · Heavy Industry",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/industria_pesada",
+        "smpprofissoes:oficios/sistemas_alta_potencia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "eng_arsenal_ie",
+      "nome": "Engineer · Immersive Arsenal",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_ie",
+        "smpprofissoes:oficios/ferramentas_ie",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/metalurgia_latao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c15_eng",
+      "nome": "Engineer · Electromagnetic Railgun",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_ie",
+        "smpprofissoes:oficios/engenharia_balistica",
+        "smpprofissoes:oficios/ferramentas_ie",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/industria_pesada",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/ligas_runicas",
+        "smpprofissoes:oficios/logistica_seguranca",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/railgun",
+        "smpprofissoes:oficios/sistemas_alta_potencia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "eng_logistica_ember",
+      "nome": "Engineer · Ember Logistics",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/logistica_ember"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "eng_arsenal_ember",
+      "nome": "Engineer · Ember Arsenal",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_ember",
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/processamento_ember"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_vestes",
+      "nome": "Arcanist · Arcane Vestments",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/vestes_arcanas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_arsenal",
+      "nome": "Arcanist · Spellblade Arsenal",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_arcano",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/vestes_arcanas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c16_arc",
+      "nome": "Arcanist · Legendary Artifacts",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/armas_encantadas",
+        "smpprofissoes:oficios/arsenal_arcano",
+        "smpprofissoes:oficios/cavaleiros_cristal",
+        "smpprofissoes:oficios/cronicas_cristal",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/grimorios_expandidos",
+        "smpprofissoes:oficios/grimorios_lendarios",
+        "smpprofissoes:oficios/maestria_arcana",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/prismas",
+        "smpprofissoes:oficios/profundezas_eldritch",
+        "smpprofissoes:oficios/tintas_herbais",
+        "smpprofissoes:oficios/toxicologia",
+        "smpprofissoes:oficios/vestes_arcanas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_tecelagem",
+      "nome": "Arcanist · Soulwoven Arts",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/tecelagem_almas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c17_arc",
+      "nome": "Arcanist · Malignant Arsenal",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_maligno",
+        "smpprofissoes:oficios/artes_vazio",
+        "smpprofissoes:oficios/cadinho_espiritual",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/tecelagem_almas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_arsenal_mana",
+      "nome": "Arcanist · Manasteel Arsenal",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_mana",
+        "smpprofissoes:oficios/fundacao_botania"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_reliquias",
+      "nome": "Arcanist · Rods & Relics",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_mana",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/reliquias_mana"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c23_arc",
+      "nome": "Arcanist · Alfheim & the Gaia Trials",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural",
+        "smpprofissoes:oficios/alquimia_natural_runas",
+        "smpprofissoes:oficios/arsenal_mana",
+        "smpprofissoes:oficios/boticario",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/portal_alfheim",
+        "smpprofissoes:oficios/reliquias_mana",
+        "smpprofissoes:oficios/sintese_terrasteel",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_arranjos",
+      "nome": "Arcanist · Sigils & Arrays",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arranjos_vitae",
+        "smpprofissoes:oficios/fundacao_neovitae"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_rituais_sangue",
+      "nome": "Arcanist · Blood Rituals",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arranjos_vitae",
+        "smpprofissoes:oficios/fundacao_neovitae",
+        "smpprofissoes:oficios/rituais_sangue"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_senciente",
+      "nome": "Arcanist · Sentient Arsenal",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arranjos_vitae",
+        "smpprofissoes:oficios/arsenal_senciente",
+        "smpprofissoes:oficios/fundacao_neovitae"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c24_arc",
+      "nome": "Arcanist · Hellforged Mastery",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arranjos_vitae",
+        "smpprofissoes:oficios/arsenal_senciente",
+        "smpprofissoes:oficios/forja_infernal",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_neovitae",
+        "smpprofissoes:oficios/metalurgia_arcana"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "fer_armaria",
+      "nome": "Blacksmith · Armorsmithing",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_sg",
+        "smpprofissoes:oficios/fundacao_silentgear"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "fer_distancia",
+      "nome": "Blacksmith · Ranged Smithing",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_distancia",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/metalurgia_precisao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "fer_prismas",
+      "nome": "Blacksmith · Modifier Prisms",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/prismas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c21_fer",
+      "nome": "Blacksmith · Legendary Weaponsmithing",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_lendaria",
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/forja_runica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/prismas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c22_fer",
+      "nome": "Blacksmith · Mythic Arms",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_lendaria",
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/armas_miticas",
+        "smpprofissoes:oficios/artes_vazio",
+        "smpprofissoes:oficios/cadinho_espiritual",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/forja_runica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/prismas",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/tecelagem_almas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "nat_pecuaria",
+      "nome": "Naturalist · Animal Husbandry",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_cozinha",
+        "smpprofissoes:oficios/pecuaria"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "nat_culinaria",
+      "nome": "Naturalist · Gourmet Cuisine",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/culinaria",
+        "smpprofissoes:oficios/fundacao_cozinha"
+      ],
+      "edificios": {
+        "minecolonies:farmer": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "nat_vinhos",
+      "nome": "Naturalist · Fine Wines",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_cozinha",
+        "smpprofissoes:oficios/vinhos_finos",
+        "smpprofissoes:oficios/vinicultura"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "nat_boticario",
+      "nome": "Naturalist · Apothecary Brewing",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/boticario",
+        "smpprofissoes:oficios/fundacao_ervas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c12_nat",
+      "nome": "Naturalist · Vital Flasks",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/boticario",
+        "smpprofissoes:oficios/frascos_vitais",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_neovitae"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c18_nat",
+      "nome": "Naturalist · Botanical Brewery",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/boticario",
+        "smpprofissoes:oficios/cervejaria_botanica",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/manipulacao_mana"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c19_nat",
+      "nome": "Naturalist · Eternal Brews",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural",
+        "smpprofissoes:oficios/alquimia_natural_runas",
+        "smpprofissoes:oficios/alquimia_venenosa",
+        "smpprofissoes:oficios/boticario",
+        "smpprofissoes:oficios/cervejaria_botanica",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/pocoes_eternas",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "c25_eng",
+      "nome": "Engineer · Netherite Exo-Armor",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_netherite",
+        "smpprofissoes:oficios/armaria_vapor",
+        "smpprofissoes:oficios/energia_vapor",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/metalurgia_precisao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_megatocha",
+      "nome": "Arcanist · Grand Wards",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/artes_protecao",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/megatocha"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_cristais",
+      "nome": "Arcanist · Crystal Chronicles",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/cronicas_cristal",
+        "smpprofissoes:oficios/fundacao_irons"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_cavaleiros",
+      "nome": "Arcanist · Crystal Knights",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/cavaleiros_cristal",
+        "smpprofissoes:oficios/cronicas_cristal",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/vestes_arcanas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "arc_arsenal_cristal",
+      "nome": "Arcanist · Crystal Arsenal",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/arsenal_arcano",
+        "smpprofissoes:oficios/arsenal_cristal",
+        "smpprofissoes:oficios/cronicas_cristal",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/maestria_arcana",
+        "smpprofissoes:oficios/vestes_arcanas"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "fer_fundicao",
+      "nome": "Blacksmith · Foundry Upgrades",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/melhorias_fundicao"
+      ],
+      "edificios": {},
+      "inicio": false
+    },
+    {
+      "licenca": "nat_bruxaria",
+      "nome": "Naturalist · Hedge Witchcraft",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/bruxaria",
+        "smpprofissoes:oficios/fundacao_ervas"
+      ],
+      "edificios": {
+        "minecolonies:alchemist": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "nat_caldeirao",
+      "nome": "Naturalist · Witch's Kettle",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/bruxaria",
+        "smpprofissoes:oficios/caldeirao_bruxa",
+        "smpprofissoes:oficios/fundacao_ervas"
+      ],
+      "edificios": {
+        "minecolonies:alchemist": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "nat_poppets",
+      "nome": "Naturalist · Poppetry",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/bruxaria",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/poppets"
+      ],
+      "edificios": {
+        "minecolonies:alchemist": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "nat_ritos",
+      "nome": "Naturalist · Otherwhere Rites",
+      "profissao": "naturalista",
+      "pesquisas": [
+        "smpprofissoes:oficios/bruxaria",
+        "smpprofissoes:oficios/caldeirao_bruxa",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/poppets",
+        "smpprofissoes:oficios/ritos_outrolugar"
+      ],
+      "edificios": {
+        "minecolonies:alchemist": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_cataclismo",
+      "nome": "Blacksmith · Cataclysmic Smithing",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/forja_cataclismica",
+        "smpprofissoes:oficios/fundacao_arcanus"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_reliquias",
+      "nome": "Blacksmith · Boss Relic Armory",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/forja_cataclismica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/reliquias_cataclismo"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 4
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_fusao",
+      "nome": "Blacksmith · Cataclysmic Fusion",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/arsenal_ie",
+        "smpprofissoes:oficios/engenharia_balistica",
+        "smpprofissoes:oficios/ferramentas_ie",
+        "smpprofissoes:oficios/forja_cataclismica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/fusao_cataclismica",
+        "smpprofissoes:oficios/logistica_seguranca",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/reliquias_cataclismo"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 5,
+        "minecolonies:mechanic": 4
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_ae2",
+      "nome": "Engineer · ME Networks",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/logistica_seguranca",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/redes_me",
+        "smpprofissoes:oficios/sistemas_alta_potencia"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 4
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_ae2_quantico",
+      "nome": "Engineer · Quantum Networks",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_natural",
+        "smpprofissoes:oficios/alquimia_natural_runas",
+        "smpprofissoes:oficios/alquimia_venenosa",
+        "smpprofissoes:oficios/armaria_netherite",
+        "smpprofissoes:oficios/armaria_vapor",
+        "smpprofissoes:oficios/arsenal_mana",
+        "smpprofissoes:oficios/combustiveis_industriais",
+        "smpprofissoes:oficios/energia_vapor",
+        "smpprofissoes:oficios/engenharia_arcana",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_ervas",
+        "smpprofissoes:oficios/fundacao_ie",
+        "smpprofissoes:oficios/fundacao_irons",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/grimorios_expandidos",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/ligas_runicas",
+        "smpprofissoes:oficios/logistica_seguranca",
+        "smpprofissoes:oficios/maestria_arcana",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/mestre_ferramenteiro",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/redes_me",
+        "smpprofissoes:oficios/redes_quanticas",
+        "smpprofissoes:oficios/reliquias_mana",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/sintese_terrasteel",
+        "smpprofissoes:oficios/sistemas_alta_potencia",
+        "smpprofissoes:oficios/toxicologia"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 5
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_arcos",
+      "nome": "Blacksmith · Legendary Bowyery",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arcos_lendarios",
+        "smpprofissoes:oficios/armaria_distancia",
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/forja_runica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/metalurgia_precisao",
+        "smpprofissoes:oficios/prismas"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 4,
+        "minecolonies:fletcher": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_esquemas",
+      "nome": "Engineer · Schematic Engineering",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/arquitetura_industrial",
+        "smpprofissoes:oficios/engenharia_esquemas",
+        "smpprofissoes:oficios/fundacao_create",
+        "smpprofissoes:oficios/fundacao_silentgear",
+        "smpprofissoes:oficios/metalurgia_latao",
+        "smpprofissoes:oficios/metalurgia_precisao"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_animus",
+      "nome": "Arcanist · Animus Foundations",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/animus_fundamentos",
+        "smpprofissoes:oficios/fundacao_neovitae"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 2
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_animus_sigilos",
+      "nome": "Arcanist · Animus Sigils",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/animus_fundamentos",
+        "smpprofissoes:oficios/arranjos_vitae",
+        "smpprofissoes:oficios/fundacao_neovitae",
+        "smpprofissoes:oficios/sigilos_animus"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_animus_senciente",
+      "nome": "Arcanist · Sentient Animus",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/animus_fundamentos",
+        "smpprofissoes:oficios/animus_senciente",
+        "smpprofissoes:oficios/arranjos_vitae",
+        "smpprofissoes:oficios/arsenal_senciente",
+        "smpprofissoes:oficios/fundacao_neovitae",
+        "smpprofissoes:oficios/rituais_sangue"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 4
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "fer_replicacao",
+      "nome": "Blacksmith · Relic Replication",
+      "profissao": "ferreiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/armaria_lendaria",
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/arsenal_mana",
+        "smpprofissoes:oficios/forja_runica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_botania",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/manipulacao_mana",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/prismas",
+        "smpprofissoes:oficios/reliquias_mana",
+        "smpprofissoes:oficios/replicacao_reliquias"
+      ],
+      "edificios": {
+        "minecolonies:blacksmith": 5,
+        "minecolonies:enchanter": 4
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_aether_refracao",
+      "nome": "Engineer · Aether Refraction",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/logistica_ember",
+        "smpprofissoes:oficios/processamento_ember",
+        "smpprofissoes:oficios/refracao_aether"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_aether_forja",
+      "nome": "Engineer · Aetherium Forging",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_artificios",
+        "smpprofissoes:oficios/arsenal_ember",
+        "smpprofissoes:oficios/forja_aether",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/logistica_ember",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/processamento_ember",
+        "smpprofissoes:oficios/refracao_aether"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 4,
+        "minecolonies:blacksmith": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "eng_aether_artefatos",
+      "nome": "Engineer · Aetherium Artifacts",
+      "profissao": "engenheiro",
+      "pesquisas": [
+        "smpprofissoes:oficios/alquimia_artificios",
+        "smpprofissoes:oficios/armaria_lendaria",
+        "smpprofissoes:oficios/armaria_marcial",
+        "smpprofissoes:oficios/arsenal_ember",
+        "smpprofissoes:oficios/artefatos_aether",
+        "smpprofissoes:oficios/artes_vazio",
+        "smpprofissoes:oficios/cadinho_espiritual",
+        "smpprofissoes:oficios/forja_aether",
+        "smpprofissoes:oficios/forja_runica",
+        "smpprofissoes:oficios/fundacao_arcanus",
+        "smpprofissoes:oficios/fundacao_embers",
+        "smpprofissoes:oficios/fundacao_malum",
+        "smpprofissoes:oficios/infusao_espiritos",
+        "smpprofissoes:oficios/logistica_ember",
+        "smpprofissoes:oficios/maestria_hefesto",
+        "smpprofissoes:oficios/metalurgia_arcana",
+        "smpprofissoes:oficios/prismas",
+        "smpprofissoes:oficios/processamento_ember",
+        "smpprofissoes:oficios/refracao_aether",
+        "smpprofissoes:oficios/rituais_convergencia",
+        "smpprofissoes:oficios/tecelagem_almas"
+      ],
+      "edificios": {
+        "minecolonies:mechanic": 5,
+        "minecolonies:blacksmith": 4,
+        "minecolonies:enchanter": 3
+      },
+      "inicio": false
+    },
+    {
+      "licenca": "arc_escolas",
+      "nome": "Arcanist · Cross-School Studies",
+      "profissao": "arcanista",
+      "pesquisas": [
+        "smpprofissoes:oficios/estudos_entre_escolas",
+        "smpprofissoes:oficios/estudos_pergaminhos",
+        "smpprofissoes:oficios/fundacao_irons"
+      ],
+      "edificios": {
+        "minecolonies:enchanter": 3,
+        "minecolonies:library": 3
+      },
+      "inicio": false
+    }
+  ]
+}

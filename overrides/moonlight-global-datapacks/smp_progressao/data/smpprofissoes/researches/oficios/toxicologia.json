@@ -1,0 +1,32 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.toxicologia.name",
+  "subtitle": "smpprofissoes.research.oficios.toxicologia.subtitle",
+  "icon": "toxony:mortar_pestle",
+  "researchLevel": 2,
+  "sortOrder": 86,
+  "costs": [
+    {
+      "count": 32,
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:poisonous_potato"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:plantation",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/toxicologia",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/fundacao_ervas"
+}

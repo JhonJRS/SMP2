@@ -1,0 +1,44 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.arcana_enigmatica.name",
+  "subtitle": "smpprofissoes.research.oficios.arcana_enigmatica.subtitle",
+  "icon": "irons_spellbooks:arcane_essence",
+  "researchLevel": 4,
+  "sortOrder": 31,
+  "costs": [
+    {
+      "count": 32,
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "count": 16,
+      "item": "malum:arcane_spirit"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:amethyst_block"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/infusao_espiritos"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "smpprofissoes:oficios/grimorios_expandidos"
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/arcana_enigmatica",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/maestria_arcana"
+}

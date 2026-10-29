@@ -1,0 +1,91 @@
+#The minimap in the corner of your screen.
+[minimap]
+	enabled = true
+	#Only show it while the Faction Map is in your hotbar.
+	requiresMapItem = true
+	#Turn the map with you, so forward is always up.
+	rotateWithPlayer = true
+	#How wide the minimap is, in GUI pixels (so it grows with your GUI scale).
+	#Never drawn wider than a third of the screen's height, whatever this says.
+	#The Minimap size switch in the map's legend sets this too.
+	#Worth raising if you want the whole date in the corner. The date shares its line
+	#with the coordinates and gives up the celestial month when there is not enough
+	#room, so 'Xerember-Creepuary 1' shortens to 'Creepuary 1'. Around 160 fits both.
+	# Default: 96
+	# Range: 64 ~ 320
+	size = 96
+	#Screen pixels per block. Higher is closer in.
+	# Default: 0.5
+	# Range: 0.125 ~ 6.0
+	pixelsPerBlock = 0.5
+	# Default: 100
+	# Range: 20 ~ 100
+	opacityPercent = 100
+	showLabels = true
+	#Show what is drawn on the map (lines, arrows, boxes, circles, freehand,
+	#text) on the minimap too. Places are shown either way.
+	showDrawings = true
+	showOffscreenBlips = true
+	showCoordinates = true
+	showCompass = true
+	showChunkGrid = false
+	#Show the date under the minimap: Netherber-Zombiember 3.
+	#Celestial month, then the Overworld sub-month. Outside the Overworld there is
+	#no moon and no sub-month, so only the celestial date is shown.
+	showDate = true
+	#Draw other players. The server decides who you are allowed to see at all;
+	#this only hides the ones it already sent you.
+	showPlayers = true
+	#Put names beside those dots.
+	showPlayerNames = false
+	#Draw faction borders on the minimap.
+	showFactionBorders = true
+	#Draw colony borders on the minimap.
+	showColonyBorders = true
+	#SQUARE or CIRCLE.
+	#Allowed Values: SQUARE, CIRCLE
+	shape = "SQUARE"
+	#Draw troops in the field (Hundred Years War) on the minimap.
+	showTroops = true
+	#Faction and colony names over their land. Off by default:
+	#a small map has little room, and the borders already say whose it is.
+	showRealmNames = false
+
+#The full map screen.
+[map]
+	showChunkGrid = true
+	#Draw other players on the full map.
+	showPlayers = true
+	#Put names beside those dots.
+	showPlayerNames = true
+	#Draw faction borders on the full map.
+	showFactionBorders = true
+	#Draw colony borders on the full map.
+	showColonyBorders = true
+	#Tint the ground inside a border as well as outlining it. Off gives clean outlines for screenshots; on makes who-owns-what obvious at a glance.
+	fillClaimedGround = true
+	showLabels = true
+	#Draw troops in the field (Hundred Years War) on the full map.
+	showTroops = true
+	#Faction and colony names over their land.
+	showRealmNames = true
+	#Draw the world border on the map and the minimap, and shade what lies
+	#beyond it. Only for the dimension you are standing in.
+	showWorldBorder = true
+
+#Waypoints: every place you can see on the map, shown out in the world too.
+[waypoints]
+	showInWorld = true
+	#Only places closer than this many blocks are shown in the world.
+	# Default: 768
+	# Range: 16 ~ 30000
+	range = 768
+	#At most this many at once, nearest first, so a busy town is not a wall of labels.
+	# Default: 12
+	# Range: 1 ~ 64
+	maxShown = 12
+
+#Pings.
+[pings]
+	#Show a ping out in the world too, with its distance, not only on the map.
+	showInWorld = true

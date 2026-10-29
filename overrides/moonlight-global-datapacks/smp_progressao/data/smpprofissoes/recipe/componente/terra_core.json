@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vital_herbs:compacted_iron_root"
+    },
+    {
+      "item": "silentgear:azure_electrum_ingot"
+    },
+    {
+      "item": "silentgear:azure_electrum_ingot"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "id": "smpprofissoes:terra_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "branch": "smpprofissoes:oficios",
+  "name": "smpprofissoes.research.oficios.alquimia_artificios.name",
+  "subtitle": "smpprofissoes.research.oficios.alquimia_artificios.subtitle",
+  "icon": "embers:alchemy_tablet",
+  "researchLevel": 3,
+  "sortOrder": 21,
+  "costs": [
+    {
+      "count": 32,
+      "item": "embers:archaic_brick"
+    },
+    {
+      "count": 16,
+      "item": "embers:dawnstone_ingot"
+    },
+    {
+      "count": 4,
+      "item": "embers:ember_crystal_cluster"
+    },
+    {
+      "count": 1,
+      "item": "embers:ancient_motive_core"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 3
+    }
+  ],
+  "effects": [
+    {
+      "id": "smpprofissoes:effects/alquimia_artificios",
+      "level": 1
+    }
+  ],
+  "parentResearch": "smpprofissoes:oficios/processamento_ember"
+}
